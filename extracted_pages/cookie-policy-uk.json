@@ -1,0 +1,67 @@
+{
+  "id": "3858",
+  "title": "Cookie Policy (UK)",
+  "slug": "cookie-policy-uk",
+  "status": "publish",
+  "link": "https://skaryabhavan.com/cookie-policy-uk/",
+  "seo": {
+    "title": "Cookie Policy (UK)",
+    "description": "",
+    "canonical": "https://skaryabhavan.com/cookie-policy-uk/",
+    "opengraphTitle": "",
+    "opengraphDescription": "",
+    "opengraphImage": ""
+  },
+  "content": "[cmplz-document type=\"cookie-statement\" region=\"uk\"]",
+  "elementorData": [
+    {
+      "id": "2e2ffa03",
+      "elType": "container",
+      "settings": {
+        "boxed_width": {
+          "unit": "px",
+          "size": 706,
+          "sizes": []
+        },
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        },
+        "_flex_align_self": "center"
+      },
+      "elements": [
+        {
+          "id": "6be19935",
+          "elType": "widget",
+          "settings": {
+            "shortcode": "[cmplz-document type=\"cookie-statement\" region=\"uk\"]",
+            "_element_width": "inherit"
+          },
+          "elements": [],
+          "widgetType": "shortcode"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "meta": {
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-page",
+    "_elementor_version": "4.3.0",
+    "_wp_page_template": "default",
+    "_elementor_data": "[{\"id\":\"2e2ffa03\",\"elType\":\"container\",\"settings\":{\"boxed_width\":{\"unit\":\"px\",\"size\":706,\"sizes\":[]},\"flex_direction\":\"column\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"80\",\"left\":\"0\",\"isLinked\":false},\"_flex_align_self\":\"center\"},\"elements\":[{\"id\":\"6be19935\",\"elType\":\"widget\",\"settings\":{\"shortcode\":\"[cmplz-document type=\\\"cookie-statement\\\" region=\\\"uk\\\"]\",\"_element_width\":\"inherit\"},\"elements\":[],\"widgetType\":\"shortcode\"}],\"isInner\":false}]",
+    "_cmplz_scanned_post": "1",
+    "_elementor_pro_version": "4.2.1",
+    "_elementor_controls_usage": "a:2:{s:9:\"shortcode\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:1;s:8:\"controls\";a:1:{s:7:\"content\";a:2:{s:17:\"section_shortcode\";a:1:{s:9:\"shortcode\";i:1;}s:14:\"_section_style\";a:1:{s:14:\"_element_width\";i:1;}}}}s:9:\"container\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:0;s:8:\"controls\";a:0:{}}}",
+    "_yoast_wpseo_content_score": "90",
+    "_yoast_wpseo_seo_title_score": "17",
+    "_yoast_wpseo_meta_description_score": "22",
+    "_yoast_wpseo_estimated-reading-time-minutes": "0",
+    "_elementor_page_assets": "a:1:{s:7:\"scripts\";a:1:{i:0;s:18:\"elementor-frontend\";}}"
+  }
+}

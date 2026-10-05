@@ -1,0 +1,1723 @@
+{
+  "pagesSummary": [
+    {
+      "id": "3",
+      "title": "Privacy Policy",
+      "slug": "privacy-policy",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/privacy-policy/",
+      "publishedAt": "2024-11-04 08:44:20",
+      "author": "nkab_admin",
+      "seo": {
+        "title": "Privacy Policy",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/privacy-policy/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 4708,
+      "hasElementor": true,
+      "elementorElementCount": 1,
+      "metaKeys": [
+        "_wp_page_template",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "_elementor_controls_usage",
+        "_cmplz_scanned_post",
+        "_wp_suggested_privacy_policy_content",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Terms and Disclaimer",
+      "slug": "terms-and-disclaimer",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/terms-and-disclaimer/",
+      "publishedAt": "2024-11-26 11:43:23",
+      "author": "nkab_admin",
+      "seo": {
+        "title": "Terms and Disclaimer",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/terms-and-disclaimer/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 4626,
+      "hasElementor": true,
+      "elementorElementCount": 1,
+      "metaKeys": [
+        "_edit_last",
+        "_wp_page_template",
+        "rs_page_bg_color",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "_cmplz_scanned_post",
+        "_elementor_pro_version",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_yoast_wpseo_seo_title_score",
+        "_yoast_wpseo_meta_description_score",
+        "_elementor_controls_usage",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "1403",
+      "title": "About Us",
+      "slug": "about-us",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/about-us/",
+      "publishedAt": "2023-08-07 17:01:57",
+      "author": "nkab_admin",
+      "seo": {
+        "title": "About Us",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/about-us/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 10838,
+      "hasElementor": true,
+      "elementorElementCount": 4,
+      "metaKeys": [
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "post_views_count",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_edit_last",
+        "rs_page_bg_color",
+        "_elementor_pro_version",
+        "_cmplz_scanned_post",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_controls_usage",
+        "_yoast_wpseo_seo_title_score",
+        "_yoast_wpseo_meta_description_score",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "1466",
+      "title": "Contact Us",
+      "slug": "contact-us",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/contact-us/",
+      "publishedAt": "2023-08-07 17:59:53",
+      "author": "nkab_admin",
+      "seo": {
+        "title": "Contact Us",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/contact-us/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 5877,
+      "hasElementor": true,
+      "elementorElementCount": 2,
+      "metaKeys": [
+        "post_views_count",
+        "_elementor_edit_mode",
+        "_elementor_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_elementor_template_type",
+        "_edit_last",
+        "rs_page_bg_color",
+        "_elementor_pro_version",
+        "_cmplz_scanned_post",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_yoast_wpseo_seo_title_score",
+        "_yoast_wpseo_meta_description_score",
+        "_elementor_controls_usage",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "1472",
+      "title": "Franchise",
+      "slug": "franchise",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/franchise/",
+      "publishedAt": "2023-08-07 18:09:34",
+      "author": "nkab_admin",
+      "seo": {
+        "title": "Franchise",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/franchise/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 1881,
+      "hasElementor": true,
+      "elementorElementCount": 3,
+      "metaKeys": [
+        "post_views_count",
+        "_elementor_edit_mode",
+        "_elementor_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_elementor_template_type",
+        "_edit_last",
+        "rs_page_bg_color",
+        "_elementor_pro_version",
+        "_elementor_controls_usage",
+        "_cmplz_scanned_post",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "1625",
+      "title": "Blog",
+      "slug": "blog",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/blog/",
+      "publishedAt": "2023-08-07 20:59:20",
+      "author": "nkab_admin",
+      "seo": {
+        "title": "Blog",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/blog/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 0,
+      "hasElementor": true,
+      "elementorElementCount": 0,
+      "metaKeys": [
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "_wp_page_template",
+        "_cmplz_scanned_post"
+      ]
+    },
+    {
+      "id": "5084",
+      "title": "Category",
+      "slug": "category",
+      "status": "private",
+      "link": "https://skaryabhavan.com/category/",
+      "publishedAt": "2025-05-07 14:38:20",
+      "author": "nkab_admin",
+      "seo": {
+        "title": "Category",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/category/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 51900,
+      "hasElementor": true,
+      "elementorElementCount": 9,
+      "metaKeys": [
+        "_edit_last",
+        "rs_page_bg_color",
+        "cmplz_hide_cookiebanner",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_elementor_controls_usage"
+      ]
+    },
+    {
+      "id": "9905",
+      "title": "Central London",
+      "slug": "",
+      "status": "draft",
+      "link": "https://skaryabhavan.com/?page_id=9905",
+      "publishedAt": "2026-08-04 07:03:17",
+      "author": "eventsnkab",
+      "seo": {
+        "title": "Top-rated Authentic South Indian Veg Restaurant Central London",
+        "description": "Authentic South Indian vegetarian restaurant in Central London – Leicester Square. Enjoy crispy dosa, South Indian breakfast, veg thali, vegan & Jain options at Arya Bhavan.",
+        "canonical": "https://skaryabhavan.com/?page_id=9905",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 133756,
+      "hasElementor": true,
+      "elementorElementCount": 12,
+      "metaKeys": [
+        "rs_page_bg_color",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_edit_mode",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_wp_desired_post_slug",
+        "_dp_original",
+        "_elementor_template_type",
+        "_edit_last",
+        "_yoast_wpseo_focuskw",
+        "_yoast_wpseo_title",
+        "_yoast_wpseo_metadesc",
+        "_yoast_wpseo_linkdex",
+        "_cmplz_scanned_post",
+        "_elementor_controls_usage"
+      ]
+    },
+    {
+      "id": "1867",
+      "title": "Branches",
+      "slug": "branches",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/branches/",
+      "publishedAt": "2023-07-25 10:56:54",
+      "author": "nkab_admin",
+      "seo": {
+        "title": "Branches",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/branches/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 1807,
+      "hasElementor": true,
+      "elementorElementCount": 4,
+      "metaKeys": [
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "post_views_count",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_edit_last",
+        "rs_page_bg_color",
+        "_elementor_pro_version",
+        "_cmplz_scanned_post",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_yoast_wpseo_seo_title_score",
+        "_yoast_wpseo_meta_description_score",
+        "_elementor_controls_usage",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "3858",
+      "title": "Cookie Policy (UK)",
+      "slug": "cookie-policy-uk",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/cookie-policy-uk/",
+      "publishedAt": "2024-11-28 14:51:45",
+      "author": "nkab_admin",
+      "seo": {
+        "title": "Cookie Policy (UK)",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/cookie-policy-uk/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 52,
+      "hasElementor": true,
+      "elementorElementCount": 1,
+      "metaKeys": [
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "_wp_page_template",
+        "_cmplz_scanned_post",
+        "_elementor_pro_version",
+        "_elementor_controls_usage",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_seo_title_score",
+        "_yoast_wpseo_meta_description_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "4183",
+      "title": "Menu for QR",
+      "slug": "menu-scan",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/menu-scan/",
+      "publishedAt": "2024-12-24 11:45:44",
+      "author": "nkab_admin",
+      "seo": {
+        "title": "Menu for QR",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/menu-scan/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 59382,
+      "hasElementor": true,
+      "elementorElementCount": 3,
+      "metaKeys": [
+        "_edit_last",
+        "rs_page_bg_color",
+        "cmplz_hide_cookiebanner",
+        "_elementor_template_type",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_elementor_edit_mode",
+        "_cmplz_scanned_post",
+        "_elementor_controls_usage",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "5265",
+      "title": "Belgium Menu",
+      "slug": "belgium-menu",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/belgium-menu/",
+      "publishedAt": "2025-10-18 08:32:08",
+      "author": "sriram",
+      "seo": {
+        "title": "Belgium Menu",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/belgium-menu/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 23721,
+      "hasElementor": true,
+      "elementorElementCount": 3,
+      "metaKeys": [
+        "post_views_count",
+        "_elementor_edit_mode",
+        "_elementor_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "rs_page_bg_color",
+        "_elementor_pro_version",
+        "_cmplz_scanned_post",
+        "_dp_original",
+        "_elementor_template_type",
+        "_edit_last",
+        "_elementor_controls_usage",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_title",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "5971",
+      "title": "Outdoor Catering",
+      "slug": "outdoor-catering",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/outdoor-catering/",
+      "publishedAt": "2025-12-08 09:55:30",
+      "author": "eventsnkab",
+      "seo": {
+        "title": "Authentic Indian Vegetarian Outdoor Catering | Arya Bhavan",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/outdoor-catering/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 50561,
+      "hasElementor": true,
+      "elementorElementCount": 7,
+      "metaKeys": [
+        "_edit_last",
+        "rs_page_bg_color",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_yoast_wpseo_title",
+        "_thumbnail_id",
+        "_cmplz_scanned_post",
+        "_yoast_wpseo_focuskw",
+        "_yoast_wpseo_linkdex",
+        "__elementor_forms_snapshot",
+        "_yoast_wpseo_seo_title_score",
+        "_yoast_wpseo_meta_description_score",
+        "_elementor_controls_usage",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "7927",
+      "title": "Live Dosa Catering",
+      "slug": "live-dosa-catering",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/live-dosa-catering/",
+      "publishedAt": "2026-02-10 05:22:21",
+      "author": "eventsnkab",
+      "seo": {
+        "title": "Live Dosa Catering at Home & Events | Live Dosa Station",
+        "description": "Live Dosa Catering at Home & Events | Live Dosa StationMeta Description: Book authentic live dosa catering with a traditional live dosa station at home, parties, weddings & events in London. South Indian dosas served live with chutneys & sambar.",
+        "canonical": "https://skaryabhavan.com/live-dosa-catering/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 26264,
+      "hasElementor": true,
+      "elementorElementCount": 7,
+      "metaKeys": [
+        "_edit_last",
+        "rs_page_bg_color",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_yoast_wpseo_focuskw",
+        "_yoast_wpseo_title",
+        "_yoast_wpseo_metadesc",
+        "_yoast_wpseo_linkdex",
+        "__elementor_forms_snapshot",
+        "_cmplz_scanned_post",
+        "_yoast_wpseo_seo_title_score",
+        "_yoast_wpseo_meta_description_score",
+        "_elementor_controls_usage",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "8135",
+      "title": "Menu",
+      "slug": "menu",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/menu/",
+      "publishedAt": "2026-02-16 11:10:25",
+      "author": "eventsnkab",
+      "seo": {
+        "title": "Menu",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/menu/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 100757,
+      "hasElementor": true,
+      "elementorElementCount": 2,
+      "metaKeys": [
+        "_edit_last",
+        "rs_page_bg_color",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_cmplz_scanned_post",
+        "_yoast_wpseo_seo_title_score",
+        "_yoast_wpseo_meta_description_score",
+        "_elementor_controls_usage",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "8719",
+      "title": "Central London",
+      "slug": "central-london",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/central-london/",
+      "publishedAt": "2026-02-27 10:47:04",
+      "author": "eventsnkab",
+      "seo": {
+        "title": "Top-rated Authentic South Indian Veg Restaurant Central London",
+        "description": "Authentic South Indian vegetarian restaurant in Central London – Leicester Square. Enjoy crispy dosa, South Indian breakfast, veg thali, vegan & Jain options at Arya Bhavan.",
+        "canonical": "https://skaryabhavan.com/central-london/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 34889,
+      "hasElementor": true,
+      "elementorElementCount": 11,
+      "metaKeys": [
+        "rs_page_bg_color",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_edit_mode",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_wp_desired_post_slug",
+        "_dp_original",
+        "_elementor_template_type",
+        "_edit_last",
+        "_yoast_wpseo_focuskw",
+        "_yoast_wpseo_title",
+        "_yoast_wpseo_metadesc",
+        "_yoast_wpseo_linkdex",
+        "_cmplz_scanned_post",
+        "_yoast_wpseo_seo_title_score",
+        "_yoast_wpseo_meta_description_score",
+        "_elementor_controls_usage",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "8830",
+      "title": "Wembley",
+      "slug": "wembley",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/wembley/",
+      "publishedAt": "2026-02-28 19:19:01",
+      "author": "eventsnkab",
+      "seo": {
+        "title": "Family Friendly South Indian Vegetarian Restaurant Wembley",
+        "description": "Top-rated south Indian vegetarian restaurant Wembley Central. Enjoy authentic South Indian 100% pure vegetarian cuisine, South Indian breakfast, vegan & Jain options.",
+        "canonical": "https://skaryabhavan.com/wembley/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 35156,
+      "hasElementor": true,
+      "elementorElementCount": 12,
+      "metaKeys": [
+        "rs_page_bg_color",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_edit_mode",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_wp_desired_post_slug",
+        "_dp_original",
+        "_elementor_template_type",
+        "_edit_last",
+        "_yoast_wpseo_title",
+        "_yoast_wpseo_focuskw",
+        "_yoast_wpseo_metadesc",
+        "_yoast_wpseo_linkdex",
+        "_elementor_controls_usage",
+        "_cmplz_scanned_post",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "8864",
+      "title": "Tooting",
+      "slug": "tooting",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/tooting/",
+      "publishedAt": "2026-03-01 13:55:48",
+      "author": "eventsnkab",
+      "seo": {
+        "title": "South Indian Vegetarian Restaurant Tooting | 100% Pure",
+        "description": "Looking for the best South Indian vegetarian restaurant in Tooting? Arya Bhavan offers crispy dosas, authentic thali and traditional breakfast specials.",
+        "canonical": "https://skaryabhavan.com/tooting/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 35698,
+      "hasElementor": true,
+      "elementorElementCount": 12,
+      "metaKeys": [
+        "rs_page_bg_color",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_edit_mode",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_wp_desired_post_slug",
+        "_dp_original",
+        "_elementor_template_type",
+        "_edit_last",
+        "_yoast_wpseo_title",
+        "_yoast_wpseo_focuskw",
+        "_yoast_wpseo_metadesc",
+        "_yoast_wpseo_linkdex",
+        "_cmplz_scanned_post",
+        "_elementor_controls_usage",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "8878",
+      "title": "Barkingside",
+      "slug": "barkingside__trashed",
+      "status": "trash",
+      "link": "https://skaryabhavan.com/?page_id=8878",
+      "publishedAt": "2026-03-01 14:29:40",
+      "author": "eventsnkab",
+      "seo": {
+        "title": "Authentic Pure Veg South Indian Restaurant Barkingside",
+        "description": "100% Pure South Indian vegetarian restaurant in Barkingside. Enjoy dosa, veg thali, vegan & Jain options. Top-rated near Barking, Ilford & East Ham. Catering available.",
+        "canonical": "https://skaryabhavan.com/?page_id=8878",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 34996,
+      "hasElementor": true,
+      "elementorElementCount": 12,
+      "metaKeys": [
+        "rs_page_bg_color",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_edit_mode",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_wp_desired_post_slug",
+        "_dp_original",
+        "_elementor_template_type",
+        "_edit_last",
+        "_yoast_wpseo_title",
+        "_yoast_wpseo_metadesc",
+        "_cmplz_scanned_post",
+        "_wp_trash_meta_status",
+        "_wp_trash_meta_time"
+      ]
+    },
+    {
+      "id": "8998",
+      "title": "Belgium",
+      "slug": "belgium",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/belgium/",
+      "publishedAt": "2026-03-07 13:52:11",
+      "author": "eventsnkab",
+      "seo": {
+        "title": "Best South Indian Vegetarian Restaurant in Brussels, Belgium",
+        "description": "Arya Bhavan is a top-rated Indian vegetarian restaurant in Brussels serving crispy dosa, South Indian breakfast, thalis & vegan options. 100% pure vegetarian catering available.",
+        "canonical": "https://skaryabhavan.com/belgium/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 112629,
+      "hasElementor": true,
+      "elementorElementCount": 9,
+      "metaKeys": [
+        "_edit_last",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_yoast_wpseo_title",
+        "_yoast_wpseo_metadesc",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_cmplz_scanned_post",
+        "_elementor_controls_usage",
+        "_yoast_wpseo_seo_title_score",
+        "_yoast_wpseo_meta_description_score",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "9289",
+      "title": "Home",
+      "slug": "nagerkovil-arya-bhavan",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/",
+      "publishedAt": "2026-03-27 06:01:38",
+      "author": "eventsnkab",
+      "seo": {
+        "title": "South Indian Veg Restaurant London, Wembley, Tooting, Barking, Eastham",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 57166,
+      "hasElementor": true,
+      "elementorElementCount": 9,
+      "metaKeys": [
+        "_edit_last",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_yoast_wpseo_focuskw",
+        "_yoast_wpseo_title",
+        "_yoast_wpseo_linkdex",
+        "_thumbnail_id",
+        "__elementor_forms_snapshot",
+        "_cmplz_scanned_post",
+        "_yoast_wpseo_seo_title_score",
+        "_yoast_wpseo_meta_description_score",
+        "_elementor_controls_usage",
+        "_elementor_page_assets"
+      ]
+    },
+    {
+      "id": "9875",
+      "title": "East Ham",
+      "slug": "eastham__trashed",
+      "status": "trash",
+      "link": "https://skaryabhavan.com/?page_id=9875",
+      "publishedAt": "2026-07-23 17:29:58",
+      "author": "eventsnkab",
+      "seo": {
+        "title": "Best Indian Vegetarian Restaurant in East Ham | Arya Bhavan",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/?page_id=9875",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 134379,
+      "hasElementor": true,
+      "elementorElementCount": 12,
+      "metaKeys": [
+        "rs_page_bg_color",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_edit_mode",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_page_settings",
+        "_wp_desired_post_slug",
+        "_dp_original",
+        "_elementor_template_type",
+        "_edit_last",
+        "_yoast_wpseo_focuskw",
+        "_yoast_wpseo_title",
+        "_yoast_wpseo_linkdex",
+        "_cmplz_scanned_post",
+        "_wp_trash_meta_status",
+        "_wp_trash_meta_time"
+      ]
+    },
+    {
+      "id": "10079",
+      "title": "Online Ordering",
+      "slug": "online-ls-menu",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/online-ls-menu/",
+      "publishedAt": "2026-09-16 09:53:17",
+      "author": "sriram",
+      "seo": {
+        "title": "Online Ordering",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/online-ls-menu/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "excerpt": "",
+      "contentLength": 0,
+      "hasElementor": true,
+      "elementorElementCount": 1,
+      "metaKeys": [
+        "_edit_last",
+        "cmplz_hide_cookiebanner",
+        "_yoast_wpseo_content_score",
+        "_yoast_wpseo_seo_title_score",
+        "_yoast_wpseo_meta_description_score",
+        "_yoast_wpseo_estimated-reading-time-minutes",
+        "_elementor_edit_mode",
+        "_elementor_template_type",
+        "_elementor_version",
+        "_elementor_pro_version",
+        "_wp_page_template",
+        "_elementor_controls_usage",
+        "_cmplz_scanned_post",
+        "_elementor_page_assets"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "106",
+      "title": "The Journey of Samko Arya Bhavan: A Slice of South India in the UK",
+      "slug": "the-journey-of-nagerkovil-arya-bhavan",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/the-journey-of-nagerkovil-arya-bhavan/",
+      "publishedAt": "2023-07-26 04:27:31",
+      "seo": {
+        "title": "The Journey of Samko Arya Bhavan: A Slice of South India in the UK",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/the-journey-of-nagerkovil-arya-bhavan/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p>To move toward the future, our team at Arya Bhavan believes we must first look to the past. The chain had its humble beginnings in Samko, a vibrant town at the southern tip of India, known for its rich cultural heritage and mouth-watering cuisine. The Thiruvengadam family started the business with the aim of serving healthy, innovative, and sumptuous food that brought with it the flavours of one’s childhood. Their commitment was to create something that honoured vegetarian Indian cuisine while embracing modern tastes, without compromising on portion sizes or the quality of ingredients.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The first restaurant opened in Coimbatore, where Arya Bhavan quickly gained a reputation for its comforting, healthy food. A hallmark of the brand was its innovation—fusing Indian cuisine with other styles to create exceptional vegan and vegetarian dishes. Despite its expansion, Arya Bhavan has remained dedicated to its founding principles: serving customers the best food possible while showcasing the warmth of traditional Indian hospitality. For the Thiruvengadam family, each meal served is an opportunity to embody the spirit of “Atithi Devo Bhava”—a Sanskrit phrase meaning \"the guest is equivalent to God.\"</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>As the brand grew, Samko Arya Bhavan became a go-to stop for travellers and a beloved destination for families. The desire to share their food beyond India was driven by Ramesh Thiruvengadam, who sought to expand the chain both across India and internationally, partnering with like-minded individuals equally committed to the quality and experience. The taste of Arya Bhavan is uniform across all its branches, ensuring that diners, whether in India or the UK, enjoy the same authentic flavours. This dedication to consistency has played a key role in its global success, with each new branch adding to the brand’s legacy.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The locations all follow the same recipes and are known for preparing fresh, healthy food with an emphasis on quality. Famously, Arya Bhavan locations do not use refrigerators for ingredients, except for milk. All vegetables and ingredients are sourced locally to support local farmers and ensure maximum freshness. This practice further reflects their dedication to both their food and the communities they serve.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Today, Arya Bhavan is not only a cherished eatery but also a testament to the power of tradition, hard work, and the universal love of good food. The move to the UK came at a time when the global Indian diaspora was growing, and with it, a demand for authentic Indian cuisine. While Indian restaurants were already well-represented in the UK, South Indian cuisine—especially vegetarian options—was still a relatively niche offering. Recognizing this gap, Arya Bhavan set out to bring its unique flavours from samko to the British palate.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Samko Arya Bhavan in the UK became more than just a restaurant; it became a gathering place for people from all communities and of all ages. It offered not just a dining experience but also a connection to culture, language, and heritage for the Indian diaspora. Whether for a quick bite or a celebration, the restaurant played a pivotal role in keeping traditions alive in a foreign land while evolving with the times. The hospitality that each guest receives reflects the heart of Indian culture: treating every customer like family.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>From sourcing authentic ingredients to appealing to a diverse customer base, the restaurant's journey was not without its hurdles. However, the emphasis on quality, consistency, and the renowned Arya Bhavan hospitality helped it overcome these obstacles, establishing itself as a trusted name in the UK’s food scene. Over the years, Samko Arya Bhavan has garnered a loyal following, with rave reviews from both locals and tourists alike. Its success has paved the way for other South Indian eateries, inspiring a growing trend toward more authentic regional cuisines in the UK. Each branch that opens builds on this legacy, succeeding through a commitment to excellence and a passion for sharing the taste of South India with the world.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph {\"align\":\"left\"} -->\n<p>The story of Samko Arya Bhavan is one of perseverance, tradition, and the unifying power of food. From its origins in Samko to its beloved presence in the UK, Arya Bhavan continues to offer an authentic taste of South India, serving as a bridge between cultures and a reminder of home for many. With a mission to bring this delectable cuisine to more people worldwide, Arya Bhavan remains a must-visit destination, whether you're in the mood for a comforting dosa or simply wish to experience the rich heritage of Indian cuisine.</p>\n<!-- /wp:paragraph -->",
+      "excerpt": ""
+    },
+    {
+      "id": "366",
+      "title": "Explore Flavourful Beginnings: Must-Try North Indian Starters at Samko Arya Bhavan",
+      "slug": "explore-flavourful-beginnings",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/explore-flavourful-beginnings/",
+      "publishedAt": "2023-07-28 16:19:11",
+      "seo": {
+        "title": "Explore Flavourful Beginnings: Must-Try North Indian Starters at Samko Arya Bhavan",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/explore-flavourful-beginnings/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p>Enjoy the bright flavours of North India with our variety of tantalising appetisers. These dishes are the ideal start to your dinner, packed with the rich and varied flavours that make North Indian cuisine so popular. Let's take a deeper look at the starters at Samko Arya Bhavan:</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>1. Soup of the Day:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Begin your lunch with our freshly cooked soup of the day. Whether it's a hearty lentil soup or a light and acidic tomato soup, each one is crafted with fresh ingredients and traditional spices to warm your taste buds.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>2. Pani Puri:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Pani Puri, a famous street meal, is a delicious blend of crisp, hollow puris filled with spicy and sour tamarind water, mashed potatoes, and chickpeas. Every bite is an explosion of flavour, with the ideal balance of spicy, sweet, and tangy.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>3. Sev Puri:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Sev Puri is a delectable chaat dish comprised of crisp puris topped with potatoes, chutneys, and sev (crispy gramme flour noodles). This beginning is a perfect balance of textures and flavours, making it a must-try for chaat enthusiasts.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>4. Dahi Puri:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Dahi Puri is a refreshing take on the classic Pani Puri, packed with yoghurt, potatoes, and a variety of chutneys, and topped with sev and pomegranate seeds. The creamy yoghurt balances out the sour and spicy chutneys, resulting in a flavourful and refreshing snack.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>5. Samosa Chaat:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Our Samosa Chaat combines crispy samosas with tangy tamarind chutney, spicy chickpeas, and refreshing yoghurt. It's a rich and flavourful dish ideal for individuals who enjoy a variety of sweet, spicy, and acidic flavours.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>6. Papdi Chaat:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Papdi Chaat is a famous North Indian snack consisting of crispy fried dough wafers (papdi) topped with boiling potatoes, chickpeas, yoghurt, and chutneys. The combination of crunchy papdi, creamy yoghurt, and acidic chutneys results in a meal full of contrasting textures and rich flavours.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph {\"align\":\"left\"} -->\n<p>Each of the North Indian appetisers at Samko Arya Bhavan is intended to provide a rush of flavour and excitement, laying the groundwork for an unforgettable dining experience. Whether you like the zesty Pani Puri or the rich and delicious Samosa Chaat, our appetisers will satisfy your needs and introduce you to the finest of North Indian food.</p>\n<!-- /wp:paragraph -->",
+      "excerpt": ""
+    },
+    {
+      "id": "368",
+      "title": "Kickstart Your Meal: Must-Try South Indian Starters at Samko Arya Bhavan",
+      "slug": "kickstart-your-meal",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/kickstart-your-meal/",
+      "publishedAt": "2023-07-28 16:19:27",
+      "seo": {
+        "title": "Kickstart Your Meal: Must-Try South Indian Starters at Samko Arya Bhavan",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/kickstart-your-meal/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p>Begin your food safari at Samko Arya Bhavan with a variety of traditional South Indian appetisers. These dishes are ideal for setting the tone for your meal by providing a taste of traditional flavours that are both warm and tantalising. Here's a glance at the several starts we offer:</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>1. Meduvadai:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Meduvadai, a traditional South Indian dish, is a savoury lentil doughnut that is crispy on the exterior yet soft on the inside. It is served with chutney and sambar, making it a fantastic way to begin your meal.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>2. Sambar Vadai:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This meal blends the crunchy texture of vadai with the flavourful and tangy taste of sambar, resulting in a delightful combination of textures and flavours.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>3. Curd Vadai:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Meduvadai steeped in thick, creamy curd and served with spices and herbs, serving as an excellent alternative for individuals who want a chilly, tangy appetiser.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>4. Rasa Vadai:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Rasa Vadai, a warm and flavourful meal made with meduvadai and spicy rasam (a tangy soup), combines the finest of South Indian flavours.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>5. Idly</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Soft, steamed rice cakes are served with chutney and sambar. Idly is a popular South Indian dish that is both light and fluffy, making it the ideal way to start the meal off right.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>6. Idly Dipped:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This variant involves soaking idlies in a flavourful sambar, which makes them even more wonderful as they absorb the sambar's spices and flavours.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>7. Idly Vada Sambar:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dish, which combines soft idlies with crunchy Meduvadai and is served with sambar, provides a delicious contrast of textures and flavours.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>8. Idly Vada Sambar Dipped:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p> This dish, with dipped idlies and vadai in sambar, is a filling and flavourful appetiser.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>9. Chutney Idly Dipped:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p> Idlies are served with a variety of chutneys, providing a unique flavour experience with each bite. It is a must-try for chutney enthusiasts.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>10. Paya Idly:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p> This meal offers a fresh spin on conventional idlies by serving them with a flavourful and thick paya marinade.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>11. Arya Bhavan Special Podi Idly:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Idlies coated with a distinctive podi (spiced powder) for an added boost of flavour. It's a spicy and tasty starter that'll perk up your taste senses.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>12. Fried Podi Idly:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Fried idlies are tossed with podi, resulting in a crunchy and spicy beginning that is ideal for nibbling or as an appetiser.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>13. Ghee Mini Idly Sambar Separate (14 Pieces):</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Mini idlies drizzled with ghee and served separately with sambar provide a bite-sized variation of the traditional meal.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>14. Ghee Mini Idly Sambar Dipped (14 Pieces):</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dish, which has little idlies soaked in sambar and topped with ghee, is a beautifully decadent and flavourful appetiser.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>15. Ghee Pongal:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>A soothing rice and lentil meal prepared with ghee and spices. Ghee Pongal is soft and flavourful, and it mixes well with sambar and chutney.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>16. Rava Kichadi/Upma:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>A savoury meal composed with semolina (rava), veggies, and spices. Both Rava Kichadi and Rava Upma are light and flavourful, making them excellent ways to begin your meal.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>17. Poori Masala:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Fluffy, deep-fried poori served with a spicy potato masala. This meal is a substantial and flavourful beginning.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>18. Aloo Bonda:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Aloo Bonda is a delightful and satisfying snack made of spiced potato balls coated in gramme flour and deep-fried. It is crunchy on the exterior and soft on the inside.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>19. Vegetable Samosa</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Veg Samosa, a crispy pastry stuffed with a spicy vegetable combination, is a popular snack that's ideal for starting your dinner on a delicious note.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>20. Mixed Vegetable Bonda.</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Vegetables seasoned and coated with gramme flour before being deep-fried to perfection. This beginning has a variety of textures and flavours in each bite.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph {\"align\":\"left\"} -->\n<p>Each appetiser at Samko Arya Bhavan is designed to offer you a taste of classic South Indian food, with alternatives to suit all tastes. Whether you want something light and fluffy like idly or need the crunch of a deep-fried snack, our selection offers something to suit every taste. Begin your dinner with one (or more) of these delectable meals, and be ready for an amazing dining experience.</p>\n<!-- /wp:paragraph -->",
+      "excerpt": ""
+    },
+    {
+      "id": "1335",
+      "title": "Discover the Chef’s Special: 12 Indulgent Cheese-Filled Dosas at Samko Arya Bhavan",
+      "slug": "discover-the-chefs-special",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/discover-the-chefs-special/",
+      "publishedAt": "2023-08-07 14:51:51",
+      "seo": {
+        "title": "Discover the Chef’s Special: 12 Indulgent Cheese-Filled Dosas at Samko Arya Bhavan",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/discover-the-chefs-special/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p>Samko Arya Bhavan takes pride in its inventive approach to South Indian food, and our Chef Special Dosa of the Day exemplifies that ingenuity. Each of these unique dosas is liberally loaded with a delectable combination of onions, bell peppers, tomatoes, and lots of cheese, all stacked atop a garlic and onion relish base. These dosas include a unique mix of flavours that take the classic meal to the next level. Here are the twelve mouth-watering alternatives available:</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>1. Paneer, Butter Cheese Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Enjoy the creamy richness of paneer butter masala paired with a large quantity of cheese. This dosa is the ideal combination of North and South Indian flavours, providing a pleasing and savoury experience.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>2. Schezwan Spicy Mushroom Cheese Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>For those who enjoy a little spice, the Schezwan Spicy Mushroom Cheese Dosa combines a fiery kick with the umami flavour of mushrooms. The spicy Schezwan sauce and melting cheese make this dosa enticing.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>3. Schezwan Spicy Cheese Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa is a simpler but equally excellent choice that focusses on heat. The spicy Schezwan sauce, combined with the gooey cheese, produces a strong and acidic flavour that is ideal for spice aficionados.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>4. Mushroom Masala Cheese Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa has a savoury mushroom masala filling that adds a robust and earthy flavour to the cheese delight. It's a must-try for mushroom lovers.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>5. Paneer Mushroom Cheese Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa is a delicious combination of textures and flavours, with the richness of paneer and the earthiness of mushrooms, all held together by a coating of melted cheese.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>6. Gobi Roast Cheese Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>For a fresh twist, try the Gobi Roast Cheese Dosa with spicy roasted cauliflower. The cauliflower's crisp texture complements the creamy cheese and soft dosa.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>7. Palak Mushroom Cheese Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa is a healthy combination of spinach (palak) and mushrooms, topped with a hefty quantity of cheese. Palak provides a fresh, lively flavour that balances the earthy mushrooms.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>8. Chilli Mushroom Cheese Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Chilli Mushroom Cheese Dosa will spice up your supper. The heat from the chillies, paired with the savoury mushrooms and melted cheese, makes this a strong and flavourful option.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>9. Palak Paneer Cheese Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa is a great combination of spinach and paneer, with a creamy and healthy filling that is accentuated by the richness of the cheese. It's a nutritious and filling choice at any time of day.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>10. Aloo Masala Cheese Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The inclusion of cheese elevates the basic dosa. The typical spicy potato (aloo) filling is made even more decadent with a layer of melted cheese, making it a satisfying and hearty option.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>11. Chilli Gobi Cheese Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa has a spicy, sour cauliflower (gobi) filling mixed with cheese for a fusion of textures and flavours. It's a crunchy, cheesy, and spicy treat.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>12. Veg Chettinadu Cheese Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Inspired by the robust flavours of Chettinadu cuisine, this dosa is stuffed with a spicy vegetable combination and topped with cheese. It's an excellent choice for folks who want bold, fragrant flavours with a cheesy touch.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph {\"align\":\"left\"} -->\n<p>The Chef Special Dosa of the Day at Samko Arya Bhavan is a captivating expedition through a world of flavours, combining classic South Indian dosas with unique fillings and plenty of cheese. Each variation is designed to deliver a distinct experience by mixing the finest of South Indian culinary traditions with bold new flavours. Come visit us at one of our locations and find your favourite among these exceptional dosas—there's something wonderful for everyone!</p>\n<!-- /wp:paragraph -->",
+      "excerpt": ""
+    },
+    {
+      "id": "1338",
+      "title": "The 25 Varieties of Dosa at Samko Arya Bhavan: There’s a Crispy Treat for Every Person!",
+      "slug": "the-25-varieties-of-dosa",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/the-25-varieties-of-dosa/",
+      "publishedAt": "2023-08-07 14:53:38",
+      "seo": {
+        "title": "The 25 Varieties of Dosa at Samko Arya Bhavan: There’s a Crispy Treat for Every Person!",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/the-25-varieties-of-dosa/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p>Samko Arya Bhavan's dosa cuisine celebrates South Indian culinary tradition. We provide a wide variety of dosas, each carefully made to accentuate the distinct flavours and textures that make this meal so popular. Whether you like a traditional dosa, something more spicy, or something reimagined, there is a dosa for every person out there. Here's a deeper look at the dosa variants offered by Samko Arya Bhavan:</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>1. Plain Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Plain Dosa, a traditional South Indian meal, is a golden, crispy delicacy. Simple but delicious, it is served with sambar and a variety of chutneys, making it the ideal choice for dosa aficionados or traditionalists who miss the flavours of Kanyakumari .</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>2. Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Masala Dosa is a perennial favourite, with a crispy crust and a spicy potato filling inside. The mix of crispy dosa and savoury filling, along with chutney and sambar, is a mouth-watering must-try. </p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>3. Ghee Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>For those who appreciate rich, warm flavours, the Ghee Dosa is a pleasure. The dosa is lavishly covered in ghee (clarified butter), giving it a delightful buttery flavour and crispy texture. It’s perfect for anyone looking to feel a little more cosy inside.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>4. Onion Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Onion Dosa has finely chopped onions in the batter, which adds a sweet and savoury flavour. The onions caramelise while the dosa cooks, providing a delicious contrast to the traditional dosa, adding an extra layer of texture to the mixture.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>5. Onion Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This version blends the flavourful onion dosa with the masala dosa's spicy potato filling. It's a savoury treat with an added layer of texture and flavour, creating a spicy delightful depth.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>6. Podi Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Podi Dosa is seasoned with \"podi,\" a blend of ground spices and lentils, (a recipe unique to each household) that adds a spicy flavour to the crispy dosa. It's a favourite among folks who enjoy a little spice in their meals to add a kick to their step.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>7. Podi Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Podi Masala Dosa expands on the typical spiced potato filling, resulting in a spicy, savoury mixture that is both full and flavourful. The traditional richness of the Masala dosa is enhanced by the spice of the podi.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>8. Podi Onion Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa variant combines spicy podi with sweet-savory caramelised onions, resulting in a flavor-packed meal that is both crispy and hot. It's a unique alternative for folks who prefer robust flavours. Our Arya Bhavan has perfected the delicate balance between the flavours of the onions and the podi, creating in an explosion that is not overpowering and instead leaves one wanting more.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>9. Rava Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Rava Dosa, manufactured from semolina (rava), is distinguished by its crispy, lace-like texture. Light and tasty, it's a great alternative to the typical rice-based dosa. It is perfect for those looking for a more healthy alternative to the traditional rice mixture.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>10. Ghee Rava Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Adding ghee to Rava Dosa improves its flavour and crispiness, resulting in scrumptious goodness with a rich taste but a light texture.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>11. Onion Rava Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa has the texture of Rava Dosa and the sweet-savory overtones of caramelised onions, providing a wonderful crunch and a blast of flavour with each mouthful.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>12. Cashew and Vegetable Rava Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This unique dosa is filled with cashews and mixed veggies, providing a crisp texture and a rich, nutty flavour that balances the lightness of the rava dosa.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>13. Chettinad Rava Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Inspired by the flavours of Chettinad cuisine, this rava dosa is seasoned with a combination of fragrant spices and loaded with flavourful ingredients, providing a new twist on the standard dosa.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>14. Paper Roast:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Paper Roast Dosa is very thin and crispy, providing a delicious crunch with each bite. Despite its huge size, it is light and airy and pairs well with a variety of chutneys and sambars. Known to be difficult to perfectly execute, our chefs at SamkoArya Bhavan have mastered the beauty of this south-indian delicacy.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>15. Paper Masala Dosa</strong>:</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa is a variant on the Paper Roast, packed with the famous spiced potato combination, and combines the delightful crunch of the paper dosa with the robust flavours of the masala filling. Crumbling like paper on the doughy goodness of the filling, this dosa will melt in your mouth like butter.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>16. Ghee Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa offers a rich twist to the traditional Masala Dosa by using ghee, resulting in a buttery, crispy shell and flavourful potato inside. Perfect for an autumn day paired with our filter coffee, just ask our team.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>17. Rava Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Rava Masala Dosa combines the crispiness of the rava dosa with the savoury spicy potato filling, resulting in a meal that is both light and fulfilling. Paired with our coconut chutney, it’s one of the most healthy yet delightfully unbeatable combos.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>18. Mysore Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Mysore Dosa has a coating of spicy red chutney put on the interior before it is baked, providing a rush of heat and flavour that compliments the crispy dosa. Perfect for those who prefer a heat deeper than that of the podi dosa.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>19. Vegetable dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa is stuffed with sautéed veggies, providing a nutritious and colourful alternative to the conventional masala filling. It's an excellent alternative for people seeking a lighter, vegetable-rich dinner.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>20. Paneer Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Paneer Dosa is a fusion dish that mixes South Indian dosa with a North Indian-style paneer filling. The creamy paneer, seasoned with herbs and spices, goes wonderfully with the crispy dosa.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>21. Palak Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa uses spinach (palak) in the batter, which adds a brilliant green colour and a healthful twist. It's both healthful and tasty, with a distinct flavour that's likely to appeal. The dosa is an option to those willing to <em>literally </em>go green.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>22. AB/SPL Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Samko Arya Bhavan's hallmark dish is the AB/Special Masala Dosa, which is made with a special potato filling and a unique combination of spices. It is a must-try for everyone searching for a different experience.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>23. Set Dosa with Vadacurry:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This meal consists of a plate of tiny, soft dosas served with vadacurry, a spicy and flavourful curry prepared from lentil dumplings. It's a filling and comfortable supper ideal for folks who appreciate rich, savoury flavours.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>24. Chettinad Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Chettinad Masala Dosa's filling is inspired by the robust, fragrant flavours of Chettinad cuisine. It's a spicy, flavourful dish that will satisfy individuals who enjoy strong, fragrant spices.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>25. Chocolate Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Chocolate Dosa is a delicious dessert option. This one-of-a-kind dosa is filled with melted chocolate, creating a combination of classic South Indian cuisine with a sweet touch that is ideal for dessert lovers. This presents dosa lovers with the option to have dosa for all three courses, or just as sweet triumph.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph {\"align\":\"left\"} -->\n<p>Samko Arya Bhavan's dosa menu exemplifies the flexibility and depth of South Indian food. Whether you're craving something classic, spicy, or sweet, there's a dosa for everyone. We urge you to browse our broad range and discover your favourite among the various options we provide. Each dosa is handcrafted with the same dedication to quality and authenticity that has made Samko Arya Bhavan a popular destination for dosa lovers all over.</p>\n<!-- /wp:paragraph -->",
+      "excerpt": ""
+    },
+    {
+      "id": "1344",
+      "title": "Our top ten dishes at Samko Arya Bhavan, chosen by you.",
+      "slug": "our-top-ten-dishes-at-samko-arya-bhavan",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/our-top-ten-dishes-at-samko-arya-bhavan/",
+      "publishedAt": "2023-08-07 14:54:14",
+      "seo": {
+        "title": "Our top ten dishes at Samko Arya Bhavan, chosen by you.",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/our-top-ten-dishes-at-samko-arya-bhavan/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "content": "<p>With a <a href=\"https://www.google.com\">focus </a>on the rich traditions of <strong><em><a href=\"/the-25-varieties-of-dosa\">South Indian cuisine</a></em></strong>, our menu at Samko Arya Bhavan offers an exploration of cuisines from all across India and the world. Some of the foods on our menu have stuck in your thoughts ever since we first opened and have subsequently evolved into our hallmark dishes that draw people in. Here is your list of the top 10 dishes that you have selected:</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph {\"align\":\"left\"} --></p>\n<p>1. Paper Roast Dosa:</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>The Paper Roast Dosa, one of our most well-liked meals, is a crispy, golden pleasure that has captured our guests' hearts. With a delicious, buttery flavour that is difficult to resist, this well roasted dish is served with a variety of chutneys and spicy sambar, capturing the spirit of South India in one dish.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>2. South Indian Thali</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>Our <strong><em>South Indian Thali</em></strong> is an incredible unlimited feast not to be missed for those who like to savour the entire range of <strong><em>South Indian flavours</em></strong>. There are several different foods on this platter, such as rice, sambar, rasam, poriyal, kootu, papad, and dessert. It's a hearty meal that highlights the variety of <strong><em>South Indian cooking</em></strong>.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>3. Idli Vada Sambar</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>Arya Bhavan's Idli with Medhu Vada is a popular breakfast combo that is timeless. The crunchy medhu vadas contrasted with the soft, fluffy idlis offer the ideal tactile contrast. This meal is a mainstay for our regulars since it's cosy and gratifying, especially when served with chutneys and sambar, and reminiscent of quick hearty breakfasts back in India.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>4. Masala Dosa</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>Another well-known dish that has won over our patrons is the masala dosa. This crispy dosa provides a tasty and filling lunch when loaded with a spicy potato combination. It's a favourite among dosa lovers and a great dish for any time of day.</p>\n<p><!-- /wp:paragraph --><!-- wp:gallery {\"linkTo\":\"none\"} --></p>\n<figure><!-- wp:image {\"id\":2744,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<p> </p>\n<figure><img src=\"https://skaryabhavan.com/wp-content/uploads/2024/11/sq-gd.jpg\" alt=\"\" /></figure>\n<p><!-- /wp:image --><!-- wp:image {\"id\":2742,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} --></p>\n<figure><img src=\"https://skaryabhavan.com/wp-content/uploads/2024/11/sq-cb.jpg\" alt=\"\" /></figure>\n<p><!-- /wp:image --></p>\n</figure>\n<p><!-- /wp:gallery --><!-- wp:paragraph --></p>\n<p>5. Channa Bhatura</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>Venturing outside the purview of South Indian cooking, our Channa Bhatura is a beloved <strong><em>North Indian dish</em></strong> that has garnered a substantial fan base. For those who prefer strong flavours and luxurious textures, the spicy chana (chickpea curry) combined with fluffy, deep-fried bhatura makes a filling and substantial meal that keeps one coming back for more.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>6.Chilli Paneer</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>Try our Chilli Paneer if you enjoy a little spice in your food. Soft paneer cubes stir-fried with onions, bell peppers, and a spicy-sweet sauce in this Indo-Chinese dish is the perfect starter or snack to get you going.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>7. Hakka Noodles</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>Our Hakka Noodles, another Indo-Chinese favourite, is sure to impress. These noodles are stir-fried with fresh veggies and various seasonings to provide a delicious combination of flavours and textures. It's a well-liked option for anyone searching for something tasty but unique.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>8. Vegetable Biryani</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>One of our most popular dishes on the menu is our aromatic and flavourful vegetable biryani. A combination of aromatic spices, mixed vegetables, and basmati rice come together to create this one-pot delight. It's a filling and healthy dish that goes well with raita for lunch or dinner.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>9. Paneer Butter Masala</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>Our diners have fallen in love with our thick and creamy Paneer Butter Masala, a classic <strong><em>North Indian dish.</em></strong> The tender paneer cubes are cooked in a rich sauce made with tomatoes and spices and further enhanced with a generous heaping of butter. This recipe is a favourite for a cosy dinner because it goes well with our naans or rotis.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p>10. Fried Podi Idli</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph {\"align\":\"left\"} --></p>\n<p>The Fried Podi Idli, a popular take on the classic <strong><em>south-indian</em></strong> idli among our patrons, completes our list of the top 10 dishes. These idlis make a wonderfully crunchy and flavourful snack when they are deep-fried till golden and then combined with a hot podi (spice mixture). This recipe is ideal for individuals who enjoy strong flavours and a bit of heat.</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph {\"align\":\"left\"} --></p>\n<p>There is something for every palate in these top 10 meals from Samko Arya Bhavan, which highlight the richness and complexity of <strong><em>Indian cuisine</em></strong>. Our menu offers something for every diner, whether they're in the mood for <strong><em>authentic South Indian food</em></strong> or something akin to <strong><em>Indo-Chinese fusion</em></strong>. We sincerely encourage you to stop by and sample these beloved, well made, and flavor-filled client favourites. You are sure to have an unforgettable dining experience at Arya Bhavan, with your palate taking a trip around India!</p>\n<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>\n<p><!-- /wp:paragraph --></p>",
+      "excerpt": ""
+    },
+    {
+      "id": "1346",
+      "title": "Behind the Dosa: The History of South Indian Vegetarian Cuisine and Its Signature Dishes at Samko Arya Bhavan",
+      "slug": "behind-the-dosa",
+      "status": "publish",
+      "link": "https://skaryabhavan.com/behind-the-dosa/",
+      "publishedAt": "2023-08-07 14:54:50",
+      "seo": {
+        "title": "Behind the Dosa: The History of South Indian Vegetarian Cuisine and Its Signature Dishes at Samko Arya Bhavan",
+        "description": "",
+        "canonical": "https://skaryabhavan.com/behind-the-dosa/",
+        "opengraphTitle": "",
+        "opengraphDescription": "",
+        "opengraphImage": ""
+      },
+      "content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p>Samko Arya Bhavan's dosa cuisine celebrates South Indian culinary tradition. We provide a wide variety of dosas, each carefully made to accentuate the distinct flavours and textures that make this meal so popular. Whether you like a traditional dosa, something more spicy, or something reimagined, there is a dosa for every person out there. Here's a deeper look at the dosa variants offered by Samko Arya Bhavan:</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>1. Plain Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Plain Dosa, a traditional South Indian meal, is a golden, crispy delicacy. Simple but delicious, it is served with sambar and a variety of chutneys, making it the ideal choice for dosa aficionados or traditionalists who miss the flavours of Kanyakumari .</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>2. Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Masala Dosa is a perennial favourite, with a crispy crust and a spicy potato filling inside. The mix of crispy dosa and savoury filling, along with chutney and sambar, is a mouth-watering must-try. </p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>3. Ghee Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>For those who appreciate rich, warm flavours, the Ghee Dosa is a pleasure. The dosa is lavishly covered in ghee (clarified butter), giving it a delightful buttery flavour and crispy texture. It’s perfect for anyone looking to feel a little more cosy inside.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>4. Onion Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Onion Dosa has finely chopped onions in the batter, which adds a sweet and savoury flavour. The onions caramelise while the dosa cooks, providing a delicious contrast to the traditional dosa, adding an extra layer of texture to the mixture.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>5. Onion Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This version blends the flavourful onion dosa with the masala dosa's spicy potato filling. It's a savoury treat with an added layer of texture and flavour, creating a spicy delightful depth.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>6. Podi Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Podi Dosa is seasoned with \"podi,\" a blend of ground spices and lentils, (a recipe unique to each household) that adds a spicy flavour to the crispy dosa. It's a favourite among folks who enjoy a little spice in their meals to add a kick to their step.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>7. Podi Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Podi Masala Dosa expands on the typical spiced potato filling, resulting in a spicy, savoury mixture that is both full and flavourful. The traditional richness of the Masala dosa is enhanced by the spice of the podi.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>8. Podi Onion Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa variant combines spicy podi with sweet-savory caramelised onions, resulting in a flavor-packed meal that is both crispy and hot. It's a unique alternative for folks who prefer robust flavours. Our Arya Bhavan has perfected the delicate balance between the flavours of the onions and the podi, creating in an explosion that is not overpowering and instead leaves one wanting more.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>9. Rava Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Rava Dosa, manufactured from semolina (rava), is distinguished by its crispy, lace-like texture. Light and tasty, it's a great alternative to the typical rice-based dosa. It is perfect for those looking for a more healthy alternative to the traditional rice mixture.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>10. Ghee Rava Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Adding ghee to Rava Dosa improves its flavour and crispiness, resulting in scrumptious goodness with a rich taste but a light texture.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>11. Onion Rava Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa has the texture of Rava Dosa and the sweet-savory overtones of caramelised onions, providing a wonderful crunch and a blast of flavour with each mouthful.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>12. Cashew and Vegetable Rava Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This unique dosa is filled with cashews and mixed veggies, providing a crisp texture and a rich, nutty flavour that balances the lightness of the rava dosa.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>13. Chettinad Rava Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Inspired by the flavours of Chettinad cuisine, this rava dosa is seasoned with a combination of fragrant spices and loaded with flavourful ingredients, providing a new twist on the standard dosa.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>14. Paper Roast:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Paper Roast Dosa is very thin and crispy, providing a delicious crunch with each bite. Despite its huge size, it is light and airy and pairs well with a variety of chutneys and sambars. Known to be difficult to perfectly execute, our chefs at Samko Arya Bhavan have mastered the beauty of this south-indian delicacy.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>15. Paper Masala Dosa</strong>:</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa is a variant on the Paper Roast, packed with the famous spiced potato combination, and combines the delightful crunch of the paper dosa with the robust flavours of the masala filling. Crumbling like paper on the doughy goodness of the filling, this dosa will melt in your mouth like butter.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>16. Ghee Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa offers a rich twist to the traditional Masala Dosa by using ghee, resulting in a buttery, crispy shell and flavourful potato inside. Perfect for an autumn day paired with our filter coffee, just ask our team.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>17. Rava Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Rava Masala Dosa combines the crispiness of the rava dosa with the savoury spicy potato filling, resulting in a meal that is both light and fulfilling. Paired with our coconut chutney, it’s one of the most healthy yet delightfully unbeatable combos.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>18. Mysore Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Mysore Dosa has a coating of spicy red chutney put on the interior before it is baked, providing a rush of heat and flavour that compliments the crispy dosa. Perfect for those who prefer a heat deeper than that of the podi dosa.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>19. Vegetable dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa is stuffed with sautéed veggies, providing a nutritious and colourful alternative to the conventional masala filling. It's an excellent alternative for people seeking a lighter, vegetable-rich dinner.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>20. Paneer Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Paneer Dosa is a fusion dish that mixes South Indian dosa with a North Indian-style paneer filling. The creamy paneer, seasoned with herbs and spices, goes wonderfully with the crispy dosa.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>21. Palak Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This dosa uses spinach (palak) in the batter, which adds a brilliant green colour and a healthful twist. It's both healthful and tasty, with a distinct flavour that's likely to appeal. The dosa is an option to those willing to <em>literally </em>go green.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>22. AB/SPL Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>Samko Arya Bhavan's hallmark dish is the AB/Special Masala Dosa, which is made with a special potato filling and a unique combination of spices. It is a must-try for everyone searching for a different experience.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>23. Set Dosa with Vadacurry:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>This meal consists of a plate of tiny, soft dosas served with vadacurry, a spicy and flavourful curry prepared from lentil dumplings. It's a filling and comfortable supper ideal for folks who appreciate rich, savoury flavours.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>24. Chettinad Masala Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Chettinad Masala Dosa's filling is inspired by the robust, fragrant flavours of Chettinad cuisine. It's a spicy, flavourful dish that will satisfy individuals who enjoy strong, fragrant spices.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p><strong>25. Chocolate Dosa:</strong></p>\n<!-- /wp:paragraph --><!-- wp:paragraph -->\n<p>The Chocolate Dosa is a delicious dessert option. This one-of-a-kind dosa is filled with melted chocolate, creating a combination of classic South Indian cuisine with a sweet touch that is ideal for dessert lovers. This presents dosa lovers with the option to have dosa for all three courses, or just as sweet triumph.</p>\n<!-- /wp:paragraph --><!-- wp:paragraph {\"align\":\"left\"} -->\n<p>Samko Arya Bhavan's dosa menu exemplifies the flexibility and depth of South Indian food. Whether you're craving something classic, spicy, or sweet, there's a dosa for everyone. We urge you to browse our broad range and discover your favourite among the various options we provide. Each dosa is handcrafted with the same dedication to quality and authenticity that has made Samko Arya Bhavan a popular destination for dosa lovers all over.</p>\n<!-- /wp:paragraph -->",
+      "excerpt": ""
+    }
+  ],
+  "navMenuItems": [
+    {
+      "id": "2238",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "1403",
+      "menuOrder": "2",
+      "parent": "0"
+    },
+    {
+      "id": "2240",
+      "title": "Contact",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "1466",
+      "menuOrder": "19",
+      "parent": "0"
+    },
+    {
+      "id": "2241",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "1472",
+      "menuOrder": "18",
+      "parent": "0"
+    },
+    {
+      "id": "2387",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "1403",
+      "menuOrder": "1",
+      "parent": "0"
+    },
+    {
+      "id": "2392",
+      "title": "Franchise",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "1472",
+      "menuOrder": "2",
+      "parent": "0"
+    },
+    {
+      "id": "2393",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "1466",
+      "menuOrder": "3",
+      "parent": "0"
+    },
+    {
+      "id": "2394",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "1625",
+      "menuOrder": "1",
+      "parent": "0"
+    },
+    {
+      "id": "2993",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "1867",
+      "menuOrder": "3",
+      "parent": "0"
+    },
+    {
+      "id": "3001",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "1867",
+      "menuOrder": "2",
+      "parent": "0"
+    },
+    {
+      "id": "3546",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "1403",
+      "menuOrder": "2",
+      "parent": "0"
+    },
+    {
+      "id": "3547",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "1466",
+      "menuOrder": "4",
+      "parent": "0"
+    },
+    {
+      "id": "3548",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "1472",
+      "menuOrder": "3",
+      "parent": "0"
+    },
+    {
+      "id": "3587",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "15",
+      "menuOrder": "5",
+      "parent": "0"
+    },
+    {
+      "id": "3859",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "3858",
+      "menuOrder": "6",
+      "parent": "0"
+    },
+    {
+      "id": "5043",
+      "title": "Gare du Nord",
+      "url": "https://nkaryabhavan.fr/en/branches/gare-du-nord/",
+      "type": "custom",
+      "object": "custom",
+      "objectId": "5043",
+      "menuOrder": "5",
+      "parent": "0"
+    },
+    {
+      "id": "5044",
+      "title": "Louvre",
+      "url": "https://nkaryabhavan.fr/en/branches/louvre/",
+      "type": "custom",
+      "object": "custom",
+      "objectId": "5044",
+      "menuOrder": "6",
+      "parent": "0"
+    },
+    {
+      "id": "5045",
+      "title": "Notre Dame",
+      "url": "https://nkaryabhavan.fr/en/branches/notre-dame/",
+      "type": "custom",
+      "object": "custom",
+      "objectId": "5045",
+      "menuOrder": "7",
+      "parent": "0"
+    },
+    {
+      "id": "5423",
+      "title": "UK",
+      "url": "#",
+      "type": "custom",
+      "object": "custom",
+      "objectId": "5423",
+      "menuOrder": "4",
+      "parent": "2993"
+    },
+    {
+      "id": "5424",
+      "title": "France",
+      "url": "#",
+      "type": "custom",
+      "object": "custom",
+      "objectId": "5424",
+      "menuOrder": "8",
+      "parent": "2993"
+    },
+    {
+      "id": "5425",
+      "title": "Gare du Nord",
+      "url": "https://nkaryabhavan.fr/en/branches/gare-du-nord/",
+      "type": "custom",
+      "object": "custom",
+      "objectId": "5425",
+      "menuOrder": "9",
+      "parent": "5424"
+    },
+    {
+      "id": "5426",
+      "title": "Louvre",
+      "url": "https://nkaryabhavan.fr/en/branches/louvre/",
+      "type": "custom",
+      "object": "custom",
+      "objectId": "5426",
+      "menuOrder": "10",
+      "parent": "5424"
+    },
+    {
+      "id": "5427",
+      "title": "Notre Dame",
+      "url": "https://nkaryabhavan.fr/en/branches/notre-dame/",
+      "type": "custom",
+      "object": "custom",
+      "objectId": "5427",
+      "menuOrder": "11",
+      "parent": "5424"
+    },
+    {
+      "id": "5434",
+      "title": "Belgium",
+      "url": "#",
+      "type": "custom",
+      "object": "custom",
+      "objectId": "5434",
+      "menuOrder": "12",
+      "parent": "2993"
+    },
+    {
+      "id": "6156",
+      "title": "Catering",
+      "url": "#",
+      "type": "custom",
+      "object": "custom",
+      "objectId": "6156",
+      "menuOrder": "15",
+      "parent": "0"
+    },
+    {
+      "id": "6403",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "5971",
+      "menuOrder": "17",
+      "parent": "6156"
+    },
+    {
+      "id": "7933",
+      "title": "Live Dosa  Catering",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "7927",
+      "menuOrder": "16",
+      "parent": "6156"
+    },
+    {
+      "id": "8145",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "8135",
+      "menuOrder": "14",
+      "parent": "0"
+    },
+    {
+      "id": "8836",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "8719",
+      "menuOrder": "5",
+      "parent": "5423"
+    },
+    {
+      "id": "8861",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "8830",
+      "menuOrder": "6",
+      "parent": "5423"
+    },
+    {
+      "id": "8876",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "8864",
+      "menuOrder": "7",
+      "parent": "5423"
+    },
+    {
+      "id": "9042",
+      "title": "Brussels",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "8998",
+      "menuOrder": "13",
+      "parent": "5434"
+    },
+    {
+      "id": "9558",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "9289",
+      "menuOrder": "1",
+      "parent": "0"
+    },
+    {
+      "id": "9560",
+      "title": "",
+      "url": "",
+      "type": "post_type",
+      "object": "page",
+      "objectId": "9289",
+      "menuOrder": "1",
+      "parent": "0"
+    }
+  ],
+  "contactForms": [
+    {
+      "id": "1010",
+      "title": "Contact Us Form",
+      "content": "<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[text* your-name placeholder \"Your Name\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[email* your-email placeholder \"Email Address\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[select* select-branch first_as_label \"Select a Branch\" \"Central London|lsq@nk-ab.com\" \"Wembley|wembley@nk-ab.com\" \"Tooting|tooting@nk-ab.com\" \"Barkingside|barkingside@nk-ad.com\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[select* select-Reason first_as_label \"Reason for Contacting\" \"Party or Event Booking\" \"Catering enquiries\" \"Feedback\" \"Other\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[textarea your-message placeholder \"Message\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[submit \"Send Message\"]</div>\r\n</div>\n1\n[_site_title] - Contact Form\n[_site_title] <wordpress@skaryabhavan.com>\n[select-branch]\nQuery Regarding : [select-branch]\r\n\r\n\r\nFrom: \r\nName:      [your-name]\r\nEmail:     [your-email]\r\nMessage :  [your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [your-email]\n\n\n\n\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@erica.la-studioweb.com>\n[your-email]\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [_site_admin_email]\n\n\n\nThank you for your enquiry with us. We will get back to you shortly.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nPlease fill out this field.\nThis field has a too long input.\nThis field has a too short input.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe uploaded file is too large.\nThere was an error uploading the file.\nPlease enter a date in YYYY-MM-DD format.\nThis field has a too early date.\nThis field has a too late date.\nPlease enter a number.\nThis field has a too small number.\nThis field has a too large number.\nThe answer to the quiz is incorrect.\nPlease enter an email address.\nPlease enter a URL.\nPlease enter a telephone number."
+    },
+    {
+      "id": "1448",
+      "title": "Franchise Form",
+      "content": "<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[text* person-name placeholder \"Your Name\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[email* email placeholder \"Your Email\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[tel* tel placeholder \"Your Phone No.\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[text* location placeholder \"Location\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col text-center\">[submit \"Submit\"]</div>\r\n</div>\n1\n[_site_title] - Franchise Form\n[_site_title] <wordpress@skaryabhavan.com>\ncontact@nk-ab.com\nFrom: [person-name] [email]\r\nSubject: Franchise Interest Form Arya Bhavan\r\n\r\nMessage Body:\r\n[person-name]\r\n[email]\r\n[tel]\r\n[location]\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [email]\n\n\n\n\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@erica.la-studioweb.com>\n[your-email]\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [_site_admin_email]\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nPlease fill out this field.\nThis field has a too long input.\nThis field has a too short input.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe uploaded file is too large.\nThere was an error uploading the file.\nPlease enter a date in YYYY-MM-DD format.\nThis field has a too early date.\nThis field has a too late date.\nPlease enter a number.\nThis field has a too small number.\nThis field has a too large number.\nThe answer to the quiz is incorrect.\nPlease enter an email address.\nPlease enter a URL.\nPlease enter a telephone number."
+    },
+    {
+      "id": "4402",
+      "title": "Contact Form Central London",
+      "content": "<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[text* your-name placeholder \"Your Name\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[email* your-email autocomplete:email placeholder \"Email Address\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[tel tel-387 autocomplete:tel placeholder \"Phone Number\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[textarea your-message placeholder \"Message\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[submit \"Send Message\"]</div>\r\n</div>\n1\n[_site_title] - Central London Branch Contact Form\n[_site_title] <wordpress@skaryabhavan.com>\nlsq@nk-ab.com\nCentral London Branch Contact Form\r\n\r\n[your-name]\r\n\r\n[your-email]\r\n\r\n[tel-387]\r\n\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [your-email]\n\n\n\n\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@erica.la-studioweb.com>\n[your-email]\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [_site_admin_email]\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nPlease fill out this field.\nThis field has a too long input.\nThis field has a too short input.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe uploaded file is too large.\nThere was an error uploading the file.\nPlease enter a date in YYYY-MM-DD format.\nThis field has a too early date.\nThis field has a too late date.\nPlease enter a number.\nThis field has a too small number.\nThis field has a too large number.\nThe answer to the quiz is incorrect.\nPlease enter an email address.\nPlease enter a URL.\nPlease enter a telephone number."
+    },
+    {
+      "id": "4403",
+      "title": "Booking Form - Central London",
+      "content": "<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[text* your-name autocomplete:name placeholder \"Your Name\" ]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[email* your-email autocomplete:email placeholder \"Email Address\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[tel tel-387 autocomplete:tel placeholder \"Phone Number\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[date* date min:tomorrow max:today+1month]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[select time-slot first_as_label \"Select Time Slot\" \"12:00-13:30\" \"13:30-15:00\" \"15:00-16:30\" \"16:30-18:00\" \"18:00-19:30\" \"19:30-21:00\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[select guests first_as_label \"No. of Guests\" \"1\" \"2\" \"3\" \"4\" \"5\" \"6\" \"7\" \"8\" \"9\" \"10\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[textarea add-info placeholder \"Additional Information\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[submit \"Send Message\"]</div>\r\n</div>\n1\n[_site_title] - Central London Booking From Website\n[_site_title] <wordpress@skaryabhavan.com>\nlsq@nk-ab.com\nCentral London Booking From Website\r\n\r\nBooking Details:\r\n\r\nGuest Name: [your-name]\r\n\r\nEmail: [your-email]\r\n\r\nPhone: [tel-387]\r\n\r\nBooking Date: [_format_date \"d/m/Y D d M Y\"]\r\n\r\nTimeslot: [time-slot]\r\n\r\nNo. of Guests: [guests]\r\n\r\nAdditional Information : [add-info]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [your-email]\n\n\n\n\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@erica.la-studioweb.com>\n[your-email]\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [_site_admin_email]\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nPlease fill out this field.\nThis field has a too long input.\nThis field has a too short input.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe uploaded file is too large.\nThere was an error uploading the file.\nPlease enter a date in YYYY-MM-DD format.\nThis field has a too early date.\nThis field has a too late date.\nPlease enter a number.\nThis field has a too small number.\nThis field has a too large number.\nThe answer to the quiz is incorrect.\nPlease enter an email address.\nPlease enter a URL.\nPlease enter a telephone number."
+    },
+    {
+      "id": "4735",
+      "title": "Contact Form Tooting",
+      "content": "<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[text* your-name placeholder \"Your Name\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[email* your-email autocomplete:email placeholder \"Email Address\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[tel tel-387 autocomplete:tel placeholder \"Phone Number\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[textarea your-message placeholder \"Message\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[submit \"Send Message\"]</div>\r\n</div>\n1\n[_site_title] - Tooting Contact Form\n[_site_title] <wordpress@skaryabhavan.com>\ntooting@nk-ab.com\nTooting Contact Form\r\n\r\n[your-name]\r\n\r\n[your-email]\r\n\r\n[tel-387]\r\n\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [your-email]\n\n\n\n\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@erica.la-studioweb.com>\n[your-email]\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [_site_admin_email]\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nPlease fill out this field.\nThis field has a too long input.\nThis field has a too short input.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe uploaded file is too large.\nThere was an error uploading the file.\nPlease enter a date in YYYY-MM-DD format.\nThis field has a too early date.\nThis field has a too late date.\nPlease enter a number.\nThis field has a too small number.\nThis field has a too large number.\nThe answer to the quiz is incorrect.\nPlease enter an email address.\nPlease enter a URL.\nPlease enter a telephone number."
+    },
+    {
+      "id": "4736",
+      "title": "Booking Form - Tooting",
+      "content": "<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[text* your-name autocomplete:name placeholder \"Your Name\" ]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[email* your-email autocomplete:email placeholder \"Email Address\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[tel tel-387 autocomplete:tel placeholder \"Phone Number\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[date* date min:tomorrow max:today+1month]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[select time-slot first_as_label \"Select Time Slot\" \"12:00-13:30\" \"13:30-15:00\" \"15:00-16:30\" \"16:30-18:00\" \"18:00-19:30\" \"19:30-21:00\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[select guests first_as_label \"No. of Guests\" \"1\" \"2\" \"3\" \"4\" \"5\" \"6\" \"7\" \"8\" \"9\" \"10\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[textarea add-info placeholder \"Additional Information\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[submit \"Send Message\"]</div>\r\n</div>\n1\n[_site_title] - Tooting Booking From Website\n[_site_title] <wordpress@skaryabhavan.com>\ntooting@nk-ab.com\nTooting Booking From Website\r\n\r\nBooking Details:\r\n\r\nGuest Name: [your-name]\r\n\r\nEmail: [your-email]\r\n\r\nPhone: [tel-387]\r\n\r\nBooking Date: [_format_date \"d/m/Y D d M Y\"]\r\n\r\nTimeslot: [time-slot]\r\n\r\nNo. of Guests: [guests]\r\n\r\nAdditional Information : [add-info]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [your-email]\n\n\n\n\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@erica.la-studioweb.com>\n[your-email]\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [_site_admin_email]\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nPlease fill out this field.\nThis field has a too long input.\nThis field has a too short input.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe uploaded file is too large.\nThere was an error uploading the file.\nPlease enter a date in YYYY-MM-DD format.\nThis field has a too early date.\nThis field has a too late date.\nPlease enter a number.\nThis field has a too small number.\nThis field has a too large number.\nThe answer to the quiz is incorrect.\nPlease enter an email address.\nPlease enter a URL.\nPlease enter a telephone number."
+    },
+    {
+      "id": "4737",
+      "title": "Booking Form - Wembley",
+      "content": "<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[text* your-name autocomplete:name placeholder \"Your Name\" ]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[email* your-email autocomplete:email placeholder \"Email Address\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[tel tel-387 autocomplete:tel placeholder \"Phone Number\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[date* date min:tomorrow max:today+1month]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[select time-slot first_as_label \"Select Time Slot\" \"12:00-13:30\" \"13:30-15:00\" \"15:00-16:30\" \"16:30-18:00\" \"18:00-19:30\" \"19:30-21:00\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[select guests first_as_label \"No. of Guests\" \"1\" \"2\" \"3\" \"4\" \"5\" \"6\" \"7\" \"8\" \"9\" \"10\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[textarea add-info placeholder \"Additional Information\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[submit \"Send Message\"]</div>\r\n</div>\n1\n[_site_title] - Wembley Booking From Website\n[_site_title] <wordpress@skaryabhavan.com>\nwembley@nk-ab.com\nWembley Booking From Website\r\n\r\nBooking Details:\r\n\r\nGuest Name: [your-name]\r\n\r\nEmail: [your-email]\r\n\r\nPhone: [tel-387]\r\n\r\nBooking Date: [_format_date \"d/m/Y D d M Y\"]\r\n\r\nTimeslot: [time-slot]\r\n\r\nNo. of Guests: [guests]\r\n\r\nAdditional Information : [add-info]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [your-email]\n\n\n\n\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@erica.la-studioweb.com>\n[your-email]\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [_site_admin_email]\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nPlease fill out this field.\nThis field has a too long input.\nThis field has a too short input.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe uploaded file is too large.\nThere was an error uploading the file.\nPlease enter a date in YYYY-MM-DD format.\nThis field has a too early date.\nThis field has a too late date.\nPlease enter a number.\nThis field has a too small number.\nThis field has a too large number.\nThe answer to the quiz is incorrect.\nPlease enter an email address.\nPlease enter a URL.\nPlease enter a telephone number."
+    },
+    {
+      "id": "4739",
+      "title": "Contact Form Wembley",
+      "content": "<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[text* your-name placeholder \"Your Name\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[email* your-email autocomplete:email placeholder \"Email Address\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[tel tel-387 autocomplete:tel placeholder \"Phone Number\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[textarea your-message placeholder \"Message\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[submit \"Send Message\"]</div>\r\n</div>\n1\n[_site_title] - Wembley Contact Form\n[_site_title] <wordpress@skaryabhavan.com>\nwembley@nk-ab.com\nWembley Branch Contact Form\r\n\r\n[your-name]\r\n\r\n[your-email]\r\n\r\n[tel-387]\r\n\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [your-email]\n\n\n\n\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@erica.la-studioweb.com>\n[your-email]\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [_site_admin_email]\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nPlease fill out this field.\nThis field has a too long input.\nThis field has a too short input.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe uploaded file is too large.\nThere was an error uploading the file.\nPlease enter a date in YYYY-MM-DD format.\nThis field has a too early date.\nThis field has a too late date.\nPlease enter a number.\nThis field has a too small number.\nThis field has a too large number.\nThe answer to the quiz is incorrect.\nPlease enter an email address.\nPlease enter a URL.\nPlease enter a telephone number."
+    },
+    {
+      "id": "5064",
+      "title": "Booking Form - Barkingside",
+      "content": "<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[text* your-name autocomplete:name placeholder \"Your Name\" ]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[email* your-email autocomplete:email placeholder \"Email Address\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[tel tel-387 autocomplete:tel placeholder \"Phone Number\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[date* date min:tomorrow max:today+1month]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[select time-slot first_as_label \"Select Time Slot\" \"12:00-13:30\" \"13:30-15:00\" \"15:00-16:30\" \"16:30-18:00\" \"18:00-19:30\" \"19:30-21:00\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[select guests first_as_label \"No. of Guests\" \"1\" \"2\" \"3\" \"4\" \"5\" \"6\" \"7\" \"8\" \"9\" \"10\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[textarea add-info placeholder \"Additional Information\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[submit \"Send Message\"]</div>\r\n</div>\n1\n[_site_title] - Barkingside Booking From Website\n[_site_title] <wordpress@skaryabhavan.com>\nbarkingside@nk-ab.com\nTooting Booking From Website\r\n\r\nBooking Details:\r\n\r\nGuest Name: [your-name]\r\n\r\nEmail: [your-email]\r\n\r\nPhone: [tel-387]\r\n\r\nBooking Date: [_format_date \"d/m/Y D d M Y\"]\r\n\r\nTimeslot: [time-slot]\r\n\r\nNo. of Guests: [guests]\r\n\r\nAdditional Information : [add-info]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [your-email]\n\n\n\n\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@erica.la-studioweb.com>\n[your-email]\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [_site_admin_email]\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nPlease fill out this field.\nThis field has a too long input.\nThis field has a too short input.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe uploaded file is too large.\nThere was an error uploading the file.\nPlease enter a date in YYYY-MM-DD format.\nThis field has a too early date.\nThis field has a too late date.\nPlease enter a number.\nThis field has a too small number.\nThis field has a too large number.\nThe answer to the quiz is incorrect.\nPlease enter an email address.\nPlease enter a URL.\nPlease enter a telephone number."
+    },
+    {
+      "id": "5065",
+      "title": "Contact Form Barkingside",
+      "content": "<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[text* your-name placeholder \"Your Name\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[email* your-email autocomplete:email placeholder \"Email Address\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[tel tel-387 autocomplete:tel placeholder \"Phone Number\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[textarea your-message placeholder \"Message\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[submit \"Send Message\"]</div>\r\n</div>\n1\n[_site_title] - Barkingside Contact Form\n[_site_title] <wordpress@skaryabhavan.com>\nBarkingside@nk-ab.com\nTooting Contact Form\r\n\r\n[your-name]\r\n\r\n[your-email]\r\n\r\n[tel-387]\r\n\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [your-email]\n\n\n\n\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@erica.la-studioweb.com>\n[your-email]\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [_site_admin_email]\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nPlease fill out this field.\nThis field has a too long input.\nThis field has a too short input.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe uploaded file is too large.\nThere was an error uploading the file.\nPlease enter a date in YYYY-MM-DD format.\nThis field has a too early date.\nThis field has a too late date.\nPlease enter a number.\nThis field has a too small number.\nThis field has a too large number.\nThe answer to the quiz is incorrect.\nPlease enter an email address.\nPlease enter a URL.\nPlease enter a telephone number."
+    },
+    {
+      "id": "5413",
+      "title": "Contact Form Belgium",
+      "content": "<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[text* your-name placeholder \"Your Name\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[email* your-email autocomplete:email placeholder \"Email Address\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[tel tel-387 autocomplete:tel placeholder \"Phone Number\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[textarea your-message placeholder \"Message\"]</div>\r\n</div>\r\n<div class=\"lakit-row\">\r\n<div class=\"lakit-col\">[submit \"Send Message\"]</div>\r\n</div>\n1\n[_site_title] - Brussels Branch Contact Form\n[_site_title] <wordpress@skaryabhavan.com>\nbrussels@nk-ab.com\nBrussels Branch Contact Form\r\n\r\n[your-name]\r\n\r\n[your-email]\r\n\r\n[tel-387]\r\n\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [your-email]\n\n\n\n\n[_site_title] \"[your-subject]\"\n[_site_title] <wordpress@erica.la-studioweb.com>\n[your-email]\nMessage Body:\r\n[your-message]\r\n\r\n-- \r\nThis e-mail was sent from a contact form on [_site_title] ([_site_url])\nReply-To: [_site_admin_email]\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nPlease fill out this field.\nThis field has a too long input.\nThis field has a too short input.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe uploaded file is too large.\nThere was an error uploading the file.\nPlease enter a date in YYYY-MM-DD format.\nThis field has a too early date.\nThis field has a too late date.\nPlease enter a number.\nThis field has a too small number.\nThis field has a too large number.\nThe answer to the quiz is incorrect.\nPlease enter an email address.\nPlease enter a URL.\nPlease enter a telephone number."
+    }
+  ],
+  "elementorTemplatesSummary": [
+    {
+      "id": "8",
+      "title": "Default Kit",
+      "slug": "default-kit",
+      "type": "kit"
+    },
+    {
+      "id": "32",
+      "title": "Erica Header 01",
+      "slug": "erica-header-01",
+      "type": "header"
+    },
+    {
+      "id": "109",
+      "title": "NAB Header",
+      "slug": "erica-header-02",
+      "type": "header"
+    },
+    {
+      "id": "127",
+      "title": "Erica Header 04",
+      "slug": "erica-header-04",
+      "type": "header"
+    },
+    {
+      "id": "133",
+      "title": "Erica Hamburger Full Menu",
+      "slug": "erica-hamburger-full-menu",
+      "type": "container"
+    },
+    {
+      "id": "148",
+      "title": "Erica Header 03",
+      "slug": "erica-header-03",
+      "type": "header"
+    },
+    {
+      "id": "151",
+      "title": "NAB Footer",
+      "slug": "erica-footer-01",
+      "type": "footer"
+    },
+    {
+      "id": "157",
+      "title": "Erica Footer 02",
+      "slug": "erica-footer-02",
+      "type": "footer"
+    },
+    {
+      "id": "158",
+      "title": "Erica Footer 03",
+      "slug": "erica-footer-03",
+      "type": "footer"
+    },
+    {
+      "id": "1056",
+      "title": "Erica M5 Sllide 01",
+      "slug": "erica-m5-sllide-01",
+      "type": "container"
+    },
+    {
+      "id": "1064",
+      "title": "Erica M5 Sllide 02",
+      "slug": "erica-m5-sllide-02",
+      "type": "container"
+    },
+    {
+      "id": "1067",
+      "title": "Erica M5 Sllide 03",
+      "slug": "erica-m5-sllide-03",
+      "type": "container"
+    },
+    {
+      "id": "1545",
+      "title": "Erica 404",
+      "slug": "erica-404",
+      "type": "error-404"
+    },
+    {
+      "id": "1551",
+      "title": "Erica Shop Sidebar",
+      "slug": "erica-shop-sidebar",
+      "type": "product-archive"
+    },
+    {
+      "id": "1565",
+      "title": "Erica Shop Fullwidth",
+      "slug": "erica-shop-fullwidth",
+      "type": "product-archive"
+    },
+    {
+      "id": "1569",
+      "title": "Erica Shop 03 Columns",
+      "slug": "erica-shop-03-columns",
+      "type": "product-archive"
+    },
+    {
+      "id": "6504",
+      "title": "Menu",
+      "slug": "",
+      "type": "section"
+    },
+    {
+      "id": "6505",
+      "title": "Menu",
+      "slug": "",
+      "type": "section"
+    },
+    {
+      "id": "10117",
+      "title": "mainnnnnn",
+      "slug": "",
+      "type": "container"
+    },
+    {
+      "id": "1573",
+      "title": "Erica Shop 05 Columns",
+      "slug": "erica-shop-05-columns",
+      "type": "product-archive"
+    },
+    {
+      "id": "1576",
+      "title": "Erica Single Product 01",
+      "slug": "erica-single-product-01",
+      "type": "product"
+    },
+    {
+      "id": "1618",
+      "title": "Erica Blog Sidebar",
+      "slug": "erica-blog-sidebar",
+      "type": "archive"
+    },
+    {
+      "id": "1633",
+      "title": "Erica Blog Fullwidth",
+      "slug": "erica-blog-fullwidth",
+      "type": "archive"
+    },
+    {
+      "id": "1636",
+      "title": "Erica Blog 03 Columns",
+      "slug": "erica-blog-03-columns",
+      "type": "archive"
+    },
+    {
+      "id": "1648",
+      "title": "Erica Single Post 01",
+      "slug": "erica-single-post-01",
+      "type": "single-post"
+    },
+    {
+      "id": "1803",
+      "title": "Default Kit",
+      "slug": "default-kit-2",
+      "type": "kit"
+    },
+    {
+      "id": "2929",
+      "title": "Elementor Header #2929",
+      "slug": "elementor-header-2929",
+      "type": "header"
+    },
+    {
+      "id": "2975",
+      "title": "Branches Page",
+      "slug": "branches-page",
+      "type": "page"
+    },
+    {
+      "id": "3356",
+      "title": "NAB Branch",
+      "slug": "nab-branch",
+      "type": "page"
+    },
+    {
+      "id": "4768",
+      "title": "NAB Branch Page",
+      "slug": "nab-branch-page",
+      "type": "page"
+    },
+    {
+      "id": "6506",
+      "title": "Menu",
+      "slug": "menu",
+      "type": "section"
+    },
+    {
+      "id": "7754",
+      "title": "hello menu",
+      "slug": "hello-menu",
+      "type": "container"
+    },
+    {
+      "id": "8946",
+      "title": "full page",
+      "slug": "full-page",
+      "type": "container"
+    },
+    {
+      "id": "8949",
+      "title": "2nd section",
+      "slug": "2nd-section",
+      "type": "container"
+    },
+    {
+      "id": "8952",
+      "title": "3rdd sec",
+      "slug": "3rdd-sec",
+      "type": "container"
+    },
+    {
+      "id": "8955",
+      "title": "4th sec",
+      "slug": "4th-sec",
+      "type": "container"
+    },
+    {
+      "id": "8958",
+      "title": "5th sec",
+      "slug": "5th-sec",
+      "type": "container"
+    },
+    {
+      "id": "8961",
+      "title": "6th sec",
+      "slug": "6th-sec",
+      "type": "container"
+    },
+    {
+      "id": "8964",
+      "title": "7th sec",
+      "slug": "7th-sec",
+      "type": "container"
+    },
+    {
+      "id": "8967",
+      "title": "8th sec",
+      "slug": "8th-sec",
+      "type": "container"
+    },
+    {
+      "id": "8970",
+      "title": "9th sec",
+      "slug": "9th-sec",
+      "type": "container"
+    },
+    {
+      "id": "9060",
+      "title": "bannerrrr",
+      "slug": "bannerrrr",
+      "type": "container"
+    },
+    {
+      "id": "9500",
+      "title": "main banner",
+      "slug": "main-banner",
+      "type": "container"
+    },
+    {
+      "id": "9662",
+      "title": "location sec",
+      "slug": "location-sec",
+      "type": "container"
+    },
+    {
+      "id": "9665",
+      "title": "choose as sec",
+      "slug": "choose-as-sec",
+      "type": "container"
+    },
+    {
+      "id": "9668",
+      "title": "catering sec",
+      "slug": "catering-sec",
+      "type": "container"
+    },
+    {
+      "id": "9671",
+      "title": "faq....",
+      "slug": "faq",
+      "type": "container"
+    },
+    {
+      "id": "9674",
+      "title": "location sec",
+      "slug": "location-sec-2",
+      "type": "container"
+    },
+    {
+      "id": "9677",
+      "title": "loc seeec",
+      "slug": "loc-seeec",
+      "type": "container"
+    },
+    {
+      "id": "9708",
+      "title": "ccccc",
+      "slug": "ccccc",
+      "type": "container"
+    },
+    {
+      "id": "9834",
+      "title": "mainnnnnn",
+      "slug": "mainnnnnn__trashed",
+      "type": "container"
+    }
+  ]
+}

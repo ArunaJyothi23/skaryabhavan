@@ -1,0 +1,44 @@
+# Dependencies
+/node_modules
+node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Next.js build output
+/.next/
+.next/
+/out/
+out/
+build/
+dist/
+
+# Production
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# Local environment variables
+.env*.local
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+*.pem
+
+# TypeScript cache
+*.tsbuildinfo
+next-env.d.ts
+
+# Large scrape dumps / XML export files
+live_home.html
+live_menu.html
+export_page.html
+plugins_raw.html
+skaryabhavan.WordPress.export.xml

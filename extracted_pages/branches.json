@@ -1,0 +1,991 @@
+{
+  "id": "1867",
+  "title": "Branches",
+  "slug": "branches",
+  "status": "publish",
+  "link": "https://skaryabhavan.com/branches/",
+  "seo": {
+    "title": "Branches",
+    "description": "",
+    "canonical": "https://skaryabhavan.com/branches/",
+    "opengraphTitle": "",
+    "opengraphDescription": "",
+    "opengraphImage": ""
+  },
+  "content": "<h1>Branches</h1>\t\t\t\t\n\t\t\t\t\t<h2>UK Branches</h2>\t\t\t\t\n\t\t\t\t\t<a href=\"https://skaryabhavan.com/central-london/\"><img width=\"1200\" height=\"1600\" src=\"https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Central-London-1.jpeg?wsr\" alt=\"\" decoding=\"async\" srcset=\"https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Central-London-1.jpeg 1200w, https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Central-London-1-1152x1536.jpeg 1152w\" sizes=\"(max-width: 1200px) 100vw, 1200px\" /></a><h3>CENTRAL LONDON</h3>020 7839 8797<br/>\nHOURS: 12.00 - 22.00 (MON-SUN)<br/>\n17 Charing Cross Road, Charing Cross, <br/>London WC2H 0EP\n\t\t\t\t\t<a href=\"https://skaryabhavan.com/wembley/\"><img width=\"1024\" height=\"768\" src=\"https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Wembley-2.jpeg?wsr\" alt=\"Wembley-Restaurant\" decoding=\"async\" /></a><h3>WEMBLEY</h3>020 8900 8526<br/>\nHOURS: 09.30 - 22.00 (MON-SUN)<br/>\n22, 22A Ealing Rd, <br/>Wembley HA0 4TL\n\t\t\t\t\t<a href=\"https://skaryabhavan.com/tooting/\"><img width=\"1600\" height=\"1200\" src=\"https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Tooting-2.jpeg?wsr\" alt=\"\" decoding=\"async\" srcset=\"https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Tooting-2.jpeg 1600w, https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Tooting-2-1536x1152.jpeg 1536w\" sizes=\"(max-width: 1600px) 100vw, 1600px\" /></a><h3>TOOTING</h3>020 8355 3555<br/>\nHOURS: 10.00 - 22.00 (MON-SUN)<br/>\n254 Upper Tooting Rd,<br/>London SW17 0DN\n\t\t\t\t\t<h2>Get special offers from us</h2>\t\t\t\t\n\t<form method=\"POST\" action=\"#\">\n\t\t\t\t<input type=\"email\" name=\"email\" placeholder=\"Enter Your Email\" autocomplete=\"email\" data-instance-data=\"[]\"/>\n            <a href=\"#\" aria-label=\"Subscribe to newsletter\">Subscribe</a>\t\t\n\t</form>",
+  "elementorData": [
+    {
+      "id": "e0a5662",
+      "elType": "container",
+      "settings": {
+        "min_height": {
+          "unit": "px",
+          "size": 350,
+          "sizes": []
+        },
+        "min_height_tablet": {
+          "unit": "px",
+          "size": 260,
+          "sizes": []
+        },
+        "flex_justify_content": "flex-end",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_image": {
+          "id": 2042,
+          "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/erica-ab-bg1-a.jpg"
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "content_width": "full",
+        "min_height_laptop": {
+          "unit": "px",
+          "size": 300,
+          "sizes": []
+        },
+        "min_height_mobile": {
+          "unit": "px",
+          "size": 200,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "3bf9cb3",
+          "elType": "widget",
+          "settings": {
+            "title": "Branches",
+            "header_size": "h1",
+            "typography_typography": "custom",
+            "typography_font_size": {
+              "unit": "em",
+              "size": 6,
+              "sizes": []
+            },
+            "typography_font_size_laptop": {
+              "unit": "em",
+              "size": "",
+              "sizes": []
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 26,
+              "sizes": []
+            },
+            "typography_font_weight": "normal",
+            "typography_text_transform": "uppercase",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1,
+              "sizes": []
+            },
+            "typography_letter_spacing": {
+              "unit": "em",
+              "size": 0.5,
+              "sizes": []
+            },
+            "typography_letter_spacing_laptop": {
+              "unit": "em",
+              "size": "",
+              "sizes": []
+            },
+            "typography_letter_spacing_tablet": {
+              "unit": "em",
+              "size": "",
+              "sizes": []
+            },
+            "typography_letter_spacing_mobile_extra": {
+              "unit": "em",
+              "size": "",
+              "sizes": []
+            },
+            "typography_letter_spacing_mobile": {
+              "unit": "em",
+              "size": "",
+              "sizes": []
+            },
+            "_transform_translate_popover": "transform",
+            "_transform_translateY_effect": {
+              "unit": "%",
+              "size": 50,
+              "sizes": []
+            },
+            "_transform_translateY_effect_laptop": {
+              "unit": "%",
+              "size": "",
+              "sizes": []
+            },
+            "_transform_translateY_effect_tablet": {
+              "unit": "%",
+              "size": "",
+              "sizes": []
+            },
+            "_transform_translateY_effect_mobile_extra": {
+              "unit": "%",
+              "size": "",
+              "sizes": []
+            },
+            "_transform_translateY_effect_mobile": {
+              "unit": "%",
+              "size": "",
+              "sizes": []
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=d725b51",
+              "typography_typography": ""
+            },
+            "title_color": "#F6851C",
+            "typography_font_family": "ivymode",
+            "_element_id": "banner-title"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "6fe0bcb",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "overflow": "hidden",
+        "background_color": "#F0F0F0",
+        "padding": {
+          "unit": "em",
+          "top": "6",
+          "right": "0",
+          "bottom": "4",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_laptop": {
+          "unit": "em",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+        },
+        "padding_tablet": {
+          "unit": "em",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+        },
+        "padding_mobile_extra": {
+          "unit": "em",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+        },
+        "padding_mobile": {
+          "unit": "em",
+          "top": "",
+          "right": "",
+          "bottom": "",
+          "left": "",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "d30af18",
+          "elType": "widget",
+          "settings": {
+            "title": "UK Branches",
+            "align": "center",
+            "_margin": {
+              "unit": "px",
+              "top": "20",
+              "right": "0",
+              "bottom": "20",
+              "left": "0",
+              "isLinked": false
+            },
+            "_margin_tablet": {
+              "unit": "px",
+              "top": "50",
+              "right": "0",
+              "bottom": "30",
+              "left": "0",
+              "isLinked": false
+            },
+            "_margin_mobile": {
+              "unit": "px",
+              "top": "50",
+              "right": "0",
+              "bottom": "30",
+              "left": "0",
+              "isLinked": false
+            },
+            "_element_width": "inherit",
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": "globals/colors?id=43b9505"
+            },
+            "typography_typography": "custom",
+            "typography_font_family": "ivymode",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 26,
+              "sizes": []
+            },
+            "typography_font_weight": "normal",
+            "typography_text_transform": "uppercase",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1,
+              "sizes": []
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 2,
+              "sizes": []
+            },
+            "title_color": "#344E41"
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "7747adc",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-evenly",
+            "flex_align_items": "stretch",
+            "flex_wrap_tablet": "wrap",
+            "flex_wrap_mobile_extra": "wrap"
+          },
+          "elements": [
+            {
+              "id": "5fa517f",
+              "elType": "widget",
+              "settings": {
+                "box_image": {
+                  "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Central-London-1.jpeg",
+                  "id": 3213,
+                  "size": "",
+                  "alt": "",
+                  "source": "library"
+                },
+                "enable_equal_height": "enable",
+                "box_title_text": "CENTRAL LONDON",
+                "box_front_title_icons__switch": "",
+                "box_description_text": "020 7839 8797<br/>\nHOURS: 12.00 - 22.00 (MON-SUN)<br/>\n17 Charing Cross Road, Charing Cross, <br/>London WC2H 0EP\n",
+                "box_content_text_align": "left",
+                "box_enable_btn": "",
+                "box_btn_text": "Learn more ",
+                "box_image_height__switch": "true",
+                "box_image_height": {
+                  "unit": "px",
+                  "size": 240,
+                  "sizes": []
+                },
+                "imagebox_container_background_background": "classic",
+                "imagebox_container_background_color": "#EFEFEF",
+                "box_title_bottom_space": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "box_title_typography_typography": "custom",
+                "box_title_typography_font_family": "ivymode",
+                "box_title_typography_font_size": {
+                  "unit": "px",
+                  "size": 26,
+                  "sizes": []
+                },
+                "box_title_typography_font_weight": "normal",
+                "box_title_typography_text_transform": "uppercase",
+                "box_title_typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "box_title_typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "box_heading_color": "#344E41",
+                "box_title_typography_description_typography": "custom",
+                "box_title_typography_description_font_family": "dunbar-low",
+                "box_title_typography_description_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "box_title_typography_description_font_weight": "normal",
+                "box_title_typography_description_line_height": {
+                  "unit": "em",
+                  "size": 2,
+                  "sizes": []
+                },
+                "box_title_typography_description_line_height_laptop": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                },
+                "box_title_typography_description_line_height_tablet": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                },
+                "box_title_typography_description_line_height_mobile_extra": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                },
+                "box_title_typography_description_line_height_mobile": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "%",
+                  "size": 30,
+                  "sizes": []
+                },
+                "_flex_size": "shrink",
+                "__globals__": {
+                  "box_title_typography_typography": "",
+                  "box_heading_color": "globals/colors?id=43b9505",
+                  "box_title_typography_description_typography": "",
+                  "box_image_overlay_bg": ""
+                },
+                "box_enable_link": "yes",
+                "box_website_link": {
+                  "url": "https://skaryabhavan.com/central-london/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "box_shadow_group__boxshadow_c": "#00000029",
+                "box_shadow_group__boxshadow_h": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "box_shadow_group__boxshadow_b": {
+                  "unit": "px",
+                  "size": 5,
+                  "sizes": []
+                },
+                "box_shadow_group__boxshadow_s": {
+                  "unit": "px",
+                  "size": 5,
+                  "sizes": []
+                },
+                "box_title_typography_description_letter_spacing": {
+                  "unit": "px",
+                  "size": 0.4,
+                  "sizes": []
+                },
+                "_element_custom_width_mobile": {
+                  "unit": "%",
+                  "size": 90,
+                  "sizes": []
+                },
+                "_element_custom_width_tablet": {
+                  "unit": "%",
+                  "size": 45,
+                  "sizes": []
+                },
+                "_element_custom_width_mobile_extra": {
+                  "unit": "%",
+                  "size": "",
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "lakit-image-box"
+            },
+            {
+              "id": "43f886d",
+              "elType": "widget",
+              "settings": {
+                "box_image": {
+                  "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Wembley-2.jpeg",
+                  "id": 3361,
+                  "size": "",
+                  "alt": "Wembley-Restaurant",
+                  "source": "library"
+                },
+                "enable_equal_height": "enable",
+                "box_title_text": "WEMBLEY",
+                "box_description_text": "020 8900 8526<br/>\nHOURS: 09.30 - 22.00 (MON-SUN)<br/>\n22, 22A Ealing Rd, <br/>Wembley HA0 4TL\n",
+                "box_content_text_align": "left",
+                "box_enable_btn": "",
+                "box_btn_text": "Learn more ",
+                "box_image_height__switch": "true",
+                "box_image_height": {
+                  "unit": "px",
+                  "size": 240,
+                  "sizes": []
+                },
+                "imagebox_container_background_background": "classic",
+                "imagebox_container_background_color": "#EFEFEF",
+                "box_title_bottom_space": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "box_title_typography_typography": "custom",
+                "box_title_typography_font_family": "ivymode",
+                "box_title_typography_font_size": {
+                  "unit": "px",
+                  "size": 26,
+                  "sizes": []
+                },
+                "box_title_typography_font_weight": "normal",
+                "box_title_typography_text_transform": "uppercase",
+                "box_title_typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "box_title_typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "box_heading_color": "#344E41",
+                "box_title_typography_description_typography": "custom",
+                "box_title_typography_description_font_family": "dunbar-low",
+                "box_title_typography_description_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "box_title_typography_description_font_weight": "normal",
+                "box_title_typography_description_line_height": {
+                  "unit": "em",
+                  "size": 2,
+                  "sizes": []
+                },
+                "box_title_typography_description_line_height_laptop": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                },
+                "box_title_typography_description_line_height_tablet": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                },
+                "box_title_typography_description_line_height_mobile_extra": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                },
+                "box_title_typography_description_line_height_mobile": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "%",
+                  "size": 30,
+                  "sizes": []
+                },
+                "_flex_size": "shrink",
+                "__globals__": {
+                  "box_title_typography_typography": "",
+                  "box_heading_color": "globals/colors?id=43b9505",
+                  "box_title_typography_description_typography": "",
+                  "box_image_overlay_bg": ""
+                },
+                "box_enable_link": "yes",
+                "box_website_link": {
+                  "url": "https://skaryabhavan.com/wembley/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "box_shadow_group__boxshadow_c": "#00000029",
+                "box_shadow_group__boxshadow_h": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "box_shadow_group__boxshadow_b": {
+                  "unit": "px",
+                  "size": 5,
+                  "sizes": []
+                },
+                "box_shadow_group__boxshadow_s": {
+                  "unit": "px",
+                  "size": 5,
+                  "sizes": []
+                },
+                "box_title_typography_description_letter_spacing": {
+                  "unit": "px",
+                  "size": 0.4,
+                  "sizes": []
+                },
+                "_element_custom_width_mobile": {
+                  "unit": "%",
+                  "size": 90,
+                  "sizes": []
+                },
+                "_element_custom_width_tablet": {
+                  "unit": "%",
+                  "size": 45,
+                  "sizes": []
+                },
+                "_element_custom_width_mobile_extra": {
+                  "unit": "%",
+                  "size": "",
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "lakit-image-box"
+            },
+            {
+              "id": "8678b93",
+              "elType": "widget",
+              "settings": {
+                "box_image": {
+                  "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Tooting-2.jpeg",
+                  "id": 3371,
+                  "size": "",
+                  "alt": "",
+                  "source": "library"
+                },
+                "enable_equal_height": "enable",
+                "box_title_text": "TOOTING",
+                "box_description_text": "020 8355 3555<br/>\nHOURS: 10.00 - 22.00 (MON-SUN)<br/>\n254 Upper Tooting Rd,<br/>London SW17 0DN\n",
+                "box_content_text_align": "left",
+                "box_enable_btn": "",
+                "box_btn_text": "Learn more ",
+                "box_image_height__switch": "true",
+                "box_image_height": {
+                  "unit": "px",
+                  "size": 240,
+                  "sizes": []
+                },
+                "imagebox_container_background_background": "classic",
+                "imagebox_container_background_color": "#EFEFEF",
+                "box_title_bottom_space": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "box_title_typography_typography": "custom",
+                "box_title_typography_font_family": "ivymode",
+                "box_title_typography_font_size": {
+                  "unit": "px",
+                  "size": 26,
+                  "sizes": []
+                },
+                "box_title_typography_font_weight": "normal",
+                "box_title_typography_text_transform": "uppercase",
+                "box_title_typography_line_height": {
+                  "unit": "em",
+                  "size": 1,
+                  "sizes": []
+                },
+                "box_title_typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "box_heading_color": "#344E41",
+                "box_title_typography_description_typography": "custom",
+                "box_title_typography_description_font_family": "dunbar-low",
+                "box_title_typography_description_font_size": {
+                  "unit": "px",
+                  "size": 16,
+                  "sizes": []
+                },
+                "box_title_typography_description_font_weight": "normal",
+                "box_title_typography_description_line_height": {
+                  "unit": "em",
+                  "size": 2,
+                  "sizes": []
+                },
+                "box_title_typography_description_line_height_laptop": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                },
+                "box_title_typography_description_line_height_tablet": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                },
+                "box_title_typography_description_line_height_mobile_extra": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                },
+                "box_title_typography_description_line_height_mobile": {
+                  "unit": "rem",
+                  "size": "",
+                  "sizes": []
+                },
+                "_element_width": "initial",
+                "_element_custom_width": {
+                  "unit": "%",
+                  "size": 30,
+                  "sizes": []
+                },
+                "_flex_size": "shrink",
+                "__globals__": {
+                  "box_title_typography_typography": "",
+                  "box_heading_color": "globals/colors?id=43b9505",
+                  "box_title_typography_description_typography": "",
+                  "box_image_overlay_bg": ""
+                },
+                "box_enable_link": "yes",
+                "box_website_link": {
+                  "url": "https://skaryabhavan.com/tooting/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "box_shadow_group__boxshadow_c": "#00000029",
+                "box_shadow_group__boxshadow_h": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "box_shadow_group__boxshadow_b": {
+                  "unit": "px",
+                  "size": 5,
+                  "sizes": []
+                },
+                "box_shadow_group__boxshadow_s": {
+                  "unit": "px",
+                  "size": 5,
+                  "sizes": []
+                },
+                "box_title_typography_description_letter_spacing": {
+                  "unit": "px",
+                  "size": 0.4,
+                  "sizes": []
+                },
+                "_element_custom_width_mobile": {
+                  "unit": "%",
+                  "size": 90,
+                  "sizes": []
+                },
+                "_element_custom_width_tablet": {
+                  "unit": "%",
+                  "size": 45,
+                  "sizes": []
+                },
+                "_element_custom_width_mobile_extra": {
+                  "unit": "%",
+                  "size": "",
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "lakit-image-box"
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "27a5be5",
+      "elType": "container",
+      "settings": [],
+      "elements": [
+        {
+          "id": "b553065",
+          "elType": "widget",
+          "settings": [],
+          "elements": [],
+          "widgetType": "spacer"
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "459b4b0",
+      "elType": "container",
+      "settings": {
+        "flex_direction": "column",
+        "boxed_width": {
+          "unit": "px",
+          "size": 800,
+          "sizes": []
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 370,
+          "sizes": []
+        },
+        "flex_justify_content": "center",
+        "background_background": "classic",
+        "background_image": {
+          "id": 2415,
+          "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/sl2.jpg",
+          "alt": "",
+          "source": "library",
+          "size": ""
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "boxed_width_tablet": {
+          "unit": "px",
+          "size": 600,
+          "sizes": []
+        },
+        "min_height_tablet": {
+          "unit": "px",
+          "size": 250,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "fdb2567",
+          "elType": "widget",
+          "settings": {
+            "title": "Get special offers from us",
+            "__globals__": {
+              "typography_typography": "globals/typography?id=1eba599",
+              "title_color": "globals/colors?id=d58d248"
+            },
+            "_padding": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "_padding_laptop": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "_padding_tablet": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "_padding_mobile_extra": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "_padding_mobile": {
+              "unit": "%",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": true
+            },
+            "align": "center",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "30",
+              "left": "0",
+              "isLinked": false
+            },
+            "_element_custom_width": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "_flex_align_self": "center",
+            "_margin_tablet": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "20",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [],
+          "widgetType": "heading"
+        },
+        {
+          "id": "cb14f4e",
+          "elType": "widget",
+          "settings": {
+            "submit_button_text": "Subscribe",
+            "submit_placeholder": "Enter Your Email",
+            "additional_fields": [
+              {
+                "placeholder": "First Name",
+                "_id": "77a3ad0"
+              },
+              {
+                "type": "lname",
+                "placeholder": "Last Name",
+                "_id": "9859480"
+              },
+              {
+                "type": "address",
+                "placeholder": "Address",
+                "_id": "300029b"
+              },
+              {
+                "type": "phone",
+                "placeholder": "Phone Number",
+                "_id": "9e0f586"
+              }
+            ],
+            "redirect_url": "#",
+            "container_border_border": "solid",
+            "container_border_width": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "1",
+              "left": "0",
+              "isLinked": false
+            },
+            "container_border_color": "#FFFFFF82",
+            "input_padding": {
+              "unit": "px",
+              "top": "15",
+              "right": "0",
+              "bottom": "15",
+              "left": "0",
+              "isLinked": false
+            },
+            "input_color": "#FFFFFF",
+            "input_typography_typography": "custom",
+            "input_typography_font_size": {
+              "unit": "px",
+              "size": 20,
+              "sizes": []
+            },
+            "input_typography_line_height": {
+              "unit": "px",
+              "size": 20,
+              "sizes": []
+            },
+            "input_border_border": "none",
+            "button_bg_color": "#FFFFFF00",
+            "button_color": "#FFFFFF",
+            "button_typography_typography": "custom",
+            "button_typography_font_size": {
+              "unit": "px",
+              "size": 20,
+              "sizes": []
+            },
+            "button_typography_line_height": {
+              "unit": "px",
+              "size": 20,
+              "sizes": []
+            },
+            "button_padding": {
+              "unit": "px",
+              "top": "15",
+              "right": "0",
+              "bottom": "15",
+              "left": "0",
+              "isLinked": false
+            },
+            "button_hover_color": "#5B84A2",
+            "message_error_color": "#FFFFFFAB",
+            "__globals__": {
+              "input_color": "globals/colors?id=d58d248",
+              "button_bg_color": "globals/colors?id=f4cc628",
+              "button_color": "globals/colors?id=d58d248",
+              "button_hover_color": "globals/colors?id=43b9505",
+              "container_border_color": ""
+            },
+            "input_padding_tablet": {
+              "unit": "px",
+              "top": "10",
+              "right": "0",
+              "bottom": "10",
+              "left": "0",
+              "isLinked": false
+            },
+            "input_typography_font_size_tablet": {
+              "unit": "px",
+              "size": 18,
+              "sizes": []
+            },
+            "button_typography_font_size_tablet": {
+              "unit": "px",
+              "size": 18,
+              "sizes": []
+            },
+            "button_padding_tablet": {
+              "unit": "px",
+              "top": "10",
+              "right": "0",
+              "bottom": "10",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [],
+          "widgetType": "lakit-subscribe-form"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "meta": {
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-post",
+    "_elementor_version": "4.3.2",
+    "post_views_count": "7",
+    "_wp_page_template": "default",
+    "_elementor_page_settings": "a:3:{s:10:\"hide_title\";s:3:\"yes\";s:19:\"lakit_doc_swap_logo\";s:3:\"yes\";s:11:\"__globals__\";a:9:{s:27:\"lakit_doc_header_text_color\";s:25:\"globals/colors?id=d58d248\";s:27:\"lakit_doc_header_link_color\";s:25:\"globals/colors?id=d58d248\";s:33:\"lakit_doc_header_link_hover_color\";s:25:\"globals/colors?id=d725b51\";s:29:\"lakit_doc_header_button_color\";s:25:\"globals/colors?id=d58d248\";s:31:\"lakit_doc_header_button_bgcolor\";s:25:\"globals/colors?id=d725b51\";s:36:\"lakit_doc_header_button_border_color\";s:25:\"globals/colors?id=d725b51\";s:35:\"lakit_doc_header_button_hover_color\";s:25:\"globals/colors?id=d58d248\";s:37:\"lakit_doc_header_button_hover_bgcolor\";s:25:\"globals/colors?id=60f875a\";s:42:\"lakit_doc_header_button_hover_border_color\";s:25:\"globals/colors?id=60f875a\";}}",
+    "_elementor_data": "[{\"id\":\"e0a5662\",\"elType\":\"container\",\"settings\":{\"min_height\":{\"unit\":\"px\",\"size\":350,\"sizes\":[]},\"min_height_tablet\":{\"unit\":\"px\",\"size\":260,\"sizes\":[]},\"flex_justify_content\":\"flex-end\",\"flex_align_items\":\"center\",\"background_background\":\"classic\",\"background_image\":{\"id\":2042,\"url\":\"https:\\/\\/skaryabhavan.com\\/wp-content\\/uploads\\/2024\\/11\\/erica-ab-bg1-a.jpg\"},\"background_position\":\"center center\",\"background_repeat\":\"no-repeat\",\"background_size\":\"cover\",\"content_width\":\"full\",\"min_height_laptop\":{\"unit\":\"px\",\"size\":300,\"sizes\":[]},\"min_height_mobile\":{\"unit\":\"px\",\"size\":200,\"sizes\":[]}},\"elements\":[{\"id\":\"3bf9cb3\",\"elType\":\"widget\",\"settings\":{\"title\":\"Branches\",\"header_size\":\"h1\",\"typography_typography\":\"custom\",\"typography_font_size\":{\"unit\":\"em\",\"size\":6,\"sizes\":[]},\"typography_font_size_laptop\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"typography_font_size_tablet\":{\"unit\":\"px\",\"size\":26,\"sizes\":[]},\"typography_font_weight\":\"normal\",\"typography_text_transform\":\"uppercase\",\"typography_line_height\":{\"unit\":\"em\",\"size\":1,\"sizes\":[]},\"typography_letter_spacing\":{\"unit\":\"em\",\"size\":0.5,\"sizes\":[]},\"typography_letter_spacing_laptop\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"typography_letter_spacing_tablet\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"typography_letter_spacing_mobile_extra\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"typography_letter_spacing_mobile\":{\"unit\":\"em\",\"size\":\"\",\"sizes\":[]},\"_transform_translate_popover\":\"transform\",\"_transform_translateY_effect\":{\"unit\":\"%\",\"size\":50,\"sizes\":[]},\"_transform_translateY_effect_laptop\":{\"unit\":\"%\",\"size\":\"\",\"sizes\":[]},\"_transform_translateY_effect_tablet\":{\"unit\":\"%\",\"size\":\"\",\"sizes\":[]},\"_transform_translateY_effect_mobile_extra\":{\"unit\":\"%\",\"size\":\"\",\"sizes\":[]},\"_transform_translateY_effect_mobile\":{\"unit\":\"%\",\"size\":\"\",\"sizes\":[]},\"__globals__\":{\"title_color\":\"globals\\/colors?id=d725b51\",\"typography_typography\":\"\"},\"title_color\":\"#F6851C\",\"typography_font_family\":\"ivymode\",\"_element_id\":\"banner-title\"},\"elements\":[],\"widgetType\":\"heading\"}],\"isInner\":false},{\"id\":\"6fe0bcb\",\"elType\":\"container\",\"settings\":{\"content_width\":\"full\",\"flex_direction\":\"column\",\"overflow\":\"hidden\",\"background_color\":\"#F0F0F0\",\"padding\":{\"unit\":\"em\",\"top\":\"6\",\"right\":\"0\",\"bottom\":\"4\",\"left\":\"0\",\"isLinked\":false},\"padding_laptop\":{\"unit\":\"em\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"padding_tablet\":{\"unit\":\"em\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"padding_mobile_extra\":{\"unit\":\"em\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"padding_mobile\":{\"unit\":\"em\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true}},\"elements\":[{\"id\":\"d30af18\",\"elType\":\"widget\",\"settings\":{\"title\":\"UK Branches\",\"align\":\"center\",\"_margin\":{\"unit\":\"px\",\"top\":\"20\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false},\"_margin_tablet\":{\"unit\":\"px\",\"top\":\"50\",\"right\":\"0\",\"bottom\":\"30\",\"left\":\"0\",\"isLinked\":false},\"_margin_mobile\":{\"unit\":\"px\",\"top\":\"50\",\"right\":\"0\",\"bottom\":\"30\",\"left\":\"0\",\"isLinked\":false},\"_element_width\":\"inherit\",\"__globals__\":{\"typography_typography\":\"\",\"title_color\":\"globals\\/colors?id=43b9505\"},\"typography_typography\":\"custom\",\"typography_font_family\":\"ivymode\",\"typography_font_size\":{\"unit\":\"px\",\"size\":40,\"sizes\":[]},\"typography_font_size_tablet\":{\"unit\":\"px\",\"size\":26,\"sizes\":[]},\"typography_font_weight\":\"normal\",\"typography_text_transform\":\"uppercase\",\"typography_line_height\":{\"unit\":\"em\",\"size\":1,\"sizes\":[]},\"typography_letter_spacing\":{\"unit\":\"px\",\"size\":2,\"sizes\":[]},\"title_color\":\"#344E41\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"7747adc\",\"elType\":\"container\",\"settings\":{\"content_width\":\"full\",\"flex_direction\":\"row\",\"flex_justify_content\":\"space-evenly\",\"flex_align_items\":\"stretch\",\"flex_wrap_tablet\":\"wrap\",\"flex_wrap_mobile_extra\":\"wrap\"},\"elements\":[{\"id\":\"5fa517f\",\"elType\":\"widget\",\"settings\":{\"box_image\":{\"url\":\"https:\\/\\/skaryabhavan.com\\/wp-content\\/uploads\\/2024\\/11\\/NKAryaBhavan-Central-London-1.jpeg\",\"id\":3213,\"size\":\"\",\"alt\":\"\",\"source\":\"library\"},\"enable_equal_height\":\"enable\",\"box_title_text\":\"CENTRAL LONDON\",\"box_front_title_icons__switch\":\"\",\"box_description_text\":\"020 7839 8797<br\\/>\\nHOURS: 12.00 - 22.00 (MON-SUN)<br\\/>\\n17 Charing Cross Road, Charing Cross, <br\\/>London WC2H 0EP\\n\",\"box_content_text_align\":\"left\",\"box_enable_btn\":\"\",\"box_btn_text\":\"Learn more \",\"box_image_height__switch\":\"true\",\"box_image_height\":{\"unit\":\"px\",\"size\":240,\"sizes\":[]},\"imagebox_container_background_background\":\"classic\",\"imagebox_container_background_color\":\"#EFEFEF\",\"box_title_bottom_space\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false},\"box_title_typography_typography\":\"custom\",\"box_title_typography_font_family\":\"ivymode\",\"box_title_typography_font_size\":{\"unit\":\"px\",\"size\":26,\"sizes\":[]},\"box_title_typography_font_weight\":\"normal\",\"box_title_typography_text_transform\":\"uppercase\",\"box_title_typography_line_height\":{\"unit\":\"em\",\"size\":1,\"sizes\":[]},\"box_title_typography_letter_spacing\":{\"unit\":\"px\",\"size\":1,\"sizes\":[]},\"box_heading_color\":\"#344E41\",\"box_title_typography_description_typography\":\"custom\",\"box_title_typography_description_font_family\":\"dunbar-low\",\"box_title_typography_description_font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"box_title_typography_description_font_weight\":\"normal\",\"box_title_typography_description_line_height\":{\"unit\":\"em\",\"size\":2,\"sizes\":[]},\"box_title_typography_description_line_height_laptop\":{\"unit\":\"rem\",\"size\":\"\",\"sizes\":[]},\"box_title_typography_description_line_height_tablet\":{\"unit\":\"rem\",\"size\":\"\",\"sizes\":[]},\"box_title_typography_description_line_height_mobile_extra\":{\"unit\":\"rem\",\"size\":\"\",\"sizes\":[]},\"box_title_typography_description_line_height_mobile\":{\"unit\":\"rem\",\"size\":\"\",\"sizes\":[]},\"_element_width\":\"initial\",\"_element_custom_width\":{\"unit\":\"%\",\"size\":30,\"sizes\":[]},\"_flex_size\":\"shrink\",\"__globals__\":{\"box_title_typography_typography\":\"\",\"box_heading_color\":\"globals\\/colors?id=43b9505\",\"box_title_typography_description_typography\":\"\",\"box_image_overlay_bg\":\"\"},\"box_enable_link\":\"yes\",\"box_website_link\":{\"url\":\"https:\\/\\/skaryabhavan.com\\/central-london\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"box_shadow_group__boxshadow_c\":\"#00000029\",\"box_shadow_group__boxshadow_h\":{\"unit\":\"px\",\"size\":0,\"sizes\":[]},\"box_shadow_group__boxshadow_b\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"box_shadow_group__boxshadow_s\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"box_title_typography_description_letter_spacing\":{\"unit\":\"px\",\"size\":0.4,\"sizes\":[]},\"_element_custom_width_mobile\":{\"unit\":\"%\",\"size\":90,\"sizes\":[]},\"_element_custom_width_tablet\":{\"unit\":\"%\",\"size\":45,\"sizes\":[]},\"_element_custom_width_mobile_extra\":{\"unit\":\"%\",\"size\":\"\",\"sizes\":[]}},\"elements\":[],\"widgetType\":\"lakit-image-box\"},{\"id\":\"43f886d\",\"elType\":\"widget\",\"settings\":{\"box_image\":{\"url\":\"https:\\/\\/skaryabhavan.com\\/wp-content\\/uploads\\/2024\\/11\\/NKAryaBhavan-Wembley-2.jpeg\",\"id\":3361,\"size\":\"\",\"alt\":\"Wembley-Restaurant\",\"source\":\"library\"},\"enable_equal_height\":\"enable\",\"box_title_text\":\"WEMBLEY\",\"box_description_text\":\"020 8900 8526<br\\/>\\nHOURS: 09.30 - 22.00 (MON-SUN)<br\\/>\\n22, 22A Ealing Rd, <br\\/>Wembley HA0 4TL\\n\",\"box_content_text_align\":\"left\",\"box_enable_btn\":\"\",\"box_btn_text\":\"Learn more \",\"box_image_height__switch\":\"true\",\"box_image_height\":{\"unit\":\"px\",\"size\":240,\"sizes\":[]},\"imagebox_container_background_background\":\"classic\",\"imagebox_container_background_color\":\"#EFEFEF\",\"box_title_bottom_space\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false},\"box_title_typography_typography\":\"custom\",\"box_title_typography_font_family\":\"ivymode\",\"box_title_typography_font_size\":{\"unit\":\"px\",\"size\":26,\"sizes\":[]},\"box_title_typography_font_weight\":\"normal\",\"box_title_typography_text_transform\":\"uppercase\",\"box_title_typography_line_height\":{\"unit\":\"em\",\"size\":1,\"sizes\":[]},\"box_title_typography_letter_spacing\":{\"unit\":\"px\",\"size\":1,\"sizes\":[]},\"box_heading_color\":\"#344E41\",\"box_title_typography_description_typography\":\"custom\",\"box_title_typography_description_font_family\":\"dunbar-low\",\"box_title_typography_description_font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"box_title_typography_description_font_weight\":\"normal\",\"box_title_typography_description_line_height\":{\"unit\":\"em\",\"size\":2,\"sizes\":[]},\"box_title_typography_description_line_height_laptop\":{\"unit\":\"rem\",\"size\":\"\",\"sizes\":[]},\"box_title_typography_description_line_height_tablet\":{\"unit\":\"rem\",\"size\":\"\",\"sizes\":[]},\"box_title_typography_description_line_height_mobile_extra\":{\"unit\":\"rem\",\"size\":\"\",\"sizes\":[]},\"box_title_typography_description_line_height_mobile\":{\"unit\":\"rem\",\"size\":\"\",\"sizes\":[]},\"_element_width\":\"initial\",\"_element_custom_width\":{\"unit\":\"%\",\"size\":30,\"sizes\":[]},\"_flex_size\":\"shrink\",\"__globals__\":{\"box_title_typography_typography\":\"\",\"box_heading_color\":\"globals\\/colors?id=43b9505\",\"box_title_typography_description_typography\":\"\",\"box_image_overlay_bg\":\"\"},\"box_enable_link\":\"yes\",\"box_website_link\":{\"url\":\"https:\\/\\/skaryabhavan.com\\/wembley\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"box_shadow_group__boxshadow_c\":\"#00000029\",\"box_shadow_group__boxshadow_h\":{\"unit\":\"px\",\"size\":0,\"sizes\":[]},\"box_shadow_group__boxshadow_b\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"box_shadow_group__boxshadow_s\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"box_title_typography_description_letter_spacing\":{\"unit\":\"px\",\"size\":0.4,\"sizes\":[]},\"_element_custom_width_mobile\":{\"unit\":\"%\",\"size\":90,\"sizes\":[]},\"_element_custom_width_tablet\":{\"unit\":\"%\",\"size\":45,\"sizes\":[]},\"_element_custom_width_mobile_extra\":{\"unit\":\"%\",\"size\":\"\",\"sizes\":[]}},\"elements\":[],\"widgetType\":\"lakit-image-box\"},{\"id\":\"8678b93\",\"elType\":\"widget\",\"settings\":{\"box_image\":{\"url\":\"https:\\/\\/skaryabhavan.com\\/wp-content\\/uploads\\/2024\\/11\\/NKAryaBhavan-Tooting-2.jpeg\",\"id\":3371,\"size\":\"\",\"alt\":\"\",\"source\":\"library\"},\"enable_equal_height\":\"enable\",\"box_title_text\":\"TOOTING\",\"box_description_text\":\"020 8355 3555<br\\/>\\nHOURS: 10.00 - 22.00 (MON-SUN)<br\\/>\\n254 Upper Tooting Rd,<br\\/>London SW17 0DN\\n\",\"box_content_text_align\":\"left\",\"box_enable_btn\":\"\",\"box_btn_text\":\"Learn more \",\"box_image_height__switch\":\"true\",\"box_image_height\":{\"unit\":\"px\",\"size\":240,\"sizes\":[]},\"imagebox_container_background_background\":\"classic\",\"imagebox_container_background_color\":\"#EFEFEF\",\"box_title_bottom_space\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false},\"box_title_typography_typography\":\"custom\",\"box_title_typography_font_family\":\"ivymode\",\"box_title_typography_font_size\":{\"unit\":\"px\",\"size\":26,\"sizes\":[]},\"box_title_typography_font_weight\":\"normal\",\"box_title_typography_text_transform\":\"uppercase\",\"box_title_typography_line_height\":{\"unit\":\"em\",\"size\":1,\"sizes\":[]},\"box_title_typography_letter_spacing\":{\"unit\":\"px\",\"size\":1,\"sizes\":[]},\"box_heading_color\":\"#344E41\",\"box_title_typography_description_typography\":\"custom\",\"box_title_typography_description_font_family\":\"dunbar-low\",\"box_title_typography_description_font_size\":{\"unit\":\"px\",\"size\":16,\"sizes\":[]},\"box_title_typography_description_font_weight\":\"normal\",\"box_title_typography_description_line_height\":{\"unit\":\"em\",\"size\":2,\"sizes\":[]},\"box_title_typography_description_line_height_laptop\":{\"unit\":\"rem\",\"size\":\"\",\"sizes\":[]},\"box_title_typography_description_line_height_tablet\":{\"unit\":\"rem\",\"size\":\"\",\"sizes\":[]},\"box_title_typography_description_line_height_mobile_extra\":{\"unit\":\"rem\",\"size\":\"\",\"sizes\":[]},\"box_title_typography_description_line_height_mobile\":{\"unit\":\"rem\",\"size\":\"\",\"sizes\":[]},\"_element_width\":\"initial\",\"_element_custom_width\":{\"unit\":\"%\",\"size\":30,\"sizes\":[]},\"_flex_size\":\"shrink\",\"__globals__\":{\"box_title_typography_typography\":\"\",\"box_heading_color\":\"globals\\/colors?id=43b9505\",\"box_title_typography_description_typography\":\"\",\"box_image_overlay_bg\":\"\"},\"box_enable_link\":\"yes\",\"box_website_link\":{\"url\":\"https:\\/\\/skaryabhavan.com\\/tooting\\/\",\"is_external\":\"\",\"nofollow\":\"\",\"custom_attributes\":\"\"},\"box_shadow_group__boxshadow_c\":\"#00000029\",\"box_shadow_group__boxshadow_h\":{\"unit\":\"px\",\"size\":0,\"sizes\":[]},\"box_shadow_group__boxshadow_b\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"box_shadow_group__boxshadow_s\":{\"unit\":\"px\",\"size\":5,\"sizes\":[]},\"box_title_typography_description_letter_spacing\":{\"unit\":\"px\",\"size\":0.4,\"sizes\":[]},\"_element_custom_width_mobile\":{\"unit\":\"%\",\"size\":90,\"sizes\":[]},\"_element_custom_width_tablet\":{\"unit\":\"%\",\"size\":45,\"sizes\":[]},\"_element_custom_width_mobile_extra\":{\"unit\":\"%\",\"size\":\"\",\"sizes\":[]}},\"elements\":[],\"widgetType\":\"lakit-image-box\"}],\"isInner\":true}],\"isInner\":false},{\"id\":\"27a5be5\",\"elType\":\"container\",\"settings\":[],\"elements\":[{\"id\":\"b553065\",\"elType\":\"widget\",\"settings\":[],\"elements\":[],\"widgetType\":\"spacer\"}],\"isInner\":false},{\"id\":\"459b4b0\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"column\",\"boxed_width\":{\"unit\":\"px\",\"size\":800,\"sizes\":[]},\"min_height\":{\"unit\":\"px\",\"size\":370,\"sizes\":[]},\"flex_justify_content\":\"center\",\"background_background\":\"classic\",\"background_image\":{\"id\":2415,\"url\":\"https:\\/\\/skaryabhavan.com\\/wp-content\\/uploads\\/2024\\/11\\/sl2.jpg\",\"alt\":\"\",\"source\":\"library\",\"size\":\"\"},\"background_position\":\"center center\",\"background_repeat\":\"no-repeat\",\"background_size\":\"cover\",\"boxed_width_tablet\":{\"unit\":\"px\",\"size\":600,\"sizes\":[]},\"min_height_tablet\":{\"unit\":\"px\",\"size\":250,\"sizes\":[]}},\"elements\":[{\"id\":\"fdb2567\",\"elType\":\"widget\",\"settings\":{\"title\":\"Get special offers from us\",\"__globals__\":{\"typography_typography\":\"globals\\/typography?id=1eba599\",\"title_color\":\"globals\\/colors?id=d58d248\"},\"_padding\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_laptop\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_tablet\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_mobile_extra\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"_padding_mobile\":{\"unit\":\"%\",\"top\":\"\",\"right\":\"\",\"bottom\":\"\",\"left\":\"\",\"isLinked\":true},\"align\":\"center\",\"_margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"30\",\"left\":\"0\",\"isLinked\":false},\"_element_custom_width\":{\"unit\":\"px\",\"size\":\"\",\"sizes\":[]},\"_flex_align_self\":\"center\",\"_margin_tablet\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"20\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"cb14f4e\",\"elType\":\"widget\",\"settings\":{\"submit_button_text\":\"Subscribe\",\"submit_placeholder\":\"Enter Your Email\",\"additional_fields\":[{\"placeholder\":\"First Name\",\"_id\":\"77a3ad0\"},{\"type\":\"lname\",\"placeholder\":\"Last Name\",\"_id\":\"9859480\"},{\"type\":\"address\",\"placeholder\":\"Address\",\"_id\":\"300029b\"},{\"type\":\"phone\",\"placeholder\":\"Phone Number\",\"_id\":\"9e0f586\"}],\"redirect_url\":\"#\",\"container_border_border\":\"solid\",\"container_border_width\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"1\",\"left\":\"0\",\"isLinked\":false},\"container_border_color\":\"#FFFFFF82\",\"input_padding\":{\"unit\":\"px\",\"top\":\"15\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"input_color\":\"#FFFFFF\",\"input_typography_typography\":\"custom\",\"input_typography_font_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"input_typography_line_height\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"input_border_border\":\"none\",\"button_bg_color\":\"#FFFFFF00\",\"button_color\":\"#FFFFFF\",\"button_typography_typography\":\"custom\",\"button_typography_font_size\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"button_typography_line_height\":{\"unit\":\"px\",\"size\":20,\"sizes\":[]},\"button_padding\":{\"unit\":\"px\",\"top\":\"15\",\"right\":\"0\",\"bottom\":\"15\",\"left\":\"0\",\"isLinked\":false},\"button_hover_color\":\"#5B84A2\",\"message_error_color\":\"#FFFFFFAB\",\"__globals__\":{\"input_color\":\"globals\\/colors?id=d58d248\",\"button_bg_color\":\"globals\\/colors?id=f4cc628\",\"button_color\":\"globals\\/colors?id=d58d248\",\"button_hover_color\":\"globals\\/colors?id=43b9505\",\"container_border_color\":\"\"},\"input_padding_tablet\":{\"unit\":\"px\",\"top\":\"10\",\"right\":\"0\",\"bottom\":\"10\",\"left\":\"0\",\"isLinked\":false},\"input_typography_font_size_tablet\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"button_typography_font_size_tablet\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"button_padding_tablet\":{\"unit\":\"px\",\"top\":\"10\",\"right\":\"0\",\"bottom\":\"10\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"lakit-subscribe-form\"}],\"isInner\":false}]",
+    "_edit_last": "1",
+    "rs_page_bg_color": "",
+    "_elementor_pro_version": "4.3.0",
+    "_cmplz_scanned_post": "1",
+    "_yoast_wpseo_content_score": "90",
+    "_yoast_wpseo_estimated-reading-time-minutes": "1",
+    "_yoast_wpseo_seo_title_score": "17",
+    "_yoast_wpseo_meta_description_score": "22",
+    "_elementor_controls_usage": "a:5:{s:7:\"heading\";a:3:{s:5:\"count\";i:3;s:15:\"control_percent\";i:0;s:8:\"controls\";a:1:{s:7:\"content\";a:3:{s:13:\"section_title\";a:2:{s:5:\"title\";i:3;s:11:\"header_size\";i:1;}s:18:\"_section_transform\";a:6:{s:28:\"_transform_translate_popover\";i:1;s:28:\"_transform_translateY_effect\";i:1;s:35:\"_transform_translateY_effect_laptop\";i:1;s:35:\"_transform_translateY_effect_tablet\";i:1;s:41:\"_transform_translateY_effect_mobile_extra\";i:1;s:35:\"_transform_translateY_effect_mobile\";i:1;}s:14:\"_section_style\";a:2:{s:11:\"_element_id\";i:1;s:14:\"_element_width\";i:1;}}}}s:9:\"container\";a:3:{s:5:\"count\";i:5;s:15:\"control_percent\";i:1;s:8:\"controls\";a:1:{s:7:\"content\";a:2:{s:18:\"section_background\";a:3:{s:21:\"background_background\";i:2;s:16:\"background_image\";i:2;s:16:\"background_color\";i:1;}s:24:\"section_layout_container\";a:1:{s:13:\"content_width\";i:3;}}}}s:15:\"lakit-image-box\";a:3:{s:5:\"count\";i:3;s:15:\"control_percent\";i:2;s:8:\"controls\";a:1:{s:7:\"content\";a:6:{s:28:\"box_section_infoboxwithimage\";a:4:{s:9:\"box_image\";i:3;s:19:\"enable_equal_height\";i:3;s:15:\"box_enable_link\";i:3;s:16:\"box_website_link\";i:3;}s:27:\"box_section_for_image_title\";a:4:{s:14:\"box_title_text\";i:3;s:29:\"box_front_title_icons__switch\";i:1;s:20:\"box_description_text\";i:3;s:22:\"box_content_text_align\";i:3;}s:18:\"box_section_button\";a:1:{s:14:\"box_enable_btn\";i:3;}s:17:\"box_image_section\";a:1:{s:24:\"box_image_height__switch\";i:3;}s:22:\"box_style_body_section\";a:1:{s:35:\"imagebox_container_background_color\";i:3;}s:14:\"_section_style\";a:1:{s:14:\"_element_width\";i:3;}}}}s:6:\"spacer\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:0;s:8:\"controls\";a:0:{}}s:20:\"lakit-subscribe-form\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:1;s:8:\"controls\";a:1:{s:7:\"content\";a:2:{s:24:\"section_subscribe_fields\";a:2:{s:18:\"submit_placeholder\";i:1;s:17:\"additional_fields\";i:1;}s:27:\"section_submit_button_style\";a:1:{s:15:\"button_bg_color\";i:1;}}}}}",
+    "_elementor_page_assets": "a:2:{s:6:\"styles\";a:4:{i:0;s:14:\"widget-heading\";i:1;s:15:\"lakit-image-box\";i:2;s:13:\"widget-spacer\";i:3;s:20:\"lakit-subscribe-form\";}s:7:\"scripts\";a:3:{i:0;s:18:\"elementor-frontend\";i:1;s:17:\"lastudio-kit-base\";i:2;s:20:\"lakit-subscribe-form\";}}"
+  }
+}

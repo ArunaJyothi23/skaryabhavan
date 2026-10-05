@@ -1,0 +1,62 @@
+[
+  {
+    "id": "central-london",
+    "name": "Central London",
+    "area": "Leicester Square / Charing Cross",
+    "address": "17 Charing Cross Road, Charing Cross, London",
+    "postcode": "WC2H 0EP",
+    "phone": "+44 20 7839 8797",
+    "displayPhone": "020 7839 8797",
+    "hours": "10:00 AM – 10:00 PM (Mon – Sun)",
+    "features": [
+      "Dine-In",
+      "Takeaway",
+      "Delivery",
+      "Online Ordering"
+    ],
+    "image": "/images/migrated/NKAryaBhavan-Central-London-1.jpeg",
+    "orderUrl": "/online-ls-menu",
+    "slug": "central-london",
+    "mapQuery": "17+Charing+Cross+Rd,+London+WC2H+0EP"
+  },
+  {
+    "id": "wembley",
+    "name": "Wembley Central",
+    "area": "Ealing Road",
+    "address": "22, 22A Ealing Rd, Wembley",
+    "postcode": "HA0 4TL",
+    "phone": "+44 20 8900 8526",
+    "displayPhone": "020 8900 8526",
+    "hours": "09:30 AM – 10:00 PM (Mon – Sun)",
+    "features": [
+      "Dine-In",
+      "Takeaway",
+      "Pure Veg & Vegan",
+      "Family Seating"
+    ],
+    "image": "/images/migrated/NKAryaBhavan-Wembley-1.jpeg",
+    "orderUrl": "/menu",
+    "slug": "wembley",
+    "mapQuery": "22+Ealing+Rd,+Wembley+HA0+4TL"
+  },
+  {
+    "id": "tooting",
+    "name": "Tooting",
+    "area": "Upper Tooting Road",
+    "address": "254 Upper Tooting Rd, London",
+    "postcode": "SW17 0DN",
+    "phone": "+44 20 8355 3555",
+    "displayPhone": "020 8355 3555",
+    "hours": "10:00 AM – 10:00 PM (Mon – Sun)",
+    "features": [
+      "Dine-In",
+      "Takeaway",
+      "Traditional South Indian Thalis",
+      "Private Bookings"
+    ],
+    "image": "/images/migrated/NKAryaBhavan-Tooting-1.jpeg",
+    "orderUrl": "/menu",
+    "slug": "tooting",
+    "mapQuery": "254+Upper+Tooting+Rd,+London+SW17+0DN"
+  }
+]

@@ -1,0 +1,1476 @@
+{
+  "South Indian Staters": [
+    {
+      "titleHtml": "Medhu Vadai (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Medhu Vadai (V G)",
+      "description": "Crispy lentil doughnuts served with sambar and chutney.",
+      "image": "/images/migrated/MEDU-VADAI-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MEDU-VADAI-V-G.png"
+    },
+    {
+      "titleHtml": "Sambar Vadai (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Sambar Vadai (V G)",
+      "description": "Lentil vadai soaked and simmered in hot sambar.",
+      "image": "/images/migrated/SAMBAR-VADAI-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/SAMBAR-VADAI-V-G.png"
+    },
+    {
+      "titleHtml": "Curd Vadai (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Curd Vadai (V G N)",
+      "description": "Soft vadai immersed in seasoned curd with toppings.",
+      "image": "/images/migrated/CURD-VADAI-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/CURD-VADAI-G.png"
+    },
+    {
+      "titleHtml": "Rasa Vadai (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Rasa Vadai (V G J)",
+      "description": "Vadai dipped in warm rasam broth.",
+      "image": "/images/migrated/RASA-VADAI-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/RASA-VADAI-V-G.png"
+    },
+    {
+      "titleHtml": "Idly (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Idly (V G J)",
+      "description": "Soft steamed rice cakes served with sambar and chutney.",
+      "image": "/images/migrated/IDLY-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/IDLY-V-G.png"
+    },
+    {
+      "titleHtml": "Idly Dipped (2 pcs) (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Idly Dipped (2 pcs) (V G J)",
+      "description": "Mini idlies immersed in sambar.",
+      "image": "/images/migrated/Idly-Dipped-2-pcs.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Idly-Dipped-2-pcs.png"
+    },
+    {
+      "titleHtml": "Idly Vadai Sambar  (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Idly Vadai Sambar  (V G)",
+      "description": "Rice cakes and lentil doughnuts served with sambar.",
+      "image": "/images/migrated/IDLY-VADAI-SAMBAR-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/IDLY-VADAI-SAMBAR-V-G.png"
+    },
+    {
+      "titleHtml": "Idly Vadai Sambar Dipped (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Idly Vadai Sambar Dipped (V G)",
+      "description": "Idly and vadai soaked together in hot sambar.",
+      "image": "/images/migrated/IDLY-VADAI-SAMBAR-DIPPED-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/IDLY-VADAI-SAMBAR-DIPPED-V-G.png"
+    },
+    {
+      "titleHtml": "Chutney Idly Dipped  (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Chutney Idly Dipped  (V G J)",
+      "description": "Idly tossed in coconut chutney seasoning.",
+      "image": "/images/migrated/CHUTNEY-IDLY-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHUTNEY-IDLY-V-G.png"
+    },
+    {
+      "titleHtml": "Paya Idly (From 4PM) (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Paya Idly (From 4PM) (V G)",
+      "description": "Idly served with coconut based gravy.",
+      "image": "/images/migrated/PAYA-IDLY-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PAYA-IDLY-V-G.png"
+    },
+    {
+      "titleHtml": "Mini idlies sautéed with podi masala and ghee.",
+      "titleText": "Mini idlies sautéed with podi masala and ghee.",
+      "description": "Steamed rice cake.",
+      "image": "/images/migrated/Mini-idlies-sauteed-with-podi-masala-and-ghee.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Mini-idlies-sauteed-with-podi-masala-and-ghee.png"
+    },
+    {
+      "titleHtml": "Fried Podi Mini Idly  (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Fried Podi Mini Idly  (V G J)",
+      "description": "Mini idlies stir fried with spiced powder.",
+      "image": "/images/migrated/Fried-Podi-Mini-Idly-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Fried-Podi-Mini-Idly-V.png"
+    },
+    {
+      "titleHtml": "Idiyappam with Paaya/Korma (From 4PM) (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Idiyappam with Paaya/Korma (From 4PM) (V G)",
+      "description": "String hoppers served with coconut stew or kurma.",
+      "image": "/images/migrated/IDIYAPPAM-WITH-PAYA-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/IDIYAPPAM-WITH-PAYA-V-G.png"
+    },
+    {
+      "titleHtml": "Ghee Mini Idly Sambar Dipped (14 pcs)  ( <span style=\"color:blue\">G</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Ghee Mini Idly Sambar Dipped (14 pcs)  ( G J)",
+      "description": "Mini idlies soaked in sambar and finished with ghee.",
+      "image": "/images/migrated/Ghee-Mini-Idly-Sambar-Dipped.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ghee-Mini-Idly-Sambar-Dipped.png"
+    },
+    {
+      "titleHtml": "Ghee Pongal (Sat &amp; Sun) (<span style=\"color:red\">N</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Ghee Pongal (Sat &amp; Sun) (N G)",
+      "description": "Buttery ven pongal served with sambar and chutney.",
+      "image": "/images/migrated/GHEE-PONGAL-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/GHEE-PONGAL-G-N.png"
+    },
+    {
+      "titleHtml": "Rava Kichadi/Rava Upma (<span style=\"color:red\">N</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Rava Kichadi/Rava Upma (N G)",
+      "description": "Semolina cooked with vegetables and mild spices.",
+      "image": "/images/migrated/RAVA-KICHADI-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/RAVA-KICHADI-G-N.png"
+    },
+    {
+      "titleHtml": "Aloo Bonda (From 4PM) (<span style=\"color:green\">V</span>)",
+      "titleText": "Aloo Bonda (From 4PM) (V)",
+      "description": "Crispy fried potato stuffed fritters.",
+      "image": "/images/migrated/Aloo-Bonda-From-4PM.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Aloo-Bonda-From-4PM.png"
+    },
+    {
+      "titleHtml": "Veg Samosa (<span style=\"color:green\">V</span>)",
+      "titleText": "Veg Samosa (V)",
+      "description": "South Asian pastry filled with savory vegetables.",
+      "image": "/images/migrated/VEG-SAMOSA-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEG-SAMOSA-V.png"
+    },
+    {
+      "titleHtml": "Mixed Vegetable Bonda (From 4PM) (<span style=\"color:green\">V</span>)",
+      "titleText": "Mixed Vegetable Bonda (From 4PM) (V)",
+      "description": "Stuffed vegetable fritters deep fried till golden.",
+      "image": "/images/migrated/Mixed-Vegetable-Bonda.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Mixed-Vegetable-Bonda.png"
+    },
+    {
+      "titleHtml": "Masala (Paruppu) Vada (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Masala (Paruppu) Vada (V G)",
+      "description": "Crispy spiced lentil fritters served with chutney.",
+      "image": "/images/migrated/Masala-Paruppu-Vada.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Masala-Paruppu-Vada.png"
+    },
+    {
+      "titleHtml": "Railway Cutlet (<span style=\"color:red\">N</span> <span style=\"color:green\">V</span>)",
+      "titleText": "Railway Cutlet (N V)",
+      "description": "Golden fried vegetable patties seasoned with Indian spices.",
+      "image": "/images/migrated/Railway-Cutlet-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Railway-Cutlet-V.png"
+    }
+  ],
+  "North Indian Staters": [
+    {
+      "titleHtml": "Masala Pappad (<span style=\"color:green\">V</span>)",
+      "titleText": "Masala Pappad (V)",
+      "description": "Crispy fried papad topped with spiced fresh condiments.",
+      "image": "/images/migrated/Masala-Pappad.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Masala-Pappad.png"
+    },
+    {
+      "titleHtml": "Paneer Tikka",
+      "titleText": "Paneer Tikka",
+      "description": "Grilled spicy Indian cottage cheese marinated with masala.",
+      "image": "/images/migrated/Paneer-Tikka.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Tikka.png"
+    },
+    {
+      "titleHtml": "Pani Puri (<span style=\"color:green\">V</span>)",
+      "titleText": "Pani Puri (V)",
+      "description": "Hollow puris served with tamarind water, potato and chickpeas.",
+      "image": "/images/migrated/Pani-Puri.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Pani-Puri.png"
+    },
+    {
+      "titleHtml": "Sev Puri",
+      "titleText": "Sev Puri",
+      "description": "Crispy puris topped with sev, potatoes and chickpeas.",
+      "image": "/images/migrated/Sev-Puri.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Sev-Puri.png"
+    },
+    {
+      "titleHtml": "Dahi Puri",
+      "titleText": "Dahi Puri",
+      "description": "Hollow puris filled with curd, potato and chickpeas.",
+      "image": "/images/migrated/Dahi-Puri.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Dahi-Puri.png"
+    },
+    {
+      "titleHtml": "Samosa Chaat",
+      "titleText": "Samosa Chaat",
+      "description": "Crushed samosa served with yogurt, tamarind chutney and sev.",
+      "image": "/images/migrated/Samosa-Chaat.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Samosa-Chaat.png"
+    },
+    {
+      "titleHtml": "Papdi Chaat",
+      "titleText": "Papdi Chaat",
+      "description": "Crunchy crackers topped with yogurt, chickpeas and chutneys.",
+      "image": "/images/migrated/Papdi-Chaat.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Papdi-Chaat.png"
+    }
+  ],
+  "Meals": [
+    {
+      "titleHtml": "South Indian Thali (Unlimited Rice and Curry) (<span style=\"color:red\">N</span>)",
+      "titleText": "South Indian Thali (Unlimited Rice and Curry) (N)",
+      "description": "Rice, sambar, rasam, kootu, poriyal, vathakuzhambu, dhal, pickle, sweet, raita, yogurt, banana, papad, butter chilli and chapathi/poori (1 pc).",
+      "image": "/images/migrated/SOUTH-INDIAN-THALI-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/SOUTH-INDIAN-THALI-N.png"
+    },
+    {
+      "titleHtml": "Mini Thali (Limited) (<span style=\"color:green\">V</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Mini Thali (Limited) (V N)",
+      "description": "Sambar rice, curd rice, poriyal, rice of the day, sweet, papad and pickle.",
+      "image": "/images/migrated/MINI-THALI-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MINI-THALI-N.png"
+    },
+    {
+      "titleHtml": "North Indian Thali (Limited) (<span style=\"color:red\">N</span>)",
+      "titleText": "North Indian Thali (Limited) (N)",
+      "description": "Paneer makhani, aloo palak, gobi mutter, biryani, dhal, pickle, salad, sweet, papad and chapathi/poori.",
+      "image": "/images/migrated/NORTH-INDIAN-THALI-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/NORTH-INDIAN-THALI-N.png"
+    },
+    {
+      "titleHtml": "Sambar Rice",
+      "titleText": "Sambar Rice",
+      "description": "Lentil rice mixed with vegetables and served with papad.",
+      "image": "/images/migrated/SAMBAR-RICE.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/SAMBAR-RICE.png"
+    },
+    {
+      "titleHtml": "Curd Rice (<span style=\"color:red\">N</span>)",
+      "titleText": "Curd Rice (N)",
+      "description": "Yogurt rice mixed with cashews and served with pickle.",
+      "image": "/images/migrated/CURD-RICE-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/CURD-RICE-N.png"
+    },
+    {
+      "titleHtml": "Rice of the Day (<span style=\"color:red\">N</span>)",
+      "titleText": "Rice of the Day (N)",
+      "description": "Chef’s special flavored rice prepared fresh daily.",
+      "image": "/images/migrated/RICE-OF-THE-DAY-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/RICE-OF-THE-DAY-N.png"
+    },
+    {
+      "titleHtml": "Steamed Rice",
+      "titleText": "Steamed Rice",
+      "description": "Plain steamed basmati rice.",
+      "image": "/images/migrated/STEAMED-RICE-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/STEAMED-RICE-V-G.png"
+    }
+  ],
+  "Roti / Parotta": [
+    {
+      "titleHtml": "Chappathi (2 Nos)(<span style=\"color:red\">N</span>)",
+      "titleText": "Chappathi (2 Nos)(N)",
+      "description": "Soft whole wheat flatbreads served with two different kormas.",
+      "image": "/images/migrated/CHAPPATHI-2-NOS-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHAPPATHI-2-NOS-N.png"
+    },
+    {
+      "titleHtml": "Parotta (2 Nos)(<span style=\"color:red\">N</span>)",
+      "titleText": "Parotta (2 Nos)(N)",
+      "description": "Layered flaky parottas served with two kormas.",
+      "image": "/images/migrated/PAROTTA-2-NOS-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PAROTTA-2-NOS-N.png"
+    },
+    {
+      "titleHtml": "Veechu Parotta (<span style=\"color:red\">N</span>)",
+      "titleText": "Veechu Parotta (N)",
+      "description": "Single layered flatbread served with two curries.",
+      "image": "/images/migrated/VEECHU-PAROTTA-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEECHU-PAROTTA-N.png"
+    },
+    {
+      "titleHtml": "Poori Masala (<span style=\"color:green\">V</span><span style=\"color:red\">N</span>)",
+      "titleText": "Poori Masala (VN)",
+      "description": "Deep fried pooris served with potato masala and coconut chutney.",
+      "image": "/images/migrated/POORI-MASALA-V-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/POORI-MASALA-V-N.png"
+    },
+    {
+      "titleHtml": "Channa Bhatura (<span style=\"color:red\">N</span>)",
+      "titleText": "Channa Bhatura (N)",
+      "description": "Large fluffy bhatura served with spicy chickpea curry.",
+      "image": "/images/migrated/Channa-Bhatura.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Channa-Bhatura.png"
+    },
+    {
+      "titleHtml": "Virudhunagar Parotta with Paaya (From 4PM)  (<span style=\"color:#bdbdbd\">?</span>)",
+      "titleText": "Virudhunagar Parotta with Paaya (From 4PM)  (?)",
+      "description": "Layered parotta served with coconut stew style gravy.",
+      "image": "/images/migrated/Virudhunagar-Parotta-with-Paaya-From-4PM.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Virudhunagar-Parotta-with-Paaya-From-4PM.png"
+    },
+    {
+      "titleHtml": "Kothu Parotta (<span style=\"color:red\">N</span>)",
+      "titleText": "Kothu Parotta (N)",
+      "description": "Shredded parotta stir-fried with spices and curry masala.",
+      "image": "/images/migrated/KOTHU-PAROTTA-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/KOTHU-PAROTTA-N.png"
+    },
+    {
+      "titleHtml": "Paneer Kothu Parotta (<span style=\"color:red\">N</span>)",
+      "titleText": "Paneer Kothu Parotta (N)",
+      "description": "Flaky flatbread chopped and tossed with paneer masala.",
+      "image": "/images/migrated/PANEER-KOTHU-PAROTTA-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-KOTHU-PAROTTA-V.png"
+    },
+    {
+      "titleHtml": "Mushroom Kothu Parotta(<span style=\"color:red\">N</span>)",
+      "titleText": "Mushroom Kothu Parotta(N)",
+      "description": "Shredded parotta cooked with mushrooms and spices.",
+      "image": "/images/migrated/MUSHROOM-KOTHU-PAROTTA-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-KOTHU-PAROTTA-N.png"
+    },
+    {
+      "titleHtml": "Chilli Parotta (<span style=\"color:red\">N</span>)",
+      "titleText": "Chilli Parotta (N)",
+      "description": "Parotta stir-fried with onions, peppers and chilli sauce.",
+      "image": "/images/migrated/Chilli-Parotta.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Chilli-Parotta.png"
+    }
+  ],
+  "Chef Special Dosa": [
+    {
+      "titleHtml": "Paneer Butter Cheese Dosa (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Paneer Butter Cheese Dosa ( N)",
+      "description": "Dosa stuffed with paneer butter masala and melted cheese.",
+      "image": "/images/migrated/PANEER-BUTTER-CHEESE-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-BUTTER-CHEESE-N.png"
+    },
+    {
+      "titleHtml": "Schezwan Spicy Mushroom Cheese Dosa (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Schezwan Spicy Mushroom Cheese Dosa ( N)",
+      "description": "Spicy Schezwan mushrooms with cheesy filling.",
+      "image": "/images/migrated/SCHEZWAN-SPICY-MUSHROOM-CHEESE-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/SCHEZWAN-SPICY-MUSHROOM-CHEESE-N.png"
+    },
+    {
+      "titleHtml": "Schezwan Spicy Cheese Dosa (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Schezwan Spicy Cheese Dosa ( N)",
+      "description": "Cheese dosa with bold Schezwan spice flavor.",
+      "image": "/images/migrated/Schezwan-Spicy-Cheese-Dosa-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Schezwan-Spicy-Cheese-Dosa-1.png"
+    },
+    {
+      "titleHtml": "Mushroom Masala Cheese Dosa (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Mushroom Masala Cheese Dosa ( N)",
+      "description": "Savory mushroom masala and cheese stuffing.",
+      "image": "/images/migrated/MUSHROOM-MASALA-CHEESE-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-MASALA-CHEESE-N.png"
+    },
+    {
+      "titleHtml": "Paneer Mushroom Cheese Dosa (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Paneer Mushroom Cheese Dosa ( N)",
+      "description": "Paneer and mushroom combo with melted cheese.",
+      "image": "/images/migrated/Paneer-Mushroom-Cheese-Dosa-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Mushroom-Cheese-Dosa-1.png"
+    },
+    {
+      "titleHtml": "Gobi Roast Cheese Dosa (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Gobi Roast Cheese Dosa ( N)",
+      "description": "Roasted cauliflower masala with cheesy layer.",
+      "image": "/images/migrated/GOBI-ROAST-CHEESE-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/GOBI-ROAST-CHEESE-N.png"
+    },
+    {
+      "titleHtml": "Palak Mushroom Cheese Dosa (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Palak Mushroom Cheese Dosa ( N)",
+      "description": "Spinach and mushroom stuffing with cheese.",
+      "image": "/images/migrated/PALAK-MUSHROOM-CHEESE-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PALAK-MUSHROOM-CHEESE-N.png"
+    },
+    {
+      "titleHtml": "Palak Paneer Cheese Dosa (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Palak Paneer Cheese Dosa ( N)",
+      "description": "Paneer and spinach cooked with creamy cheese.",
+      "image": "/images/migrated/PALAK-PANEER-CHEESE-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PALAK-PANEER-CHEESE-N.png"
+    },
+    {
+      "titleHtml": "Aloo Masala Cheese Dosa (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Aloo Masala Cheese Dosa ( N)",
+      "description": "Classic potato masala mixed with cheese.",
+      "image": "/images/migrated/ALOO-MASALA-CHEESE-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/ALOO-MASALA-CHEESE-N.png"
+    },
+    {
+      "titleHtml": "Chilli Gobi Cheese Dosa (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Chilli Gobi Cheese Dosa ( N)",
+      "description": "Spicy cauliflower filling with melted cheese.",
+      "image": "/images/migrated/Chilli-Gobi-Cheese-Dosa-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Chilli-Gobi-Cheese-Dosa-1.png"
+    },
+    {
+      "titleHtml": "Veg Chettinadu Cheese Dosa (&lt;span style=\"color:green;\" <span style=\"color:red\">N</span>)",
+      "titleText": "Veg Chettinadu Cheese Dosa (&lt;span style=\"color:green;\" N)",
+      "description": "Vegetables cooked in Chettinad masala with cheese.",
+      "image": "/images/migrated/VEG-CHETTINADU-CHEESE-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEG-CHETTINADU-CHEESE-N.png"
+    }
+  ],
+  "Dosa": [
+    {
+      "titleHtml": "Plain Dosa (<span style=\"color:green\">V</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Plain Dosa (V J)",
+      "description": "Classic South Indian savory rice crepe.",
+      "image": "/images/migrated/PLAIN-DOSA-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PLAIN-DOSA-V.png"
+    },
+    {
+      "titleHtml": "Masala Dosa (<span style=\"color:green\">V</span>)",
+      "titleText": "Masala Dosa (V)",
+      "description": "Crispy dosa stuffed with spiced potato masala.",
+      "image": "/images/migrated/MASALA-DOSA-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MASALA-DOSA-V.png"
+    },
+    {
+      "titleHtml": "Kara Dosa (<span style=\"color:green\">V</span>)",
+      "titleText": "Kara Dosa (V)",
+      "description": "Spicy dosa spread with red chilli potato masala.",
+      "image": "/images/migrated/KARA-DOSA-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/KARA-DOSA-V.png"
+    },
+    {
+      "titleHtml": "Ghee Dosa (<span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Ghee Dosa (J)",
+      "description": "Dosa roasted with clarified butter for rich flavor.",
+      "image": "/images/migrated/GHEE-MASALA-DOSA.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/GHEE-MASALA-DOSA.png"
+    },
+    {
+      "titleHtml": "Onion Dosa (<span style=\"color:green\">V</span>)",
+      "titleText": "Onion Dosa (V)",
+      "description": "Topped with freshly chopped onions.",
+      "image": "/images/migrated/Onion-Dosa.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Onion-Dosa.png"
+    },
+    {
+      "titleHtml": "Onion Masala Dosa (<span style=\"color:green\">V</span>)",
+      "titleText": "Onion Masala Dosa (V)",
+      "description": "Onion dosa filled with savory potato stuffing.",
+      "image": "/images/migrated/ONION-MASALA-DOSA-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/ONION-MASALA-DOSA-V.png"
+    },
+    {
+      "titleHtml": "Podi Dosa (<span style=\"color:green\">V</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Podi Dosa (V J)",
+      "description": "Dry chilli podi spread.",
+      "image": "/images/migrated/PODI-DOSA-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PODI-DOSA-V.png"
+    },
+    {
+      "titleHtml": "Podi Masala Dosa (<span style=\"color:green\">V</span>)",
+      "titleText": "Podi Masala Dosa (V)",
+      "description": "Podi spread with potato stuffing.",
+      "image": "/images/migrated/Podi-Masala-Dosa.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Podi-Masala-Dosa.png"
+    },
+    {
+      "titleHtml": "Podi Onion Dosa (<span style=\"color:green\">V</span>)",
+      "titleText": "Podi Onion Dosa (V)",
+      "description": "Podi and onion topping.",
+      "image": "/images/migrated/PODI-ONION-DOSA-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PODI-ONION-DOSA-V.png"
+    },
+    {
+      "titleHtml": "Paper Roast (<span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Paper Roast (J)",
+      "description": "Large and crispy plain roast.",
+      "image": "/images/migrated/PAPER-ROAST-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PAPER-ROAST-V.png"
+    },
+    {
+      "titleHtml": "Paper Masala Dosa (<span style=\"color:green\">V</span>)",
+      "titleText": "Paper Masala Dosa (V)",
+      "description": "Large crispy dosa with potato stuffing.",
+      "image": "/images/migrated/PAPER-MASALA-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PAPER-MASALA-V.png"
+    },
+    {
+      "titleHtml": "Cheese Dosa (<span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Cheese Dosa (J)",
+      "description": "Grated cheddar cheese stuffing.",
+      "image": "/images/migrated/Cheese-Dosa.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Cheese-Dosa.png"
+    },
+    {
+      "titleHtml": "Cheese Masala Dosa",
+      "titleText": "Cheese Masala Dosa",
+      "description": "Cheese with savory potato stuffing.",
+      "image": "/images/migrated/CHEESE-MASALA-DOSA.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHEESE-MASALA-DOSA.png"
+    },
+    {
+      "titleHtml": "Ghee Masala Dosa",
+      "titleText": "Ghee Masala Dosa",
+      "description": "Ghee spread with savory potato stuffing.",
+      "image": "/images/migrated/GHEE-MASALA-DOSA-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/GHEE-MASALA-DOSA-1.png"
+    },
+    {
+      "titleHtml": "Mysore Dosa (<span style=\"color:green\">V</span>)",
+      "titleText": "Mysore Dosa (V)",
+      "description": "Spicy red chutney spread.",
+      "image": "/images/migrated/MYSORE-DOSA-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MYSORE-DOSA-V.png"
+    },
+    {
+      "titleHtml": "Mysore Masala Dosa (<span style=\"color:green\">V</span>)",
+      "titleText": "Mysore Masala Dosa (V)",
+      "description": "Red chutney spread with potato stuffing.",
+      "image": "/images/migrated/MASALA-DOSA-V-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MASALA-DOSA-V-1.png"
+    },
+    {
+      "titleHtml": "Vegetable Dosa (<span style=\"color:#f4b400\">J</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Vegetable Dosa (J N)",
+      "description": "Savory mixed vegetable stuffing.",
+      "image": "/images/migrated/VEGETABLE-DOSA-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEGETABLE-DOSA-N.png"
+    },
+    {
+      "titleHtml": "Paneer Dosa (<span style=\"color:red\">N</span>)",
+      "titleText": "Paneer Dosa (N)",
+      "description": "Savory crepe with paneer stuffing.",
+      "image": "/images/migrated/PANEER-DOSA.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-DOSA.png"
+    },
+    {
+      "titleHtml": "Palak Dosa (<span style=\"color:green\">V</span>)",
+      "titleText": "Palak Dosa (V)",
+      "description": "Savory spinach stuffing.",
+      "image": "/images/migrated/PALAK-DOSA-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PALAK-DOSA-V.png"
+    },
+    {
+      "titleHtml": "AB / Spl Masala Dosa (<span style=\"color:#bdbdbd\">?</span><span style=\"color:red\">N</span>)",
+      "titleText": "AB / Spl Masala Dosa (?N)",
+      "description": "Butter spread with chilli potato stuffing.",
+      "image": "/images/migrated/AB-SPECIAL-MASALA-DOSA-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/AB-SPECIAL-MASALA-DOSA-N.png"
+    },
+    {
+      "titleHtml": "Set Dosa with Vada Curry (<span style=\"color:green\">V</span> <span style=\"color:#f4b400\">J</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Set Dosa with Vada Curry (V J N)",
+      "description": "Pair of soft thick dosa served with vada curry.",
+      "image": "/images/migrated/SET-DOSA-WITH-VADA-CURRY-V-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/SET-DOSA-WITH-VADA-CURRY-V-N.png"
+    },
+    {
+      "titleHtml": "Chettinad Masala Dosa (Veg–Mushroom–Paneer–Cheese) (<span style=\"color:red\">N</span>)",
+      "titleText": "Chettinad Masala Dosa (Veg–Mushroom–Paneer–Cheese) (N)",
+      "description": "Traditional stuffed dosa with rich Chettinad flavors.",
+      "image": "/images/migrated/Chettinad-Masala-Dosa.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Chettinad-Masala-Dosa.png"
+    },
+    {
+      "titleHtml": "Chocolate Dosa (<span style=\"color:red\">N</span>)",
+      "titleText": "Chocolate Dosa (N)",
+      "description": "Sweet dosa filled with chocolate spread.",
+      "image": "/images/migrated/CHOCOLATE-DOSA-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHOCOLATE-DOSA-N.png"
+    },
+    {
+      "titleHtml": "Triple ‘C’ Dosa (<span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Triple ‘C’ Dosa (J)",
+      "description": "Rice crepe with chilli, cheese and coriander.",
+      "image": "/images/migrated/Triple-%E2%80%98C-Dosa.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Triple-‘C-Dosa.png"
+    },
+    {
+      "titleHtml": "Andra Pesarattu (<span style=\"color:blue\">G</span>)",
+      "titleText": "Andra Pesarattu (G)",
+      "description": "Protein rich green gram dosa with ginger.",
+      "image": "/images/migrated/Andra-Pesarattu.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Andra-Pesarattu.png"
+    },
+    {
+      "titleHtml": "Butter Dosa (<span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Butter Dosa (J)",
+      "description": "Classic crisp dosa cooked in butter.",
+      "image": "/images/migrated/Butter-Dosa.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Butter-Dosa.png"
+    },
+    {
+      "titleHtml": "Curry Leaf Dosa",
+      "titleText": "Curry Leaf Dosa",
+      "description": "Aromatic dosa flavored with fresh curry leaves.",
+      "image": "/images/migrated/Curry-Leaf-Dosa.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Curry-Leaf-Dosa.png"
+    }
+  ],
+  "Uthappam": [
+    {
+      "titleHtml": "Plain Uthappam (<span style=\"color:green\">V</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Plain Uthappam (V J)",
+      "description": "Crispy and thick pancake style dosa.",
+      "image": "/images/migrated/PLAIN-UTHAPPAM-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PLAIN-UTHAPPAM-V.png"
+    },
+    {
+      "titleHtml": "Ghee Uthappam (<span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Ghee Uthappam (J)",
+      "description": "Clarified butter spread crispy thick pancake dosa.",
+      "image": "/images/migrated/Ghee-Uthappam.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ghee-Uthappam.png"
+    },
+    {
+      "titleHtml": "Veg Uthappam (<span style=\"color:#f4b400\">J</span> <span style=\"color:green\">V</span>)",
+      "titleText": "Veg Uthappam (J V)",
+      "description": "Crispy thick pancake dosa with vegetable toppings.",
+      "image": "/images/migrated/VEG-UTHAPPAM-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEG-UTHAPPAM-V.png"
+    },
+    {
+      "titleHtml": "Tomato Uthappam (<span style=\"color:green\">V</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Tomato Uthappam (V J)",
+      "description": "Crispy thick pancake dosa with tomato toppings.",
+      "image": "/images/migrated/TOMATO-ONION-UTHAPPAM-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/TOMATO-ONION-UTHAPPAM-V.png"
+    },
+    {
+      "titleHtml": "Onion Uthappam (<span style=\"color:green\">V</span>)",
+      "titleText": "Onion Uthappam (V)",
+      "description": "Crispy thick pancake dosa topped with onions.",
+      "image": "/images/migrated/ONION-UTHAPPAM-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/ONION-UTHAPPAM-V.png"
+    },
+    {
+      "titleHtml": "Onion Podi Uthappam (<span style=\"color:green\">V</span>)",
+      "titleText": "Onion Podi Uthappam (V)",
+      "description": "Onion uthappam with spicy dry chilli podi spread.",
+      "image": "/images/migrated/Onion-Podi-Uthappam.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Onion-Podi-Uthappam.png"
+    },
+    {
+      "titleHtml": "Ghee Podi Onion Uthappam",
+      "titleText": "Ghee Podi Onion Uthappam",
+      "description": "Clarified butter with onion and podi spread pancake dosa. (no icon shown in image)",
+      "image": "/images/migrated/Ghee-Podi-Onion-Uthappam.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ghee-Podi-Onion-Uthappam.png"
+    },
+    {
+      "titleHtml": "Onion Chilli Uthappam (<span style=\"color:green\">V</span>)",
+      "titleText": "Onion Chilli Uthappam (V)",
+      "description": "Crispy thick pancake dosa with onion and chilli topping.",
+      "image": "/images/migrated/ONION-CHILLI-UTHAPPAM-V-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/ONION-CHILLI-UTHAPPAM-V-1.png"
+    },
+    {
+      "titleHtml": "Tomato Onion Uthappam (<span style=\"color:green\">V</span>)",
+      "titleText": "Tomato Onion Uthappam (V)",
+      "description": "Crispy thick pancake dosa with tomato and onion topping.",
+      "image": "/images/migrated/TOMATO-ONION-UTHAPPAM-V-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/TOMATO-ONION-UTHAPPAM-V-1.png"
+    },
+    {
+      "titleHtml": "Onion Chilli Tomato Uthappam (<span style=\"color:green\">V</span>)",
+      "titleText": "Onion Chilli Tomato Uthappam (V)",
+      "description": "Pancake dosa topped with onion, chilli and tomato.",
+      "image": "/images/migrated/ONION-CHILLI-TOMATO-UTHAPPAM-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/ONION-CHILLI-TOMATO-UTHAPPAM-V.png"
+    },
+    {
+      "titleHtml": "Peas Uthappam (<span style=\"color:green\">V</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Peas Uthappam (V J)",
+      "description": "Crispy thick pancake dosa with peas toppings.",
+      "image": "/images/migrated/Peas-Onion-Uthappam.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Peas-Onion-Uthappam.png"
+    },
+    {
+      "titleHtml": "Peas Onion Uthappam (<span style=\"color:green\">V</span>)",
+      "titleText": "Peas Onion Uthappam (V)",
+      "description": "Crispy thick pancake dosa with peas and onion.",
+      "image": "/images/migrated/Peas-Onion-Uthappam-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Peas-Onion-Uthappam-1.png"
+    },
+    {
+      "titleHtml": "Peas Chilli Tomato Uthappam (<span style=\"color:#f4b400\">J</span> <span style=\"color:green\">V</span>)",
+      "titleText": "Peas Chilli Tomato Uthappam (J V)",
+      "description": "Crispy thick pancake dosa with peas, chilli and tomato toppings.",
+      "image": "/images/migrated/PEAS-CHILLI-TOMATO-UTHAPPAM-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PEAS-CHILLI-TOMATO-UTHAPPAM-V.png"
+    },
+    {
+      "titleHtml": "6 Suvai Uthappam (<span style=\"color:green\">V</span>)",
+      "titleText": "6 Suvai Uthappam (V)",
+      "description": "Special uthappam served with six different flavors (tomato, onion, coconut, veg, peas, chocolate).",
+      "image": "/images/migrated/6-Suvai-Uthappam.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/6-Suvai-Uthappam.png"
+    }
+  ],
+  "Rava Dosa": [
+    {
+      "titleHtml": "Rava Dosa (<span style=\"color:green\">V</span> <span style=\"color:#f4b400\">J</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Rava Dosa (V J N)",
+      "description": "Crispy semolina crepe.",
+      "image": "/images/migrated/Rava-Dosa.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Rava-Dosa.png"
+    },
+    {
+      "titleHtml": "Rava Masala (<span style=\"color:green\">V</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Rava Masala (V N)",
+      "description": "Semolina dosa stuffed with savory potato masala.",
+      "image": "/images/migrated/RAVA-MASALA-DOSA-V-N-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/RAVA-MASALA-DOSA-V-N-1.png"
+    },
+    {
+      "titleHtml": "Onion Rava Dosa (<span style=\"color:green\">V</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Onion Rava Dosa (V N)",
+      "description": "Crispy rava dosa topped with onions.",
+      "image": "/images/migrated/ONION-RAVA-MASALA-V-N-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/ONION-RAVA-MASALA-V-N-1.png"
+    },
+    {
+      "titleHtml": "Onion Rava Masala Dosa (<span style=\"color:green\">V</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Onion Rava Masala Dosa (V N)",
+      "description": "Onion topping with savory potato stuffing.",
+      "image": "/images/migrated/Onion-Rava-Masala-Dosa.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Onion-Rava-Masala-Dosa.png"
+    },
+    {
+      "titleHtml": "Ghee Rava Dosa (<span style=\"color:red\">N</span>)",
+      "titleText": "Ghee Rava Dosa (N)",
+      "description": "Clarified butter roasted crispy semolina crepe.",
+      "image": "/images/migrated/GHEE-RAVA-DOSA-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/GHEE-RAVA-DOSA-N.png"
+    },
+    {
+      "titleHtml": "Ghee Rava Masala Dosa (<span style=\"color:red\">N</span>)",
+      "titleText": "Ghee Rava Masala Dosa (N)",
+      "description": "Ghee roasted rava dosa with potato masala stuffing.",
+      "image": "/images/migrated/Ghee-Rava-Masala-Dosa.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ghee-Rava-Masala-Dosa.png"
+    },
+    {
+      "titleHtml": "Ghee Onion Rava Dosa (<span style=\"color:red\">N</span>)",
+      "titleText": "Ghee Onion Rava Dosa (N)",
+      "description": "Ghee roasted rava dosa topped with onions.",
+      "image": "/images/migrated/GHEE-ONION-RAVA-DOSA-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/GHEE-ONION-RAVA-DOSA-N.png"
+    },
+    {
+      "titleHtml": "Ghee Onion Rava Masala Dosa (<span style=\"color:red\">N</span>)",
+      "titleText": "Ghee Onion Rava Masala Dosa (N)",
+      "description": "Onion topping with savory potato stuffing cooked in ghee.",
+      "image": "/images/migrated/Ghee-Rava-Masala-Dosa-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ghee-Rava-Masala-Dosa-1.png"
+    },
+    {
+      "titleHtml": "Dry Fruit Rava Dosa (<span style=\"color:#f4b400\">J</span> <span style=\"color:green\">V</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Dry Fruit Rava Dosa (J V N)",
+      "description": "Garnished with nuts and raisins.",
+      "image": "/images/migrated/Dry-Fruit-Rava-Dosa.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Dry-Fruit-Rava-Dosa.png"
+    },
+    {
+      "titleHtml": "Dry Fruit Rava Masala Dosa (<span style=\"color:green\">V</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Dry Fruit Rava Masala Dosa (V N)",
+      "description": "Dry fruits with savory potato stuffing.",
+      "image": "/images/migrated/DRY-FRUIT-RAVA-MASALA-V-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/DRY-FRUIT-RAVA-MASALA-V-N.png"
+    },
+    {
+      "titleHtml": "Cashew and Vegetable Rava (<span style=\"color:green\">V</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Cashew and Vegetable Rava (V N)",
+      "description": "Crispy semolina crepe with cashew and vegetables.",
+      "image": "/images/migrated/Cashew-and-Vegetable-Rava.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Cashew-and-Vegetable-Rava.png"
+    },
+    {
+      "titleHtml": "Chettinad Rava (<span style=\"color:red\">N</span>)",
+      "titleText": "Chettinad Rava (N)",
+      "description": "Rava dosa with traditional Chettinad masala stuffing.",
+      "image": "/images/migrated/CHETTINAD-RAVA-DOSA-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHETTINAD-RAVA-DOSA-N.png"
+    }
+  ],
+  "Millet Dosas": [
+    {
+      "titleHtml": "Ragi Dosa / Finger Millet (<span style=\"color:#555\">?</span> <span style=\"color:#f4b400\">J</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Ragi Dosa / Finger Millet (? J G)",
+      "description": "South Indian crepe made with finger millet.",
+      "image": "/images/migrated/ONION-CHILLI-UTHAPPAM-V-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/ONION-CHILLI-UTHAPPAM-V-1.png"
+    },
+    {
+      "titleHtml": "Kambu Dosa / Pearl Millet (<span style=\"color:#555\">?</span> <span style=\"color:#f4b400\">J</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Kambu Dosa / Pearl Millet (? J G)",
+      "description": "South Indian crepe made with pearl millet.",
+      "image": "/images/migrated/KAMBU-DOSA-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/KAMBU-DOSA-V-G.png"
+    },
+    {
+      "titleHtml": "Cholam Dosa / Sorghum Millet (<span style=\"color:#555\">?</span> <span style=\"color:#f4b400\">J</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Cholam Dosa / Sorghum Millet (? J G)",
+      "description": "South Indian crepe made with sorghum millet.",
+      "image": "/images/migrated/Cholam-Dosa-Sorghum-Millet.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Cholam-Dosa-Sorghum-Millet.png"
+    }
+  ],
+  "Curries": [
+    {
+      "titleHtml": "Dhal Butter Fry (<span style=\"color:blue\">G</span>)",
+      "titleText": "Dhal Butter Fry (G)",
+      "description": "Lentils (toor dal) curry.",
+      "image": "/images/migrated/DHAL-BUTTER-FRY-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/DHAL-BUTTER-FRY-G.png"
+    },
+    {
+      "titleHtml": "Dhal Makhani (<span style=\"color:blue\">G</span>)",
+      "titleText": "Dhal Makhani (G)",
+      "description": "Creamy black lentils slow cooked with spices.",
+      "image": "/images/migrated/DHAL-MAKHANI-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/DHAL-MAKHANI-G.png"
+    },
+    {
+      "titleHtml": "Dhal Palak, Roasted Garlic (<span style=\"color:blue\">G</span>)",
+      "titleText": "Dhal Palak, Roasted Garlic (G)",
+      "description": "Spinach lentils flavored with roasted garlic.",
+      "image": "/images/migrated/Dhal-Palak-Roasted-Garlic.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Dhal-Palak-Roasted-Garlic.png"
+    },
+    {
+      "titleHtml": "Vegetable Jalfrezi (<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Vegetable Jalfrezi (G N)",
+      "description": "Vegetables cooked in tangy tomato gravy.",
+      "image": "/images/migrated/VEGETABLE-JALFREZI-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEGETABLE-JALFREZI-G-N.png"
+    },
+    {
+      "titleHtml": "Vegetable Kolhapuri (<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Vegetable Kolhapuri (G N)",
+      "description": "Mixed vegetables and paneer in spicy tomato curry.",
+      "image": "/images/migrated/Vegetable-Kolhapuri.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Vegetable-Kolhapuri.png"
+    },
+    {
+      "titleHtml": "Bhindi Do Pyaza (<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Bhindi Do Pyaza (G N)",
+      "description": "Okra curry with onions.",
+      "image": "/images/migrated/BHINDI-DO-PYAZA-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/BHINDI-DO-PYAZA-G-N.png"
+    },
+    {
+      "titleHtml": "Baby Corn Masala (<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Baby Corn Masala (G N)",
+      "description": "Rich and creamy gravy with tender baby corn.",
+      "image": "/images/migrated/Baby-Corn-Masala.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Baby-Corn-Masala.png"
+    },
+    {
+      "titleHtml": "Gobi Mutter (<span style=\"color:blue\">G</span> <span style=\"color:#f4b400\">J</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Gobi Mutter (G J N)",
+      "description": "Cauliflower and peas curry.",
+      "image": "/images/migrated/Gobi-Mutter.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Gobi-Mutter.png"
+    },
+    {
+      "titleHtml": "Chana Masala (<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Chana Masala (G N J)",
+      "description": "Chickpeas cooked in traditional masala gravy.",
+      "image": "/images/migrated/Chana-Masala.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Chana-Masala.png"
+    },
+    {
+      "titleHtml": "Aloo Gobi (<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Aloo Gobi (G N)",
+      "description": "Potato and cauliflower curry.",
+      "image": "/images/migrated/ALOO-GOBI-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/ALOO-GOBI-G-N.png"
+    },
+    {
+      "titleHtml": "Vegetable Butter Masala (<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Vegetable Butter Masala (G N J)",
+      "description": "Vegetables cooked in buttery tomato gravy.",
+      "image": "/images/migrated/VEGETABLE-BUTTER-MASALA-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEGETABLE-BUTTER-MASALA-G-N.png"
+    },
+    {
+      "titleHtml": "Baingan Masala (<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Baingan Masala (G N)",
+      "description": "Aubergine curry.",
+      "image": "/images/migrated/Baingan-Masala.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Baingan-Masala.png"
+    },
+    {
+      "titleHtml": "Mushroom Rogan Josh (<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Mushroom Rogan Josh (G N)",
+      "description": "Mushroom cooked in spicy red gravy.",
+      "image": "/images/migrated/MUSHROOM-ROGAN-JOSH-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-ROGAN-JOSH-G-N.png"
+    },
+    {
+      "titleHtml": "Paneer Butter Masala (<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Paneer Butter Masala (G N J)",
+      "description": "Paneer in rich buttery tomato gravy.",
+      "image": "/images/migrated/PANEER-BUTTER-MASALA-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-BUTTER-MASALA-G-N.png"
+    },
+    {
+      "titleHtml": "Palak Paneer (<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Palak Paneer (G N J)",
+      "description": "Paneer cubes cooked in spinach gravy.",
+      "image": "/images/migrated/PALAK-PANEER-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PALAK-PANEER-G-N.png"
+    },
+    {
+      "titleHtml": "Mutter Paneer (<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Mutter Paneer (G N J)",
+      "description": "Paneer and peas cooked in yellow gravy.",
+      "image": "/images/migrated/MUTTER-PANEER-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUTTER-PANEER-G-N.png"
+    },
+    {
+      "titleHtml": "Kadai Vegetable (<span style=\"color:red\">N</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Kadai Vegetable (N J)",
+      "description": "Mixed vegetables cooked in spicy kadai gravy.",
+      "image": "/images/migrated/Kadai-Vegetable.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Kadai-Vegetable.png"
+    },
+    {
+      "titleHtml": "Paneer Tikka Masala (<span style=\"color:red\">N</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Paneer Tikka Masala (N J)",
+      "description": "Grilled paneer in creamy tomato masala gravy.",
+      "image": "/images/migrated/Paneer-Tikka-Masala.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Tikka-Masala.png"
+    },
+    {
+      "titleHtml": "Vegetable Chettinadu Masala(<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Vegetable Chettinadu Masala(G N)",
+      "description": "",
+      "image": "/images/migrated/Vegetable-Chettinadu-Masala.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Vegetable-Chettinadu-Masala.png"
+    },
+    {
+      "titleHtml": "Paneer Chettinadu Masala(<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Paneer Chettinadu Masala(G N)",
+      "description": "",
+      "image": "/images/migrated/Paneer-Chettinadu-Masala.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Chettinadu-Masala.png"
+    },
+    {
+      "titleHtml": "Mushroom Chettinadu Masala(<span style=\"color:blue\">G</span> <span style=\"color:red\">N</span>)",
+      "titleText": "Mushroom Chettinadu Masala(G N)",
+      "description": "",
+      "image": "/images/migrated/Kadai-Vegetable.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Kadai-Vegetable.png"
+    }
+  ],
+  "Basmati": [
+    {
+      "titleHtml": "Vegetable Pulao(<span style=\"color:blue\">G</span>  <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Vegetable Pulao(G  J)",
+      "description": "Fragrant basmati rice sautéed with mixed vegetables and mild spices.",
+      "image": "/images/migrated/VEGETABLE-PULAO-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEGETABLE-PULAO-G.png"
+    },
+    {
+      "titleHtml": "Fried Pani, Cashew Jeera Pulao (<span style=\"color:blue\">G</span><span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Fried Pani, Cashew Jeera Pulao (G N)",
+      "description": "Jeera flavored rice tossed with roasted cashews and spices.",
+      "image": "/images/migrated/FRIED-ONION-CASHEW-JEERA-PULAO-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/FRIED-ONION-CASHEW-JEERA-PULAO-G-N.png"
+    },
+    {
+      "titleHtml": "Paneer &amp; Cajun Spiced Aloo Pulao (<span style=\"color:blue\">G</span><span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Paneer &amp; Cajun Spiced Aloo Pulao (G N)",
+      "description": "Rice with paneer cubes and crispy Cajun spiced potatoes.",
+      "image": "/images/migrated/PANEER-GAJUN-SPICED-ALOO-PULAO-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-GAJUN-SPICED-ALOO-PULAO-G-N.png"
+    },
+    {
+      "titleHtml": "Peas Pulao (<span style=\"color:blue\">G</span>  <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Peas Pulao (G  J)",
+      "description": "Basmati rice cooked with fresh green peas.",
+      "image": "/images/migrated/PEAS-PULAO-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PEAS-PULAO-G.png"
+    },
+    {
+      "titleHtml": "Mushroom Pulao (<span style=\"color:green\"></span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Mushroom Pulao ( G)",
+      "description": "Rice tossed with sautéed mushrooms and herbs.",
+      "image": "/images/migrated/Mushroom-Biryani.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Mushroom-Biryani.png"
+    },
+    {
+      "titleHtml": "Veg Biryani (<span style=\"color:blue\">G</span><span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Veg Biryani (G N)",
+      "description": "Traditional vegetable dum biryani layered with spices.",
+      "image": "/images/migrated/Veg-Biryani.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Veg-Biryani.png"
+    },
+    {
+      "titleHtml": "Paneer Biryani (<span style=\"color:blue\">G</span><span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Paneer Biryani (G N)",
+      "description": "Aromatic biryani with soft paneer and masala.",
+      "image": "/images/migrated/Paneer-Biryani.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Biryani.png"
+    },
+    {
+      "titleHtml": "Mushroom Biryani (<span style=\"color:blue\">G</span><span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Mushroom Biryani (G N)",
+      "description": "Spiced basmati layered with juicy mushrooms.",
+      "image": "/images/migrated/Mushroom-Biryani-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Mushroom-Biryani-1.png"
+    },
+    {
+      "titleHtml": "AB Special Dum Biryani (<span style=\"color:blue\">G</span><span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "AB Special Dum Biryani (G N)",
+      "description": "Chef’s special mix of paneer, vegetables and mushrooms slow cooked.",
+      "image": "/images/migrated/AB-SPECIAL-DUM-BIRYANI-G-N.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/AB-SPECIAL-DUM-BIRYANI-G-N.png"
+    },
+    {
+      "titleHtml": "Kashmiri Pulao (<span style=\"color:red\">N</span><span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Kashmiri Pulao (NJ)",
+      "description": "Sweet aromatic rice with dry fruits and nuts.",
+      "image": "/images/migrated/Kashmiri-Pulao.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Kashmiri-Pulao.png"
+    },
+    {
+      "titleHtml": "Makai Mutter Pulao (<span style=\"color:red\">N</span><span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Makai Mutter Pulao (NJ)",
+      "description": "Rice with sweet corn and green peas.",
+      "image": "/images/migrated/Makai-Mutter-Pulao.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Makai-Mutter-Pulao.png"
+    }
+  ],
+  "Bread": [
+    {
+      "titleHtml": "Naan",
+      "titleText": "Naan",
+      "description": "Soft traditional tandoor bread.",
+      "image": "/images/migrated/NAAN.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/NAAN.png"
+    },
+    {
+      "titleHtml": "Butter Naan",
+      "titleText": "Butter Naan",
+      "description": "Naan brushed with melted butter.",
+      "image": "/images/migrated/Butter-Naan.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Butter-Naan.png"
+    },
+    {
+      "titleHtml": "Onion Naan",
+      "titleText": "Onion Naan",
+      "description": "Naan stuffed with spiced onions.",
+      "image": "/images/migrated/Onion-Naan.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Onion-Naan.png"
+    },
+    {
+      "titleHtml": "Chilli Naan",
+      "titleText": "Chilli Naan",
+      "description": "Bread topped with green chillies.",
+      "image": "/images/migrated/Chilli-Naan.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Chilli-Naan.png"
+    },
+    {
+      "titleHtml": "Garlic Naan",
+      "titleText": "Garlic Naan",
+      "description": "Garlic flavored tandoori bread.",
+      "image": "/images/migrated/Garlic-Naan.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Garlic-Naan.png"
+    },
+    {
+      "titleHtml": "Chilli Garlic Naan",
+      "titleText": "Chilli Garlic Naan",
+      "description": "Spicy garlic naan with herbs.",
+      "image": "/images/migrated/Chilli-Garlic-Naan.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Chilli-Garlic-Naan.png"
+    },
+    {
+      "titleHtml": "Butter Kulcha",
+      "titleText": "Butter Kulcha",
+      "description": "Kulcha topped with butter.",
+      "image": "/images/migrated/Butter-Kulcha.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Butter-Kulcha.png"
+    },
+    {
+      "titleHtml": "Onion Kulcha",
+      "titleText": "Onion Kulcha",
+      "description": "Stuffed onion kulcha.",
+      "image": "/images/migrated/Onion-Kulcha.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Onion-Kulcha.png"
+    },
+    {
+      "titleHtml": "Butter Roti",
+      "titleText": "Butter Roti",
+      "description": "Whole wheat roti with butter.",
+      "image": "/images/migrated/Butter-Roti.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Butter-Roti.png"
+    },
+    {
+      "titleHtml": "Peshwari Naan ( <span style=\"color:red\">N</span>)",
+      "titleText": "Peshwari Naan ( N)",
+      "description": "Sweet naan stuffed with nuts and dry fruits.",
+      "image": "/images/migrated/Peshwari-Naan.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Peshwari-Naan.png"
+    },
+    {
+      "titleHtml": "Paneer Naan",
+      "titleText": "Paneer Naan",
+      "description": "Bread stuffed with paneer filling.",
+      "image": "/images/migrated/Paneer-Naan.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Naan.png"
+    },
+    {
+      "titleHtml": "Spl Naan (Cashew/Pista) ( <span style=\"color:red\">N</span>)",
+      "titleText": "Spl Naan (Cashew/Pista) ( N)",
+      "description": "Rich naan stuffed with cashew and pista mix.",
+      "image": "/images/migrated/Spl-Naan.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Spl-Naan.png"
+    },
+    {
+      "titleHtml": "Tandoori Stuffed Paratha",
+      "titleText": "Tandoori Stuffed Paratha",
+      "description": "Whole wheat paratha stuffed with spiced potatoes.",
+      "image": "/images/migrated/Tandoori-Stuffed-Paratha.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Tandoori-Stuffed-Paratha.png"
+    },
+    {
+      "titleHtml": "Ceylon Special Stuffed Parotta",
+      "titleText": "Ceylon Special Stuffed Parotta",
+      "description": "Layered bread filled with vegetables and mushrooms.",
+      "image": "/images/migrated/Ceylon-Special-Stuffed-Parotta.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ceylon-Special-Stuffed-Parotta.png"
+    },
+    {
+      "titleHtml": "Methi Roti (<span style=\"color:#f39c12\">j</span>)",
+      "titleText": "Methi Roti (j)",
+      "description": "Flatbread flavored with fenugreek leaves.",
+      "image": "/images/migrated/Methi-Roti.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Methi-Roti.png"
+    },
+    {
+      "titleHtml": "Cheese Naan(<span style=\"color:#f39c12\">j</span>)",
+      "titleText": "Cheese Naan(j)",
+      "description": "Naan filled with melted cheese.",
+      "image": "/images/migrated/Cheese-Naan.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Cheese-Naan.png"
+    },
+    {
+      "titleHtml": "Cheese Chilli Garlic Naan",
+      "titleText": "Cheese Chilli Garlic Naan",
+      "description": "Cheesy naan with garlic and chilli.",
+      "image": "/images/migrated/Cheese-Chilli-Garlic-Naan.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Cheese-Chilli-Garlic-Naan.png"
+    },
+    {
+      "titleHtml": "Plain roti(<span style=\"color:green\">V</span>)",
+      "titleText": "Plain roti(V)",
+      "description": "with the sour",
+      "image": "/images/migrated/Cheese-Chilli-Garlic-Naan.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Cheese-Chilli-Garlic-Naan.png"
+    }
+  ],
+  "Indo–Chines Staters": [
+    {
+      "titleHtml": "Gobi 65(<span style=\"color:green\">V</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Gobi 65(V J)",
+      "description": "Steamed rice cake.",
+      "image": "/images/migrated/GOBI-65-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/GOBI-65-V.png"
+    },
+    {
+      "titleHtml": "Mushroom 65 (<span style=\"color:green\">V</span> )",
+      "titleText": "Mushroom 65 (V )",
+      "description": "Deep fried mushrooms with spicy seasoning.",
+      "image": "/images/migrated/MUSHROOM-65-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-65-V.png"
+    },
+    {
+      "titleHtml": "Paneer 65 (<span style=\"color:#f39c12\">j</span>)",
+      "titleText": "Paneer 65 (j)",
+      "description": "Crispy paneer cubes in special 65 sauce.",
+      "image": "/images/migrated/PANEER-65.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-65.png"
+    },
+    {
+      "titleHtml": "Baby Corn 65 (<span style=\"color:#f39c12\">j</span> <span style=\"color:green\">V</span>)",
+      "titleText": "Baby Corn 65 (j V)",
+      "description": "Crunchy baby corn coated with spices.",
+      "image": "/images/migrated/Baby-Corn-65.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Baby-Corn-65.png"
+    },
+    {
+      "titleHtml": "Aloo 65 (<span style=\"color:green\">V</span> )",
+      "titleText": "Aloo 65 (V )",
+      "description": "Golden fried potatoes with tangy masala.",
+      "image": "/images/migrated/GOBI-65-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/GOBI-65-V.png"
+    },
+    {
+      "titleHtml": "Broccoli 65 (<span style=\"color:green\">V</span>)",
+      "titleText": "Broccoli 65 (V)",
+      "description": "Crispy broccoli tossed with spices.",
+      "image": "/images/migrated/MUSHROOM-65-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-65-V.png"
+    },
+    {
+      "titleHtml": "Bhindi Fry (<span style=\"color:green\">V</span>)",
+      "titleText": "Bhindi Fry (V)",
+      "description": "Crisp okra stir-fried with masala.",
+      "image": "/images/migrated/PANEER-65.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-65.png"
+    },
+    {
+      "titleHtml": "Crispy Lollipop (<span style=\"color:green\">V</span>)",
+      "titleText": "Crispy Lollipop (V)",
+      "description": "Crunchy vegetable lollipops with sauce.",
+      "image": "/images/migrated/Crispy-Lollipop.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Crispy-Lollipop.png"
+    },
+    {
+      "titleHtml": "Aloo Pepper Fry (<span style=\"color:blue\">G</span>)",
+      "titleText": "Aloo Pepper Fry (G)",
+      "description": "Potatoes tossed in crushed black pepper.",
+      "image": "/images/migrated/ALOO-PEPPER-FRY.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/ALOO-PEPPER-FRY.png"
+    },
+    {
+      "titleHtml": "Honey Chilli Potato (<span style=\"color:blue\">G</span>)",
+      "titleText": "Honey Chilli Potato (G)",
+      "description": "Sweet and spicy glazed potatoes.",
+      "image": "/images/migrated/HONEY-CHILLI-POTATO-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/HONEY-CHILLI-POTATO-G.png"
+    },
+    {
+      "titleHtml": "Honey Chilli Pineapple (<span style=\"color:blue\">G</span>)",
+      "titleText": "Honey Chilli Pineapple (G)",
+      "description": "Crispy pineapple tossed in honey chilli sauce.",
+      "image": "/images/migrated/HONEY-CHILLI-PINAPPLE-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/HONEY-CHILLI-PINAPPLE-G.png"
+    },
+    {
+      "titleHtml": "Black Pepper Baby Corn",
+      "titleText": "Black Pepper Baby Corn",
+      "description": "Baby corn stir fried with black pepper.",
+      "image": "/images/migrated/BLACK-PEPPER-BABY-CORN-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/BLACK-PEPPER-BABY-CORN-V.png"
+    },
+    {
+      "titleHtml": "Chilli Paneer  (<span style=\"color:#f39c12\">j</span>)",
+      "titleText": "Chilli Paneer  (j)",
+      "description": "Paneer cubes in spicy chilli sauce.",
+      "image": "/images/migrated/CHILLI-PANEER.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHILLI-PANEER.png"
+    },
+    {
+      "titleHtml": "Chilli Gobi (<span style=\"color:green\">V</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Chilli Gobi (V J)",
+      "description": "Crispy cauliflower in Indo-Chinese gravy.",
+      "image": "/images/migrated/CHILLI-GOBI-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHILLI-GOBI-V.png"
+    },
+    {
+      "titleHtml": "Chilli Mushroom (<span style=\"color:green\">V</span>)",
+      "titleText": "Chilli Mushroom (V)",
+      "description": "Mushrooms tossed with soy chilli glaze.",
+      "image": "/images/migrated/CHILLI-MUSHROOM-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHILLI-MUSHROOM-V.png"
+    },
+    {
+      "titleHtml": "Schezwan Paneer",
+      "titleText": "Schezwan Paneer",
+      "description": "Paneer in spicy Schezwan sauce.",
+      "image": "/images/migrated/SCHEZWAN-PANEER.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/SCHEZWAN-PANEER.png"
+    },
+    {
+      "titleHtml": "Veg Spring Roll (<span style=\"color:green\">V</span>)",
+      "titleText": "Veg Spring Roll (V)",
+      "description": "Crispy rolls stuffed with vegetables.",
+      "image": "/images/migrated/VEG-SPRING-ROLL-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEG-SPRING-ROLL-V.png"
+    },
+    {
+      "titleHtml": "Seven Spy Cheese",
+      "titleText": "Seven Spy Cheese",
+      "description": "Cheese bites coated in spicy seasoning.",
+      "image": "/images/migrated/Seven-Spy-Cheese.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Seven-Spy-Cheese.png"
+    },
+    {
+      "titleHtml": "All Manchurian Varieties (<span style=\"color:green\">V</span>)",
+      "titleText": "All Manchurian Varieties (V)",
+      "description": "Vegetables tossed in classic Manchurian sauce.",
+      "image": "/images/migrated/All-Manchurian-Varieties.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/All-Manchurian-Varieties.png"
+    },
+    {
+      "titleHtml": "Crispy Corn (<span style=\"color:green\">V</span>)",
+      "titleText": "Crispy Corn (V)",
+      "description": "Golden fried sweet corn kernels.",
+      "image": "/images/migrated/Crispy-Corn.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Crispy-Corn.png"
+    }
+  ],
+  "Noodles & Rice": [
+    {
+      "titleHtml": "Veg Noodles(<span style=\"color:green\">V</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Veg Noodles(V J)",
+      "description": "Stir-fried noodles with fresh vegetables.",
+      "image": "/images/migrated/VEG-NOODLES-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEG-NOODLES-V.png"
+    },
+    {
+      "titleHtml": "Mushroom Noodles (<span style=\"color:green\">V</span>)",
+      "titleText": "Mushroom Noodles (V)",
+      "description": "Noodles tossed with mushrooms.",
+      "image": "/images/migrated/MUSHROOM-NOODLES-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-NOODLES-V.png"
+    },
+    {
+      "titleHtml": "Paneer Noodles (<span style=\"color:#f39c12\">j</span>)",
+      "titleText": "Paneer Noodles (j)",
+      "description": "Noodles with paneer cubes and spices.",
+      "image": "/images/migrated/Paneer-Noodles.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Noodles.png"
+    },
+    {
+      "titleHtml": "Schezwan Noodles (<span style=\"color:green\">V</span>)",
+      "titleText": "Schezwan Noodles (V)",
+      "description": "Spicy Schezwan flavored noodles.",
+      "image": "/images/migrated/Schezwan-Noodles.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Schezwan-Noodles.png"
+    },
+    {
+      "titleHtml": "Curried Mushroom Noodles (<span style=\"color:green\">V</span>)",
+      "titleText": "Curried Mushroom Noodles (V)",
+      "description": "Noodles with curry flavored mushrooms.",
+      "image": "/images/migrated/Curried-Mushroom-Noodles.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Curried-Mushroom-Noodles.png"
+    },
+    {
+      "titleHtml": "Veg Hakka Noodles (<span style=\"color:green\">V</span> <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Veg Hakka Noodles (V J)",
+      "description": "Classic Indo-Chinese street style noodles.",
+      "image": "/images/migrated/VEG-HAKKA-NOODLES-V.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEG-HAKKA-NOODLES-V.png"
+    },
+    {
+      "titleHtml": "Vegetable Fried Rice (<span style=\"color:blue\">G</span>  <span style=\"color:#f4b400\">J</span><span style=\"color:green\">V</span>)",
+      "titleText": "Vegetable Fried Rice (G  JV)",
+      "description": "Rice stir-fried with mixed vegetables.",
+      "image": "/images/migrated/Vegetable-Fried-Rice-1.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Vegetable-Fried-Rice-1.png"
+    },
+    {
+      "titleHtml": "Mushroom Fried Rice (<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Mushroom Fried Rice (V G)",
+      "description": "Fried rice with mushrooms.",
+      "image": "/images/migrated/MUSHROOM-FRIED-RICE-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-FRIED-RICE-V-G.png"
+    },
+    {
+      "titleHtml": "Paneer Fried Rice (<span style=\"color:blue\">G</span>  <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Paneer Fried Rice (G  J)",
+      "description": "Rice tossed with paneer and spices.",
+      "image": "/images/migrated/PANEER-FRIED-RICE-V-G.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-FRIED-RICE-V-G.png"
+    },
+    {
+      "titleHtml": "Schezwan Fried Rice (<span style=\"color:blue\">G</span>)",
+      "titleText": "Schezwan Fried Rice (G)",
+      "description": "Hot and spicy Schezwan rice.",
+      "image": "/images/migrated/Schezwan-Fried-Rice.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Schezwan-Fried-Rice.png"
+    },
+    {
+      "titleHtml": "Butter Tossed Mushroom Noodles",
+      "titleText": "Butter Tossed Mushroom Noodles",
+      "description": "Rich buttery noodles with mushrooms.",
+      "image": "/images/migrated/Butter-Tossed-Mushroom-Noodles.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Butter-Tossed-Mushroom-Noodles.png"
+    },
+    {
+      "titleHtml": "Szechwan Paneer Fried Rice(<span style=\"color:blue\">G</span>)",
+      "titleText": "Szechwan Paneer Fried Rice(G)",
+      "description": "",
+      "image": "/images/migrated/Butter-Tossed-Mushroom-Noodles.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Butter-Tossed-Mushroom-Noodles.png"
+    },
+    {
+      "titleHtml": "Sweetcorn &amp; Golden Garlic Rice(<span style=\"color:green\">V</span> <span style=\"color:blue\">G</span>)",
+      "titleText": "Sweetcorn &amp; Golden Garlic Rice(V G)",
+      "description": "",
+      "image": "/images/migrated/Sweetcorn-Golden-Garlic-Rice.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Sweetcorn-Golden-Garlic-Rice.png"
+    },
+    {
+      "titleHtml": "Paneer &amp; Bell Pepper Fried Rice(<span style=\"color:blue\">G</span>  <span style=\"color:#f4b400\">J</span>)",
+      "titleText": "Paneer &amp; Bell Pepper Fried Rice(G  J)",
+      "description": "",
+      "image": "/images/migrated/Paneer-Bell-Pepper-Fried-Rice.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Bell-Pepper-Fried-Rice.png"
+    },
+    {
+      "titleHtml": "Stir Fried Paner Noodles(<span style=\"color:#f39c12\">j</span>)",
+      "titleText": "Stir Fried Paner Noodles(j)",
+      "description": "",
+      "image": "/images/migrated/Stir-Fried-Paneer-Noodles.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Stir-Fried-Paneer-Noodles.png"
+    }
+  ],
+  "Momos": [
+    {
+      "titleHtml": "Special Momos",
+      "titleText": "Special Momos",
+      "description": "Steamed dumplings filled with savory vegetables.",
+      "image": "/images/migrated/SPECIAL-MOMOS.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/SPECIAL-MOMOS.png"
+    },
+    {
+      "titleHtml": "HL Garden Momos (<span style=\"color:green\">V</span>)",
+      "titleText": "HL Garden Momos (V)",
+      "description": "Pan tossed momos with chilli sauce and peppers.",
+      "image": "/images/migrated/HL-Garden-Momos.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/HL-Garden-Momos.png"
+    }
+  ],
+  "Deserts": [
+    {
+      "titleHtml": "Payasam (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Payasam ( N)",
+      "description": "Traditional South Indian kheer.",
+      "image": "/images/migrated/Payasam.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Payasam.png"
+    },
+    {
+      "titleHtml": "Ice Cream (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Ice Cream ( N)",
+      "description": "Classic creamy dessert.",
+      "image": "/images/migrated/Ice-Cream.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ice-Cream.png"
+    },
+    {
+      "titleHtml": "Falooda (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Falooda ( N)",
+      "description": "Layered milk dessert with ice cream and nuts.",
+      "image": "/images/migrated/Falooda.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Falooda.png"
+    },
+    {
+      "titleHtml": "Gulab Jamun (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Gulab Jamun ( N)",
+      "description": "Soft milk dumplings in sugar syrup.",
+      "image": "/images/migrated/Gulab-Jamun.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Gulab-Jamun.png"
+    },
+    {
+      "titleHtml": "Gulab Jamun with Ice Cream",
+      "titleText": "Gulab Jamun with Ice Cream",
+      "description": "Warm jamun served with cold ice cream.",
+      "image": "/images/migrated/Gulab-Jamun-with-Ice-Cream.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Gulab-Jamun-with-Ice-Cream.png"
+    },
+    {
+      "titleHtml": "Rasmalai (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Rasmalai ( N)",
+      "description": "Soft cottage cheese patties soaked in sweet milk.",
+      "image": "/images/migrated/Rasmalai.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Rasmalai.png"
+    },
+    {
+      "titleHtml": "Rava Kesari (<span style=\"color:green\"></span> <span style=\"color:red\">N</span>)",
+      "titleText": "Rava Kesari ( N)",
+      "description": "Semolina sweet flavored with ghee.",
+      "image": "/images/migrated/Rava-Kesari.png",
+      "rawImage": "https://skaryabhavan.com/wp-content/uploads/2026/02/Rava-Kesari.png"
+    }
+  ]
+}

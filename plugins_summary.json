@@ -1,0 +1,192 @@
+{
+  "active": [
+    {
+      "name": "301 Redirects",
+      "version": "Version 2.85 | By WebFactory Ltd | View details",
+      "desc": "Easily create and manage redirect rules, and view 404 error log.",
+      "active": true
+    },
+    {
+      "name": "3D FlipBook : DearFlip Lite",
+      "version": "Version 2.4.37 | By DearHive | View details",
+      "desc": "Realistic 3D Flip-books for WordPress Get Full Version Here NOTE : Deactivate this lite version before activating Full Version",
+      "active": true
+    },
+    {
+      "name": "Akismet Anti-spam: Spam Protection",
+      "version": "Version 5.7.2 | By Automattic - Anti-spam Team | View details",
+      "desc": "Used by millions, Akismet is quite possibly the best way in the world to protect your blog from spam. It keeps your site protected even while you sleep. To get started, just go to your Akismet Settings page to set up your API key.",
+      "active": true
+    },
+    {
+      "name": "Click to ChatPRO Version",
+      "version": "Version 4.44 | By HoliThemes | View details",
+      "desc": "Lets make your Web page visitors contact you through WhatsApp with a single click/tap",
+      "active": true
+    },
+    {
+      "name": "Code Snippets",
+      "version": "Version 3.10.2 | By Code Snippets Pro | View details | Docs and Support | Community",
+      "desc": "An easy, clean, and simple way to run code snippets on your site. No need to edit your theme's functions.php file again!",
+      "active": true
+    },
+    {
+      "name": "Coming Soon Page, Maintenance Mode, Landing Pages & WordPress Website Builder by SeedProd",
+      "version": "Version 6.20.9 | By SeedProd | View details",
+      "desc": "The Easiest WordPress Drag & Drop Page Builder that allows you to build your website, create Landing Pages, Coming Soon Pages, Maintenance Mode Pages and more.",
+      "active": true
+    },
+    {
+      "name": "Complianz | GDPR/CCPA Cookie Consent",
+      "version": "Version 7.5.5 | By Complianz | View details",
+      "desc": "Complianz Privacy Suite for GDPR, CaCPA, DSVGO, AVG with a conditional cookie warning and customised Cookie Policy",
+      "active": true
+    },
+    {
+      "name": "Connect Polylang for Elementor",
+      "version": "Version 2.5.5 | By Creame | View details | AI Translation (Affiliated)",
+      "desc": "Connect Polylang with Elementor. Display templates in the correct language, language switcher widget, language visibility conditions and dynamic tags.Requires: Elementor Website Builder – more than just a page builder, Polylang",
+      "active": true
+    },
+    {
+      "name": "Contact Form 7",
+      "version": "Version 6.1.7 | By Rock Lobster Inc. | View details",
+      "desc": "Just another contact form plugin. Simple but flexible.",
+      "active": true
+    },
+    {
+      "name": "Duplicate Page",
+      "version": "Version 4.5.9 | By mndpsingh287 | View details",
+      "desc": "Duplicate Posts, Pages and Custom Posts using single click.",
+      "active": true
+    },
+    {
+      "name": "Elementor",
+      "version": "Version 4.3.3 | By Elementor.com | View details | Docs & FAQs | Video Tutorials",
+      "desc": "The Elementor Website Builder has it all: drag and drop page builder, Atomic Editor, pixel perfect design, global and reusable style systems, mobile responsive editing, and more. Get started now!Required by: Connect Polylang for Elementor, Elementor ProNote: this plugin cannot be deactivated or deleted until the plugins that require it are deactivated or deleted.",
+      "active": true
+    },
+    {
+      "name": "Elementor Pro",
+      "version": "Version 4.3.0 | By Elementor.com | View details | Changelog",
+      "desc": "Elevate your designs and unlock the full power of the Atomic Editor. Gain access to dozens of Pro widgets, Website Templates, Theme Builder, Pop Ups, Forms, reusable Components, and WooCommerce building capabilities.Requires: Elementor Website Builder – more than just a page builder",
+      "active": true
+    },
+    {
+      "name": "Google Analytics for WordPress by MonsterInsights",
+      "version": "Version 11.3.0 | By MonsterInsights | View details",
+      "desc": "The best Google Analytics plugin for WordPress. See how visitors find and use your website, so you can keep them coming back.",
+      "active": true
+    },
+    {
+      "name": "LA-Studio Element Kit for Elementor",
+      "version": "Version 1.6.2 | By LA-Studio | View details",
+      "desc": "Additional widgets for Elementor page builder. It has 60 highly customizable widgets",
+      "active": true
+    },
+    {
+      "name": "MC4WP: Mailchimp for WordPress",
+      "version": "Version 4.14.1 | By ibericode | View details | Documentation | Upgrade to Premium",
+      "desc": "Mailchimp for WordPress by ibericode. Adds various highly effective sign up methods to your site.",
+      "active": true
+    },
+    {
+      "name": "Polylang",
+      "version": "Version 3.8.10 | By WP SYNTEX | View details",
+      "desc": "Adds multilingual capability to WordPressRequired by: Connect Polylang for ElementorNote: this plugin cannot be deactivated or deleted until the plugins that require it are deactivated or deleted.",
+      "active": true
+    },
+    {
+      "name": "Rich Showcase for Google Reviews",
+      "version": "Version 7.1.4 | By RichPlugins | View details | Rate plugin ★★★★★",
+      "desc": "Instantly display Google reviews on your website to increase user confidence and sales.",
+      "active": true
+    },
+    {
+      "name": "Search & Replace Everything",
+      "version": "Version 1.0.10 | By WPCode | View details",
+      "desc": "Search & Replace text and images across your entire WordPress database with a simple, powerful interface.",
+      "active": true
+    },
+    {
+      "name": "Smash Balloon Facebook Feed",
+      "version": "Version 4.13.0 | By Smash Balloon | View details",
+      "desc": "Add completely customizable Facebook feeds to your WordPress site",
+      "active": true
+    },
+    {
+      "name": "Smash Balloon Instagram Feed",
+      "version": "Version 6.13.1 | By Smash Balloon | View details",
+      "desc": "Display beautifully clean, customisable, and responsive Instagram feeds",
+      "active": true
+    },
+    {
+      "name": "Smash Balloon Reviews Feed",
+      "version": "Version 2.13.1 | By Smash Balloon | View details",
+      "desc": "Reviews Feed allows you to display completely customizable Reviews feeds from many different providers.",
+      "active": true
+    },
+    {
+      "name": "Smash Balloon X (Twitter) Feed",
+      "version": "Version 2.9.0 | By Smash Balloon | View details",
+      "desc": "Customizable X Feeds, formerly known as Twitter feeds, for your website",
+      "active": true
+    },
+    {
+      "name": "Smush",
+      "version": ".wp-smush-review span,.wp-smush-review span:hover{color:#ffb900}.wp-smush-review span:hover~span{color:#888}Version 4.3.3 | By WPMU DEV | View details | Rate Smush | Support | Roadmap | ★★★★★",
+      "desc": "Reduce image file sizes, improve performance and boost your SEO using the free WPMU DEV WordPress Smush API.",
+      "active": true
+    },
+    {
+      "name": "UpdraftPlus - Backup/Restore",
+      "version": "Version 1.26.8 | By TeamUpdraft, DavidAnderson | View details",
+      "desc": "Backup and restore: take backups locally, or backup to Amazon S3, Dropbox, Google Drive, Rackspace, (S)FTP, WebDAV & email, on automatic schedules.",
+      "active": true
+    },
+    {
+      "name": "User Role Editor",
+      "version": "Version 4.66.1 | By Vladimir Garagulya | View details | Changelog",
+      "desc": "Change/add/delete WordPress user roles and capabilities.",
+      "active": true
+    },
+    {
+      "name": "WordPress Importer",
+      "version": "Version 0.9.6 | By wordpressdotorg | View details",
+      "desc": "Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file.",
+      "active": true
+    },
+    {
+      "name": "WPCode Lite",
+      "version": "Version 2.3.9 | By WPCode | View details",
+      "desc": "Easily add code snippets in WordPress. Insert scripts to the header and footer, add PHP code snippets with conditional logic, insert ads pixel, custom content, and more.",
+      "active": true
+    },
+    {
+      "name": "WPForms Lite",
+      "version": "Version 2.0.2.1 | By WPForms | View details",
+      "desc": "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms.",
+      "active": true
+    },
+    {
+      "name": "Yoast Duplicate Post",
+      "version": "Version 4.7 | By Enrico Battocchi and Team Yoast | View details | Documentation",
+      "desc": "The go-to tool for cloning posts and pages, including the powerful Rewrite & Republish feature.",
+      "active": true
+    },
+    {
+      "name": "Yoast SEO",
+      "version": "Version 28.5 | By Team Yoast | View details",
+      "desc": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
+      "active": true
+    }
+  ],
+  "inactive": [
+    {
+      "name": "Widgets for Google Reviews and Ratings",
+      "version": "Version 1.0.23 | By repocean | View details",
+      "desc": "Quickly and easily embed Google reviews into your WordPress site. Boost SEO, build trust, and increase sales with Google reviews.",
+      "active": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "1625",
+  "title": "Blog",
+  "slug": "blog",
+  "status": "publish",
+  "link": "https://skaryabhavan.com/blog/",
+  "seo": {
+    "title": "Blog",
+    "description": "",
+    "canonical": "https://skaryabhavan.com/blog/",
+    "opengraphTitle": "",
+    "opengraphDescription": "",
+    "opengraphImage": ""
+  },
+  "content": "",
+  "elementorData": [],
+  "meta": {
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-page",
+    "_elementor_version": "3.25.4",
+    "_wp_page_template": "default",
+    "_elementor_data": "[]",
+    "_cmplz_scanned_post": "1"
+  }
+}

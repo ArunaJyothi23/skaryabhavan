@@ -1,0 +1,52 @@
+{
+  "id": "10079",
+  "title": "Online Ordering",
+  "slug": "online-ls-menu",
+  "status": "publish",
+  "link": "https://skaryabhavan.com/online-ls-menu/",
+  "seo": {
+    "title": "Online Ordering",
+    "description": "",
+    "canonical": "https://skaryabhavan.com/online-ls-menu/",
+    "opengraphTitle": "",
+    "opengraphDescription": "",
+    "opengraphImage": ""
+  },
+  "content": "",
+  "elementorData": [
+    {
+      "id": "4f3a6d1",
+      "elType": "container",
+      "settings": [],
+      "elements": [
+        {
+          "id": "31735fd",
+          "elType": "widget",
+          "settings": {
+            "html": "<div id=\"pm-widget-wrsnhgpx\"></div>"
+          },
+          "elements": [],
+          "widgetType": "html"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "meta": {
+    "_edit_last": "6",
+    "cmplz_hide_cookiebanner": "",
+    "_yoast_wpseo_content_score": "90",
+    "_yoast_wpseo_seo_title_score": "17",
+    "_yoast_wpseo_meta_description_score": "22",
+    "_yoast_wpseo_estimated-reading-time-minutes": "0",
+    "_elementor_edit_mode": "builder",
+    "_elementor_template_type": "wp-page",
+    "_elementor_version": "4.2.4",
+    "_elementor_pro_version": "4.2.1",
+    "_wp_page_template": "default",
+    "_elementor_data": "[{\"id\":\"4f3a6d1\",\"elType\":\"container\",\"settings\":[],\"elements\":[{\"id\":\"31735fd\",\"elType\":\"widget\",\"settings\":{\"html\":\"<div id=\\\"pm-widget-wrsnhgpx\\\"><\\/div>\"},\"elements\":[],\"widgetType\":\"html\"}],\"isInner\":false}]",
+    "_elementor_controls_usage": "a:2:{s:4:\"html\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:0;s:8:\"controls\";a:1:{s:7:\"content\";a:1:{s:13:\"section_title\";a:1:{s:4:\"html\";i:1;}}}}s:9:\"container\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:0;s:8:\"controls\";a:0:{}}}",
+    "_cmplz_scanned_post": "1",
+    "_elementor_page_assets": "a:1:{s:7:\"scripts\";a:1:{i:0;s:18:\"elementor-frontend\";}}"
+  }
+}

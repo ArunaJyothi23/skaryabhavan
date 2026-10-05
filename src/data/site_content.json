@@ -1,0 +1,113 @@
+{
+  "general": {
+    "siteName": "Arya Bhavan London",
+    "tagline": "Authentic South Indian Pure Vegetarian & Vegan Cuisine",
+    "description": "Welcome to Arya Bhavan (Nagerkovil Arya Bhavan UK) - London’s premier authentic South Indian vegetarian restaurant located in Central London (Leicester Square), Wembley, and Tooting. Specializing in stone-ground dosas, traditional thalis, vegan, and Jain delicacies.",
+    "email": "eventsnkab@gmail.com",
+    "cateringEmail": "catering@skaryabhavan.com",
+    "primaryPhone": "+44 20 7839 8797",
+    "primaryAddress": "17 Charing Cross Road, Charing Cross, London WC2H 0EP",
+    "social": {
+      "facebook": "https://facebook.com/skaryabhavan",
+      "instagram": "https://instagram.com/skaryabhavan",
+      "whatsapp": "https://wa.me/442078398797"
+    }
+  },
+  "hero": {
+    "badge": "100% Pure Vegetarian & Vegan Heritage",
+    "title": "Authentic South Indian Vegetarian Feasts in London",
+    "subtitle": "Experience stone-ground crispy dosas, traditional sambar, steaming idlis, and royal thalis crafted with authentic heritage recipes from Kanyakumari and Chennai.",
+    "primaryCtaText": "Explore Our Menu",
+    "primaryCtaLink": "/menu",
+    "secondaryCtaText": "Book Event Catering",
+    "secondaryCtaLink": "/live-dosa-catering",
+    "stats": [
+      {
+        "number": "3+",
+        "label": "Prime London Locations"
+      },
+      {
+        "number": "200+",
+        "label": "Pure Veg & Vegan Dishes"
+      },
+      {
+        "number": "100%",
+        "label": "Stone Ground Batter"
+      },
+      {
+        "number": "4.8★",
+        "label": "Over 5,000+ Reviews"
+      }
+    ]
+  },
+  "about": {
+    "badge": "Our Culinary Heritage",
+    "title": "From Nagerkovil & Kanyakumari to the Streets of London",
+    "narrative": [
+      "Our journey began with the hope and determination to carry a piece of South India with us wherever we go, and share our culinary love and joy with you.",
+      "Nestled among the vibrant streets of Central London (Charing Cross), Wembley, and Tooting, the intoxicating aroma of roasted curry leaves, stone-ground fermented batter, and freshly ground spices welcomes you home.",
+      "Every dish pays homage to authentic South Indian culinary wisdom. We specialize in 100% pure vegetarian, vegan, and Jain-friendly cuisine, seamlessly blending rich tradition with impeccable modern hospitality."
+    ],
+    "features": [
+      "Authentic Stone-Ground Fermented Rice & Lentil Batter",
+      "Original Kanyakumari & Chettinad Spice Blends",
+      "Pure Vegetarian, Vegan & Jain Certified Offerings",
+      "Fresh Daily Preparations with Pure Ghee & Coconut Oils"
+    ]
+  },
+  "catering": {
+    "badge": "Event & Wedding Services",
+    "title": "Award-Winning Live Dosa & Outdoor Catering",
+    "subtitle": "Bring our authentic live dosa station and lavish buffet spreads directly to your home, wedding, corporate event, or milestone celebration anywhere across London and the UK.",
+    "liveDosa": {
+      "title": "Live Dosa Station at Your Venue",
+      "desc": "Our master chefs bring commercial griddles to your event, churning out piping-hot, paper-thin crispy dosas customized on the spot for your guests with unlimited sambar and fresh coconut chutneys.",
+      "link": "/live-dosa-catering"
+    },
+    "outdoor": {
+      "title": "Grand Outdoor Buffets & Banquets",
+      "desc": "Comprehensive multi-course catering packages (Options 1–9) covering starters, fragrant dum biryanis, rich paneer gravies, hot tandoori breads, and traditional festive desserts.",
+      "link": "/outdoor-catering"
+    }
+  },
+  "whyChooseUs": [
+    {
+      "title": "100% Pure Vegetarian",
+      "desc": "Completely vegetarian kitchens with strict adherence to pure vegetarian, vegan, and Jain dietary principles."
+    },
+    {
+      "title": "Heritage Stone Ground",
+      "desc": "Our batters and signature masalas are stone ground to preserve centuries-old texture and authentic aroma."
+    },
+    {
+      "title": "3 Iconic UK Locations",
+      "desc": "Conveniently located in Central London (Leicester Square), Wembley Central (Ealing Rd), and Tooting."
+    },
+    {
+      "title": "Live Chef Dosa Stations",
+      "desc": "Specialized mobile stations serving theatrical, freshly spun dosas directly at your private gatherings."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Are all dishes 100% pure vegetarian?",
+      "a": "Yes, 100% of our menu across all locations is strictly pure vegetarian. We have zero meat or egg products in our kitchens."
+    },
+    {
+      "q": "Do you offer Vegan and Jain options?",
+      "a": "Absolutely. A large majority of our dosas, idlis, tiffins, and vegetable curries are naturally vegan or can be prepared without onion and garlic for Jain dietary requirements."
+    },
+    {
+      "q": "How can I book Live Dosa or Outdoor Catering?",
+      "a": "You can submit an inquiry through our dedicated Live Dosa Catering or Outdoor Catering pages, or call our events team directly at 020 7839 8797."
+    },
+    {
+      "q": "Do you take table reservations?",
+      "a": "We accommodate both reservations and walk-ins. For busy weekend dinners and large groups of 6 or more, we recommend contacting your preferred branch in advance."
+    }
+  ],
+  "web3forms": {
+    "email": "eventsnkab@gmail.com",
+    "accessKey": ""
+  }
+}

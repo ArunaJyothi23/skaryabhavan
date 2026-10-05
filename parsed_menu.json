@@ -1,0 +1,1861 @@
+{
+  "dishes": [
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Medhu Vadai (V G)",
+      "description": "Crispy lentil doughnuts served with sambar and chutney.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MEDU-VADAI-V-G.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Sambar Vadai (V G)",
+      "description": "Lentil vadai soaked and simmered in hot sambar.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/SAMBAR-VADAI-V-G.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Curd Vadai (V G N)",
+      "description": "Soft vadai immersed in seasoned curd with toppings.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/CURD-VADAI-G.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Rasa Vadai (V G J)",
+      "description": "Vadai dipped in warm rasam broth.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/RASA-VADAI-V-G.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Idly (V G J)",
+      "description": "Soft steamed rice cakes served with sambar and chutney.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/IDLY-V-G.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Idly Dipped (2 pcs) (V G J)",
+      "description": "Mini idlies immersed in sambar.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Idly-Dipped-2-pcs.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Idly Vadai Sambar  (V G)",
+      "description": "Rice cakes and lentil doughnuts served with sambar.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/IDLY-VADAI-SAMBAR-V-G.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Idly Vadai Sambar Dipped (V G)",
+      "description": "Idly and vadai soaked together in hot sambar.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/IDLY-VADAI-SAMBAR-DIPPED-V-G.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chutney Idly Dipped  (V G J)",
+      "description": "Idly tossed in coconut chutney seasoning.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHUTNEY-IDLY-V-G.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paya Idly (From 4PM) (V G)",
+      "description": "Idly served with coconut based gravy.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PAYA-IDLY-V-G.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mini idlies sautéed with podi masala and ghee.",
+      "description": "Steamed rice cake.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Mini-idlies-sauteed-with-podi-masala-and-ghee.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Fried Podi Mini Idly  (V G J)",
+      "description": "Mini idlies stir fried with spiced powder.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Fried-Podi-Mini-Idly-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Idiyappam with Paaya/Korma (From 4PM) (V G)",
+      "description": "String hoppers served with coconut stew or kurma.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/IDIYAPPAM-WITH-PAYA-V-G.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ghee Mini Idly Sambar Dipped (14 pcs)  ( G J)",
+      "description": "Mini idlies soaked in sambar and finished with ghee.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ghee-Mini-Idly-Sambar-Dipped.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ghee Pongal (Sat & Sun) (N G)",
+      "description": "Buttery ven pongal served with sambar and chutney.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/GHEE-PONGAL-G-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Rava Kichadi/Rava Upma (N G)",
+      "description": "Semolina cooked with vegetables and mild spices.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/RAVA-KICHADI-G-N.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Aloo Bonda (From 4PM) (V)",
+      "description": "Crispy fried potato stuffed fritters.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Aloo-Bonda-From-4PM.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Veg Samosa (V)",
+      "description": "South Asian pastry filled with savory vegetables.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEG-SAMOSA-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mixed Vegetable Bonda (From 4PM) (V)",
+      "description": "Stuffed vegetable fritters deep fried till golden.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Mixed-Vegetable-Bonda.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Masala (Paruppu) Vada (V G)",
+      "description": "Crispy spiced lentil fritters served with chutney.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Masala-Paruppu-Vada.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Railway Cutlet (N V)",
+      "description": "Golden fried vegetable patties seasoned with Indian spices.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Railway-Cutlet-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Masala Pappad (V)",
+      "description": "Crispy fried papad topped with spiced fresh condiments.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Masala-Pappad.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer Tikka",
+      "description": "Grilled spicy Indian cottage cheese marinated with masala.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Tikka.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Pani Puri (V)",
+      "description": "Hollow puris served with tamarind water, potato and chickpeas.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Pani-Puri.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Sev Puri",
+      "description": "Crispy puris topped with sev, potatoes and chickpeas.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Sev-Puri.png",
+      "vegan": true,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Dahi Puri",
+      "description": "Hollow puris filled with curd, potato and chickpeas.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Dahi-Puri.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Samosa Chaat",
+      "description": "Crushed samosa served with yogurt, tamarind chutney and sev.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Samosa-Chaat.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Papdi Chaat",
+      "description": "Crunchy crackers topped with yogurt, chickpeas and chutneys.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Papdi-Chaat.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "South Indian Thali (Unlimited Rice and Curry) (N)",
+      "description": "Rice, sambar, rasam, kootu, poriyal, vathakuzhambu, dhal, pickle, sweet, raita, yogurt, banana, papad, butter chilli and chapathi/poori (1 pc).",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/SOUTH-INDIAN-THALI-N.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mini Thali (Limited) (V N)",
+      "description": "Sambar rice, curd rice, poriyal, rice of the day, sweet, papad and pickle.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MINI-THALI-N.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "North Indian Thali (Limited) (N)",
+      "description": "Paneer makhani, aloo palak, gobi mutter, biryani, dhal, pickle, salad, sweet, papad and chapathi/poori.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/NORTH-INDIAN-THALI-N.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Sambar Rice",
+      "description": "Lentil rice mixed with vegetables and served with papad.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/SAMBAR-RICE.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Curd Rice (N)",
+      "description": "Yogurt rice mixed with cashews and served with pickle.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/CURD-RICE-N.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Rice of the Day (N)",
+      "description": "Chef’s special flavored rice prepared fresh daily.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/RICE-OF-THE-DAY-N.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Steamed Rice",
+      "description": "Plain steamed basmati rice.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/STEAMED-RICE-V-G.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chappathi (2 Nos)(N)",
+      "description": "Soft whole wheat flatbreads served with two different kormas.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHAPPATHI-2-NOS-N.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Parotta (2 Nos)(N)",
+      "description": "Layered flaky parottas served with two kormas.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PAROTTA-2-NOS-N.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Veechu Parotta (N)",
+      "description": "Single layered flatbread served with two curries.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEECHU-PAROTTA-N.png",
+      "vegan": true,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Poori Masala (VN)",
+      "description": "Deep fried pooris served with potato masala and coconut chutney.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/POORI-MASALA-V-N.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Channa Bhatura (N)",
+      "description": "Large fluffy bhatura served with spicy chickpea curry.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Channa-Bhatura.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Virudhunagar Parotta with Paaya (From 4PM)  (?)",
+      "description": "Layered parotta served with coconut stew style gravy.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Virudhunagar-Parotta-with-Paaya-From-4PM.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Kothu Parotta (N)",
+      "description": "Shredded parotta stir-fried with spices and curry masala.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/KOTHU-PAROTTA-N.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer Kothu Parotta (N)",
+      "description": "Flaky flatbread chopped and tossed with paneer masala.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-KOTHU-PAROTTA-V.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mushroom Kothu Parotta(N)",
+      "description": "Shredded parotta cooked with mushrooms and spices.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-KOTHU-PAROTTA-N.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chilli Parotta (N)",
+      "description": "Parotta stir-fried with onions, peppers and chilli sauce.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Chilli-Parotta.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer Butter Cheese Dosa ( N)",
+      "description": "Dosa stuffed with paneer butter masala and melted cheese.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-BUTTER-CHEESE-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Schezwan Spicy Mushroom Cheese Dosa ( N)",
+      "description": "Spicy Schezwan mushrooms with cheesy filling.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/SCHEZWAN-SPICY-MUSHROOM-CHEESE-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Schezwan Spicy Cheese Dosa ( N)",
+      "description": "Cheese dosa with bold Schezwan spice flavor.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Schezwan-Spicy-Cheese-Dosa-1.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mushroom Masala Cheese Dosa ( N)",
+      "description": "Savory mushroom masala and cheese stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-MASALA-CHEESE-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer Mushroom Cheese Dosa ( N)",
+      "description": "Paneer and mushroom combo with melted cheese.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Mushroom-Cheese-Dosa-1.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Gobi Roast Cheese Dosa ( N)",
+      "description": "Roasted cauliflower masala with cheesy layer.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/GOBI-ROAST-CHEESE-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Palak Mushroom Cheese Dosa ( N)",
+      "description": "Spinach and mushroom stuffing with cheese.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PALAK-MUSHROOM-CHEESE-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Palak Paneer Cheese Dosa ( N)",
+      "description": "Paneer and spinach cooked with creamy cheese.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PALAK-PANEER-CHEESE-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Aloo Masala Cheese Dosa ( N)",
+      "description": "Classic potato masala mixed with cheese.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/ALOO-MASALA-CHEESE-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chilli Gobi Cheese Dosa ( N)",
+      "description": "Spicy cauliflower filling with melted cheese.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Chilli-Gobi-Cheese-Dosa-1.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Veg Chettinadu Cheese Dosa ( N)",
+      "description": "Vegetables cooked in Chettinad masala with cheese.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEG-CHETTINADU-CHEESE-N.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Plain Dosa (V J)",
+      "description": "Classic South Indian savory rice crepe.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PLAIN-DOSA-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Masala Dosa (V)",
+      "description": "Crispy dosa stuffed with spiced potato masala.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MASALA-DOSA-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Kara Dosa (V)",
+      "description": "Spicy dosa spread with red chilli potato masala.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/KARA-DOSA-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ghee Dosa (J)",
+      "description": "Dosa roasted with clarified butter for rich flavor.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/GHEE-MASALA-DOSA.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Onion Dosa (V)",
+      "description": "Topped with freshly chopped onions.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Onion-Dosa.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Onion Masala Dosa (V)",
+      "description": "Onion dosa filled with savory potato stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/ONION-MASALA-DOSA-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Podi Dosa (V J)",
+      "description": "Dry chilli podi spread.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PODI-DOSA-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Podi Masala Dosa (V)",
+      "description": "Podi spread with potato stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Podi-Masala-Dosa.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Podi Onion Dosa (V)",
+      "description": "Podi and onion topping.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PODI-ONION-DOSA-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paper Roast (J)",
+      "description": "Large and crispy plain roast.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PAPER-ROAST-V.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paper Masala Dosa (V)",
+      "description": "Large crispy dosa with potato stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PAPER-MASALA-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Cheese Dosa (J)",
+      "description": "Grated cheddar cheese stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Cheese-Dosa.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Cheese Masala Dosa",
+      "description": "Cheese with savory potato stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHEESE-MASALA-DOSA.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ghee Masala Dosa",
+      "description": "Ghee spread with savory potato stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/GHEE-MASALA-DOSA-1.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mysore Dosa (V)",
+      "description": "Spicy red chutney spread.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MYSORE-DOSA-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mysore Masala Dosa (V)",
+      "description": "Red chutney spread with potato stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MASALA-DOSA-V-1.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Vegetable Dosa (J N)",
+      "description": "Savory mixed vegetable stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEGETABLE-DOSA-N.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer Dosa (N)",
+      "description": "Savory crepe with paneer stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-DOSA.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Palak Dosa (V)",
+      "description": "Savory spinach stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PALAK-DOSA-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "AB / Spl Masala Dosa (?N)",
+      "description": "Butter spread with chilli potato stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/AB-SPECIAL-MASALA-DOSA-N.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Set Dosa with Vada Curry (V J N)",
+      "description": "Pair of soft thick dosa served with vada curry.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/SET-DOSA-WITH-VADA-CURRY-V-N.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chettinad Masala Dosa (Veg–Mushroom–Paneer–Cheese) (N)",
+      "description": "Traditional stuffed dosa with rich Chettinad flavors.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Chettinad-Masala-Dosa.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chocolate Dosa (N)",
+      "description": "Sweet dosa filled with chocolate spread.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHOCOLATE-DOSA-N.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Triple ‘C’ Dosa (J)",
+      "description": "Rice crepe with chilli, cheese and coriander.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Triple-‘C-Dosa.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Andra Pesarattu (G)",
+      "description": "Protein rich green gram dosa with ginger.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Andra-Pesarattu.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Butter Dosa (J)",
+      "description": "Classic crisp dosa cooked in butter.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Butter-Dosa.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Curry Leaf Dosa",
+      "description": "Aromatic dosa flavored with fresh curry leaves.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Curry-Leaf-Dosa.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Plain Uthappam (V J)",
+      "description": "Crispy and thick pancake style dosa.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PLAIN-UTHAPPAM-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ghee Uthappam (J)",
+      "description": "Clarified butter spread crispy thick pancake dosa.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ghee-Uthappam.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Veg Uthappam (J V)",
+      "description": "Crispy thick pancake dosa with vegetable toppings.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEG-UTHAPPAM-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Tomato Uthappam (V J)",
+      "description": "Crispy thick pancake dosa with tomato toppings.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/TOMATO-ONION-UTHAPPAM-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Onion Uthappam (V)",
+      "description": "Crispy thick pancake dosa topped with onions.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/ONION-UTHAPPAM-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Onion Podi Uthappam (V)",
+      "description": "Onion uthappam with spicy dry chilli podi spread.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Onion-Podi-Uthappam.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ghee Podi Onion Uthappam",
+      "description": "Clarified butter with onion and podi spread pancake dosa. (no icon shown in image)",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ghee-Podi-Onion-Uthappam.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Onion Chilli Uthappam (V)",
+      "description": "Crispy thick pancake dosa with onion and chilli topping.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/ONION-CHILLI-UTHAPPAM-V-1.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Tomato Onion Uthappam (V)",
+      "description": "Crispy thick pancake dosa with tomato and onion topping.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/TOMATO-ONION-UTHAPPAM-V-1.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Onion Chilli Tomato Uthappam (V)",
+      "description": "Pancake dosa topped with onion, chilli and tomato.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/ONION-CHILLI-TOMATO-UTHAPPAM-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Peas Uthappam (V J)",
+      "description": "Crispy thick pancake dosa with peas toppings.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Peas-Onion-Uthappam.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Peas Onion Uthappam (V)",
+      "description": "Crispy thick pancake dosa with peas and onion.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Peas-Onion-Uthappam-1.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Peas Chilli Tomato Uthappam (J V)",
+      "description": "Crispy thick pancake dosa with peas, chilli and tomato toppings.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PEAS-CHILLI-TOMATO-UTHAPPAM-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "6 Suvai Uthappam (V)",
+      "description": "Special uthappam served with six different flavors (tomato, onion, coconut, veg, peas, chocolate).",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/6-Suvai-Uthappam.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Rava Dosa (V J N)",
+      "description": "Crispy semolina crepe.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Rava-Dosa.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Rava Masala (V N)",
+      "description": "Semolina dosa stuffed with savory potato masala.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/RAVA-MASALA-DOSA-V-N-1.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Onion Rava Dosa (V N)",
+      "description": "Crispy rava dosa topped with onions.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/ONION-RAVA-MASALA-V-N-1.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Onion Rava Masala Dosa (V N)",
+      "description": "Onion topping with savory potato stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Onion-Rava-Masala-Dosa.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ghee Rava Dosa (N)",
+      "description": "Clarified butter roasted crispy semolina crepe.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/GHEE-RAVA-DOSA-N.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ghee Rava Masala Dosa (N)",
+      "description": "Ghee roasted rava dosa with potato masala stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ghee-Rava-Masala-Dosa.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ghee Onion Rava Dosa (N)",
+      "description": "Ghee roasted rava dosa topped with onions.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/GHEE-ONION-RAVA-DOSA-N.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ghee Onion Rava Masala Dosa (N)",
+      "description": "Onion topping with savory potato stuffing cooked in ghee.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ghee-Rava-Masala-Dosa-1.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Dry Fruit Rava Dosa (J V N)",
+      "description": "Garnished with nuts and raisins.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Dry-Fruit-Rava-Dosa.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Dry Fruit Rava Masala Dosa (V N)",
+      "description": "Dry fruits with savory potato stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/DRY-FRUIT-RAVA-MASALA-V-N.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Cashew and Vegetable Rava (V N)",
+      "description": "Crispy semolina crepe with cashew and vegetables.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Cashew-and-Vegetable-Rava.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chettinad Rava (N)",
+      "description": "Rava dosa with traditional Chettinad masala stuffing.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHETTINAD-RAVA-DOSA-N.png",
+      "vegan": true,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ragi Dosa / Finger Millet (? J G)",
+      "description": "South Indian crepe made with finger millet.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/ONION-CHILLI-UTHAPPAM-V-1.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Kambu Dosa / Pearl Millet (? J G)",
+      "description": "South Indian crepe made with pearl millet.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/KAMBU-DOSA-V-G.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Cholam Dosa / Sorghum Millet (? J G)",
+      "description": "South Indian crepe made with sorghum millet.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Cholam-Dosa-Sorghum-Millet.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Dhal Butter Fry (G)",
+      "description": "Lentils (toor dal) curry.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/DHAL-BUTTER-FRY-G.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Dhal Makhani (G)",
+      "description": "Creamy black lentils slow cooked with spices.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/DHAL-MAKHANI-G.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Dhal Palak, Roasted Garlic (G)",
+      "description": "Spinach lentils flavored with roasted garlic.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Dhal-Palak-Roasted-Garlic.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Vegetable Jalfrezi (G N)",
+      "description": "Vegetables cooked in tangy tomato gravy.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEGETABLE-JALFREZI-G-N.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Vegetable Kolhapuri (G N)",
+      "description": "Mixed vegetables and paneer in spicy tomato curry.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Vegetable-Kolhapuri.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Bhindi Do Pyaza (G N)",
+      "description": "Okra curry with onions.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/BHINDI-DO-PYAZA-G-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Baby Corn Masala (G N)",
+      "description": "Rich and creamy gravy with tender baby corn.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Baby-Corn-Masala.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Gobi Mutter (G J N)",
+      "description": "Cauliflower and peas curry.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Gobi-Mutter.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chana Masala (G N J)",
+      "description": "Chickpeas cooked in traditional masala gravy.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Chana-Masala.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Aloo Gobi (G N)",
+      "description": "Potato and cauliflower curry.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/ALOO-GOBI-G-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Vegetable Butter Masala (G N J)",
+      "description": "Vegetables cooked in buttery tomato gravy.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEGETABLE-BUTTER-MASALA-G-N.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Baingan Masala (G N)",
+      "description": "Aubergine curry.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Baingan-Masala.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mushroom Rogan Josh (G N)",
+      "description": "Mushroom cooked in spicy red gravy.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-ROGAN-JOSH-G-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer Butter Masala (G N J)",
+      "description": "Paneer in rich buttery tomato gravy.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-BUTTER-MASALA-G-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Palak Paneer (G N J)",
+      "description": "Paneer cubes cooked in spinach gravy.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PALAK-PANEER-G-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mutter Paneer (G N J)",
+      "description": "Paneer and peas cooked in yellow gravy.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUTTER-PANEER-G-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Kadai Vegetable (N J)",
+      "description": "Mixed vegetables cooked in spicy kadai gravy.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Kadai-Vegetable.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer Tikka Masala (N J)",
+      "description": "Grilled paneer in creamy tomato masala gravy.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Tikka-Masala.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Vegetable Chettinadu Masala(G N)",
+      "description": "",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Vegetable-Chettinadu-Masala.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer Chettinadu Masala(G N)",
+      "description": "",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Chettinadu-Masala.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mushroom Chettinadu Masala(G N)",
+      "description": "",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Kadai-Vegetable.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Vegetable Pulao(G  J)",
+      "description": "Fragrant basmati rice sautéed with mixed vegetables and mild spices.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEGETABLE-PULAO-G.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Fried Pani, Cashew Jeera Pulao (G N)",
+      "description": "Jeera flavored rice tossed with roasted cashews and spices.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/FRIED-ONION-CASHEW-JEERA-PULAO-G-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer & Cajun Spiced Aloo Pulao (G N)",
+      "description": "Rice with paneer cubes and crispy Cajun spiced potatoes.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-GAJUN-SPICED-ALOO-PULAO-G-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Peas Pulao (G  J)",
+      "description": "Basmati rice cooked with fresh green peas.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PEAS-PULAO-G.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mushroom Pulao ( G)",
+      "description": "Rice tossed with sautéed mushrooms and herbs.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Mushroom-Biryani.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Veg Biryani (G N)",
+      "description": "Traditional vegetable dum biryani layered with spices.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Veg-Biryani.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer Biryani (G N)",
+      "description": "Aromatic biryani with soft paneer and masala.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Biryani.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mushroom Biryani (G N)",
+      "description": "Spiced basmati layered with juicy mushrooms.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Mushroom-Biryani-1.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "AB Special Dum Biryani (G N)",
+      "description": "Chef’s special mix of paneer, vegetables and mushrooms slow cooked.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/AB-SPECIAL-DUM-BIRYANI-G-N.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Kashmiri Pulao (NJ)",
+      "description": "Sweet aromatic rice with dry fruits and nuts.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Kashmiri-Pulao.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Makai Mutter Pulao (NJ)",
+      "description": "Rice with sweet corn and green peas.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Makai-Mutter-Pulao.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Naan",
+      "description": "Soft traditional tandoor bread.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/NAAN.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Butter Naan",
+      "description": "Naan brushed with melted butter.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Butter-Naan.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Onion Naan",
+      "description": "Naan stuffed with spiced onions.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Onion-Naan.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chilli Naan",
+      "description": "Bread topped with green chillies.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Chilli-Naan.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Garlic Naan",
+      "description": "Garlic flavored tandoori bread.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Garlic-Naan.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chilli Garlic Naan",
+      "description": "Spicy garlic naan with herbs.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Chilli-Garlic-Naan.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Butter Kulcha",
+      "description": "Kulcha topped with butter.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Butter-Kulcha.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Onion Kulcha",
+      "description": "Stuffed onion kulcha.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Onion-Kulcha.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Butter Roti",
+      "description": "Whole wheat roti with butter.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Butter-Roti.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Peshwari Naan ( N)",
+      "description": "Sweet naan stuffed with nuts and dry fruits.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Peshwari-Naan.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer Naan",
+      "description": "Bread stuffed with paneer filling.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Naan.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Spl Naan (Cashew/Pista) ( N)",
+      "description": "Rich naan stuffed with cashew and pista mix.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Spl-Naan.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Tandoori Stuffed Paratha",
+      "description": "Whole wheat paratha stuffed with spiced potatoes.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Tandoori-Stuffed-Paratha.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ceylon Special Stuffed Parotta",
+      "description": "Layered bread filled with vegetables and mushrooms.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ceylon-Special-Stuffed-Parotta.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Methi Roti (j)",
+      "description": "Flatbread flavored with fenugreek leaves.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Methi-Roti.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Cheese Naan(j)",
+      "description": "Naan filled with melted cheese.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Cheese-Naan.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Cheese Chilli Garlic Naan",
+      "description": "Cheesy naan with garlic and chilli.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Cheese-Chilli-Garlic-Naan.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Plain roti(V)",
+      "description": "with the sour",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Cheese-Chilli-Garlic-Naan.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Gobi 65(V J)",
+      "description": "Steamed rice cake.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/GOBI-65-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mushroom 65 (V )",
+      "description": "Deep fried mushrooms with spicy seasoning.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-65-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer 65 (j)",
+      "description": "Crispy paneer cubes in special 65 sauce.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-65.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Baby Corn 65 (j V)",
+      "description": "Crunchy baby corn coated with spices.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Baby-Corn-65.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Aloo 65 (V )",
+      "description": "Golden fried potatoes with tangy masala.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/GOBI-65-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Broccoli 65 (V)",
+      "description": "Crispy broccoli tossed with spices.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-65-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Bhindi Fry (V)",
+      "description": "Crisp okra stir-fried with masala.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-65.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Crispy Lollipop (V)",
+      "description": "Crunchy vegetable lollipops with sauce.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Crispy-Lollipop.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Aloo Pepper Fry (G)",
+      "description": "Potatoes tossed in crushed black pepper.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/ALOO-PEPPER-FRY.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Honey Chilli Potato (G)",
+      "description": "Sweet and spicy glazed potatoes.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/HONEY-CHILLI-POTATO-G.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Honey Chilli Pineapple (G)",
+      "description": "Crispy pineapple tossed in honey chilli sauce.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/HONEY-CHILLI-PINAPPLE-G.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Black Pepper Baby Corn",
+      "description": "Baby corn stir fried with black pepper.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/BLACK-PEPPER-BABY-CORN-V.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chilli Paneer  (j)",
+      "description": "Paneer cubes in spicy chilli sauce.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHILLI-PANEER.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chilli Gobi (V J)",
+      "description": "Crispy cauliflower in Indo-Chinese gravy.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHILLI-GOBI-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Chilli Mushroom (V)",
+      "description": "Mushrooms tossed with soy chilli glaze.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/CHILLI-MUSHROOM-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Schezwan Paneer",
+      "description": "Paneer in spicy Schezwan sauce.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/SCHEZWAN-PANEER.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Veg Spring Roll (V)",
+      "description": "Crispy rolls stuffed with vegetables.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEG-SPRING-ROLL-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Seven Spy Cheese",
+      "description": "Cheese bites coated in spicy seasoning.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Seven-Spy-Cheese.png",
+      "vegan": true,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "All Manchurian Varieties (V)",
+      "description": "Vegetables tossed in classic Manchurian sauce.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/All-Manchurian-Varieties.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Crispy Corn (V)",
+      "description": "Golden fried sweet corn kernels.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Crispy-Corn.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Veg Noodles(V J)",
+      "description": "Stir-fried noodles with fresh vegetables.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEG-NOODLES-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mushroom Noodles (V)",
+      "description": "Noodles tossed with mushrooms.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-NOODLES-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer Noodles (j)",
+      "description": "Noodles with paneer cubes and spices.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Noodles.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Schezwan Noodles (V)",
+      "description": "Spicy Schezwan flavored noodles.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Schezwan-Noodles.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Curried Mushroom Noodles (V)",
+      "description": "Noodles with curry flavored mushrooms.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Curried-Mushroom-Noodles.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Veg Hakka Noodles (V J)",
+      "description": "Classic Indo-Chinese street style noodles.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/VEG-HAKKA-NOODLES-V.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Vegetable Fried Rice (G  JV)",
+      "description": "Rice stir-fried with mixed vegetables.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Vegetable-Fried-Rice-1.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Mushroom Fried Rice (V G)",
+      "description": "Fried rice with mushrooms.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/MUSHROOM-FRIED-RICE-V-G.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer Fried Rice (G  J)",
+      "description": "Rice tossed with paneer and spices.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/PANEER-FRIED-RICE-V-G.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Schezwan Fried Rice (G)",
+      "description": "Hot and spicy Schezwan rice.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Schezwan-Fried-Rice.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Butter Tossed Mushroom Noodles",
+      "description": "Rich buttery noodles with mushrooms.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Butter-Tossed-Mushroom-Noodles.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Szechwan Paneer Fried Rice(G)",
+      "description": "",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Butter-Tossed-Mushroom-Noodles.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Sweetcorn & Golden Garlic Rice(V G)",
+      "description": "",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Sweetcorn-Golden-Garlic-Rice.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Paneer & Bell Pepper Fried Rice(G  J)",
+      "description": "",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Paneer-Bell-Pepper-Fried-Rice.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Stir Fried Paner Noodles(j)",
+      "description": "",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Stir-Fried-Paneer-Noodles.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Special Momos",
+      "description": "Steamed dumplings filled with savory vegetables.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/SPECIAL-MOMOS.png",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "HL Garden Momos (V)",
+      "description": "Pan tossed momos with chilli sauce and peppers.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/HL-Garden-Momos.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Payasam ( N)",
+      "description": "Traditional South Indian kheer.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Payasam.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Ice Cream ( N)",
+      "description": "Classic creamy dessert.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Ice-Cream.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Falooda ( N)",
+      "description": "Layered milk dessert with ice cream and nuts.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Falooda.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Gulab Jamun ( N)",
+      "description": "Soft milk dumplings in sugar syrup.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Gulab-Jamun.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Gulab Jamun with Ice Cream",
+      "description": "Warm jamun served with cold ice cream.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Gulab-Jamun-with-Ice-Cream.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": true
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Rasmalai ( N)",
+      "description": "Soft cottage cheese patties soaked in sweet milk.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Rasmalai.png",
+      "vegan": false,
+      "glutenFree": true,
+      "jain": false
+    },
+    {
+      "category": "London | Wembley | Tooting  I Barking",
+      "name": "Rava Kesari ( N)",
+      "description": "Semolina sweet flavored with ghee.",
+      "image": "https://skaryabhavan.com/wp-content/uploads/2026/02/Rava-Kesari.png",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false
+    }
+  ],
+  "categories": [
+    "London | Wembley | Tooting  I Barking"
+  ]
+}
