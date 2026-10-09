@@ -9,7 +9,14 @@ const slides = [
   {
     id: 1,
     image: '/images/migrated/sl1.jpg',
-    heading: 'AUTHENTIC INDIAN VEGETARIAN RESTAURANT',
+    heading: (
+      <>
+        AUTHENTIC INDIAN VEGETARIAN
+        <br />
+        RESTAURANT
+      </>
+    ),
+    headingText: 'AUTHENTIC INDIAN VEGETARIAN RESTAURANT',
     subheading: 'Central London | Wembley | Tooting',
     buttonText: 'View Menu',
     buttonLink: '/menu'
@@ -17,7 +24,14 @@ const slides = [
   {
     id: 2,
     image: '/images/migrated/sl2.jpg',
-    heading: '100% PURE VEGETARIAN & VEGAN INDIAN CUISINE',
+    heading: (
+      <>
+        100% PURE VEGETARIAN &amp;
+        <br />
+        VEGAN INDIAN CUISINE
+      </>
+    ),
+    headingText: '100% PURE VEGETARIAN & VEGAN INDIAN CUISINE',
     subheading: 'Central London | Wembley',
     buttonText: 'View Menu',
     buttonLink: '/menu'
@@ -25,7 +39,14 @@ const slides = [
   {
     id: 3,
     image: '/images/migrated/sl3.jpg',
-    heading: 'TOP-RATED INDIAN VEG DINING & CATERING SERVICES ACROSS LONDON',
+    heading: (
+      <>
+        TOP-RATED INDIAN VEG DINING &amp;
+        <br />
+        CATERING SERVICES ACROSS LONDON
+      </>
+    ),
+    headingText: 'TOP-RATED INDIAN VEG DINING & CATERING SERVICES ACROSS LONDON',
     subheading: 'Live Dosa | Outdoor Caterings',
     buttonText: 'View Menu',
     buttonLink: '/menu'
@@ -54,7 +75,7 @@ export default function Hero() {
   const active = slides[currentSlide];
 
   return (
-    <section className="relative w-full h-[480px] sm:h-[580px] lg:h-[650px] bg-black overflow-hidden select-none">
+    <section className="group relative w-full h-[520px] sm:h-[620px] lg:h-[700px] bg-black overflow-hidden select-none">
       {/* Background Images with smooth fade */}
       {slides.map((slide, idx) => (
         <div
@@ -65,31 +86,34 @@ export default function Hero() {
         >
           <Image
             src={slide.image}
-            alt={slide.heading}
+            alt={slide.headingText}
             fill
             className="object-cover"
             priority={idx === 0}
           />
-          {/* Dark Overlay for typography legibility */}
-          <div className="absolute inset-0 bg-black/45" />
+          {/* Subtle overlay matching live site elementor wrapbg */}
+          <div className="absolute inset-0 bg-black/40" />
         </div>
       ))}
 
-      {/* Slide Content */}
-      <div className="relative z-20 h-full max-w-7xl mx-auto px-6 sm:px-12 flex flex-col justify-center items-start">
-        <div className="max-w-4xl space-y-3 sm:space-y-4">
-          <h1 className="text-2xl sm:text-4xl lg:text-[44px] font-bold font-sans text-white tracking-wider uppercase leading-tight drop-shadow-md">
+      {/* Slide Content positioned at lower-left, max-width 50% matching live site */}
+      <div className="relative z-20 h-full max-w-7xl mx-auto px-6 sm:px-12 lg:px-20 flex flex-col justify-end pb-16 sm:pb-24 lg:pb-28 items-start">
+        <div className="max-w-xl lg:max-w-[560px]">
+          {/* Exact live site lakit-slide-heading: font-family Josefin Sans, 30px, 600 weight, uppercase, line-height 1.4 */}
+          <h1 className="font-['Josefin_Sans'] text-[24px] sm:text-[28px] lg:text-[30px] font-semibold text-white tracking-normal uppercase leading-[1.4] m-0 drop-shadow-sm">
             {active.heading}
           </h1>
 
-          <p className="text-base sm:text-xl lg:text-[22px] font-normal font-sans text-white tracking-wide drop-shadow-sm">
+          {/* Exact live site lakit-slide-description: font-family Josefin Sans, 24px, 600 weight, letter-spacing 2px */}
+          <p className="font-['Josefin_Sans'] text-[16px] sm:text-[20px] lg:text-[24px] font-semibold text-white tracking-[2px] leading-[1.2] mt-4 sm:mt-6 drop-shadow-sm">
             {active.subheading}
           </p>
 
-          <div className="pt-3">
+          {/* Button matching live site square style */}
+          <div className="pt-6 sm:pt-8">
             <Link
               href={active.buttonLink}
-              className="btn-hero-menu hover:scale-105"
+              className="btn-hero-menu"
             >
               {active.buttonText}
             </Link>
@@ -97,11 +121,11 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Navigation Arrows */}
+      {/* Navigation Arrows - subtle and appear on hover to avoid cluttering like live site */}
       <button
         onClick={prevSlide}
         aria-label="Previous Slide"
-        className="absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 z-30 p-2 text-white/70 hover:text-white transition-colors"
+        className="absolute left-3 sm:left-6 top-1/2 -translate-y-1/2 z-30 p-2 text-white/70 hover:text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
       >
         <ChevronLeft className="w-8 h-8 sm:w-10 sm:h-10 stroke-[1.5]" />
       </button>
@@ -109,7 +133,7 @@ export default function Hero() {
       <button
         onClick={nextSlide}
         aria-label="Next Slide"
-        className="absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 z-30 p-2 text-white/70 hover:text-white transition-colors"
+        className="absolute right-3 sm:right-6 top-1/2 -translate-y-1/2 z-30 p-2 text-white/70 hover:text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300"
       >
         <ChevronRight className="w-8 h-8 sm:w-10 sm:h-10 stroke-[1.5]" />
       </button>

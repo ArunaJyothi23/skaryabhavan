@@ -28,7 +28,7 @@ export default function BranchesPage() {
         />
         <div className="absolute inset-0 bg-black/55" />
         <div className="relative z-10 text-center px-4 space-y-2">
-          <h1 className="text-4xl sm:text-6xl font-serif font-normal text-white tracking-wide">
+          <h1 className="text-3xl sm:text-4xl lg:text-[42px] font-serif font-normal text-white tracking-wide">
             Branches
           </h1>
           <p className="text-base sm:text-xl font-light text-white tracking-wider">
