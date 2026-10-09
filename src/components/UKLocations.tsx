@@ -1,7 +1,9 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 
 const locations = [
   {
@@ -26,49 +28,58 @@ const locations = [
 
 export default function UKLocations() {
   return (
-    <section className="py-14 sm:py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-14 sm:py-20 bg-[#ECE6DF]">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Heading */}
-        <div className="text-center mb-12">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold tracking-wide uppercase text-[#344e41]">
+        <div className="text-center mb-10 sm:mb-14">
+          <h2 className="font-ivymode text-2xl sm:text-3xl lg:text-[34px] font-semibold tracking-[1px] uppercase text-[#344E41]">
             OUR LOCATIONS IN THE UK
           </h2>
         </div>
 
         {/* 3 Locations Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {locations.map((loc, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group"
+              className="bg-white rounded-2xl p-6 lg:p-7 shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
             >
               <div>
-                <div className="relative h-60 w-full overflow-hidden bg-gray-50">
+                {/* Location Image */}
+                <div className="relative h-56 w-full rounded-xl overflow-hidden mb-5 bg-gray-100">
                   <Image
                     src={loc.image}
                     alt={`Arya Bhavan ${loc.name}`}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="object-cover hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 100vw, 380px"
                   />
                 </div>
 
-                <div className="p-6">
-                  <h3 className="font-serif font-bold text-xl text-gray-900 mb-2">
-                    {loc.name}
-                  </h3>
-                  <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
-                    {loc.desc}
-                  </p>
+                {/* Pin Icon Badge */}
+                <div className="w-10 h-10 rounded-full bg-[#E5ECE9] text-[#344E41] flex items-center justify-center mb-4">
+                  <MapPin className="w-5 h-5 stroke-[1.8]" />
                 </div>
+
+                {/* Location Title */}
+                <h3 className="font-ivymode font-bold text-2xl text-gray-900 mb-2">
+                  {loc.name}
+                </h3>
+
+                {/* Description */}
+                <p className="font-sans text-sm text-gray-600 leading-relaxed mb-6">
+                  {loc.desc}
+                </p>
               </div>
 
-              <div className="p-6 pt-0">
+              {/* View More Orange Button */}
+              <div>
                 <Link
                   href={loc.link}
-                  className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#6d1007] hover:text-[#c4a05a] group-hover:translate-x-1 transition-all"
+                  className="inline-block bg-[#F6851C] hover:bg-[#e07513] text-white px-6 py-2.5 rounded font-semibold text-sm transition-colors duration-200"
                 >
-                  View More <ArrowRight className="w-3.5 h-3.5" />
+                  View More
                 </Link>
               </div>
             </div>

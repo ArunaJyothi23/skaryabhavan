@@ -22,8 +22,8 @@ export default function AboutSection() {
 
           {/* Right Column: Heading & Narrative (Exact text from screenshots 3, 4, 5) */}
           <div className="lg:col-span-7 space-y-5">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold tracking-wide uppercase text-[#344e41]">
-              ABOUT SAMKO ARYA BHAVAN
+            <h2 className="font-ivymode text-2xl sm:text-3xl lg:text-[34px] font-semibold tracking-[1px] uppercase text-[#344E41] leading-tight">
+              ABOUT SAMKO<br className="hidden sm:inline" /> ARYA BHAVAN
             </h2>
 
             <div className="space-y-4 text-sm sm:text-[15px] text-gray-700 leading-relaxed font-sans">

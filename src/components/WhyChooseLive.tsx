@@ -1,55 +1,64 @@
+'use client';
+
 import React from 'react';
-import { Award, Zap, Heart, Sparkles } from 'lucide-react';
+import { Award, Truck, Leaf, ChefHat } from 'lucide-react';
 
 const reasons = [
   {
     icon: Award,
     title: 'Best Quality',
-    desc: 'Arya Bhavan, London’s favourite Indian vegetarian restaurant, proudly serving authentic Indian vegetarian cuisine across Central London, Wembley, Tooting.'
+    desc: 'Arya Bhavan, London’s favourite Indian vegetarian restaurant, proudly serving authentic Indian vegetarian cuisine across London, Wembley, Tooting'
   },
   {
-    icon: Zap,
+    icon: Truck,
     title: 'Fast Service',
-    desc: 'Arya Bhavan offers prompt, courteous service without ever compromising on the freshness or quality of its authentic South Indian cuisine.'
+    desc: 'Arya Bhavan offers fast service without compromising on the quality of its authentic South Indian cuisine.'
   },
   {
-    icon: Heart,
+    icon: Leaf,
     title: 'Vegan Options',
-    desc: 'Arya Bhavan offers a wide variety of vegan options, including crispy dosas, steamed idlis, hot sambar vadai, and vegetable curries.'
+    desc: 'Arya Bhavan offers a variety of vegan options, including dishes like onion masala dosa and cauliflower wings, clearly indicated on their menu.'
   },
   {
-    icon: Sparkles,
+    icon: ChefHat,
     title: 'Arya Bhavan Special',
-    desc: 'Traditional master chefs preparing stone-ground batters, fresh coconut chutneys, and heritage South Indian spices daily.'
+    desc: 'Arya Bhavan specials include Chef’s special dosa, South Indian thali, and paneer butter cheese masala dosa, offering authentic South Indian flavours.'
   }
 ];
 
 export default function WhyChooseLive() {
   return (
-    <section className="py-14 sm:py-20 bg-[#f7f5f2]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-16 sm:py-20 bg-[#344E41] text-white">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="text-center mb-12">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold tracking-wide uppercase text-[#344e41]">
-            Why Choose Arya Bhavan
+        {/* Section Heading */}
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="font-ivymode text-2xl sm:text-3xl lg:text-[34px] font-semibold tracking-[1.5px] uppercase text-[#EDE7DF]">
+            WHY CHOOSE ARYA BHAVAN
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* 4 Feature Columns with vertical dividing lines */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 divide-y lg:divide-y-0 lg:divide-x divide-white/20">
           {reasons.map((r, idx) => {
             const Icon = r.icon;
             return (
               <div
                 key={idx}
-                className="bg-white p-7 rounded-2xl border border-gray-100 shadow-xs hover:shadow-lg transition-all duration-300"
+                className="py-8 lg:py-4 px-4 sm:px-6 flex flex-col items-start text-left"
               >
-                <div className="w-12 h-12 rounded-xl bg-orange-50 text-[#6d1007] flex items-center justify-center mb-5">
-                  <Icon className="w-6 h-6" />
+                {/* Gold Icon */}
+                <div className="text-[#C4A05A] mb-5">
+                  <Icon className="w-9 h-9 stroke-[1.8]" />
                 </div>
-                <h3 className="font-serif font-bold text-lg text-gray-900 mb-2">
+
+                {/* Title */}
+                <h3 className="font-ivymode text-xl sm:text-2xl font-bold text-white mb-3 leading-snug">
                   {r.title}
                 </h3>
-                <p className="text-xs sm:text-sm text-gray-600 leading-relaxed font-sans">
+
+                {/* Description */}
+                <p className="font-sans text-sm text-[#EDE7DF]/85 leading-relaxed">
                   {r.desc}
                 </p>
               </div>

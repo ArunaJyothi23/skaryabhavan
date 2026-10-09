@@ -1,49 +1,72 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
-const galleryDishes = [
-  { name: 'Masala Dosa', img: '/images/migrated/MASALA-DOSA-V-G.png' },
-  { name: 'Medu Vadai', img: '/images/migrated/MEDU-VADAI-V-G.png' },
-  { name: 'Sambar Vadai', img: '/images/migrated/SAMBAR-VADAI-V-G.png' },
-  { name: 'Idly Combo', img: '/images/migrated/IDLY-V-G.png' },
-  { name: 'Curd Vadai', img: '/images/migrated/CURD-VADAI-G.png' },
-  { name: 'Gobi 65', img: '/images/migrated/GOBI-65-V-G.png' }
+const galleryImages = [
+  {
+    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-2.jpeg',
+    alt: 'Arya Bhavan Authentic Masala Dosa Platter'
+  },
+  {
+    src: '/images/migrated/WhatsApp-Image-2025-12-08-at-14.51.18-e1765205112699.jpeg',
+    alt: 'Live Dosa Catering Preparation'
+  },
+  {
+    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-11.jpeg',
+    alt: 'Crispy South Indian Starters & Specialties'
+  },
+  {
+    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-6.jpeg',
+    alt: 'Special Vegetarian Starters & Noodles Platter'
+  },
+  {
+    src: '/images/migrated/WhatsApp-Image-2025-12-04-at-13.21.23.jpeg',
+    alt: 'Traditional South Indian Dining Experience'
+  },
+  {
+    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52.jpeg',
+    alt: 'Steamed Idlis & Sambar Vada Spread'
+  },
+  {
+    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-12.03.12.jpeg',
+    alt: 'Outdoor Catering Buffet Feast'
+  },
+  {
+    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-10.jpeg',
+    alt: 'Aromatic Vegetarian Curries & Kadai Gravies'
+  }
 ];
 
 export default function FoodGallery() {
   return (
     <section className="py-14 sm:py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="text-center mb-12">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold tracking-wide uppercase text-[#344e41]">
-            South Indian Dosas, Idlis & More
+        {/* Section Heading */}
+        <div className="text-center mb-10 sm:mb-12">
+          <h2 className="font-ivymode text-2xl sm:text-3xl lg:text-[32px] font-semibold tracking-[1px] uppercase text-[#344E41] leading-snug">
+            SOUTH INDIAN DOSAS, IDLIS &amp; MORE
           </h2>
-          <p className="text-xs sm:text-sm text-gray-500 mt-2 font-sans">
-            Prepared daily with fermented stone-ground batter, rich pure ghee, and authentic spices.
-          </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-          {galleryDishes.map((dish, idx) => (
-            <Link
+        {/* 4-Column Exact Gallery Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[18px]">
+          {galleryImages.map((item, idx) => (
+            <div
               key={idx}
-              href="/menu"
-              className="bg-[#fdfaf6] rounded-2xl p-3 border border-gray-100 hover:border-[#c4a05a] hover:shadow-lg transition-all duration-300 group flex flex-col items-center text-center"
+              className="group relative aspect-[3/2] w-full rounded-xl overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 bg-gray-100"
             >
-              <div className="relative w-28 h-28 sm:w-32 sm:h-32 mb-2">
-                <Image
-                  src={dish.img}
-                  alt={dish.name}
-                  fill
-                  className="object-contain group-hover:scale-105 transition-transform"
-                />
-              </div>
-              <span className="font-serif font-semibold text-xs text-gray-800 group-hover:text-[#6d1007]">
-                {dish.name}
-              </span>
-            </Link>
+              <Image
+                src={item.src}
+                alt={item.alt}
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 300px"
+              />
+              {/* Subtle hover overlay */}
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 pointer-events-none" />
+            </div>
           ))}
         </div>
 

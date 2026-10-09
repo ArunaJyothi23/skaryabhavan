@@ -52,7 +52,7 @@ export default function FeaturePills() {
               </div>
 
               <div>
-                <h3 className="font-serif font-bold text-base text-gray-900 leading-snug">
+                <h3 className="font-ivymode font-bold text-lg text-gray-900 leading-snug">
                   {feat.title}
                 </h3>
                 <p className="text-xs text-gray-500 mt-0.5 leading-relaxed">

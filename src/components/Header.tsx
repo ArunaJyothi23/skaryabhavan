@@ -38,7 +38,7 @@ export default function Header() {
         <div className="flex justify-between lg:justify-center items-center py-3 border-t border-gray-100">
           
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-10 text-[15px] font-semibold tracking-wide">
+          <nav className="hidden lg:flex items-center space-x-8 xl:space-x-10 text-[18px] font-normal leading-[1.4em]">
             
             <Link 
               href="/" 

@@ -77,16 +77,16 @@ export default function Hero() {
 
       {/* Slide Content */}
       <div className="relative z-20 h-full max-w-7xl mx-auto px-6 sm:px-12 flex flex-col justify-center items-start">
-        <div className="max-w-3xl space-y-4">
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold font-sans text-white tracking-wider uppercase leading-tight drop-shadow-md">
+        <div className="max-w-4xl space-y-3 sm:space-y-4">
+          <h1 className="text-2xl sm:text-4xl lg:text-[44px] font-bold font-sans text-white tracking-wider uppercase leading-tight drop-shadow-md">
             {active.heading}
           </h1>
 
-          <p className="text-lg sm:text-2xl font-light text-white tracking-wide drop-shadow-sm">
+          <p className="text-base sm:text-xl lg:text-[22px] font-normal font-sans text-white tracking-wide drop-shadow-sm">
             {active.subheading}
           </p>
 
-          <div className="pt-4">
+          <div className="pt-3">
             <Link
               href={active.buttonLink}
               className="btn-hero-menu hover:scale-105"
