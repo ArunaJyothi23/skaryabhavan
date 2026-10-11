@@ -1,0 +1,223 @@
+{
+  "id": "e379276",
+  "elType": "container",
+  "settings": {
+    "content_width": "full",
+    "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "30",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+    },
+    "padding_mobile": {
+      "unit": "px",
+      "top": "7",
+      "right": "7",
+      "bottom": "7",
+      "left": "7",
+      "isLinked": true
+    }
+  },
+  "elements": [
+    {
+      "id": "d8f4d61",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "e1fa8fe",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "background_background": "classic",
+            "background_image": {
+              "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/menu-north-thali-e1772186014264.jpg",
+              "id": 2332,
+              "size": "",
+              "alt": "",
+              "source": "library"
+            },
+            "background_position": "center center",
+            "background_size": "cover",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "min_height_mobile": {
+              "unit": "px",
+              "size": 313,
+              "sizes": []
+            }
+          },
+          "elements": [],
+          "isInner": true
+        },
+        {
+          "id": "126a1ff",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "padding": {
+              "unit": "px",
+              "top": "50",
+              "right": "20",
+              "bottom": "050",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "b89458f",
+              "elType": "widget",
+              "settings": {
+                "title": "About Samko\nArya Bhavan",
+                "align": "left",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": ""
+                },
+                "_margin_tablet": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": ""
+                },
+                "_padding": {
+                  "unit": "em",
+                  "top": "1",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": ""
+                },
+                "_padding_laptop": {
+                  "unit": "em",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": "1"
+                },
+                "_padding_tablet": {
+                  "unit": "em",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": "1"
+                },
+                "_padding_mobile_extra": {
+                  "unit": "em",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": "1"
+                },
+                "_padding_mobile": {
+                  "unit": "em",
+                  "top": "",
+                  "right": "",
+                  "bottom": "",
+                  "left": "",
+                  "isLinked": "1"
+                },
+                "__globals__": {
+                  "title_color": "globals/colors?id=43b9505",
+                  "typography_typography": ""
+                },
+                "align_mobile": "left",
+                "title_color": "#344E41",
+                "typography_typography": "custom",
+                "typography_font_family": "ivymode",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": "32",
+                  "sizes": []
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": "26",
+                  "sizes": []
+                },
+                "typography_font_weight": "600",
+                "typography_text_transform": "uppercase",
+                "typography_line_height": {
+                  "unit": "px",
+                  "size": "56",
+                  "sizes": []
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": "1",
+                  "sizes": []
+                },
+                "typography_letter_spacing_mobile": {
+                  "unit": "px",
+                  "size": "1",
+                  "sizes": []
+                },
+                "typography_line_height_tablet": {
+                  "unit": "px",
+                  "size": "",
+                  "sizes": []
+                },
+                "typography_line_height_mobile": {
+                  "unit": "px",
+                  "size": "",
+                  "sizes": []
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "5c223e7",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Welcome to Arya Bhavan, London’s favourite Indian vegetarian restaurant, proudly serving authentic Indian vegetarian cuisine across Central London, Wembley, Tooting. As a South Indian restaurant vegetarian lovers adore, we offer everything from traditional South Indian vegetarian dishes, South and North Indian thali’s, crispy dosa near me, and South Indian breakfast near me options. Our menu is 100% vegetarian, with dedicated vegan restaurant choices and Jain and vegan food restaurant selections for those who prefer specialised diets. Families choose us as their go-to family-friendly Indian vegetarian restaurant, while food lovers rate us among the top-rated Indian veg restaurants near me and the best dosa restaurant in London. We also provide 100% pure vegetarian catering services, including live dosa catering and outdoor catering for weddings, parties, and corporate events. Discover the true taste of India right here in London’s most loved neighbourhoods.</p><p>Inspired by authentic Indian flavours and expanding our legacy with branches in France, Belgium, Singapore, and the United Kingdom, Arya Bhavan continues to be a trusted South Indian vegetarian restaurant for diners everywhere.</p>"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    }
+  ],
+  "isInner": false
+}

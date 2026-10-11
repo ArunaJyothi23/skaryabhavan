@@ -9,13 +9,7 @@ const slides = [
   {
     id: 1,
     image: '/images/migrated/sl1.jpg',
-    heading: (
-      <>
-        AUTHENTIC INDIAN VEGETARIAN
-        <br />
-        RESTAURANT
-      </>
-    ),
+    heading: 'AUTHENTIC INDIAN VEGETARIAN RESTAURANT',
     headingText: 'AUTHENTIC INDIAN VEGETARIAN RESTAURANT',
     subheading: 'Central London | Wembley | Tooting',
     buttonText: 'View Menu',
@@ -24,13 +18,7 @@ const slides = [
   {
     id: 2,
     image: '/images/migrated/sl2.jpg',
-    heading: (
-      <>
-        100% PURE VEGETARIAN &amp;
-        <br />
-        VEGAN INDIAN CUISINE
-      </>
-    ),
+    heading: '100% PURE VEGETARIAN & VEGAN INDIAN CUISINE',
     headingText: '100% PURE VEGETARIAN & VEGAN INDIAN CUISINE',
     subheading: 'Central London | Wembley',
     buttonText: 'View Menu',
@@ -39,13 +27,7 @@ const slides = [
   {
     id: 3,
     image: '/images/migrated/sl3.jpg',
-    heading: (
-      <>
-        TOP-RATED INDIAN VEG DINING &amp;
-        <br />
-        CATERING SERVICES ACROSS LONDON
-      </>
-    ),
+    heading: 'TOP-RATED INDIAN VEG DINING & CATERING SERVICES ACROSS LONDON',
     headingText: 'TOP-RATED INDIAN VEG DINING & CATERING SERVICES ACROSS LONDON',
     subheading: 'Live Dosa | Outdoor Caterings',
     buttonText: 'View Menu',
@@ -98,9 +80,9 @@ export default function Hero() {
 
       {/* Slide Content positioned at lower-left, max-width 50% matching live site */}
       <div className="relative z-20 h-full max-w-7xl mx-auto px-6 sm:px-12 lg:px-20 flex flex-col justify-end pb-16 sm:pb-24 lg:pb-28 items-start">
-        <div className="max-w-xl lg:max-w-[560px]">
+        <div className="max-w-3xl lg:max-w-4xl">
           {/* Exact live site lakit-slide-heading: font-family Josefin Sans, 30px, 600 weight, uppercase, line-height 1.4 */}
-          <h1 className="font-['Josefin_Sans'] text-[24px] sm:text-[28px] lg:text-[30px] font-semibold text-white tracking-normal uppercase leading-[1.4] m-0 drop-shadow-sm">
+          <h1 className="font-['Josefin_Sans'] text-[22px] sm:text-[26px] lg:text-[30px] font-semibold text-white tracking-normal uppercase leading-[1.4] m-0 drop-shadow-sm sm:whitespace-nowrap">
             {active.heading}
           </h1>
 

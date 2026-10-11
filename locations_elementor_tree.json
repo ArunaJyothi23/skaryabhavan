@@ -1,0 +1,867 @@
+{
+  "id": "f3b7f76",
+  "elType": "container",
+  "settings": {
+    "flex_direction": "column",
+    "background_background": "classic",
+    "background_color": "#ECE6DF",
+    "margin": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+    },
+    "padding": {
+      "unit": "px",
+      "top": "50",
+      "right": "0",
+      "bottom": "50",
+      "left": "0",
+      "isLinked": false
+    },
+    "boxed_width": {
+      "unit": "px",
+      "size": 1240,
+      "sizes": []
+    },
+    "padding_mobile": {
+      "unit": "px",
+      "top": "10",
+      "right": "10",
+      "bottom": "40",
+      "left": "10",
+      "isLinked": false
+    }
+  },
+  "elements": [
+    {
+      "id": "1791a29",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column"
+      },
+      "elements": [
+        {
+          "id": "692ff25",
+          "elType": "widget",
+          "settings": {
+            "title": "Our Locations in the UK\n",
+            "align": "center",
+            "typography_typography": "custom",
+            "typography_font_family": "ivymode",
+            "typography_font_size": {
+              "unit": "px",
+              "size": "32",
+              "sizes": []
+            },
+            "title_color": "#344E41",
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": "26",
+              "sizes": []
+            },
+            "typography_font_weight": "600",
+            "typography_text_transform": "uppercase",
+            "typography_line_height": {
+              "unit": "px",
+              "size": "56",
+              "sizes": []
+            },
+            "typography_line_height_tablet": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "typography_line_height_mobile": {
+              "unit": "px",
+              "size": "",
+              "sizes": []
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": "1",
+              "sizes": []
+            },
+            "typography_letter_spacing_mobile": {
+              "unit": "px",
+              "size": "1",
+              "sizes": []
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "20",
+              "left": "0",
+              "isLinked": ""
+            },
+            "_margin_tablet": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "20",
+              "left": "0",
+              "isLinked": ""
+            },
+            "_padding": {
+              "unit": "em",
+              "top": "1",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": ""
+            },
+            "_padding_laptop": {
+              "unit": "em",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": "1"
+            },
+            "_padding_tablet": {
+              "unit": "em",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": "1"
+            },
+            "_padding_mobile_extra": {
+              "unit": "em",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": "1"
+            },
+            "_padding_mobile": {
+              "unit": "em",
+              "top": "",
+              "right": "",
+              "bottom": "",
+              "left": "",
+              "isLinked": "1"
+            },
+            "__globals__": {
+              "title_color": "globals/colors?id=43b9505",
+              "typography_typography": ""
+            }
+          },
+          "elements": [],
+          "widgetType": "heading"
+        }
+      ],
+      "isInner": true
+    },
+    {
+      "id": "0119165",
+      "elType": "container",
+      "settings": {
+        "flex_direction": "row",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "boxed_width": {
+          "unit": "px",
+          "size": 1220,
+          "sizes": []
+        },
+        "content_width": "full"
+      },
+      "elements": [
+        {
+          "id": "e718b27",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "box_shadow_hover_box_shadow_type": "yes",
+            "box_shadow_hover__boxshadow_h": {
+              "unit": "px",
+              "size": 2,
+              "sizes": []
+            },
+            "_transform_translateX_effect_hover": {
+              "unit": "px",
+              "size": 0,
+              "sizes": []
+            },
+            "_transform_translateY_effect_hover": {
+              "unit": "px",
+              "size": 10,
+              "sizes": []
+            },
+            "_transform_scale_popover_hover": "transform",
+            "_transform_scale_effect_hover": {
+              "unit": "px",
+              "size": 1.01,
+              "sizes": []
+            },
+            "_transform_skewX_effect_hover": {
+              "unit": "px",
+              "size": 1,
+              "sizes": []
+            },
+            "box_shadow_hover__boxshadow_c": "#F5852296",
+            "box_shadow_hover__boxshadow_b": {
+              "unit": "px",
+              "size": 9,
+              "sizes": []
+            },
+            "box_shadow_hover__boxshadow_s": {
+              "unit": "px",
+              "size": 1,
+              "sizes": []
+            },
+            "flex_direction": "row"
+          },
+          "elements": [
+            {
+              "id": "f717c39",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "min_height": {
+                  "unit": "px",
+                  "size": 245,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_image": {
+                  "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Wembley-6.jpeg",
+                  "id": 3365,
+                  "size": "",
+                  "alt": "",
+                  "source": "library"
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "isInner": true
+            },
+            {
+              "id": "be91f38",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "d3f8b40",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "dlicon location_pin",
+                      "library": "dlicon"
+                    },
+                    "primary_color": "#344B42",
+                    "size": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "_padding": {
+                      "unit": "px",
+                      "top": "9",
+                      "right": "9",
+                      "bottom": "9",
+                      "left": "9",
+                      "isLinked": true
+                    },
+                    "_element_width": "auto",
+                    "_element_width_tablet": "initial",
+                    "_element_custom_width_tablet": {
+                      "unit": "px",
+                      "size": 48.675
+                    },
+                    "_flex_size": "none",
+                    "_background_background": "classic",
+                    "_background_color": "#EAEDEC",
+                    "_border_radius": {
+                      "unit": "px",
+                      "top": "21",
+                      "right": "21",
+                      "bottom": "21",
+                      "left": "21",
+                      "isLinked": true
+                    },
+                    "_flex_align_self": "flex-start"
+                  },
+                  "elements": [],
+                  "widgetType": "icon"
+                },
+                {
+                  "id": "fd59cbe",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<h3 class=\"font-display text-2xl font-bold text-foreground mb-2\">Wembley</h3>",
+                    "align": "start",
+                    "text_color": "#000000",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Josefin Sans",
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "cc10c5e",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p class=\"text-sm text-muted-foreground font-body mb-6 leading-relaxed\">Perfect place for families and vegetarian food lovers.</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "19caa67",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "View More",
+                    "link": {
+                      "url": "https://skaryabhavan.com/wembley/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 21,
+                      "sizes": []
+                    },
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "#F68422",
+                    "button_background_hover_color": "#366732",
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "15",
+                      "bottom": "8",
+                      "left": "15",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "136286f",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "flex-start",
+            "background_background": "classic",
+            "background_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "padding": {
+              "unit": "px",
+              "top": "10",
+              "right": "10",
+              "bottom": "10",
+              "left": "10",
+              "isLinked": true
+            },
+            "box_shadow_hover_box_shadow_type": "yes",
+            "box_shadow_hover__boxshadow_h": {
+              "unit": "px",
+              "size": 2,
+              "sizes": []
+            },
+            "_transform_translateX_effect_hover": {
+              "unit": "px",
+              "size": 0,
+              "sizes": []
+            },
+            "_transform_translateY_effect_hover": {
+              "unit": "px",
+              "size": 10,
+              "sizes": []
+            },
+            "_transform_scale_popover_hover": "transform",
+            "_transform_scale_effect_hover": {
+              "unit": "px",
+              "size": 1.01,
+              "sizes": []
+            },
+            "_transform_skewX_effect_hover": {
+              "unit": "px",
+              "size": 1,
+              "sizes": []
+            },
+            "box_shadow_hover__boxshadow_c": "#F5852296",
+            "box_shadow_hover__boxshadow_b": {
+              "unit": "px",
+              "size": 9,
+              "sizes": []
+            },
+            "box_shadow_hover__boxshadow_s": {
+              "unit": "px",
+              "size": 1,
+              "sizes": []
+            },
+            "flex_direction": "row"
+          },
+          "elements": [
+            {
+              "id": "ef6fdf5",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "min_height": {
+                  "unit": "px",
+                  "size": 245,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_image": {
+                  "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Tooting-1.jpeg",
+                  "id": 3370,
+                  "size": "",
+                  "alt": "",
+                  "source": "library"
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [],
+              "isInner": true
+            },
+            {
+              "id": "6dd9231",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "bc4f987",
+                  "elType": "widget",
+                  "settings": {
+                    "selected_icon": {
+                      "value": "dlicon location_pin",
+                      "library": "dlicon"
+                    },
+                    "primary_color": "#344B42",
+                    "size": {
+                      "unit": "px",
+                      "size": 30,
+                      "sizes": []
+                    },
+                    "_padding": {
+                      "unit": "px",
+                      "top": "9",
+                      "right": "9",
+                      "bottom": "9",
+                      "left": "9",
+                      "isLinked": true
+                    },
+                    "_element_width": "auto",
+                    "_element_width_tablet": "initial",
+                    "_element_custom_width_tablet": {
+                      "unit": "px",
+                      "size": 48.675
+                    },
+                    "_flex_size": "none",
+                    "_background_background": "classic",
+                    "_background_color": "#EAEDEC",
+                    "_border_radius": {
+                      "unit": "px",
+                      "top": "21",
+                      "right": "21",
+                      "bottom": "21",
+                      "left": "21",
+                      "isLinked": true
+                    },
+                    "_flex_align_self": "flex-start"
+                  },
+                  "elements": [],
+                  "widgetType": "icon"
+                },
+                {
+                  "id": "8be1d23",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<h3 class=\"font-display text-2xl font-bold text-foreground mb-2\">Tooting</h3>",
+                    "align": "start",
+                    "text_color": "#000000",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Josefin Sans",
+                    "typography_font_weight": "700"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "2385235",
+                  "elType": "widget",
+                  "settings": {
+                    "editor": "<p class=\"text-sm text-muted-foreground font-body mb-6 leading-relaxed\">Enjoy traditional dosas and South Indian favourites.</p>"
+                  },
+                  "elements": [],
+                  "widgetType": "text-editor"
+                },
+                {
+                  "id": "5bf8d62",
+                  "elType": "widget",
+                  "settings": {
+                    "text": "View More",
+                    "link": {
+                      "url": "https://skaryabhavan.com/tooting/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 21,
+                      "sizes": []
+                    },
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "#F68422",
+                    "button_background_hover_color": "#366732",
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "15",
+                      "bottom": "8",
+                      "left": "15",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [],
+                  "widgetType": "button"
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "f59e15b",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "row",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "boxed_width": {
+              "unit": "px",
+              "size": 1220,
+              "sizes": []
+            },
+            "content_width": "full"
+          },
+          "elements": [
+            {
+              "id": "16f7d5f",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "flex-start",
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "10",
+                  "bottom": "10",
+                  "left": "10",
+                  "isLinked": true
+                },
+                "box_shadow_hover_box_shadow_type": "yes",
+                "box_shadow_hover__boxshadow_h": {
+                  "unit": "px",
+                  "size": 2,
+                  "sizes": []
+                },
+                "_transform_translateX_effect_hover": {
+                  "unit": "px",
+                  "size": 0,
+                  "sizes": []
+                },
+                "_transform_translateY_effect_hover": {
+                  "unit": "px",
+                  "size": 10,
+                  "sizes": []
+                },
+                "_transform_scale_popover_hover": "transform",
+                "_transform_scale_effect_hover": {
+                  "unit": "px",
+                  "size": 1.01,
+                  "sizes": []
+                },
+                "_transform_skewX_effect_hover": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "box_shadow_hover__boxshadow_c": "#F5852296",
+                "box_shadow_hover__boxshadow_b": {
+                  "unit": "px",
+                  "size": 9,
+                  "sizes": []
+                },
+                "box_shadow_hover__boxshadow_s": {
+                  "unit": "px",
+                  "size": 1,
+                  "sizes": []
+                },
+                "flex_direction": "row"
+              },
+              "elements": [
+                {
+                  "id": "f724b46",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "min_height": {
+                      "unit": "px",
+                      "size": 245,
+                      "sizes": []
+                    },
+                    "background_background": "classic",
+                    "background_image": {
+                      "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Central-London-2.jpeg",
+                      "id": 3212,
+                      "size": "",
+                      "alt": "",
+                      "source": "library"
+                    },
+                    "background_position": "center center",
+                    "background_repeat": "no-repeat",
+                    "background_size": "cover",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [],
+                  "isInner": true
+                },
+                {
+                  "id": "d4757b1",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "f06d1e4",
+                      "elType": "widget",
+                      "settings": {
+                        "selected_icon": {
+                          "value": "dlicon location_pin",
+                          "library": "dlicon"
+                        },
+                        "primary_color": "#344B42",
+                        "size": {
+                          "unit": "px",
+                          "size": 30,
+                          "sizes": []
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "9",
+                          "right": "9",
+                          "bottom": "9",
+                          "left": "9",
+                          "isLinked": true
+                        },
+                        "_element_width": "auto",
+                        "_element_width_tablet": "initial",
+                        "_element_custom_width_tablet": {
+                          "unit": "px",
+                          "size": 48.675
+                        },
+                        "_flex_size": "none",
+                        "_background_background": "classic",
+                        "_background_color": "#EAEDEC",
+                        "_border_radius": {
+                          "unit": "px",
+                          "top": "21",
+                          "right": "21",
+                          "bottom": "21",
+                          "left": "21",
+                          "isLinked": true
+                        },
+                        "_flex_align_self": "flex-start"
+                      },
+                      "elements": [],
+                      "widgetType": "icon"
+                    },
+                    {
+                      "id": "8fe48e5",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<h3 class=\"font-display text-xl font-semibold text-foreground mb-4\">Central London</h3>",
+                        "align": "start",
+                        "text_color": "#000000",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Josefin Sans",
+                        "typography_font_weight": "700"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "403adec",
+                      "elType": "widget",
+                      "settings": {
+                        "editor": "<p class=\"text-sm text-muted-foreground font-body mb-6 leading-relaxed\">Authentic South Indian vegetarian dining in the heart of London.</p>"
+                      },
+                      "elements": [],
+                      "widgetType": "text-editor"
+                    },
+                    {
+                      "id": "03888af",
+                      "elType": "widget",
+                      "settings": {
+                        "text": "View More",
+                        "link": {
+                          "url": "https://skaryabhavan.com/central-london/",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 21,
+                          "sizes": []
+                        },
+                        "button_text_color": "#FFFFFF",
+                        "background_color": "#F68422",
+                        "button_background_hover_color": "#366732",
+                        "text_padding": {
+                          "unit": "px",
+                          "top": "8",
+                          "right": "15",
+                          "bottom": "8",
+                          "left": "15",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": [],
+                      "widgetType": "button"
+                    }
+                  ],
+                  "isInner": true
+                }
+              ],
+              "isInner": true
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": true
+    }
+  ],
+  "isInner": false
+}

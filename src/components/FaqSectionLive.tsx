@@ -184,14 +184,14 @@ export default function FaqSectionLive() {
                       </span>
 
                       {/* Question Text */}
-                      <span className="font-sans font-bold text-[16px] sm:text-[18px] text-[#202020] leading-snug">
+                      <span className="font-['Josefin_Sans',sans-serif] font-bold text-[16px] sm:text-[18px] text-[#202020] leading-snug">
                         {faq.q}
                       </span>
                     </button>
 
                     {/* Answer Region */}
                     {isOpen && (
-                      <div className="px-5 py-4 bg-[#fbf9f6] border-t border-[#ECE6DF]/60 text-sm sm:text-[15px] text-[#444444] leading-relaxed font-sans transition-all duration-300">
+                      <div className="px-5 py-4 bg-[#fbf9f6] border-t border-[#ECE6DF]/60 text-[16px] leading-[24.8px] text-[rgb(115,115,115)] font-['Josefin_Sans',sans-serif] font-normal transition-all duration-300">
                         {faq.a}
                       </div>
                     )}

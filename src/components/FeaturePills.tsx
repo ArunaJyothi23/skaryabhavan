@@ -5,44 +5,36 @@ const features = [
   {
     title: 'Pure Vegetarian',
     desc: '100% pure — completely vegetarian kitchen',
-    icon: '/images/migrated/Screenshot-2026-02-25-104933.png',
-    active: false
+    icon: '/images/migrated/Screenshot-2026-02-25-104933.png'
   },
   {
     title: 'Diet Friendly',
     desc: 'Vegan & Jain friendly menu available',
-    icon: '/images/migrated/Screenshot-2026-02-25-104922.png',
-    active: false
+    icon: '/images/migrated/Screenshot-2026-02-25-104922.png'
   },
   {
     title: 'Authentic Taste',
     desc: 'Prepared by Indian cooking techniques',
-    icon: '/images/migrated/Screenshot-2026-02-25-104846-e1774635366152.png',
-    active: true // Highlighted in live site with orange border
+    icon: '/images/migrated/Screenshot-2026-02-25-104846-e1774635366152.png'
   },
   {
     title: 'Family Friendly',
     desc: 'Comfortable atmosphere for all age groups',
-    icon: '/images/migrated/Screenshot-2026-02-25-104939.png',
-    active: false
+    icon: '/images/migrated/Screenshot-2026-02-25-104939.png'
   }
 ];
 
 export default function FeaturePills() {
   return (
-    <section className="py-6 sm:py-10 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+    <section className="py-8 sm:py-12 bg-white">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
           {features.map((feat, idx) => (
             <div
               key={idx}
-              className={`p-5 rounded-2xl flex items-center gap-4 transition-all duration-300 ${
-                feat.active
-                  ? 'feature-card-active bg-[#fdf8f4]'
-                  : 'bg-[#f7f5f2] border border-gray-100 hover:border-gray-200'
-              }`}
+              className="p-3.5 sm:p-4 rounded-[10px] flex items-center gap-3.5 transition-all duration-300 bg-[#F9F5F1] hover:shadow-[1px_1px_8px_1px_#F68422] cursor-pointer"
             >
-              <div className="relative w-11 h-11 shrink-0">
+              <div className="relative w-12 h-12 shrink-0">
                 <Image
                   src={feat.icon}
                   alt={feat.title}
@@ -52,10 +44,10 @@ export default function FeaturePills() {
               </div>
 
               <div>
-                <h3 className="font-ivymode font-bold text-lg text-gray-900 leading-snug">
+                <h3 className="font-josefin font-bold text-[17px] sm:text-[18px] text-black leading-snug">
                   {feat.title}
                 </h3>
-                <p className="text-xs text-gray-500 mt-0.5 leading-relaxed">
+                <p className="font-josefin text-[13px] sm:text-[14px] text-[#737373] mt-0.5 leading-snug font-normal">
                   {feat.desc}
                 </p>
               </div>

@@ -3,9 +3,24 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { ChevronDown, ChevronRight, Menu as MenuIcon, X } from 'lucide-react';
 
 export default function Header() {
+  const pathname = usePathname() || '';
+
+  const isHome = pathname === '/';
+  const isAbout = pathname === '/about-us';
+  const isBranches =
+    pathname.startsWith('/branches') ||
+    pathname === '/wembley' ||
+    pathname === '/tooting' ||
+    pathname === '/central-london';
+  const isMenu = pathname === '/menu';
+  const isCatering = pathname.includes('catering');
+  const isFranchise = pathname === '/franchise';
+  const isContact = pathname === '/contact-us';
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileBranchesOpen, setMobileBranchesOpen] = useState(false);
   const [mobileCateringOpen, setMobileCateringOpen] = useState(false);
@@ -16,7 +31,7 @@ export default function Header() {
   const [cateringDropdownOpen, setCateringDropdownOpen] = useState(false);
 
   return (
-    <header className="bg-white border-b border-gray-100 sticky top-0 z-50 font-sans">
+    <header className="bg-white sticky top-0 z-50 font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Top Centered Logo */}
@@ -34,22 +49,26 @@ export default function Header() {
           </Link>
         </div>
 
-        {/* Navigation Bar */}
-        <div className="flex justify-between lg:justify-center items-center py-3 border-t border-gray-100">
+        {/* Navigation Bar (No horizontal line, seamless white matching live site) */}
+        <div className="flex justify-between lg:justify-center items-center py-2 sm:py-3">
           
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8 xl:space-x-10 text-[18px] font-normal leading-[1.4em]">
             
             <Link 
               href="/" 
-              className="text-[#6d1007] hover:text-[#f68422] transition-colors"
+              className={`transition-colors ${
+                isHome ? 'text-[#f68422] font-semibold' : 'text-[#6d1007] hover:text-[#f68422]'
+              }`}
             >
               Home
             </Link>
 
             <Link 
               href="/about-us" 
-              className="text-[#6d1007] hover:text-[#f68422] transition-colors"
+              className={`transition-colors ${
+                isAbout ? 'text-[#f68422] font-semibold' : 'text-[#6d1007] hover:text-[#f68422]'
+              }`}
             >
               About Us
             </Link>
@@ -65,7 +84,9 @@ export default function Header() {
             >
               <button
                 className={`flex items-center gap-1.5 py-1 transition-colors duration-150 ${
-                  branchesDropdownOpen ? 'text-[#f68422]' : 'text-[#6d1007] hover:text-[#f68422]'
+                  branchesDropdownOpen || isBranches
+                    ? 'text-[#f68422] font-semibold'
+                    : 'text-[#6d1007] hover:text-[#f68422]'
                 }`}
                 onClick={() => setBranchesDropdownOpen(!branchesDropdownOpen)}
               >
@@ -197,7 +218,9 @@ export default function Header() {
 
             <Link 
               href="/menu" 
-              className="text-[#6d1007] hover:text-[#f68422] transition-colors"
+              className={`transition-colors ${
+                isMenu ? 'text-[#f68422] font-semibold' : 'text-[#6d1007] hover:text-[#f68422]'
+              }`}
             >
               Menu
             </Link>
@@ -210,7 +233,9 @@ export default function Header() {
             >
               <button
                 className={`flex items-center gap-1.5 py-1 transition-colors duration-150 ${
-                  cateringDropdownOpen ? 'text-[#f68422]' : 'text-[#6d1007] hover:text-[#f68422]'
+                  cateringDropdownOpen || isCatering
+                    ? 'text-[#f68422] font-semibold'
+                    : 'text-[#6d1007] hover:text-[#f68422]'
                 }`}
                 onClick={() => setCateringDropdownOpen(!cateringDropdownOpen)}
               >
@@ -238,14 +263,18 @@ export default function Header() {
 
             <Link 
               href="/franchise" 
-              className="text-[#6d1007] hover:text-[#f68422] transition-colors"
+              className={`transition-colors ${
+                isFranchise ? 'text-[#f68422] font-semibold' : 'text-[#6d1007] hover:text-[#f68422]'
+              }`}
             >
               Franchise
             </Link>
 
             <Link 
               href="/contact-us" 
-              className="text-[#6d1007] hover:text-[#f68422] transition-colors"
+              className={`transition-colors ${
+                isContact ? 'text-[#f68422] font-semibold' : 'text-[#6d1007] hover:text-[#f68422]'
+              }`}
             >
               Contact
             </Link>
@@ -274,7 +303,9 @@ export default function Header() {
             <Link
               href="/"
               onClick={() => setMobileMenuOpen(false)}
-              className="block font-semibold text-[#6d1007] hover:text-[#f68422] py-1.5 text-base"
+              className={`block py-1.5 text-base ${
+                isHome ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold hover:text-[#f68422]'
+              }`}
             >
               Home
             </Link>
@@ -282,7 +313,9 @@ export default function Header() {
             <Link
               href="/about-us"
               onClick={() => setMobileMenuOpen(false)}
-              className="block font-semibold text-[#6d1007] hover:text-[#f68422] py-1.5 text-base"
+              className={`block py-1.5 text-base ${
+                isAbout ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold hover:text-[#f68422]'
+              }`}
             >
               About Us
             </Link>
@@ -291,7 +324,9 @@ export default function Header() {
             <div className="py-2 border-y border-gray-100">
               <button
                 onClick={() => setMobileBranchesOpen(!mobileBranchesOpen)}
-                className="w-full flex items-center justify-between font-semibold text-[#6d1007] py-1.5 text-base"
+                className={`w-full flex items-center justify-between py-1.5 text-base ${
+                  isBranches ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold'
+                }`}
               >
                 <span>Branches</span>
                 <ChevronDown className={`w-4 h-4 transition-transform ${mobileBranchesOpen ? 'rotate-180' : ''}`} />
@@ -307,21 +342,21 @@ export default function Header() {
                       <Link
                         href="/central-london"
                         onClick={() => setMobileMenuOpen(false)}
-                        className="block text-sm text-gray-700 hover:text-[#f68422]"
+                        className={`block text-sm ${pathname === '/central-london' ? 'text-[#f68422] font-bold' : 'text-gray-700 hover:text-[#f68422]'}`}
                       >
                         Central London
                       </Link>
                       <Link
                         href="/wembley"
                         onClick={() => setMobileMenuOpen(false)}
-                        className="block text-sm text-gray-700 hover:text-[#f68422]"
+                        className={`block text-sm ${pathname === '/wembley' ? 'text-[#f68422] font-bold' : 'text-gray-700 hover:text-[#f68422]'}`}
                       >
                         Wembley
                       </Link>
                       <Link
                         href="/tooting"
                         onClick={() => setMobileMenuOpen(false)}
-                        className="block text-sm text-gray-700 hover:text-[#f68422]"
+                        className={`block text-sm ${pathname === '/tooting' ? 'text-[#f68422] font-bold' : 'text-gray-700 hover:text-[#f68422]'}`}
                       >
                         Tooting
                       </Link>
@@ -368,7 +403,7 @@ export default function Header() {
                       <Link
                         href="/branches"
                         onClick={() => setMobileMenuOpen(false)}
-                        className="block text-sm text-gray-700 hover:text-[#f68422]"
+                        className={`block text-sm ${pathname === '/branches' ? 'text-[#f68422] font-bold' : 'text-gray-700 hover:text-[#f68422]'}`}
                       >
                         Brussels
                       </Link>
@@ -381,7 +416,9 @@ export default function Header() {
             <Link
               href="/menu"
               onClick={() => setMobileMenuOpen(false)}
-              className="block font-semibold text-[#6d1007] hover:text-[#f68422] py-1.5 text-base"
+              className={`block py-1.5 text-base ${
+                isMenu ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold hover:text-[#f68422]'
+              }`}
             >
               Menu
             </Link>
@@ -390,7 +427,9 @@ export default function Header() {
             <div className="py-2 border-b border-gray-100">
               <button
                 onClick={() => setMobileCateringOpen(!mobileCateringOpen)}
-                className="w-full flex items-center justify-between font-semibold text-[#6d1007] py-1.5 text-base"
+                className={`w-full flex items-center justify-between py-1.5 text-base ${
+                  isCatering ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold'
+                }`}
               >
                 <span>Catering</span>
                 <ChevronDown className={`w-4 h-4 transition-transform ${mobileCateringOpen ? 'rotate-180' : ''}`} />
@@ -401,14 +440,14 @@ export default function Header() {
                   <Link
                     href="/live-dosa-catering"
                     onClick={() => setMobileMenuOpen(false)}
-                    className="block text-sm text-gray-700 hover:text-[#f68422]"
+                    className={`block text-sm ${pathname === '/live-dosa-catering' ? 'text-[#f68422] font-bold' : 'text-gray-700 hover:text-[#f68422]'}`}
                   >
                     Live Dosa Catering
                   </Link>
                   <Link
                     href="/outdoor-catering"
                     onClick={() => setMobileMenuOpen(false)}
-                    className="block text-sm text-gray-700 hover:text-[#f68422]"
+                    className={`block text-sm ${pathname === '/outdoor-catering' ? 'text-[#f68422] font-bold' : 'text-gray-700 hover:text-[#f68422]'}`}
                   >
                     Outdoor Catering
                   </Link>
@@ -419,7 +458,9 @@ export default function Header() {
             <Link
               href="/franchise"
               onClick={() => setMobileMenuOpen(false)}
-              className="block font-semibold text-[#6d1007] hover:text-[#f68422] py-1.5 text-base"
+              className={`block py-1.5 text-base ${
+                isFranchise ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold hover:text-[#f68422]'
+              }`}
             >
               Franchise
             </Link>
@@ -427,7 +468,9 @@ export default function Header() {
             <Link
               href="/contact-us"
               onClick={() => setMobileMenuOpen(false)}
-              className="block font-semibold text-[#6d1007] hover:text-[#f68422] py-1.5 text-base"
+              className={`block py-1.5 text-base ${
+                isContact ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold hover:text-[#f68422]'
+              }`}
             >
               Contact
             </Link>

@@ -63,7 +63,7 @@ export default function BranchDetailTemplate({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
           {/* Left Column: Branch Details */}
-          <div className="lg:col-span-5 bg-[#fdfaf6] rounded-3xl p-8 border border-gray-100 shadow-xs space-y-6">
+          <div className="lg:col-span-5 bg-[#fdfaf6] rounded-2xl p-8 border border-gray-100 shadow-xs hover:scale-[1.01] hover:shadow-[2px_0px_9px_1px_rgba(245,133,34,0.59)] transition-all duration-300 space-y-6">
             <div>
               <span className="text-[11px] font-bold uppercase tracking-wider text-[#6d1007]">
                 Branch Details
@@ -71,7 +71,7 @@ export default function BranchDetailTemplate({
               <h2 className="font-serif font-bold text-2xl text-gray-900 mt-1">
                 Arya Bhavan {name}
               </h2>
-              <p className="text-xs sm:text-sm text-gray-600 mt-2 font-sans leading-relaxed">
+              <p className="font-['Josefin_Sans',sans-serif] text-[16px] leading-[24.8px] text-[rgb(115,115,115)] mt-2 font-normal">
                 {description}
               </p>
             </div>
@@ -129,7 +129,7 @@ export default function BranchDetailTemplate({
                 href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address + ' ' + postcode)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded border border-gray-300 text-xs font-bold uppercase tracking-wider text-gray-700 hover:border-[#6d1007] hover:text-[#6d1007] transition-colors"
+                className="inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded border border-gray-300 text-xs font-bold uppercase tracking-wider text-gray-700 hover:border-[#F6851C] hover:text-[#F6851C] transition-colors"
               >
                 <Navigation className="w-3.5 h-3.5 text-[#6d1007]" /> Directions
               </a>

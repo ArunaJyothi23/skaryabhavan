@@ -1,0 +1,605 @@
+{
+  "id": "96c04c7",
+  "elType": "container",
+  "settings": {
+    "content_width": "full",
+    "padding": {
+      "unit": "px",
+      "top": "0",
+      "right": "0",
+      "bottom": "0",
+      "left": "0",
+      "isLinked": false
+    },
+    "overflow": "hidden"
+  },
+  "elements": [
+    {
+      "id": "8c8169e",
+      "elType": "widget",
+      "settings": {
+        "slides": [
+          {
+            "heading": "Authentic Indian Vegetarian Restaurant",
+            "description": "Central London | Wembley | Tooting",
+            "button_text": "View Menu",
+            "_id": "fc338fb",
+            "background_image": {
+              "id": 2414,
+              "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/sl1.jpg",
+              "alt": "",
+              "source": "library",
+              "size": ""
+            },
+            "subheading": "",
+            "link": {
+              "url": "/menu/",
+              "is_external": "",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "link_click": "button",
+            "__globals__": {
+              "background_color": "globals/colors?id=ef7cb2f"
+            }
+          },
+          {
+            "heading": " 100% Pure Vegetarian & Vegan Indian Cuisine",
+            "description": "Central London | Wembley",
+            "button_text": "View Menu",
+            "background_image": {
+              "id": 2415,
+              "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/sl2.jpg",
+              "alt": "",
+              "source": "library",
+              "size": ""
+            },
+            "subheading": "",
+            "link": {
+              "url": "/menu/",
+              "is_external": "",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "link_click": "button",
+            "__globals__": {
+              "background_color": "globals/colors?id=ef7cb2f"
+            },
+            "_id": "d8fe242"
+          },
+          {
+            "heading": "Top-Rated Indian Veg Dining & Catering Services Across London",
+            "description": "Live Dosa | Outdoor Caterings",
+            "button_text": "View Menu",
+            "background_image": {
+              "id": 2416,
+              "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/sl3.jpg",
+              "alt": "",
+              "source": "library",
+              "size": ""
+            },
+            "subheading": "",
+            "link": {
+              "url": "/menu/",
+              "is_external": "",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "link_click": "button",
+            "__globals__": {
+              "background_color": "globals/colors?id=ef7cb2f"
+            },
+            "_id": "d0e51ab"
+          }
+        ],
+        "slides_height": {
+          "unit": "px",
+          "size": 1116,
+          "sizes": []
+        },
+        "selected_carousel_prev_arrow": {
+          "value": {
+            "id": 1878,
+            "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/erica-arrow-a-left.svg"
+          },
+          "library": "svg"
+        },
+        "selected_carousel_next_arrow": {
+          "value": {
+            "id": 1879,
+            "url": "https://skaryabhavan.com/wp-content/uploads/2024/11/erica-arrow-a-right.svg"
+          },
+          "library": "svg"
+        },
+        "carousel_dots": "true",
+        "carousel_autoplay": "",
+        "carousel_effect": "creative",
+        "carousel_speed": 800,
+        "content_wrap_width": {
+          "unit": "px",
+          "size": 3000,
+          "sizes": []
+        },
+        "content_wrap_padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "content_max_width": {
+          "unit": "px",
+          "size": 100,
+          "sizes": []
+        },
+        "content_max_width_laptop": {
+          "unit": "%",
+          "size": 50,
+          "sizes": []
+        },
+        "content_max_width_tablet": {
+          "unit": "%",
+          "size": "",
+          "sizes": []
+        },
+        "content_max_width_mobile_extra": {
+          "unit": "%",
+          "size": "",
+          "sizes": []
+        },
+        "content_max_width_mobile": {
+          "unit": "%",
+          "size": 80,
+          "sizes": []
+        },
+        "slide_content_offset_y": {
+          "unit": "%",
+          "size": 100,
+          "sizes": []
+        },
+        "slide_content_offset_y_laptop": {
+          "unit": "%",
+          "size": 40,
+          "sizes": []
+        },
+        "slide_content_offset_y_tablet": {
+          "unit": "%",
+          "size": "",
+          "sizes": []
+        },
+        "slide_content_offset_y_mobile_extra": {
+          "unit": "%",
+          "size": "",
+          "sizes": []
+        },
+        "slide_content_offset_y_mobile": {
+          "unit": "%",
+          "size": "",
+          "sizes": []
+        },
+        "slides_text_align": "left",
+        "heading_spacing": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "heading_color": "#FFFFFF",
+        "heading_typography_typography": "custom",
+        "heading_typography_font_size": {
+          "unit": "px",
+          "size": 30,
+          "sizes": []
+        },
+        "heading_typography_font_weight": "600",
+        "heading_typography_line_height": {
+          "unit": "em",
+          "size": 1.4,
+          "sizes": []
+        },
+        "description_spacing": {
+          "unit": "px",
+          "top": "30",
+          "right": "0",
+          "bottom": "50",
+          "left": "0",
+          "isLinked": false
+        },
+        "description_color": "#FFFFFF",
+        "description_typography_typography": "custom",
+        "description_typography_font_family": "Josefin Sans",
+        "description_typography_font_size": {
+          "unit": "px",
+          "size": 24,
+          "sizes": []
+        },
+        "description_typography_font_weight": "600",
+        "description_typography_text_transform": "none",
+        "description_typography_line_height": {
+          "unit": "em",
+          "size": 1.2,
+          "sizes": []
+        },
+        "button_typography_typography": "custom",
+        "button_typography_font_size": {
+          "unit": "px",
+          "size": 18,
+          "sizes": []
+        },
+        "button_typography_font_weight": "normal",
+        "button_typography_line_height": {
+          "unit": "px",
+          "size": 20,
+          "sizes": []
+        },
+        "btn_icon__gap": {
+          "unit": "px",
+          "size": 0,
+          "sizes": []
+        },
+        "button_border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "isLinked": true
+        },
+        "button_border_radius": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "button_pd": {
+          "unit": "px",
+          "top": "14",
+          "right": "36",
+          "bottom": "14",
+          "left": "36",
+          "isLinked": false
+        },
+        "button_text_color": "#FFFFFF",
+        "button_border_color": "#EE7B18",
+        "carousel_arrow_normal_style_popover_toggle": "custom",
+        "carousel_arrow_normal_style_background": "color",
+        "carousel_arrow_normal_style_color": "#00000000",
+        "carousel_arrow_normal_style_box_font_color": "#FFFFFF99",
+        "carousel_arrow_normal_style_box_font_size": {
+          "unit": "px",
+          "size": 36,
+          "sizes": []
+        },
+        "carousel_arrow_normal_style_box_size": {
+          "unit": "px",
+          "size": 46,
+          "sizes": []
+        },
+        "carousel_arrow_normal_style_box_height": {
+          "unit": "px",
+          "size": 46,
+          "sizes": []
+        },
+        "carousel_arrow_hover_style_popover_toggle": "custom",
+        "carousel_arrow_hover_style_box_font_color": "#FFFFFF",
+        "carousel_prev_arrow_left_position": {
+          "unit": "px",
+          "size": 80,
+          "sizes": []
+        },
+        "carousel_next_arrow_right_position": {
+          "unit": "px",
+          "size": 80,
+          "sizes": []
+        },
+        "carousel_dot_normal_style_popover_toggle": "custom",
+        "carousel_dot_normal_style_background": "color",
+        "carousel_dot_normal_style_box_font_color": "#FFFFFF6E",
+        "carousel_dot_normal_style_box_font_size": {
+          "unit": "px",
+          "size": 16,
+          "sizes": []
+        },
+        "carousel_dot_normal_style_box_line_height": {
+          "unit": "px",
+          "size": 16,
+          "sizes": []
+        },
+        "carousel_dot_normal_style_box_size": {
+          "unit": "px",
+          "size": 14,
+          "sizes": []
+        },
+        "carousel_dot_normal_style_box_height": {
+          "unit": "px",
+          "size": 22,
+          "sizes": []
+        },
+        "carousel_dot_normal_style_box_border": "solid",
+        "carousel_dot_normal_style_box_border_width": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        },
+        "carousel_dot_normal_style_box_border_radius": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "carousel_dot_normal_style_box_scale": {
+          "unit": "px",
+          "size": 1,
+          "sizes": []
+        },
+        "carousel_dot_hover_style_popover_toggle": "custom",
+        "carousel_dot_hover_style_box_font_color": "#FFFFFF",
+        "carousel_dot_hover_style_box_border": "solid",
+        "carousel_dots_gap": {
+          "unit": "px",
+          "size": 30,
+          "sizes": []
+        },
+        "carousel_dots_margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "15",
+          "left": "0",
+          "isLinked": false
+        },
+        "carousel_dots_h_alignment": "center",
+        "carousel_dots_v_alignment": "bottom",
+        "carousel_dots_alignment": "center",
+        "custom_css": "selector .elementor-button:before{\n        content: '';\n    border: inherit;\n    position: absolute;\n    left: 4px;\n    top: 4px;\n    right: 4px;\n    bottom: 4px;\n    opacity: .4;\n}",
+        "__globals__": {
+          "button_border_color": "",
+          "carousel_arrow_normal_style_color": "globals/colors?id=c1ab25c",
+          "carousel_arrow_normal_style_box_font_color": "",
+          "button_hover_background_color": "",
+          "button_hover_border_color": "",
+          "button_hover_text_color": "globals/colors?id=d58d248",
+          "carousel_dot_normal_style_color": "globals/colors?id=f4cc628",
+          "carousel_dot_normal_style_box_border_color": "globals/colors?id=f4cc628",
+          "carousel_dot_hover_style_box_border_color": "globals/colors?id=d58d248",
+          "description_typography_typography": "",
+          "heading_typography_typography": ""
+        },
+        "slides_height_laptop": {
+          "unit": "px",
+          "size": 800,
+          "sizes": []
+        },
+        "description_spacing_laptop": {
+          "unit": "px",
+          "top": "30",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        },
+        "carousel_prev_arrow_left_position_laptop": {
+          "unit": "px",
+          "size": 40,
+          "sizes": []
+        },
+        "carousel_next_arrow_right_position_laptop": {
+          "unit": "px",
+          "size": 40,
+          "sizes": []
+        },
+        "slides_height_tablet": {
+          "unit": "px",
+          "size": 640,
+          "sizes": []
+        },
+        "content_wrap_padding_tablet": {
+          "unit": "px",
+          "top": "0",
+          "right": "80",
+          "bottom": "0",
+          "left": "80",
+          "isLinked": false
+        },
+        "description_spacing_tablet": {
+          "unit": "px",
+          "top": "20",
+          "right": "0",
+          "bottom": "30",
+          "left": "0",
+          "isLinked": false
+        },
+        "description_typography_font_size_tablet": {
+          "unit": "px",
+          "size": 26,
+          "sizes": []
+        },
+        "button_typography_font_size_tablet": {
+          "unit": "px",
+          "size": 16,
+          "sizes": []
+        },
+        "carousel_arrow_normal_style_box_font_size_tablet": {
+          "unit": "px",
+          "size": 36,
+          "sizes": []
+        },
+        "carousel_arrow_normal_style_box_size_tablet": {
+          "unit": "px",
+          "size": 36,
+          "sizes": []
+        },
+        "carousel_arrow_normal_style_box_height_tablet": {
+          "unit": "px",
+          "size": 36,
+          "sizes": []
+        },
+        "carousel_prev_arrow_left_position_tablet": {
+          "unit": "px",
+          "size": 20,
+          "sizes": []
+        },
+        "carousel_next_arrow_right_position_tablet": {
+          "unit": "px",
+          "size": 20,
+          "sizes": []
+        },
+        "carousel_dot_normal_style_box_font_size_tablet": {
+          "unit": "px",
+          "size": 14,
+          "sizes": []
+        },
+        "carousel_dot_normal_style_box_line_height_tablet": {
+          "unit": "px",
+          "size": 14,
+          "sizes": []
+        },
+        "carousel_dot_normal_style_box_height_tablet": {
+          "unit": "px",
+          "size": 20,
+          "sizes": []
+        },
+        "carousel_dots_margin_tablet": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "10",
+          "left": "0",
+          "isLinked": false
+        },
+        "slides_height_mobile": {
+          "unit": "px",
+          "size": 550,
+          "sizes": []
+        },
+        "content_wrap_padding_mobile": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "0",
+          "left": "20",
+          "isLinked": false
+        },
+        "slide_content_offset_x_mobile": {
+          "unit": "%",
+          "size": 10,
+          "sizes": []
+        },
+        "slides_text_align_mobile": "center",
+        "carousel_arrow_normal_style_box_font_size_mobile": {
+          "unit": "px",
+          "size": 30,
+          "sizes": []
+        },
+        "carousel_arrow_normal_style_box_size_mobile": {
+          "unit": "px",
+          "size": 30,
+          "sizes": []
+        },
+        "carousel_arrow_normal_style_box_height_mobile": {
+          "unit": "px",
+          "size": 30,
+          "sizes": []
+        },
+        "carousel_prev_arrow_top_position_mobile": {
+          "unit": "%",
+          "size": 94,
+          "sizes": []
+        },
+        "carousel_prev_arrow_left_position_mobile": {
+          "unit": "%",
+          "size": 20,
+          "sizes": []
+        },
+        "carousel_next_arrow_top_position_mobile": {
+          "unit": "%",
+          "size": 94,
+          "sizes": []
+        },
+        "carousel_next_arrow_right_position_mobile": {
+          "unit": "%",
+          "size": 20,
+          "sizes": []
+        },
+        "carousel_dots_gap_mobile": {
+          "unit": "px",
+          "size": 20,
+          "sizes": []
+        },
+        "carousel_dots_margin_mobile": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "button_background_color": "#6D1007",
+        "button_hover_text_color": "#FFFFFF",
+        "button_hover_background_color": "#EE7B18",
+        "button_hover_border_color": "#6D1007",
+        "carousel_dot_normal_style_color": "#FFFFFF00",
+        "carousel_dot_normal_style_box_border_color": "#FFFFFF00",
+        "carousel_dot_hover_style_box_border_color": "#FFFFFF",
+        "description_typography_letter_spacing": {
+          "unit": "px",
+          "size": 2,
+          "sizes": []
+        },
+        "subdescription1_typography_typography": "custom",
+        "button_margin": {
+          "unit": "px",
+          "top": "-20",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "carousel_arrow_show_on_hover": "",
+        "_background_background": "classic",
+        "_background_color": "#6D1007",
+        "heading_typography_font_family": "Josefin Sans",
+        "slide_content_offset_x": {
+          "unit": "px",
+          "size": 84,
+          "sizes": []
+        },
+        "subheading_typography_typography": "custom",
+        "subheading_typography_font_size": {
+          "unit": "px",
+          "size": 6,
+          "sizes": []
+        },
+        "slidebg_width": {
+          "unit": "px",
+          "size": 2560,
+          "sizes": []
+        },
+        "heading_typography_font_size_mobile": {
+          "unit": "px",
+          "size": 24,
+          "sizes": []
+        },
+        "heading_typography_text_transform": "uppercase",
+        "description_typography_font_size_mobile": {
+          "unit": "px",
+          "size": 16,
+          "sizes": []
+        }
+      },
+      "elements": [],
+      "widgetType": "lakit-slides"
+    }
+  ],
+  "isInner": false
+}

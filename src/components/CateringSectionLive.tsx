@@ -110,12 +110,12 @@ export default function CateringSectionLive() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
           
           {/* Left Column (70%): White container with 4 cards */}
-          <div className="lg:col-span-8 bg-white rounded-[10px] p-4 sm:p-5 shadow-xs border border-transparent hover:border-[#F6851C] hover:shadow-[0_0_15px_rgba(246,133,28,0.22)] transition-all duration-300 flex flex-col justify-center">
+          <div className="lg:col-span-8 bg-white rounded-[10px] p-4 sm:p-5 shadow-xs transition-all duration-300 hover:scale-[1.01] hover:shadow-[2px_0px_9px_1px_rgba(245,133,34,0.59)] flex flex-col justify-center">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4 h-full">
               {cateringServices.map((service, idx) => (
                 <div
                   key={idx}
-                  className="border border-[#344E41]/35 rounded-[10px] p-6 lg:p-7 bg-white flex flex-col items-center text-center justify-center transition-all duration-300 hover:border-[#F6851C]"
+                  className="border border-[#344E41]/35 rounded-[10px] p-6 lg:p-7 bg-white flex flex-col items-center text-center justify-center transition-all duration-300 hover:border-[#F6851C] hover:shadow-[1px_1px_8px_1px_#F68422]"
                 >
                   {/* Service Icon */}
                   <div className="mb-3">
@@ -128,7 +128,7 @@ export default function CateringSectionLive() {
                   </h3>
 
                   {/* Service Description */}
-                  <p className="font-sans text-xs sm:text-sm text-gray-700 leading-relaxed">
+                  <p className="font-['Josefin_Sans',sans-serif] text-[15px] leading-[22px] text-[rgb(115,115,115)] font-normal">
                     {service.desc}
                   </p>
                 </div>
@@ -137,7 +137,7 @@ export default function CateringSectionLive() {
           </div>
 
           {/* Right Column (30%): Enquire Now Container */}
-          <div className="lg:col-span-4 bg-white rounded-[10px] p-6 lg:p-7 shadow-xs border border-transparent hover:border-[#F6851C] hover:shadow-[0_0_15px_rgba(246,133,28,0.22)] transition-all duration-300 flex flex-col justify-start">
+          <div className="lg:col-span-4 bg-white rounded-[10px] p-6 lg:p-7 shadow-xs transition-all duration-300 hover:scale-[1.01] hover:shadow-[2px_0px_9px_1px_rgba(245,133,34,0.59)] flex flex-col justify-start">
             <h2 className="font-ivymode text-2xl sm:text-[28px] font-bold text-[#344E41] uppercase tracking-[1px] mb-5 text-left">
               ENQUIRE NOW
             </h2>
@@ -238,7 +238,7 @@ export default function CateringSectionLive() {
                 <button
                   type="submit"
                   disabled={status === 'submitting'}
-                  className="btn-hero-menu w-full py-2.5 text-xs font-bold tracking-wider mt-2 cursor-pointer"
+                  className="btn-hero-menu w-full py-2.5 text-xs font-bold tracking-wider mt-2 cursor-pointer hover:!bg-[#366732] hover:!border-[#366732]"
                 >
                   <Send className="w-3.5 h-3.5 mr-2" />
                   {status === 'submitting' ? 'Submitting...' : 'Submit Enquiry'}

@@ -58,7 +58,7 @@ export default function WhyChooseLive() {
                 </h3>
 
                 {/* Description */}
-                <p className="font-sans text-sm text-[#EDE7DF]/85 leading-relaxed">
+                <p className="font-['Josefin_Sans',sans-serif] text-[16px] leading-[24.8px] text-[#EDE7DF]/90 font-normal">
                   {r.desc}
                 </p>
               </div>

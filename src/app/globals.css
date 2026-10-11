@@ -10,18 +10,34 @@
   }
 
   body {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #333333;
+    font-family: "Josefin Sans", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Poppins, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.8px;
+    letter-spacing: normal;
+    color: rgb(115, 115, 115);
     background-color: #ffffff;
     overflow-x: hidden;
   }
 
+  p {
+    font-family: "Josefin Sans", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Poppins, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.8px;
+    color: rgb(115, 115, 115);
+  }
+
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'ivymode', serif;
+    font-family: 'ivymode', 'le-monde-livre-classic-byol', serif;
   }
 
   .font-ivymode {
-    font-family: 'ivymode', serif;
+    font-family: 'ivymode', 'le-monde-livre-classic-byol', serif !important;
+  }
+
+  .font-josefin {
+    font-family: "Josefin Sans", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Poppins, "Helvetica Neue", Arial, "Noto Sans", sans-serif !important;
   }
 
   section[id] {
@@ -33,14 +49,15 @@
 .nav-link-custom {
   font-family: 'Josefin Sans', sans-serif;
   color: #6d1007;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4em;
   transition: color 0.2s ease;
   text-decoration: none;
 }
 
 .nav-link-custom:hover {
-  color: #c4a05a;
+  color: #f6851c;
 }
 
 /* Hero Button (Exact matching live site) */
@@ -66,10 +83,34 @@
   color: #ffffff;
 }
 
-/* Feature card active highlight (Orange/Gold Border Glow) */
+/* Feature card active & hover highlight (Orange Glow) */
 .feature-card-active {
   border: 2px solid #f68422 !important;
-  box-shadow: 0 4px 20px rgba(246, 132, 34, 0.15);
+  box-shadow: 1px 1px 8px 1px #F68422;
+}
+
+.feature-card-hover:hover {
+  box-shadow: 1px 1px 8px 1px #F68422 !important;
+}
+
+/* Live site card hover (1.01 subtle scale + orange glowing shadow) */
+.card-scale-hover {
+  transition: all 0.3s ease;
+}
+.card-scale-hover:hover {
+  transform: scale(1.01);
+  box-shadow: 2px 0px 9px 1px rgba(245, 133, 34, 0.59) !important;
+}
+
+/* Live site button hover to green #366732 */
+.btn-live-action {
+  background-color: #F6851C;
+  color: #ffffff;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+.btn-live-action:hover {
+  background-color: #366732 !important;
+  color: #ffffff !important;
 }
 
 /* Custom Scrollbar */
@@ -85,4 +126,17 @@
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #6d1007;
+}
+
+/* Global Selection / Copying Highlight Color (Exact live site theme color #C7803F) */
+::selection {
+  background-color: #C7803F !important;
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+::-moz-selection {
+  background-color: #C7803F !important;
+  color: #ffffff !important;
+  text-shadow: none !important;
 }

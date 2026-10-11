@@ -80,18 +80,18 @@ export default function FranchiseLocations() {
                   </h4>
 
                   {/* Address */}
-                  <p className="font-sans text-sm text-gray-600 leading-relaxed mb-6">
+                  <p className="font-['Josefin_Sans',sans-serif] text-[16px] leading-[24.8px] text-[rgb(115,115,115)] leading-relaxed mb-6 font-normal">
                     {loc.address}
                   </p>
                 </div>
 
-                {/* View More Orange Button */}
+                {/* View More Button (hover goes green #366732 matching live site) */}
                 <div>
                   <a
                     href={loc.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-[#F6851C] hover:bg-[#e07513] text-white px-5 py-2.5 rounded font-semibold text-sm transition-colors duration-200"
+                    className="inline-block bg-[#F6851C] hover:bg-[#366732] text-white px-5 py-2.5 rounded font-['Josefin_Sans',sans-serif] font-semibold text-[16px] transition-colors duration-200"
                   >
                     View More
                   </a>

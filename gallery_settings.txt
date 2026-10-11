@@ -1,0 +1,27 @@
+entor-widget elementor-widget-heading" data-id="ce41738" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">South Indian Dosas, Idlis &amp; More</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-315df07 elementor-widget elementor-widget-gallery" data-id="315df07" data-element_type="widget" data-e-type="widget" data-widget_type="gallery.default">
+				<div class="elementor-widget-container">
+					 				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-0e882f6 e-flex e-con-boxed lakit-col-width-auto-no e-container e-root-container elementor-top-section e-con e-parent" data-id="0e882f6" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-c2dedfd e-con-full e-flex lakit-col-width-auto-no e-container e-con e-child" data-id="c2dedfd" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-e7dc1ea elementor-widget elementor-widget-heading" data-id="e7dc1ea" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Catering Services</h2>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-24c453f e-con-full e-flex lakit-col-width-auto-no e-container e-con e-child" data-id="24c453f" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-f3c57b5 e-con-full e-transform e-flex lakit-col-width-auto-no e-container e-con e-child" data-id="f3c57b5" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_transform_scale_effect_hover&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:1.01,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_laptop&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;_transform_scale_effect_hover_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}">
+		<div class="elementor-element elementor-element-d5a75e2 e-con-full e-flex lakit-col-width-auto-no e-container e-con e-child" data-id="d5a75e2" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-1878a29 e-con-full e-flex lakit-col-width-auto-no e-container e-con e-child" data-id="1878a29" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-c7dfdc8 elementor-view-default elementor-widget elementor-widget-icon" data-id="c7dfdc8" data-element_type="widget" data-e-type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Capa_1" x="0px" y="0px" viewBox="0 0 458.92 458.92" style="enable-background:new 0 0 458.92 458.92;" xml:space="preserve"><g>	<g>		<path d="M139.425,119.355c-2.542-2.021-6.241-1.599-8.262,0.943c-0.006,0.007-0.012,0.015-0.017,0.022   c-2.013,2.52-1.601,6.195,0.919,8.208c0.014,0.011,0.027,0.022,0.041,0.032c2.542,2.021,6.241,1.599,8.262-0.943   C142.389,125.076,141.967,121.377,139.425,119.355z"></path>	</g></g><g>	<g>		<path d="M453.066,450.92h-10.96V214.08c0.221-104.006-83.914-188.498-187.92-188.719c-15.989-0.034-31.917,1.969-47.4,5.959   c1.051-3.352,0.705-6.987-0.96-10.08c-2.185-3.575-5.912-5.927-10.08-6.36c-4.288-0.458-8.61,0.482-12.32,2.68   c0-9.72-6.48-17.56-14.4-17.56s-14.36,8-14.4,17.56c-3.71-2.198-8.032-3.138-12.32-2.68c-4.182,0.421-7.927,2.774-10.12,6.36   c-2.037,3.705-2.201,8.156-0.44,12c1.749,3.939,4.723,7.208,8.48,9.32c-3.749,2.14-6.719,5.418-8.48,9.36   c-1.76,3.844-1.597,8.295,0.44,12c0.854,1.387,1.968,2.596,3.28,3.56c-10.575,8.455-20.216,18.016-28.76,28.52   c-0.347
