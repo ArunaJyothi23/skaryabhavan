@@ -4,18 +4,35 @@ import Image from 'next/image';
 export default function AboutSection() {
   return (
     <section id="about" className="bg-white overflow-hidden">
-      <div className="w-full grid grid-cols-1 lg:grid-cols-2 items-stretch">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-2 items-center">
         
-        {/* Left Column: Full-height rectangular thali platter flush to the left screen edge */}
-        <div className="relative w-full min-h-[340px] sm:min-h-[440px] lg:min-h-[540px]">
-          <Image
-            src="/images/migrated/menu-north-thali-e1772186014264.jpg"
-            alt="About Samko Arya Bhavan Indian Vegetarian Thali"
-            fill
-            className="object-cover object-center"
-            priority
-            sizes="(max-width: 1024px) 100vw, 50vw"
-          />
+        {/* Left Column: Full-height visual representation of the authentic Indian Thali */}
+        <div className="relative w-full h-full min-h-[380px] sm:min-h-[460px] lg:min-h-[560px] flex items-center justify-center bg-[#25201d] overflow-hidden">
+          {/* Ambient background filling the full-bleed column edge-to-edge seamlessly */}
+          <div className="absolute inset-0 overflow-hidden">
+            <Image
+              src="/images/migrated/about-thali-complete.jpg"
+              alt=""
+              fill
+              className="object-cover scale-125 blur-2xl opacity-40"
+              priority
+            />
+            <div className="absolute inset-0 bg-black/25" />
+          </div>
+
+          {/* Crisp, 100% completely visible uncropped thali plate */}
+          <div className="relative z-10 w-full h-full max-h-[560px] flex items-center justify-center p-3 sm:p-5 lg:p-6">
+            <div className="relative w-full h-full max-w-[500px] aspect-square drop-shadow-2xl">
+              <Image
+                src="/images/migrated/about-thali-complete.jpg"
+                alt="About Samko Arya Bhavan Indian Vegetarian Thali"
+                fill
+                className="object-contain object-center"
+                priority
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+            </div>
+          </div>
         </div>
 
         {/* Right Column: Heading & Narrative */}
