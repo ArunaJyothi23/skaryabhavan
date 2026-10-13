@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import Link from 'next/link';
 import { buildPageMetadata } from '@/lib/seoService';
+import UKLocations from '@/components/UKLocations';
+import FoodGallery from '@/components/FoodGallery';
 
 export const metadata: Metadata = buildPageMetadata('/about-us', {
   title: 'About Us – Samko Arya Bhavan',
@@ -28,71 +29,50 @@ const features = [
   },
 ];
 
-const locations = [
-  {
-    name: 'Wembley',
-    image: '/images/migrated/NKAryaBhavan-Wembley-6.jpeg',
-    desc: 'Perfect place for families and vegetarian food lovers.',
-    link: '/wembley',
-  },
-  {
-    name: 'Tooting',
-    image: '/images/migrated/NKAryaBhavan-Tooting-1.jpeg',
-    desc: 'Enjoy traditional dosas and South Indian favourites.',
-    link: '/tooting',
-  },
-  {
-    name: 'Central London',
-    image: '/images/migrated/NKAryaBhavan-Central-London-2.jpeg',
-    desc: 'Authentic South Indian vegetarian dining in the heart of London.',
-    link: '/central-london',
-  },
-];
-
 export default function AboutUsPage() {
   return (
     <main className="min-h-screen bg-white">
-      {/* Hero Banner (Exact from live site) */}
+      {/* 1. Hero Banner (Bright light mode matching live site, no dimming overlay) */}
       <section className="relative w-full h-[380px] sm:h-[450px] lg:h-[506px] flex items-center justify-center overflow-hidden">
         <Image
           src="/images/migrated/Hero-banner-scaled.jpg"
           alt="About Us – Samko Arya Bhavan"
           fill
           priority
+          quality={95}
           sizes="100vw"
           className="object-cover object-center"
         />
-        {/* Soft dark overlay matching live site */}
-        <div className="absolute inset-0 bg-black/40" />
 
         <div className="relative z-10 text-center px-4">
-          <h1 className="text-white font-['Josefin_Sans',sans-serif] text-[34px] sm:text-[42px] font-normal tracking-wide">
+          <h1 className="text-white font-['Josefin_Sans',sans-serif] text-[34px] sm:text-[42px] font-normal tracking-wide drop-shadow-[0_2px_4px_rgba(0,0,0,0.65)]">
             About Us
           </h1>
         </div>
       </section>
 
-      {/* Let's Create Memories That Will Last a Lifetime Section */}
-      <section className="w-full bg-white">
-        <div className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-2 items-stretch">
-          {/* Left Column: South Indian Thali Feast Image */}
-          <div className="relative w-full min-h-[360px] sm:min-h-[460px] lg:min-h-[580px]">
+      {/* 2. Let's Create Memories That Will Last a Lifetime Section */}
+      <section className="w-full bg-white overflow-hidden">
+        <div className="grid w-full grid-cols-1 items-stretch lg:grid-cols-[48%_52%]">
+          {/* Left Column: South Indian Thali Feast Image flush to left edge */}
+          <div className="relative min-h-[313px] w-full sm:min-h-[460px] lg:min-h-[506px]">
             <Image
               src="/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-11.jpeg"
               alt="South Indian Traditional Vegetarian Thali Feast"
               fill
-              sizes="(max-width: 1024px) 100vw, 50vw"
+              quality={90}
+              sizes="(max-width: 1024px) 100vw, 48vw"
               className="object-cover object-center"
             />
           </div>
 
-          {/* Right Column: Narrative & 4 Feature Badges */}
-          <div className="px-6 sm:px-10 lg:px-14 py-10 lg:py-16 flex flex-col justify-center">
-            <h2 className="text-[#344E41] font-serif text-[26px] sm:text-[32px] lg:text-[34px] font-semibold uppercase tracking-[1px] leading-tight mb-5">
+          {/* Right column: heading narrative and 4 feature badges */}
+          <div className="flex flex-col justify-center px-6 sm:px-10 lg:px-12 xl:px-16 py-10 sm:py-12 lg:py-[50px]">
+            <h2 className="font-ivymode mb-5 text-[26px] font-semibold uppercase leading-[1.25] tracking-[1px] text-[#344E41] sm:text-[28px] lg:text-[32px] lg:leading-[56px]">
               LET’S CREATE MEMORIES THAT WILL LAST A LIFETIME.
             </h2>
 
-            <div className="space-y-4 text-[#202020] font-['Josefin_Sans',sans-serif] text-[15px] sm:text-[16px] leading-[1.7] mb-8">
+            <div className="mb-8 space-y-4 font-['Josefin_Sans',sans-serif] text-[16px] font-normal leading-[1.4] text-[#202020] lg:text-[18px] lg:leading-[1.55]">
               <p>
                 Our journey began with the hope and determination to carry a piece of India with us
                 wherever we go, and share our love and joy with you. Like pockets of delectable
@@ -120,6 +100,8 @@ export default function AboutUsPage() {
                       src={feat.icon}
                       alt={feat.title}
                       fill
+                      quality={90}
+                      sizes="(max-width: 640px) 100vw, 50vw"
                       className="object-contain"
                     />
                   </div>
@@ -133,82 +115,11 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      {/* Our Locations in the UK Section */}
-      <section className="py-[50px] lg:py-[60px] px-4 sm:px-6 lg:px-8 bg-[#ECE6DF]">
-        <div className="max-w-[1240px] mx-auto">
-          {/* Section Heading */}
-          <div className="text-center mb-8 sm:mb-10">
-            <h2 className="text-[#344E41] font-serif text-[26px] sm:text-[32px] font-semibold tracking-[1px] uppercase leading-tight">
-              OUR LOCATIONS IN THE UK
-            </h2>
-          </div>
+      {/* 3. Our Locations in the UK Section (Exact Image 3 matching live site) */}
+      <UKLocations />
 
-          {/* 3 Locations Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
-            {locations.map((loc, idx) => (
-              <div
-                key={idx}
-                className="bg-white rounded-[10px] p-[10px] pb-6 flex flex-col justify-between transition-all duration-300 ease-out hover:scale-[1.01] hover:shadow-[2px_0px_9px_1px_rgba(245,133,34,0.59)] shadow-[0_2px_10px_rgba(0,0,0,0.04)]"
-              >
-                <div>
-                  {/* Branch Interior Image */}
-                  <div className="w-full h-[245px] rounded-[6px] overflow-hidden relative bg-gray-100">
-                    <Image
-                      src={loc.image}
-                      alt={`Arya Bhavan ${loc.name}`}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="object-cover object-center"
-                    />
-                  </div>
-
-                  {/* Body Content */}
-                  <div className="p-2 pt-3">
-                    {/* Location Pin Icon Badge */}
-                    <div className="w-11 h-11 rounded-full bg-[#EAEDEC] flex items-center justify-center mb-3">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 1024 1024"
-                        className="text-[#344B42] fill-current"
-                      >
-                        <path d="M512 992c9.6 0 16-3.2 22.4-9.6 16-16 361.6-368 361.6-598.4C896 144 700.8 0 512 0S128 144 128 384c0 227.2 345.6 582.4 361.6 598.4 6.4 6.4 12.8 9.6 22.4 9.6zm0-928c156.8 0 320 121.6 320 320 0 172.8-243.2 444.8-320 528-76.8-80-320-355.2-320-528 0-198.4 163.2-320 320-320zm128 320c0-70.4-57.6-128-128-128s-128 57.6-128 128 57.6 128 128 128 128-57.6 128-128zm-192 0c0-35.2 28.8-64 64-64s64 28.8 64 64-28.8 64-64 64-64-28.8-64-64z" />
-                      </svg>
-                    </div>
-
-                    <h3 className="font-serif text-2xl font-bold text-black mb-2">
-                      {loc.name}
-                    </h3>
-                    <p className="text-sm text-[#555555] font-['Josefin_Sans',sans-serif] leading-relaxed mb-6">
-                      {loc.desc}
-                    </p>
-                  </div>
-                </div>
-
-                {/* View More Button */}
-                <div className="px-2">
-                  <Link
-                    href={loc.link}
-                    className="inline-block bg-[#F68422] hover:bg-[#366732] text-white font-['Josefin_Sans',sans-serif] text-[18px] sm:text-[20px] font-semibold px-4 py-2 rounded-[4px] transition-colors duration-300"
-                  >
-                    View More
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* South Indian Dosas, Idlis & More Heading Section */}
-      <section className="py-14 sm:py-20 px-4 text-center bg-white">
-        <div className="max-w-[1240px] mx-auto">
-          <h2 className="text-[#344E41] font-serif text-[26px] sm:text-[32px] font-semibold tracking-[1px] uppercase leading-tight">
-            SOUTH INDIAN DOSAS, IDLIS &amp; MORE
-          </h2>
-        </div>
-      </section>
+      {/* 4. South Indian Dosas, Idlis & More Gallery (Exact Images 4 & 5 matching live site) */}
+      <FoodGallery />
     </main>
   );
 }

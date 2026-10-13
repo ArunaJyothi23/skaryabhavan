@@ -36,69 +36,59 @@ const franchiseLocs = [
 ];
 
 export default function FranchiseLocations() {
-  const [hoveredId, setHoveredId] = useState<number | null>(3); // Notre Dame highlighted as in live screenshot
-
   return (
     <section className="py-14 sm:py-20 bg-[#ECE6DF]">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1240px] px-4 sm:px-6">
         
         {/* Section Heading */}
-        <div className="text-center mb-10 sm:mb-14">
-          <h2 className="font-ivymode text-2xl sm:text-3xl lg:text-[34px] font-semibold tracking-[1px] uppercase text-[#344E41]">
+        <div className="text-center mb-10 sm:mb-12">
+          <h2 className="font-ivymode text-2xl font-semibold leading-[1.25] tracking-[1px] text-[#344E41] uppercase sm:text-[26px] lg:text-[32px] lg:leading-[56px]">
             OUR FRANCHISE LOCATIONS
           </h2>
         </div>
 
-        {/* 4 Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {franchiseLocs.map((loc) => {
-            const isActive = (hoveredId ?? 3) === loc.id;
-            return (
-              <div
-                key={loc.id}
-                onMouseEnter={() => setHoveredId(loc.id)}
-                className={`bg-white rounded-2xl p-6 lg:p-7 transition-all duration-300 flex flex-col justify-between ${
-                  isActive
-                    ? 'border-2 border-[#F6851C] shadow-[0_0_18px_rgba(246,133,28,0.25)] scale-[1.01]'
-                    : 'border-2 border-transparent shadow-xs hover:border-[#F6851C] hover:shadow-[0_0_18px_rgba(246,133,28,0.25)] hover:scale-[1.01]'
-                }`}
-              >
-                <div>
-                  {/* Pin Icon Badge */}
-                  <div className="w-10 h-10 rounded-full bg-[#E5ECE9] text-[#344E41] flex items-center justify-center mb-5">
-                    <MapPin className="w-5 h-5 stroke-[1.8]" />
-                  </div>
-
-                  {/* Country Name */}
-                  <h3 className="font-ivymode font-bold text-2xl text-gray-900 mb-1">
-                    {loc.country}
-                  </h3>
-
-                  {/* Branch Name */}
-                  <h4 className="font-sans font-medium text-base text-gray-800 mb-4">
-                    {loc.branch}
-                  </h4>
-
-                  {/* Address */}
-                  <p className="font-['Josefin_Sans',sans-serif] text-[16px] leading-[24.8px] text-[rgb(115,115,115)] leading-relaxed mb-6 font-normal">
-                    {loc.address}
-                  </p>
+        {/* 4 Cards Grid with exact spacing matching Image 2 */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
+          {franchiseLocs.map((loc) => (
+            <div
+              key={loc.id}
+              className="flex flex-col justify-between rounded-[10px] bg-white p-5 sm:p-6 transition-all duration-300 shadow-[0_2px_10px_rgba(0,0,0,0.04)] hover:shadow-[2px_0px_9px_1px_rgba(245,133,34,0.59)] hover:scale-[1.01]"
+            >
+              <div>
+                {/* Pin Icon Badge */}
+                <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-full bg-[#EAEDEC] text-[#344B42]">
+                  <MapPin className="w-5 h-5 stroke-[2]" />
                 </div>
 
-                {/* View More Button (hover goes green #366732 matching live site) */}
-                <div>
-                  <a
-                    href={loc.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block bg-[#F6851C] hover:bg-[#366732] text-white px-5 py-2.5 rounded font-['Josefin_Sans',sans-serif] font-semibold text-[16px] transition-colors duration-200"
-                  >
-                    View More
-                  </a>
-                </div>
+                {/* Country Name (Exact matching Image 5: bold charcoal #202020) */}
+                <h3 className="mb-1.5 font-['Josefin_Sans',sans-serif] text-[26px] sm:text-[28px] font-bold leading-tight text-[#202020]">
+                  {loc.country}
+                </h3>
+
+                {/* Branch Name */}
+                <h4 className="mb-3 font-['Josefin_Sans',sans-serif] text-[18px] sm:text-[20px] font-semibold leading-snug text-[#202020]">
+                  {loc.branch}
+                </h4>
+
+                {/* Address */}
+                <p className="mb-6 font-['Josefin_Sans',sans-serif] text-[15px] sm:text-[16px] font-normal leading-[1.6] text-[#333333]">
+                  {loc.address}
+                </p>
               </div>
-            );
-          })}
+
+              {/* View More Button (hover goes green #366732 matching live site) */}
+              <div>
+                <a
+                  href={loc.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#F68422] hover:bg-[#366732] text-white px-6 py-2.5 rounded-[6px] font-['Josefin_Sans',sans-serif] font-bold text-[18px] transition-colors duration-200 shadow-sm cursor-pointer"
+                >
+                  View More
+                </a>
+              </div>
+            </div>
+          ))}
         </div>
 
       </div>

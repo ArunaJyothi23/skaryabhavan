@@ -54,8 +54,8 @@ export default function FranchisePage() {
 
   return (
     <main className="min-h-screen bg-white">
-      {/* Hero Banner Section (Exact from live site) */}
-      <section className="relative w-full h-[320px] sm:h-[360px] lg:h-[400px] bg-black flex items-end justify-center">
+      {/* Hero Banner Section (Exact from live site: 300px on laptop/1366px screens, 350px on large displays) */}
+      <section className="relative w-full h-[300px] 2xl:h-[350px] min-h-[300px] 2xl:min-h-[350px] bg-[#201c1a] flex items-end justify-center overflow-visible">
         <Image
           src="/images/migrated/NKAryaBhavan-Wembley-3.jpeg"
           alt="Franchise Samko Arya Bhavan"
@@ -64,15 +64,15 @@ export default function FranchisePage() {
           sizes="100vw"
           className="object-cover object-center"
         />
-        {/* Dark overlay 50% matching live site */}
+        {/* Live site Elementor overlay: #000000 with 0.5 opacity */}
         <div className="absolute inset-0 bg-black/50" />
 
-        {/* Large Overlapping "FRANCHISE" Title (Exact placement translated 50% downwards) */}
-        <div className="relative z-10 w-full text-center translate-y-1/2 pointer-events-none select-none">
+        {/* Large Overlapping "FRANCHISE" Title (Exact 6em / 96px font size from 1st live site image) */}
+        <div id="banner-title" className="relative z-10 w-full text-center translate-y-1/2 pointer-events-none select-none">
           <h1
-            className="font-serif text-[#F6851C] uppercase font-normal leading-none"
+            className="font-ivymode text-[#F6851C] uppercase font-normal leading-none"
             style={{
-              fontSize: 'clamp(2.4rem, 6.5vw, 6rem)',
+              fontSize: 'clamp(3.2rem, 7vw, 6rem)',
               letterSpacing: '0.5em',
               textIndent: '0.5em',
             }}
@@ -82,18 +82,18 @@ export default function FranchisePage() {
         </div>
       </section>
 
-      {/* Main Content & Opportunities Section */}
-      <section className="pt-24 sm:pt-28 lg:pt-32 pb-16 sm:pb-20 px-4 sm:px-6 lg:px-8">
+      {/* Main Content & Opportunities Section (Exact from live site: mt-80px) */}
+      <section className="pt-[70px] lg:pt-[80px] pb-[80px] px-4 sm:px-6 lg:px-8">
         <div className="max-w-[1240px] mx-auto">
-          {/* Main Section Heading */}
-          <div className="text-center mb-6">
-            <h2 className="text-[#344E41] font-serif text-[24px] sm:text-[34px] lg:text-[44px] font-semibold uppercase tracking-wide leading-tight">
+          {/* Main Section Heading: EXACT Josefin Sans, font-normal, 36px on laptop / 44px on large desktop, #344E41 */}
+          <div className="text-center mb-[15px]">
+            <h2 className="text-[#344E41] font-['Josefin_Sans',sans-serif] text-[24px] sm:text-[30px] md:text-[34px] lg:text-[36px] 2xl:text-[44px] font-normal uppercase tracking-wider leading-[1.2]">
               FRANCHISE OPPORTUNITIES WITH ARYA BHAVAN
             </h2>
           </div>
 
-          {/* Narrative Paragraphs */}
-          <div className="max-w-[700px] mx-auto text-center space-y-4 mb-10 text-[#202020] font-['Josefin_Sans',sans-serif] text-[16px] sm:text-[18px] leading-[1.6]">
+          {/* Narrative Paragraphs: exactly 42% width on desktop for identical line wraps */}
+          <div className="w-full sm:w-[70%] lg:w-[44%] max-w-[560px] mx-auto text-center space-y-4 mt-[10px] mb-[50px] text-[#202020] font-['Josefin_Sans',sans-serif] text-[16px] sm:text-[18px] leading-[1.6]">
             <p>
               We are excited to announce that Arya Bhavan is now open for franchising! If you’re interested in joining our growing family, please fill out the contact form on our website. Our team will get in touch with you shortly to discuss the next steps.
             </p>
@@ -102,11 +102,11 @@ export default function FranchisePage() {
             </p>
           </div>
 
-          {/* Minimalist Contact Form (Exact from live site) */}
-          <div className="max-w-[500px] sm:max-w-[520px] mx-auto">
+          {/* Minimalist Contact Form (Exact from live site: 40% width, 20px inputs, 2px dashed pill submit) */}
+          <div className="w-full sm:w-[60%] lg:w-[40%] max-w-[480px] mx-auto">
             {formStatus === 'success' ? (
               <div className="p-6 rounded-2xl bg-green-50 border border-green-200 text-center space-y-3">
-                <h3 className="font-serif font-bold text-xl text-green-900">
+                <h3 className="font-ivymode font-bold text-xl text-green-900">
                   Thank You for Your Interest!
                 </h3>
                 <p className="text-sm text-green-700 font-['Josefin_Sans',sans-serif]">
@@ -117,54 +117,54 @@ export default function FranchisePage() {
                     setFormStatus('idle');
                     setFormData({ name: '', email: '', phone: '', location: '' });
                   }}
-                  className="mt-3 text-xs uppercase tracking-wider text-[#344E41] font-bold underline"
+                  className="mt-3 text-xs uppercase tracking-wider text-[#344E41] font-bold underline cursor-pointer"
                 >
                   Submit Another Inquiry
                 </button>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
-                <div>
+              <form onSubmit={handleSubmit} className="space-y-0">
+                <div className="mb-[20px]">
                   <input
                     type="text"
                     required
                     placeholder="Your Name"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full py-3 sm:py-3.5 border-b border-[#C8C8C8] bg-transparent text-[#474747] text-[18px] sm:text-[20px] font-['Josefin_Sans',sans-serif] outline-none focus:border-[#F6851C] transition-colors placeholder:text-[#6e6e6e]"
+                    className="w-full py-[15px] border-b border-[#C8C8C8] bg-transparent text-[#474747] text-[18px] sm:text-[20px] font-['Josefin_Sans',sans-serif] outline-none focus:border-[#F6851C] transition-colors placeholder:text-[#474747]"
                   />
                 </div>
 
-                <div>
+                <div className="mb-[20px]">
                   <input
                     type="email"
                     required
                     placeholder="Your Email"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="w-full py-3 sm:py-3.5 border-b border-[#C8C8C8] bg-transparent text-[#474747] text-[18px] sm:text-[20px] font-['Josefin_Sans',sans-serif] outline-none focus:border-[#F6851C] transition-colors placeholder:text-[#6e6e6e]"
+                    className="w-full py-[15px] border-b border-[#C8C8C8] bg-transparent text-[#474747] text-[18px] sm:text-[20px] font-['Josefin_Sans',sans-serif] outline-none focus:border-[#F6851C] transition-colors placeholder:text-[#474747]"
                   />
                 </div>
 
-                <div>
+                <div className="mb-[20px]">
                   <input
                     type="tel"
                     required
                     placeholder="Your Phone No."
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    className="w-full py-3 sm:py-3.5 border-b border-[#C8C8C8] bg-transparent text-[#474747] text-[18px] sm:text-[20px] font-['Josefin_Sans',sans-serif] outline-none focus:border-[#F6851C] transition-colors placeholder:text-[#6e6e6e]"
+                    className="w-full py-[15px] border-b border-[#C8C8C8] bg-transparent text-[#474747] text-[18px] sm:text-[20px] font-['Josefin_Sans',sans-serif] outline-none focus:border-[#F6851C] transition-colors placeholder:text-[#474747]"
                   />
                 </div>
 
-                <div>
+                <div className="mb-[20px]">
                   <input
                     type="text"
                     required
                     placeholder="Location"
                     value={formData.location}
                     onChange={(e) => setFormData({ ...formData, location: e.target.value })}
-                    className="w-full py-3 sm:py-3.5 border-b border-[#C8C8C8] bg-transparent text-[#474747] text-[18px] sm:text-[20px] font-['Josefin_Sans',sans-serif] outline-none focus:border-[#F6851C] transition-colors placeholder:text-[#6e6e6e]"
+                    className="w-full py-[15px] border-b border-[#C8C8C8] bg-transparent text-[#474747] text-[18px] sm:text-[20px] font-['Josefin_Sans',sans-serif] outline-none focus:border-[#F6851C] transition-colors placeholder:text-[#474747]"
                   />
                 </div>
 
@@ -174,11 +174,11 @@ export default function FranchisePage() {
                   </div>
                 )}
 
-                <div className="pt-4 text-center">
+                <div className="pt-[15px] text-center">
                   <button
                     type="submit"
                     disabled={formStatus === 'submitting'}
-                    className="inline-block px-7 sm:px-8 py-3 rounded-full border-2 border-dashed border-[#ED8D74] text-[#E84C0A] hover:bg-[#6D1007] hover:text-white hover:border-solid hover:border-[#6D1007] font-['Josefin_Sans',sans-serif] text-[17px] sm:text-[18px] transition-all duration-300 cursor-pointer disabled:opacity-50"
+                    className="inline-block px-[25px] pt-[13px] pb-[15px] rounded-[25px] border-2 border-dashed border-[#ED8D74] bg-transparent text-[#E84C0A] hover:bg-[#6D1007] hover:text-white hover:border-solid hover:border-[#6D1007] font-['Josefin_Sans',sans-serif] text-[18px] font-normal capitalize transition-all duration-300 cursor-pointer disabled:opacity-50"
                   >
                     {formStatus === 'submitting' ? 'Submitting...' : 'Submit'}
                   </button>
@@ -189,8 +189,8 @@ export default function FranchisePage() {
         </div>
       </section>
 
-      {/* Special Offers / Newsletter Section (Exact from live site) */}
-      <section className="relative w-full min-h-[340px] sm:min-h-[370px] flex items-center justify-center overflow-hidden py-14 px-4 sm:px-6">
+      {/* Special Offers / Newsletter Section (Exact from live site: min-height 370px, content-width 800px) */}
+      <section className="relative w-full min-h-[370px] flex items-center justify-center overflow-hidden py-14 px-4 sm:px-6">
         <Image
           src="/images/migrated/sl2.jpg"
           alt="Special Offers Samko Arya Bhavan"
@@ -198,10 +198,11 @@ export default function FranchisePage() {
           sizes="100vw"
           className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-black/40" />
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/45" />
 
-        <div className="relative z-10 w-full max-w-[650px] mx-auto text-center px-4">
-          <h2 className="text-white font-serif text-[24px] sm:text-[32px] lg:text-[36px] font-normal uppercase tracking-wider mb-6 sm:mb-8">
+        <div className="relative z-10 w-full max-w-[800px] mx-auto text-center px-4">
+          <h2 className="text-white font-ivymode text-[26px] sm:text-[32px] lg:text-[36px] font-normal uppercase tracking-wider mb-[30px] leading-[1.2]">
             GET SPECIAL OFFERS FROM US
           </h2>
 
@@ -211,19 +212,19 @@ export default function FranchisePage() {
             </div>
           ) : (
             <form onSubmit={handleSubscribe} className="w-full">
-              <div className="border-b border-white/60 flex items-center justify-between gap-3 pb-1">
+              <div className="border-b border-[#FFFFFF82] flex items-center justify-between gap-3">
                 <input
                   type="email"
                   required
                   placeholder="Enter Your Email"
                   value={subscribeEmail}
                   onChange={(e) => setSubscribeEmail(e.target.value)}
-                  className="bg-transparent text-white placeholder:text-white placeholder:text-[17px] sm:placeholder:text-[20px] text-[17px] sm:text-[20px] font-['Josefin_Sans',sans-serif] outline-none flex-1 py-2 sm:py-3"
+                  className="bg-transparent text-white placeholder:text-white placeholder:text-[18px] sm:placeholder:text-[20px] text-[18px] sm:text-[20px] font-['Josefin_Sans',sans-serif] outline-none flex-1 py-[15px]"
                 />
                 <button
                   type="submit"
                   disabled={subscribeStatus === 'submitting'}
-                  className="text-white hover:text-[#c4a05a] text-[17px] sm:text-[20px] font-['Josefin_Sans',sans-serif] font-normal transition-colors py-2 sm:py-3 px-2 shrink-0 cursor-pointer"
+                  className="text-white hover:text-[#344E41] text-[18px] sm:text-[20px] font-['Josefin_Sans',sans-serif] font-normal transition-colors py-[15px] px-2 shrink-0 cursor-pointer"
                 >
                   {subscribeStatus === 'submitting' ? 'Subscribing...' : 'Subscribe'}
                 </button>

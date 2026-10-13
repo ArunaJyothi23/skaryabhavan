@@ -47,19 +47,19 @@ export default function CateringEnquiryBox({ sourceTitle }: Props) {
   };
 
   return (
-    <div id="form" className="w-full max-w-lg mx-auto shadow-lg rounded-2xl overflow-hidden scroll-mt-24">
+    <div id="form" className="w-full max-w-lg mx-auto border-2 border-[#f68422] rounded-[10px] p-2 shadow-[0_2px_12px_rgba(0,0,0,0.06)] bg-white scroll-mt-24">
       {/* Green Header */}
-      <div className="bg-[#2d5a27] text-white text-center py-3.5 px-4 font-serif text-2xl font-bold tracking-wide">
+      <div className="bg-[#2D4739] text-white text-center py-2.5 px-4 font-['Josefin_Sans',sans-serif] text-2xl sm:text-[28px] font-bold rounded-[6px] mb-3 tracking-wide">
         Enquire Now
       </div>
 
       {/* Form Container */}
-      <div className="bg-[#fcfdfa] p-6 sm:p-7 border-2 border-[#2d5a27] border-t-0 rounded-b-2xl">
+      <div className="px-2 pb-2">
         {status === 'success' ? (
-          <div className="py-8 text-center space-y-3">
-            <CheckCircle2 className="w-12 h-12 text-[#2d5a27] mx-auto animate-bounce" />
-            <h4 className="font-serif font-bold text-xl text-[#2d5a27]">Thank You!</h4>
-            <p className="text-sm text-gray-700">
+          <div className="py-8 text-center space-y-3 font-['Josefin_Sans',sans-serif]">
+            <CheckCircle2 className="w-12 h-12 text-[#2D4739] mx-auto animate-bounce" />
+            <h4 className="font-['Josefin_Sans',sans-serif] font-bold text-2xl text-[#2D4739]">Thank You!</h4>
+            <p className="text-base text-gray-700">
               Your enquiry for <strong>{sourceTitle}</strong> has been received. Our team will contact you shortly with the best quote.
             </p>
             <button
@@ -67,15 +67,15 @@ export default function CateringEnquiryBox({ sourceTitle }: Props) {
                 setFormData({ name: '', email: '', phone: '', pax: '', message: '' });
                 setStatus('idle');
               }}
-              className="mt-4 px-6 py-2.5 bg-[#e87722] hover:bg-[#d66b1a] text-white text-sm font-bold rounded-lg transition-colors cursor-pointer"
+              className="mt-4 px-6 py-2.5 bg-[#f68422] hover:bg-[#2D4739] text-white text-base font-bold rounded-[6px] transition-colors cursor-pointer"
             >
               Send Another Enquiry
             </button>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="space-y-4">
+          <form onSubmit={handleSubmit} className="space-y-3 font-['Josefin_Sans',sans-serif]">
             <div>
-              <label htmlFor="catering-name" className="sr-only">Full Name</label>
+              <label htmlFor="catering-name" className="mb-1 block font-['Josefin_Sans',sans-serif] text-[15px] font-bold leading-5 text-[#202020]">Full Name</label>
               <input
                 id="catering-name"
                 type="text"
@@ -83,12 +83,12 @@ export default function CateringEnquiryBox({ sourceTitle }: Props) {
                 value={formData.name}
                 onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                 placeholder="Full Name"
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d5a27] focus:border-transparent transition-all shadow-inner"
+                className="w-full rounded-[10px] border border-[#CAC9C9] bg-[#F9F4EF] px-4 py-2.5 font-['Josefin_Sans',sans-serif] text-[15px] font-semibold leading-5 text-gray-900 placeholder-[#777777] focus:outline-none focus:ring-2 focus:ring-[#2D4739]"
               />
             </div>
 
             <div>
-              <label htmlFor="catering-email" className="sr-only">Email</label>
+              <label htmlFor="catering-email" className="mb-1 block font-['Josefin_Sans',sans-serif] text-[15px] font-bold leading-5 text-[#202020]">Email</label>
               <input
                 id="catering-email"
                 type="email"
@@ -96,12 +96,12 @@ export default function CateringEnquiryBox({ sourceTitle }: Props) {
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 placeholder="Email"
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d5a27] focus:border-transparent transition-all shadow-inner"
+                className="w-full rounded-[10px] border border-[#CAC9C9] bg-[#F9F4EF] px-4 py-2.5 font-['Josefin_Sans',sans-serif] text-[15px] font-semibold leading-5 text-gray-900 placeholder-[#777777] focus:outline-none focus:ring-2 focus:ring-[#2D4739]"
               />
             </div>
 
             <div>
-              <label htmlFor="catering-phone" className="sr-only">Phone Number</label>
+              <label htmlFor="catering-phone" className="mb-1 block font-['Josefin_Sans',sans-serif] text-[15px] font-bold leading-5 text-[#202020]">Phone Number</label>
               <input
                 id="catering-phone"
                 type="tel"
@@ -109,37 +109,37 @@ export default function CateringEnquiryBox({ sourceTitle }: Props) {
                 value={formData.phone}
                 onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                 placeholder="Phone Number"
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d5a27] focus:border-transparent transition-all shadow-inner"
+                className="w-full rounded-[10px] border border-[#CAC9C9] bg-[#F9F4EF] px-4 py-2.5 font-['Josefin_Sans',sans-serif] text-[15px] font-semibold leading-5 text-gray-900 placeholder-[#777777] focus:outline-none focus:ring-2 focus:ring-[#2D4739]"
               />
             </div>
 
             <div>
-              <label htmlFor="catering-pax" className="sr-only">No. of Pax</label>
+              <label htmlFor="catering-pax" className="mb-1 block font-['Josefin_Sans',sans-serif] text-[15px] font-bold leading-5 text-[#202020]">No. of Pax</label>
               <input
                 id="catering-pax"
                 type="text"
                 required
                 value={formData.pax}
                 onChange={(e) => setFormData({ ...formData, pax: e.target.value })}
-                placeholder="No. of Pax"
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d5a27] focus:border-transparent transition-all shadow-inner"
+                placeholder="No. of pax"
+                className="w-full rounded-[10px] border border-[#CAC9C9] bg-[#F9F4EF] px-4 py-2.5 font-['Josefin_Sans',sans-serif] text-[15px] font-semibold leading-5 text-gray-900 placeholder-[#777777] focus:outline-none focus:ring-2 focus:ring-[#2D4739]"
               />
             </div>
 
             <div>
-              <label htmlFor="catering-message" className="sr-only">Message</label>
+              <label htmlFor="catering-message" className="mb-1 block font-['Josefin_Sans',sans-serif] text-[15px] font-bold leading-5 text-[#202020]">Message</label>
               <textarea
                 id="catering-message"
                 rows={4}
                 value={formData.message}
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 placeholder="Message"
-                className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 placeholder-gray-500 text-sm focus:outline-none focus:ring-2 focus:ring-[#2d5a27] focus:border-transparent transition-all shadow-inner resize-y"
+                className="w-full resize-y rounded-[10px] border border-[#CAC9C9] bg-[#F9F4EF] px-4 py-2.5 font-['Josefin_Sans',sans-serif] text-[15px] font-semibold leading-5 text-gray-900 placeholder-[#777777] focus:outline-none focus:ring-2 focus:ring-[#2D4739]"
               />
             </div>
 
             {status === 'error' && (
-              <div className="flex items-center gap-2 p-3 bg-red-50 text-red-700 text-xs rounded-lg border border-red-200">
+              <div className="flex items-center gap-2 p-3 bg-red-50 text-red-700 text-sm rounded-lg border border-red-200">
                 <AlertCircle className="w-4 h-4 shrink-0" />
                 <span>Failed to submit. Please call us directly at 020 7839 8797.</span>
               </div>
@@ -148,7 +148,7 @@ export default function CateringEnquiryBox({ sourceTitle }: Props) {
             <button
               type="submit"
               disabled={status === 'submitting'}
-              className="w-full py-3.5 bg-[#e87722] hover:bg-[#d66b1a] active:bg-[#c45f14] text-white font-bold text-base rounded-lg transition-colors shadow-md flex items-center justify-center gap-2 cursor-pointer disabled:opacity-75"
+              className="w-full py-3 bg-[#f68422] hover:bg-[#2D4739] text-white font-['Josefin_Sans',sans-serif] font-extrabold text-[18px] rounded-[10px] transition-colors shadow-sm flex items-center justify-center gap-2 cursor-pointer disabled:opacity-75 mt-2 uppercase tracking-wide"
             >
               {status === 'submitting' ? (
                 <>

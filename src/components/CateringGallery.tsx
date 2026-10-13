@@ -30,27 +30,27 @@ export default function CateringGallery({ images, title = 'Our Gallery' }: Props
   };
 
   return (
-    <section className="py-14 bg-[#faf9f6]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-serif font-bold text-center text-[#344e41] mb-10 tracking-wide">
+    <section className="py-12 sm:py-[50px] bg-white">
+      <div className="max-w-[1440px] mx-auto px-3 sm:px-4">
+        <h2 className="text-3xl sm:text-4xl font-josefin font-semibold text-center text-[#344e41] mb-8 sm:mb-10 tracking-normal">
           {title}
         </h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2.5">
           {images.map((src, index) => (
             <div
               key={index}
               onClick={() => openLightbox(index)}
-              className="relative aspect-square overflow-hidden rounded-xl shadow-sm cursor-pointer group bg-gray-200"
+              className="relative aspect-[3/2] overflow-hidden rounded-[10px] shadow-sm cursor-pointer group bg-gray-100"
             >
               <Image
                 src={src}
                 alt={`Arya Bhavan Catering Gallery ${index + 1}`}
                 fill
-                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                className="object-cover group-hover:scale-105 transition-transform duration-300"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
               />
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors" />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/25 transition-colors duration-300" />
             </div>
           ))}
         </div>

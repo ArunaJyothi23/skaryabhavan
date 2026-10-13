@@ -40,7 +40,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#faf8f5] text-[#555555] pt-14 pb-8 border-t border-[#ede8df] font-sans">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
         
         {/* 3-Column Grid matching exactly the live site footer in screenshot 4 */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">

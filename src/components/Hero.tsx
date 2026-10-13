@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
@@ -37,6 +37,9 @@ const slides = [
 
 export default function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [contentSlide, setContentSlide] = useState(0);
+  const [contentPhase, setContentPhase] = useState<'idle' | 'exit' | 'enter'>('idle');
+  const previousSlide = useRef(currentSlide);
 
   // Auto advance slides every 6 seconds
   useEffect(() => {
@@ -45,6 +48,25 @@ export default function Hero() {
     }, 6000);
     return () => clearInterval(timer);
   }, []);
+
+  // Match the live carousel's fadeOutUp / fadeInUp text transition.
+  useEffect(() => {
+    if (previousSlide.current === currentSlide) return;
+    previousSlide.current = currentSlide;
+
+    setContentPhase('exit');
+    let enterTimer: ReturnType<typeof setTimeout> | undefined;
+    const exitTimer = setTimeout(() => {
+      setContentSlide(currentSlide);
+      setContentPhase('enter');
+      enterTimer = setTimeout(() => setContentPhase('idle'), 650);
+    }, 240);
+
+    return () => {
+      clearTimeout(exitTimer);
+      if (enterTimer) clearTimeout(enterTimer);
+    };
+  }, [currentSlide]);
 
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
@@ -55,9 +77,10 @@ export default function Hero() {
   };
 
   const active = slides[currentSlide];
+  const visibleContent = slides[contentSlide];
 
   return (
-    <section className="group relative w-full h-[520px] sm:h-[620px] lg:h-[700px] bg-black overflow-hidden select-none">
+    <section className="group relative h-[550px] w-full select-none overflow-hidden bg-[#F9F5F1] md:h-[640px] lg:h-[800px]">
       {/* Background Images with smooth fade */}
       {slides.map((slide, idx) => (
         <div
@@ -72,32 +95,31 @@ export default function Hero() {
             fill
             className="object-cover"
             priority={idx === 0}
+            quality={95}
           />
-          {/* Subtle overlay matching live site elementor wrapbg */}
-          <div className="absolute inset-0 bg-black/40" />
         </div>
       ))}
 
-      {/* Slide Content positioned at lower-left, max-width 50% matching live site */}
-      <div className="relative z-20 h-full max-w-7xl mx-auto px-6 sm:px-12 lg:px-20 flex flex-col justify-end pb-16 sm:pb-24 lg:pb-28 items-start">
-        <div className="max-w-3xl lg:max-w-4xl">
+      {/* Live slide copy begins 40% down on desktop and 10% from the left on mobile. */}
+      <div className="absolute left-[10%] top-[40%] z-20 w-[80%] text-center md:left-[80px] md:w-[calc(100%-160px)] md:text-left lg:left-[84px] lg:w-1/2">
+        <div className={`hero-copy--${contentPhase}`}>
           {/* Exact live site lakit-slide-heading: font-family Josefin Sans, 30px, 600 weight, uppercase, line-height 1.4 */}
-          <h1 className="font-['Josefin_Sans'] text-[22px] sm:text-[26px] lg:text-[30px] font-semibold text-white tracking-normal uppercase leading-[1.4] m-0 drop-shadow-sm sm:whitespace-nowrap">
-            {active.heading}
+          <h1 className="m-0 font-['Josefin_Sans'] text-[22px] font-semibold uppercase leading-[1.4] tracking-normal text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)] sm:text-[26px] lg:text-[30px]">
+            {visibleContent.heading}
           </h1>
 
           {/* Exact live site lakit-slide-description: font-family Josefin Sans, 24px, 600 weight, letter-spacing 2px */}
-          <p className="font-['Josefin_Sans'] text-[16px] sm:text-[20px] lg:text-[24px] font-semibold text-white tracking-[2px] leading-[1.2] mt-4 sm:mt-6 drop-shadow-sm">
-            {active.subheading}
+          <p className="font-['Josefin_Sans'] text-[16px] sm:text-[20px] lg:text-[24px] font-semibold text-white tracking-[2px] leading-[1.2] mt-4 sm:mt-6 drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
+            {visibleContent.subheading}
           </p>
 
           {/* Button matching live site square style */}
           <div className="pt-6 sm:pt-8">
             <Link
-              href={active.buttonLink}
+              href={visibleContent.buttonLink}
               className="btn-hero-menu"
             >
-              {active.buttonText}
+              {visibleContent.buttonText}
             </Link>
           </div>
         </div>
@@ -120,8 +142,8 @@ export default function Hero() {
         <ChevronRight className="w-8 h-8 sm:w-10 sm:h-10 stroke-[1.5]" />
       </button>
 
-      {/* Numbered Pagination Indicators (1 2 3) at Bottom Center (Exact as screenshots 1 & 2) */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-30 flex items-center space-x-6 text-white text-sm font-semibold tracking-widest">
+      {/* Numbered pagination matches the live carousel's 16px type and 30px gap. */}
+      <div className="absolute bottom-6 left-1/2 z-30 flex -translate-x-1/2 items-center space-x-[30px] text-[16px] font-semibold leading-4 tracking-widest text-white">
         {slides.map((_, idx) => (
           <button
             key={idx}
@@ -130,7 +152,7 @@ export default function Hero() {
               currentSlide === idx
                 ? 'text-white border-b-2 border-white font-bold'
                 : 'text-white/60 hover:text-white'
-            }`}
+              } no-underline`}
           >
             {idx + 1}
           </button>

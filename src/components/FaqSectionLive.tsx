@@ -84,11 +84,11 @@ export default function FaqSectionLive() {
 
   return (
     <section className="py-12 sm:py-16 lg:py-20 bg-white">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6">
         
         {/* Section Heading */}
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="font-ivymode text-2xl sm:text-3xl lg:text-[32px] font-semibold tracking-[1px] uppercase text-[#344E41] leading-snug">
+          <h2 className="font-ivymode text-2xl font-semibold leading-[1.25] tracking-[1px] text-[#344E41] uppercase sm:text-[26px] lg:text-[32px] lg:leading-[56px]">
             FAQ &apos;S - 100% PURE VEG RESTAURANT
           </h2>
         </div>

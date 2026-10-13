@@ -4,9 +4,9 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Check } from 'lucide-react';
 import CateringEnquiryBox from '@/components/CateringEnquiryBox';
-import CateringFaq from '@/components/CateringFaq';
+import CateringOrangeFaq from '@/components/CateringOrangeFaq';
 import CateringGallery from '@/components/CateringGallery';
-import DishesBrowser from '@/components/DishesBrowser';
+import CateringDishIcon from '@/components/CateringDishIcon';
 
 export const metadata: Metadata = {
   title: 'Authentic Indian Vegetarian Outdoor Catering | Arya Bhavan',
@@ -48,11 +48,11 @@ const packages = [
     name: '£15.99 Packages',
     pax: '(Minimum 25Pax)',
     items: [
-      '2 Starters',
-      '1 Veg Mains',
+      '2 Staters',
+      '1 VegMains',
       '1 Dhal',
-      '1 Paneer Mains',
-      '1 Rice Or Noodles',
+      '1 PaneerMains',
+      '1 RiceOrNoodles',
       '1 Dessert',
       '1 Bread',
     ],
@@ -62,23 +62,22 @@ const packages = [
     name: '£19.99 Package',
     pax: '(Minimum 25Pax)',
     items: [
-      '3 Starters',
-      '2 Veg Mains',
+      '3 Staters',
+      '2 VegMains',
       '1 Dhal',
-      '1 Paneer Mains',
-      '1 Rice Or Noodles',
+      '1 PaneerMains',
+      '1 RiceOrNoodles',
       '1 Dessert',
       '1 Bread',
     ],
     note: '(Accompaniments like Papad, Pickle, Salad & Raitha will be Complimentary.)',
-    popular: true,
   },
   {
     name: '£23.99 Package',
     pax: '(Minimum 25Pax)',
     items: [
-      '3 Starters (Live starter Opt)',
-      '2 Veg Mains',
+      '3 Staters (live stater Opt)',
+      '2 VegMains',
       '2 Paneer Mains',
       '2 Rice Or Noodles',
       '2 Dessert',
@@ -88,126 +87,152 @@ const packages = [
   },
   {
     name: '£11.00 Package',
-    pax: '(South Indian Thali)',
+    pax: '(South Indian thalli)',
     items: [
       'Chappathi / Poori / Vada',
       'Ghee Dhal',
       'Ponni Rice',
       'Sambar',
       'Chef Special Kara Kozhambu',
-      'Kootu & Poriyal',
-      'Curd & Raitha',
-      'Payasam & Banana',
-      'Butter Chilli & Applam & Pickle',
+      'Kootu',
+      'Poriyal',
+      'Curd',
+      'Raitha',
+      'Payasam',
+      'Banana',
+      'Butter Chilli',
+      'Applam',
+      'Pickle',
     ],
-    note: '(Traditional South Indian Feast served with reverence.)',
+    note: '',
   },
 ];
 
-const dishesData = {
-  Starter: [
-    'Arya Bhavan Special Idly',
-    'Medu Vada',
-    'Rasa Vada',
-    'Curd Vada',
-    'Bhindi Fry',
-    'Honey Chilly Potato / Pineapple',
-    'Mushroom Manchurian',
-    'Chilli Babycorn / Mushroom',
-    'Aloo Pepper Fry',
-    'Crispy Lollypop',
-    'Gobi 65',
-    'Veg Samosa',
-    'Baby Corn 65',
-    'Paneer 65',
-    'Chilli Paneer',
-    'Mushroom Pepper Fry',
-    'Veg Manchurian Dry',
-    'Gobi Manchurian',
-    'Chilli Gobi',
-    'Paneer Tikka',
-  ],
-  'Rice & Noodles': [
-    'Golden Garlic Fried Rice',
-    'Paneer Bell Pepper Fried Rice',
-    'Veg Fried Rice',
-    'Steamed Rice',
-    'Jeera Rice',
-    'Sambar Rice',
-    'Schezwan Fried Rice',
-    'Kashmiri Pulao',
-    'Navratan Pulao',
-    'Veg Pulao',
-    'Peas Pulao',
-    'Veg Biryani',
-    'Veg Noodles',
-    'Veg Hakka Noodles',
-    'Beijing Noodles',
-    'Curried Mushroom Noodles',
-  ],
-  'Veg Curries': [
-    'Vegetable Kolhapuri',
-    'Malai Kofta',
-    'Vegetable Kofta Curry',
-    'Veg Jalfrezi',
-    'Bhindi Do Pyaza',
-    'Baby Corn Masala',
-    'Baingan Masala',
-    'Aloo Gobi',
-    'Mixed Veg Curry',
-    'Aloo Palak',
-    'Vegetable Butter Masala',
-    'Veg Chettinad Masala',
-    'Gobi Masala',
-  ],
-  PaneerCurries: [
-    'Palak Paneer',
-    'Paneer Jalfrezi',
-    'Mutter Paneer',
-    'Paneer Butter Masala',
-    'Kadai Paneer',
-    'Paneer Chettinadu Masala',
-    'Shahi Paneer',
-    'Paneer Tikka Masala',
-    'Paneer Kurma',
-    'Chilli Paneer Gravy',
-    'Methi Malai Paneer',
-  ],
-  Breads: [
-    'Aloo Paratha',
-    'Peshwari Naan',
-    'Paratha',
-    'Naan – Plain / Butter',
-    'Roti – Plain / Butter',
-    'Chapathi',
-    'Poori',
-    'Garlic Naan',
-    'Chilli Garlic Naan',
-  ],
-  Dhal: [
-    'Aam Ka Dhal',
-    'Dhal Tamatar',
-    'Sambar',
-    'Chole Masala',
-    'Dhal Double Tadka',
-    'Rasam',
-    'Dhal Tadka',
-    'Tomato Dhal',
-    'Dhal Butter Fry',
-    'Dhal Makhani',
-  ],
-  Dessert: [
-    'Ada Pradhaman',
-    'Gulab Jamun',
-    'Parupu Payasam',
-    'Bombay Halwa',
-    'Beetroot Halwa',
-    'Semiya Javarisi Payasam',
-    'Rasmalai',
-    'Ravva Kesari',
-    'Carrot Halwa',
-  ],
-};
+const dishCategories = [
+  {
+    title: 'Starter',
+    items: [
+      'Arya Bhavan Special Idly',
+      'Medu Vada',
+      'Rasa Vada',
+      'Curd Vada',
+      'Bhindi Fry',
+      'Honey Chilly Potato / Pineapple',
+      'Mushroom Manchurian',
+      'Chilli Babycorn / Mushroom',
+      'Aloo Pepper Fry',
+      'Crispy Lollypop',
+      'Gobi 65',
+      'Veg Samosa',
+      'Baby Corn 65',
+      'Paneer 65',
+      'Chilli Paneer',
+      'Mushroom Pepper Fry',
+      'Veg Manchurian Dry',
+      'Gobi Manchurian',
+      'Chilli Gobi',
+      'Paneer Tikka',
+    ],
+  },
+  {
+    title: 'Rice & Noodles',
+    items: [
+      'Golden Garlic Fried Rice',
+      'Paneer Bell Pepper Fried Rice',
+      'Veg Fried Rice',
+      'Steamed Rice',
+      'Jeera Rice',
+      'Samabar Rice',
+      'Schezwan Fried Rice',
+      'Kashmiri Pulao',
+      'Navratan Pulao',
+      'Veg Pulao',
+      'Peas Pulao',
+      'Veg Biryani',
+      'Veg Noodles',
+      'Veg Hakka Noodles',
+      'Beijing Noodles',
+      'Curried Mushroom Noodles',
+    ],
+  },
+  {
+    title: 'Veg Curries',
+    items: [
+      'Vegetable Kolhapuri',
+      'Malai Kofta',
+      'Vegetable Kofta Curry',
+      'Veg Jalfrezi',
+      'Bhindi Do Pyaza',
+      'Baby Corn Masala',
+      'Baingan Masala',
+      'Aloo Gobi',
+      'Mixed Veg Curry',
+      'Aloo Palak',
+      'Vegetable Butter Masala',
+      'Veg Chettinad Masala',
+      'Gobi Masala',
+    ],
+  },
+  {
+    title: 'PaneerCurries',
+    items: [
+      'Palak Paneer',
+      'Paneer Jalfrezi',
+      'Mutter Paneer',
+      'Paneer Butter Masala',
+      'Kadai Paneer',
+      'Paneer Chettinadu Masala',
+      'Shahi Paneer',
+      'Paneer Tikka Masala',
+      'Paneer Kurma',
+      'Chilli Paneer Gravy',
+      'Methi Malai Paneer',
+    ],
+  },
+  {
+    title: 'Breads',
+    items: [
+      'Aloo Paratha',
+      'Peswari Naan',
+      'Paratha',
+      'Naan – Plain / Butter',
+      'Roti – Plain / Butter',
+      'Chapathi',
+      'Poori',
+      'Garlic Naan',
+      'Chilli Garlic Naan',
+    ],
+  },
+  {
+    title: 'Dhal',
+    items: [
+      'Aam Ka Dhal',
+      'Dhal Tamatar',
+      'Sambar',
+      'Chole Masala',
+      'Dhal Double Tadka',
+      'Rasam',
+      'Dhal Tadka',
+      'Tomato Dhal',
+      'Dhal Butter Fry',
+      'Dhal Makhani',
+    ],
+  },
+  {
+    title: 'Dessert',
+    items: [
+      'Ada Pradhaman',
+      'Gulab Jamun',
+      'Parupu Payasam',
+      'Bombay Halwa',
+      'Beetroot Halwa',
+      'Semiya Javarisi Payasam',
+      'Rasmalai',
+      'Ravva Kesari',
+      'Carrot Halwa',
+    ],
+  },
+];
 
 const faqs = [
   {
@@ -269,9 +294,9 @@ const galleryImages = [
 
 export default function OutdoorCateringPage() {
   return (
-    <main className="bg-white min-h-screen font-sans">
-      {/* 1. Hero Banner - Exactly matching live site screenshots */}
-      <section className="relative w-full min-h-[85vh] sm:min-h-[90vh] lg:min-h-[92vh] bg-black overflow-hidden flex flex-col justify-end pb-12 sm:pb-16 px-4">
+    <main className="bg-white min-h-screen font-josefin">
+      {/* 1. Hero Banner */}
+      <section className="relative w-full min-h-[500px] md:min-h-[722px] bg-black overflow-hidden flex flex-col justify-center items-center px-4">
         <Image
           src="/images/catering/WhatsApp-Image-2025-12-09-at-17.38.24.jpeg"
           alt="Authentic Indian Vegetarian Outdoor Catering Services London"
@@ -280,64 +305,52 @@ export default function OutdoorCateringPage() {
           sizes="100vw"
           className="object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-black/20" />
-        <div className="relative z-10 text-center max-w-5xl mx-auto space-y-3">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-white tracking-wide drop-shadow-md">
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative z-10 text-center max-w-5xl mx-auto space-y-2">
+          <h1 className="text-3xl sm:text-4xl md:text-[42px] font-josefin font-semibold text-white tracking-wide leading-tight">
             Authentic Indian Vegetarian Outdoor Catering Services
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl font-light text-white/95 tracking-widest">
+          <p className="text-lg sm:text-xl md:text-[24px] font-normal text-white tracking-wide">
             London | Wembley | Tooting
           </p>
         </div>
       </section>
 
-      {/* 2. Intro Section + Enquire Now (2 Columns matching live site screenshot) */}
-      <section className="py-14 sm:py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
+      {/* 2. Intro Section + Enquire Now (2 Columns) */}
+      <section className="py-10 sm:py-12 lg:py-[50px] bg-white">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-5">
+          <div className="flex flex-col lg:flex-row gap-5 lg:gap-6 items-start justify-between">
             {/* Left Column Content */}
-            <div className="lg:col-span-7 space-y-6">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-[#344e41] leading-tight">
+            <div className="w-full lg:w-[60%] space-y-4">
+              <h2 className="text-2xl sm:text-[28px] lg:text-[32px] font-josefin font-normal text-[#344e41] leading-[1.3] mb-5">
                 100% Pure Indian Vegetarian Catering Across London
               </h2>
-              <p className="text-base sm:text-lg text-gray-700 leading-relaxed font-sans">
+              <p className="text-base sm:text-[18px] text-[#202020] leading-relaxed font-josefin">
                 At Arya Bhavan, we specialise in delivering premium outdoor catering that brings the richness of South Indian and North Indian vegetarian cuisine directly to your venue anywhere in London, including Central London, Wembley, Tooting, Ilford. Our dedicated catering team prepares an extensive selection of pure vegetarian dishes—from aromatic curries to traditional festive favourites—to ensure every event is memorable. Clients often choose us for our expertise in creating authentic flavours that cater to diverse tastes, whether it’s a family celebration, cultural gathering, wedding reception, or corporate function.
               </p>
-              <p className="text-base sm:text-lg text-gray-700 leading-relaxed font-sans">
+              <p className="text-base sm:text-[18px] text-[#202020] leading-relaxed font-josefin">
                 Arya Bhavan offers South Indian pure vegetarian outdoor catering and live dosa catering services across London, Wembley, Tooting. North Indian classics, ensuring a menu that satisfies every guest. With a strong focus on quality and authenticity, our outdoor catering service promises a seamless experience, delivering exceptional vegetarian food wherever your celebration takes place.
               </p>
-
-              <div className="pt-2 flex flex-wrap gap-3 text-sm font-semibold text-[#344e41]">
-                <span className="flex items-center gap-1.5 bg-[#edf5ee] px-4 py-2 rounded-full">
-                  <Check className="w-4 h-4 text-[#2d5a27]" /> 100% Pure Vegetarian
-                </span>
-                <span className="flex items-center gap-1.5 bg-[#edf5ee] px-4 py-2 rounded-full">
-                  <Check className="w-4 h-4 text-[#2d5a27]" /> Jain & Vegan Options
-                </span>
-                <span className="flex items-center gap-1.5 bg-[#edf5ee] px-4 py-2 rounded-full">
-                  <Check className="w-4 h-4 text-[#2d5a27]" /> Live Dosa Stations Available
-                </span>
-              </div>
             </div>
 
             {/* Right Column Enquire Form */}
-            <div className="lg:col-span-5 w-full">
+            <div className="w-full lg:w-[40%] flex justify-center lg:justify-end">
               <CateringEnquiryBox sourceTitle="Outdoor Catering" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* 3. Four Feature Service Cards (Exact images & copy) */}
-      <section className="py-16 sm:py-20 bg-[#edf5ee]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {/* 3. Four Feature Service Cards */}
+      <section className="py-12 sm:py-16 bg-[#F6FFF8]">
+        <div className="max-w-[1440px] mx-auto px-3 sm:px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {serviceCards.map((card, i) => (
               <div
                 key={i}
-                className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col"
+                className="bg-white rounded-[10px] border border-[#BDBCBC] p-2.5 shadow-sm hover:shadow-md transition-shadow flex flex-col"
               >
-                <div className="relative w-full h-52 overflow-hidden">
+                <div className="relative w-full h-[186px] overflow-hidden rounded-[10px]">
                   <Image
                     src={card.img}
                     alt={card.title}
@@ -346,12 +359,12 @@ export default function OutdoorCateringPage() {
                     className="object-cover hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                <div className="p-6 flex-1 flex flex-col justify-between text-center">
+                <div className="p-4 flex-1 flex flex-col justify-between text-center">
                   <div>
-                    <h3 className="text-xl font-serif font-bold text-[#344e41] tracking-wide mb-2 uppercase">
+                    <h3 className="text-xl font-josefin font-medium text-[#202020] tracking-wide mb-2 uppercase">
                       {card.title}
                     </h3>
-                    <p className="text-sm text-gray-600 leading-relaxed font-sans">
+                    <p className="text-sm text-gray-600 leading-relaxed font-josefin">
                       {card.desc}
                     </p>
                   </div>
@@ -360,10 +373,10 @@ export default function OutdoorCateringPage() {
             ))}
           </div>
 
-          <div className="mt-12 text-center">
+          <div className="mt-10 text-center">
             <Link
               href="#form"
-              className="inline-block px-10 py-3.5 bg-[#e87722] hover:bg-[#d66b1a] active:bg-[#c45f14] text-white font-bold text-base rounded-md transition-colors shadow-md cursor-pointer"
+              className="inline-block px-7 py-3 bg-[#f68422] hover:bg-[#366732] text-white font-josefin font-normal text-xl sm:text-[24px] rounded-[10px] transition-colors shadow-sm cursor-pointer"
             >
               Book Now
             </Link>
@@ -371,86 +384,116 @@ export default function OutdoorCateringPage() {
         </div>
       </section>
 
-      {/* 4. Packages Section (All 4 Tiers) */}
-      <section className="py-16 sm:py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#344e41] tracking-wide">
-              Outdoor Catering Packages
-            </h2>
-            <p className="text-sm sm:text-base text-gray-600 mt-2 font-sans">
-              Choose from our curated banquet packages or customize your menu
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {/* 4. Packages Section */}
+      <section className="py-12 sm:py-16 bg-white">
+        <div className="max-w-[1440px] mx-auto px-3 sm:px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 items-stretch">
             {packages.map((pkg, i) => (
               <div
                 key={i}
-                className={`relative bg-[#fcfdfa] rounded-2xl border ${
-                  pkg.popular ? 'border-[#e87722] shadow-lg ring-2 ring-[#e87722]/20' : 'border-gray-200 shadow-sm'
-                } p-6 flex flex-col justify-between`}
+                className="border border-[#366732] rounded-[10px] bg-[#F9F4EF] p-3 sm:p-3.5 shadow-sm flex flex-col justify-between h-full"
               >
-                {pkg.popular && (
-                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#e87722] text-white text-[11px] font-bold uppercase tracking-wider px-3 py-0.5 rounded-full shadow">
-                    Most Popular
-                  </span>
-                )}
                 <div>
-                  <div className="text-center pb-4 border-b border-gray-200">
-                    <h3 className="text-2xl font-serif font-bold text-[#344e41]">{pkg.name}</h3>
-                    <span className="text-xs font-semibold text-gray-500 mt-1 block">{pkg.pax}</span>
+                  {/* Orange Header Banner (full width inside card) */}
+                  <div className="bg-[#f68422] text-white py-2 px-4 rounded-[6px] text-center font-josefin text-2xl sm:text-[25px] font-normal w-full mb-3 shadow-sm">
+                    {pkg.name}
                   </div>
 
-                  <ul className="py-5 space-y-2.5 text-sm text-gray-700 font-sans">
+                  <div className="text-center font-josefin text-[17px] sm:text-[18px] text-black font-normal my-3">
+                    {pkg.pax}
+                  </div>
+
+                  <div className="space-y-1.5 text-center font-josefin text-[17px] sm:text-[19px] text-black font-normal">
                     {pkg.items.map((item, idx) => (
-                      <li key={idx} className="flex items-start gap-2">
-                        <Check className="w-4 h-4 text-[#2d5a27] shrink-0 mt-0.5" />
-                        <span>{item}</span>
-                      </li>
+                      <div key={idx} className="py-0.5">
+                        {item}
+                      </div>
                     ))}
-                  </ul>
+                  </div>
                 </div>
 
-                <div className="pt-4 border-t border-gray-100 text-center">
-                  <p className="text-[11px] text-gray-500 italic mb-4 font-sans">{pkg.note}</p>
-                  <Link
-                    href="#form"
-                    className="block w-full py-2.5 px-4 bg-[#2d5a27] hover:bg-[#23471e] text-white text-xs font-bold uppercase tracking-wider rounded-lg transition-colors text-center"
-                  >
-                    Select Package
-                  </Link>
-                </div>
+                {pkg.note ? (
+                  <div className="mt-auto pt-6 pb-2 text-center">
+                    <p className="text-[14px] sm:text-[15px] font-josefin text-black font-normal leading-snug px-1">
+                      {pkg.note}
+                    </p>
+                  </div>
+                ) : null}
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* 5. Complete Dishes Sections (All 7 Categories) */}
-      <section className="py-16 sm:py-20 bg-[#fcfbf8] border-y border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="text-3xl sm:text-4xl font-serif font-bold text-[#344e41] tracking-wide">
-              Catering Dishes & Specialties
-            </h2>
-            <p className="text-sm sm:text-base text-gray-600 mt-2 font-sans">
-              Authentic South & North Indian dishes crafted freshly by master chefs
-            </p>
+      {/* 5. Dishes Section */}
+      <section className="py-12 sm:py-16 bg-white">
+        <div className="max-w-[1440px] mx-auto px-3 sm:px-4 space-y-6">
+          
+          {/* Row 1: 3 Columns (Starter, Rice & Noodles, Veg Curries - Screenshots 3 & 4) */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 items-stretch">
+            {dishCategories.slice(0, 3).map((cat, idx) => (
+              <div
+                key={idx}
+                className="border border-[#CAC9C9] rounded-[10px] bg-[#f9f4ef] p-3 sm:p-4 shadow-sm flex flex-col h-full"
+              >
+                {/* Category Header */}
+                <div className="bg-[#f68422] text-white py-2 px-4 rounded-[6px] text-center font-josefin text-2xl sm:text-[25px] font-normal w-full mb-3 shadow-sm">
+                  {cat.title}
+                </div>
+
+                {/* Items List */}
+                <div className="space-y-1.5 flex-1 px-1">
+                  {cat.items.map((item, itemIdx) => (
+                    <div key={itemIdx} className="flex items-center gap-3 py-1">
+                      <CateringDishIcon className="w-[18px] h-[18px] text-[#344e41] shrink-0" />
+                      <span className="font-josefin text-[17px] sm:text-[18px] text-black font-normal leading-normal">
+                        {item}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
 
-          <DishesBrowser categories={dishesData} />
+          {/* Row 2: 4 Columns (PaneerCurries, Breads, Dhal, Dessert - Screenshot 5) */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 items-stretch">
+            {dishCategories.slice(3, 7).map((cat, idx) => (
+              <div
+                key={idx}
+                className="border border-[#CAC9C9] rounded-[10px] bg-[#f9f4ef] p-3 sm:p-4 shadow-sm flex flex-col h-full"
+              >
+                {/* Category Header */}
+                <div className="bg-[#f68422] text-white py-2 px-4 rounded-[6px] text-center font-josefin text-2xl sm:text-[25px] font-normal w-full mb-3 shadow-sm">
+                  {cat.title}
+                </div>
+
+                {/* Items List */}
+                <div className="space-y-1.5 flex-1 px-1">
+                  {cat.items.map((item, itemIdx) => (
+                    <div key={itemIdx} className="flex items-center gap-3 py-1">
+                      <CateringDishIcon className="w-[18px] h-[18px] text-[#344e41] shrink-0" />
+                      <span className="font-josefin text-[17px] sm:text-[18px] text-black font-normal leading-normal">
+                        {item}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+
         </div>
       </section>
 
-      {/* 6. Faqs with Side Image (Exact Elementor layout) */}
-      <CateringFaq
+      {/* 6. Faqs (Exact Solid Orange Bars with Side Image) */}
+      <CateringOrangeFaq
         faqs={faqs}
         sideImageSrc="/images/catering/WhatsApp-Image-2025-12-09-at-17.36.52.jpeg"
         sideImageAlt="Arya Bhavan Outdoor Catering London"
       />
 
-      {/* 7. Our Gallery (Exact 16 photos with Lightbox) */}
+      {/* 7. Our Gallery */}
       <CateringGallery images={galleryImages} />
     </main>
   );

@@ -32,12 +32,12 @@ export default function Header() {
 
   return (
     <header className="bg-white sticky top-0 z-50 font-sans">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
         
         {/* Top Centered Logo */}
-        <div className="pt-4 pb-2 flex justify-center items-center">
+        <div className="flex h-[100px] items-center justify-between px-2 lg:h-auto lg:justify-center lg:px-0 lg:pt-[30px] lg:pb-[10px]">
           <Link href="/" className="inline-block transition-transform hover:opacity-95">
-            <div className="relative w-64 sm:w-80 h-16 sm:h-20">
+            <div className="relative h-12 w-60 sm:h-14 sm:w-72 lg:h-[87px] lg:w-[420px]">
               <Image
                 src="/images/migrated/WhatsApp_Image_2026-09-10_at_22.32.49-removebg-preview-e1789186834297.png"
                 alt="Samko Arya Bhavan Pure Indian Vegetarian Restaurant"
@@ -47,18 +47,26 @@ export default function Header() {
               />
             </div>
           </Link>
+
+          <button
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="rounded-lg p-2 text-[#6d1007] hover:bg-orange-50 lg:hidden"
+            aria-label="Toggle navigation menu"
+          >
+            {mobileMenuOpen ? <X className="h-6 w-6" /> : <MenuIcon className="h-6 w-6" />}
+          </button>
         </div>
 
         {/* Navigation Bar (No horizontal line, seamless white matching live site) */}
-        <div className="flex justify-between lg:justify-center items-center py-2 sm:py-3">
+        <div className="hidden items-center justify-center py-1 lg:flex">
           
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8 xl:space-x-10 text-[18px] font-normal leading-[1.4em]">
+          <nav className="hidden lg:flex items-center justify-center text-[18px] font-normal leading-[1.4em]">
             
             <Link 
               href="/" 
-              className={`transition-colors ${
-                isHome ? 'text-[#f68422] font-semibold' : 'text-[#6d1007] hover:text-[#f68422]'
+              className={`px-[10px] py-[10px] mx-[15px] xl:mx-[20px] transition-colors ${
+                isHome ? 'text-[#344E41]' : 'text-[#6D1007] hover:text-[#F6851C]'
               }`}
             >
               Home
@@ -66,8 +74,8 @@ export default function Header() {
 
             <Link 
               href="/about-us" 
-              className={`transition-colors ${
-                isAbout ? 'text-[#f68422] font-semibold' : 'text-[#6d1007] hover:text-[#f68422]'
+              className={`px-[10px] py-[10px] mx-[15px] xl:mx-[20px] transition-colors ${
+                isAbout ? 'text-[#344E41]' : 'text-[#6D1007] hover:text-[#F6851C]'
               }`}
             >
               About Us
@@ -75,7 +83,7 @@ export default function Header() {
 
             {/* Branches Dropdown with Exact Flyout Submenus */}
             <div
-              className="relative"
+              className="relative mx-[15px] xl:mx-[20px]"
               onMouseEnter={() => setBranchesDropdownOpen(true)}
               onMouseLeave={() => {
                 setBranchesDropdownOpen(false);
@@ -83,15 +91,17 @@ export default function Header() {
               }}
             >
               <button
-                className={`flex items-center gap-1.5 py-1 transition-colors duration-150 ${
-                  branchesDropdownOpen || isBranches
-                    ? 'text-[#f68422] font-semibold'
-                    : 'text-[#6d1007] hover:text-[#f68422]'
+                className={`flex items-center gap-1.5 px-[10px] py-[10px] transition-colors duration-150 ${
+                  branchesDropdownOpen
+                    ? 'text-[#F6851C]'
+                    : isBranches
+                    ? 'text-[#344E41]'
+                    : 'text-[#6D1007] hover:text-[#F6851C]'
                 }`}
                 onClick={() => setBranchesDropdownOpen(!branchesDropdownOpen)}
               >
                 <span>Branches</span>
-                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${branchesDropdownOpen ? 'rotate-180 text-[#f68422]' : ''}`} />
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${branchesDropdownOpen ? 'rotate-180 text-[#F6851C]' : 'text-current'}`} />
               </button>
 
               {/* Level 1 Dropdown */}
@@ -108,7 +118,7 @@ export default function Header() {
                   >
                     <div
                       className={`flex items-center justify-between px-5 py-2.5 text-[15px] font-medium cursor-pointer transition-colors ${
-                        activeBranchCountry === 'uk' ? 'text-[#f68422]' : 'text-[#222222] hover:text-[#f68422]'
+                        activeBranchCountry === 'uk' ? 'text-[#F6851C]' : 'text-[#222222] hover:text-[#F6851C]'
                       }`}
                     >
                       <span>UK</span>
@@ -120,19 +130,19 @@ export default function Header() {
                       <div className="absolute top-0 left-full w-52 bg-white shadow-[0_4px_25px_rgba(0,0,0,0.12)] border border-gray-100 py-1.5 z-50 animate-in fade-in duration-100">
                         <Link
                           href="/central-london"
-                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#f68422] transition-colors"
+                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#F6851C] transition-colors"
                         >
                           Central London
                         </Link>
                         <Link
                           href="/wembley"
-                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#f68422] transition-colors"
+                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#F6851C] transition-colors"
                         >
                           Wembley
                         </Link>
                         <Link
                           href="/tooting"
-                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#f68422] transition-colors"
+                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#F6851C] transition-colors"
                         >
                           Tooting
                         </Link>
@@ -147,7 +157,7 @@ export default function Header() {
                   >
                     <div
                       className={`flex items-center justify-between px-5 py-2.5 text-[15px] font-medium cursor-pointer transition-colors ${
-                        activeBranchCountry === 'france' ? 'text-[#f68422]' : 'text-[#222222] hover:text-[#f68422]'
+                        activeBranchCountry === 'france' ? 'text-[#F6851C]' : 'text-[#222222] hover:text-[#F6851C]'
                       }`}
                     >
                       <span>France</span>
@@ -161,7 +171,7 @@ export default function Header() {
                           href="https://nkaryabhavan.fr/en/branches/gare-du-nord/"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#f68422] transition-colors"
+                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#F6851C] transition-colors"
                         >
                           Gare du Nord
                         </a>
@@ -169,7 +179,7 @@ export default function Header() {
                           href="https://nkaryabhavan.fr/en/branches/louvre/"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#f68422] transition-colors"
+                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#F6851C] transition-colors"
                         >
                           Louvre
                         </a>
@@ -177,7 +187,7 @@ export default function Header() {
                           href="https://nkaryabhavan.fr/en/branches/notre-dame/"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#f68422] transition-colors"
+                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#F6851C] transition-colors"
                         >
                           Notre Dame
                         </a>
@@ -192,7 +202,7 @@ export default function Header() {
                   >
                     <div
                       className={`flex items-center justify-between px-5 py-2.5 text-[15px] font-medium cursor-pointer transition-colors ${
-                        activeBranchCountry === 'belgium' ? 'text-[#f68422]' : 'text-[#222222] hover:text-[#f68422]'
+                        activeBranchCountry === 'belgium' ? 'text-[#F6851C]' : 'text-[#222222] hover:text-[#F6851C]'
                       }`}
                     >
                       <span>Belgium</span>
@@ -204,7 +214,7 @@ export default function Header() {
                       <div className="absolute top-0 left-full w-52 bg-white shadow-[0_4px_25px_rgba(0,0,0,0.12)] border border-gray-100 py-1.5 z-50 animate-in fade-in duration-100">
                         <Link
                           href="/branches"
-                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#f68422] transition-colors"
+                          className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#F6851C] transition-colors"
                         >
                           Brussels
                         </Link>
@@ -218,8 +228,8 @@ export default function Header() {
 
             <Link 
               href="/menu" 
-              className={`transition-colors ${
-                isMenu ? 'text-[#f68422] font-semibold' : 'text-[#6d1007] hover:text-[#f68422]'
+              className={`px-[10px] py-[10px] mx-[15px] xl:mx-[20px] transition-colors ${
+                isMenu ? 'text-[#344E41]' : 'text-[#6D1007] hover:text-[#F6851C]'
               }`}
             >
               Menu
@@ -227,33 +237,35 @@ export default function Header() {
 
             {/* Catering Dropdown */}
             <div
-              className="relative"
+              className="relative mx-[15px] xl:mx-[20px]"
               onMouseEnter={() => setCateringDropdownOpen(true)}
               onMouseLeave={() => setCateringDropdownOpen(false)}
             >
               <button
-                className={`flex items-center gap-1.5 py-1 transition-colors duration-150 ${
-                  cateringDropdownOpen || isCatering
-                    ? 'text-[#f68422] font-semibold'
-                    : 'text-[#6d1007] hover:text-[#f68422]'
+                className={`flex items-center gap-1.5 px-[10px] py-[10px] transition-colors duration-150 ${
+                  cateringDropdownOpen
+                    ? 'text-[#F6851C]'
+                    : isCatering
+                    ? 'text-[#344E41]'
+                    : 'text-[#6D1007] hover:text-[#F6851C]'
                 }`}
                 onClick={() => setCateringDropdownOpen(!cateringDropdownOpen)}
               >
                 <span>Catering</span>
-                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${cateringDropdownOpen ? 'rotate-180 text-[#f68422]' : ''}`} />
+                <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${cateringDropdownOpen ? 'rotate-180 text-[#F6851C]' : 'text-current'}`} />
               </button>
 
               {cateringDropdownOpen && (
                 <div className="absolute top-full left-0 w-52 bg-white shadow-[0_4px_25px_rgba(0,0,0,0.12)] border border-gray-100 py-1.5 z-50 animate-in fade-in duration-150">
                   <Link
                     href="/live-dosa-catering"
-                    className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#f68422] transition-colors"
+                    className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#F6851C] transition-colors"
                   >
                     Live Dosa Catering
                   </Link>
                   <Link
                     href="/outdoor-catering"
-                    className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#f68422] transition-colors"
+                    className="block px-5 py-2 text-[15px] text-[#222222] hover:text-[#F6851C] transition-colors"
                   >
                     Outdoor Catering
                   </Link>
@@ -263,8 +275,8 @@ export default function Header() {
 
             <Link 
               href="/franchise" 
-              className={`transition-colors ${
-                isFranchise ? 'text-[#f68422] font-semibold' : 'text-[#6d1007] hover:text-[#f68422]'
+              className={`px-[10px] py-[10px] mx-[15px] xl:mx-[20px] transition-colors ${
+                isFranchise ? 'text-[#344E41]' : 'text-[#6D1007] hover:text-[#F6851C]'
               }`}
             >
               Franchise
@@ -272,28 +284,14 @@ export default function Header() {
 
             <Link 
               href="/contact-us" 
-              className={`transition-colors ${
-                isContact ? 'text-[#f68422] font-semibold' : 'text-[#6d1007] hover:text-[#f68422]'
+              className={`px-[10px] py-[10px] mx-[15px] xl:mx-[20px] transition-colors ${
+                isContact ? 'text-[#344E41]' : 'text-[#6D1007] hover:text-[#F6851C]'
               }`}
             >
               Contact
             </Link>
 
           </nav>
-
-          {/* Mobile Menu Toggle Button */}
-          <div className="lg:hidden flex items-center justify-between w-full">
-            <span className="text-xs font-bold uppercase text-[#6d1007] tracking-wider">
-              Arya Bhavan Menu
-            </span>
-            <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 text-[#6d1007] hover:bg-orange-50 rounded-lg"
-              aria-label="Toggle navigation menu"
-            >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <MenuIcon className="w-6 h-6" />}
-            </button>
-          </div>
 
         </div>
 
@@ -304,7 +302,7 @@ export default function Header() {
               href="/"
               onClick={() => setMobileMenuOpen(false)}
               className={`block py-1.5 text-base ${
-                isHome ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold hover:text-[#f68422]'
+                isHome ? 'text-[#344E41] font-bold' : 'text-[#6D1007] font-semibold hover:text-[#F6851C]'
               }`}
             >
               Home
@@ -314,7 +312,7 @@ export default function Header() {
               href="/about-us"
               onClick={() => setMobileMenuOpen(false)}
               className={`block py-1.5 text-base ${
-                isAbout ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold hover:text-[#f68422]'
+                isAbout ? 'text-[#344E41] font-bold' : 'text-[#6D1007] font-semibold hover:text-[#F6851C]'
               }`}
             >
               About Us
@@ -325,7 +323,7 @@ export default function Header() {
               <button
                 onClick={() => setMobileBranchesOpen(!mobileBranchesOpen)}
                 className={`w-full flex items-center justify-between py-1.5 text-base ${
-                  isBranches ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold'
+                  isBranches ? 'text-[#344E41] font-bold' : 'text-[#6D1007] font-semibold'
                 }`}
               >
                 <span>Branches</span>
@@ -335,28 +333,28 @@ export default function Header() {
               {mobileBranchesOpen && (
                 <div className="pl-4 pt-2 space-y-3">
                   <div>
-                    <div className="text-xs font-bold uppercase text-[#f68422] tracking-wider mb-1">
+                    <div className="text-xs font-bold uppercase text-[#F6851C] tracking-wider mb-1">
                       UK Branches
                     </div>
                     <div className="pl-2 space-y-1.5">
                       <Link
                         href="/central-london"
                         onClick={() => setMobileMenuOpen(false)}
-                        className={`block text-sm ${pathname === '/central-london' ? 'text-[#f68422] font-bold' : 'text-gray-700 hover:text-[#f68422]'}`}
+                        className={`block text-sm ${pathname === '/central-london' ? 'text-[#344E41] font-bold' : 'text-gray-700 hover:text-[#F6851C]'}`}
                       >
                         Central London
                       </Link>
                       <Link
                         href="/wembley"
                         onClick={() => setMobileMenuOpen(false)}
-                        className={`block text-sm ${pathname === '/wembley' ? 'text-[#f68422] font-bold' : 'text-gray-700 hover:text-[#f68422]'}`}
+                        className={`block text-sm ${pathname === '/wembley' ? 'text-[#344E41] font-bold' : 'text-gray-700 hover:text-[#F6851C]'}`}
                       >
                         Wembley
                       </Link>
                       <Link
                         href="/tooting"
                         onClick={() => setMobileMenuOpen(false)}
-                        className={`block text-sm ${pathname === '/tooting' ? 'text-[#f68422] font-bold' : 'text-gray-700 hover:text-[#f68422]'}`}
+                        className={`block text-sm ${pathname === '/tooting' ? 'text-[#344E41] font-bold' : 'text-gray-700 hover:text-[#F6851C]'}`}
                       >
                         Tooting
                       </Link>
@@ -364,7 +362,7 @@ export default function Header() {
                   </div>
 
                   <div>
-                    <div className="text-xs font-bold uppercase text-[#f68422] tracking-wider mb-1">
+                    <div className="text-xs font-bold uppercase text-[#F6851C] tracking-wider mb-1">
                       France Branches
                     </div>
                     <div className="pl-2 space-y-1.5">
@@ -372,7 +370,7 @@ export default function Header() {
                         href="https://nkaryabhavan.fr/en/branches/gare-du-nord/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block text-sm text-gray-700 hover:text-[#f68422]"
+                        className="block text-sm text-gray-700 hover:text-[#F6851C]"
                       >
                         Gare du Nord
                       </a>
@@ -380,7 +378,7 @@ export default function Header() {
                         href="https://nkaryabhavan.fr/en/branches/louvre/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block text-sm text-gray-700 hover:text-[#f68422]"
+                        className="block text-sm text-gray-700 hover:text-[#F6851C]"
                       >
                         Louvre
                       </a>
@@ -388,7 +386,7 @@ export default function Header() {
                         href="https://nkaryabhavan.fr/en/branches/notre-dame/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block text-sm text-gray-700 hover:text-[#f68422]"
+                        className="block text-sm text-gray-700 hover:text-[#F6851C]"
                       >
                         Notre Dame
                       </a>
@@ -396,14 +394,14 @@ export default function Header() {
                   </div>
 
                   <div>
-                    <div className="text-xs font-bold uppercase text-[#f68422] tracking-wider mb-1">
+                    <div className="text-xs font-bold uppercase text-[#F6851C] tracking-wider mb-1">
                       Belgium Branch
                     </div>
                     <div className="pl-2 space-y-1.5">
                       <Link
                         href="/branches"
                         onClick={() => setMobileMenuOpen(false)}
-                        className={`block text-sm ${pathname === '/branches' ? 'text-[#f68422] font-bold' : 'text-gray-700 hover:text-[#f68422]'}`}
+                        className={`block text-sm ${pathname === '/branches' ? 'text-[#344E41] font-bold' : 'text-gray-700 hover:text-[#F6851C]'}`}
                       >
                         Brussels
                       </Link>
@@ -417,7 +415,7 @@ export default function Header() {
               href="/menu"
               onClick={() => setMobileMenuOpen(false)}
               className={`block py-1.5 text-base ${
-                isMenu ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold hover:text-[#f68422]'
+                isMenu ? 'text-[#344E41] font-bold' : 'text-[#6D1007] font-semibold hover:text-[#F6851C]'
               }`}
             >
               Menu
@@ -428,7 +426,7 @@ export default function Header() {
               <button
                 onClick={() => setMobileCateringOpen(!mobileCateringOpen)}
                 className={`w-full flex items-center justify-between py-1.5 text-base ${
-                  isCatering ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold'
+                  isCatering ? 'text-[#344E41] font-bold' : 'text-[#6D1007] font-semibold'
                 }`}
               >
                 <span>Catering</span>
@@ -440,14 +438,14 @@ export default function Header() {
                   <Link
                     href="/live-dosa-catering"
                     onClick={() => setMobileMenuOpen(false)}
-                    className={`block text-sm ${pathname === '/live-dosa-catering' ? 'text-[#f68422] font-bold' : 'text-gray-700 hover:text-[#f68422]'}`}
+                    className={`block text-sm ${pathname === '/live-dosa-catering' ? 'text-[#344E41] font-bold' : 'text-gray-700 hover:text-[#F6851C]'}`}
                   >
                     Live Dosa Catering
                   </Link>
                   <Link
                     href="/outdoor-catering"
                     onClick={() => setMobileMenuOpen(false)}
-                    className={`block text-sm ${pathname === '/outdoor-catering' ? 'text-[#f68422] font-bold' : 'text-gray-700 hover:text-[#f68422]'}`}
+                    className={`block text-sm ${pathname === '/outdoor-catering' ? 'text-[#344E41] font-bold' : 'text-gray-700 hover:text-[#F6851C]'}`}
                   >
                     Outdoor Catering
                   </Link>
@@ -459,7 +457,7 @@ export default function Header() {
               href="/franchise"
               onClick={() => setMobileMenuOpen(false)}
               className={`block py-1.5 text-base ${
-                isFranchise ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold hover:text-[#f68422]'
+                isFranchise ? 'text-[#344E41] font-bold' : 'text-[#6D1007] font-semibold hover:text-[#F6851C]'
               }`}
             >
               Franchise
@@ -469,7 +467,7 @@ export default function Header() {
               href="/contact-us"
               onClick={() => setMobileMenuOpen(false)}
               className={`block py-1.5 text-base ${
-                isContact ? 'text-[#f68422] font-bold' : 'text-[#6d1007] font-semibold hover:text-[#f68422]'
+                isContact ? 'text-[#344E41] font-bold' : 'text-[#6D1007] font-semibold hover:text-[#F6851C]'
               }`}
             >
               Contact

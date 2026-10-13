@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Send, CheckCircle2, AlertCircle } from 'lucide-react';
+import { CheckCircle2, AlertCircle } from 'lucide-react';
 
 const cateringServices = [
   {
@@ -69,7 +69,8 @@ export default function CateringSectionLive() {
     name: '',
     email: '',
     phone: '',
-    eventType: 'Wedding',
+    pax: '',
+    eventType: 'Catering',
     eventDate: '',
     message: ''
   });
@@ -96,39 +97,39 @@ export default function CateringSectionLive() {
   };
 
   return (
-    <section id="catering-live" className="py-14 sm:py-20 bg-[#ECE6DF]">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="catering-live" className="py-12 sm:py-16 bg-[#ECE6DF]">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6">
         
         {/* Section Heading */}
-        <div className="text-center mb-10 sm:mb-14">
-          <h2 className="font-ivymode text-2xl sm:text-3xl lg:text-[34px] font-semibold tracking-[1px] uppercase text-[#344E41]">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="font-ivymode text-2xl font-bold leading-[1.25] tracking-[1px] text-[#344E41] uppercase sm:text-[26px] lg:text-[32px] lg:leading-[56px]">
             CATERING SERVICES
           </h2>
         </div>
 
         {/* 2-Column Exact Layout: 70% 4-Cards Grid + 30% Enquire Now */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+        <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-12 lg:gap-5">
           
           {/* Left Column (70%): White container with 4 cards */}
-          <div className="lg:col-span-8 bg-white rounded-[10px] p-4 sm:p-5 shadow-xs transition-all duration-300 hover:scale-[1.01] hover:shadow-[2px_0px_9px_1px_rgba(245,133,34,0.59)] flex flex-col justify-center">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4 h-full">
+          <div className="flex flex-col justify-center rounded-[10px] bg-white p-3 sm:p-4 lg:col-span-8">
+            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-3">
               {cateringServices.map((service, idx) => (
                 <div
                   key={idx}
-                  className="border border-[#344E41]/35 rounded-[10px] p-6 lg:p-7 bg-white flex flex-col items-center text-center justify-center transition-all duration-300 hover:border-[#F6851C] hover:shadow-[1px_1px_8px_1px_#F68422]"
+                  className="flex min-h-[250px] flex-col items-center justify-center rounded-[10px] border border-[#344E41] bg-white px-4 py-4 text-center transition-all duration-300 hover:border-[#F6851C] hover:shadow-[2px_0_9px_1px_rgba(245,133,34,0.59)] sm:min-h-[260px]"
                 >
                   {/* Service Icon */}
-                  <div className="mb-3">
+                  <div className="mb-2.5 flex items-center justify-center [&_svg]:h-[70px] [&_svg]:w-[70px]">
                     {service.icon}
                   </div>
 
                   {/* Service Title */}
-                  <h3 className="font-ivymode text-xl sm:text-2xl font-bold text-[#344E41] mb-2 leading-snug">
+                  <h3 className="mb-2 font-ivymode text-[22px] font-bold leading-[1.2] text-[#344E41] sm:text-[25px]">
                     {service.title}
                   </h3>
 
                   {/* Service Description */}
-                  <p className="font-['Josefin_Sans',sans-serif] text-[15px] leading-[22px] text-[rgb(115,115,115)] font-normal">
+                  <p className="font-['Josefin_Sans',sans-serif] text-[15px] font-semibold leading-[1.4] text-[#202020]">
                     {service.desc}
                   </p>
                 </div>
@@ -137,95 +138,99 @@ export default function CateringSectionLive() {
           </div>
 
           {/* Right Column (30%): Enquire Now Container */}
-          <div className="lg:col-span-4 bg-white rounded-[10px] p-6 lg:p-7 shadow-xs transition-all duration-300 hover:scale-[1.01] hover:shadow-[2px_0px_9px_1px_rgba(245,133,34,0.59)] flex flex-col justify-start">
-            <h2 className="font-ivymode text-2xl sm:text-[28px] font-bold text-[#344E41] uppercase tracking-[1px] mb-5 text-left">
+          <div className="flex flex-col justify-start rounded-[10px] bg-white p-4 sm:p-5 lg:col-span-4">
+            <h2 className="font-ivymode text-2xl sm:text-[28px] lg:text-[32px] font-bold text-[#344E41] uppercase tracking-[1px] mb-3 text-left leading-[36px] sm:leading-[42px]">
               ENQUIRE NOW
             </h2>
 
             {status === 'success' ? (
-              <div className="p-6 rounded-xl bg-green-50 border border-green-200 text-center space-y-3 my-auto">
+              <div className="p-6 rounded-xl bg-green-50 border border-green-200 text-center space-y-3 my-auto font-josefin">
                 <CheckCircle2 className="w-10 h-10 text-green-600 mx-auto" />
-                <h4 className="font-ivymode font-bold text-lg text-green-900">Enquiry Received!</h4>
-                <p className="text-xs text-green-700 font-sans">
+                <h4 className="font-josefin font-bold text-lg text-green-900">Enquiry Received!</h4>
+                <p className="text-xs text-green-700">
                   Thank you! An Arya Bhavan catering representative will get back to you shortly.
                 </p>
                 <button
                   onClick={() => setStatus('idle')}
-                  className="btn-hero-menu text-xs py-2 px-4 mt-2"
+                  className="px-5 py-2 bg-[#f68422] hover:bg-[#366732] text-white text-xs font-bold rounded-[10px] transition-colors cursor-pointer mt-2"
                 >
                   Send Another
                 </button>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-3.5 font-sans flex flex-col h-full justify-between">
+              <form onSubmit={handleSubmit} className="flex flex-col gap-2.5 font-josefin">
                 <div>
-                  <label className="block text-[11px] font-bold uppercase tracking-wider text-gray-700 mb-1">
-                    Your Name *
+                  <label htmlFor="home-catering-name" className="mb-1 block font-['Josefin_Sans',sans-serif] text-[15px] font-bold leading-5 text-[#202020]">
+                    Full Name
                   </label>
                   <input
+                    id="home-catering-name"
                     type="text"
                     required
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    className="w-full px-3.5 py-2 rounded-lg border border-gray-200 text-xs focus:outline-hidden focus:border-[#6d1007]"
+                    className="w-full rounded-[10px] border border-[#CAC9C9] bg-[#F9F4EF] px-4 py-2.5 font-['Josefin_Sans',sans-serif] text-[15px] font-semibold leading-5 text-[#202020] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#366732]"
                     placeholder="Full Name"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-[11px] font-bold uppercase tracking-wider text-gray-700 mb-1">
-                    Email Address *
+                  <label htmlFor="home-catering-email" className="mb-1 block font-['Josefin_Sans',sans-serif] text-[15px] font-bold leading-5 text-[#202020]">
+                    Email
                   </label>
                   <input
+                    id="home-catering-email"
                     type="email"
                     required
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    className="w-full px-3.5 py-2 rounded-lg border border-gray-200 text-xs focus:outline-hidden focus:border-[#6d1007]"
-                    placeholder="email@example.com"
+                    className="w-full rounded-[10px] border border-[#CAC9C9] bg-[#F9F4EF] px-4 py-2.5 font-['Josefin_Sans',sans-serif] text-[15px] font-semibold leading-5 text-[#202020] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#366732]"
+                    placeholder="Email"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-[11px] font-bold uppercase tracking-wider text-gray-700 mb-1">
-                    Phone Number *
+                  <label htmlFor="home-catering-phone" className="mb-1 block font-['Josefin_Sans',sans-serif] text-[15px] font-bold leading-5 text-[#202020]">
+                    Phone Number
                   </label>
                   <input
+                    id="home-catering-phone"
                     type="tel"
                     required
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    className="w-full px-3.5 py-2 rounded-lg border border-gray-200 text-xs focus:outline-hidden focus:border-[#6d1007]"
-                    placeholder="+44 7123 456789"
+                    className="w-full rounded-[10px] border border-[#CAC9C9] bg-[#F9F4EF] px-4 py-2.5 font-['Josefin_Sans',sans-serif] text-[15px] font-semibold leading-5 text-[#202020] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#366732]"
+                    placeholder="Phone Number"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-[11px] font-bold uppercase tracking-wider text-gray-700 mb-1">
-                    Event Type
+                  <label htmlFor="home-catering-pax" className="mb-1 block font-['Josefin_Sans',sans-serif] text-[15px] font-bold leading-5 text-[#202020]">
+                    No. of Pax ( Min 25 )
                   </label>
-                  <select
-                    value={formData.eventType}
-                    onChange={(e) => setFormData({ ...formData, eventType: e.target.value })}
-                    className="w-full px-3.5 py-2 rounded-lg border border-gray-200 text-xs focus:outline-hidden focus:border-[#6d1007]"
-                  >
-                    <option value="Wedding">Wedding</option>
-                    <option value="Corporate Event">Corporate Event</option>
-                    <option value="Home Function">Home Function</option>
-                    <option value="Live Dosa Station">Live Dosa Station</option>
-                  </select>
+                  <input
+                    id="home-catering-pax"
+                    type="number"
+                    min="25"
+                    required
+                    value={formData.pax}
+                    onChange={(e) => setFormData({ ...formData, pax: e.target.value })}
+                    className="w-full rounded-[10px] border border-[#CAC9C9] bg-[#F9F4EF] px-4 py-2.5 font-['Josefin_Sans',sans-serif] text-[15px] font-semibold leading-5 text-[#202020] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#366732]"
+                    placeholder="No. of pax"
+                  />
                 </div>
 
                 <div>
-                  <label className="block text-[11px] font-bold uppercase tracking-wider text-gray-700 mb-1">
-                    Details &amp; Guest Count
+                  <label htmlFor="home-catering-message" className="mb-1 block font-['Josefin_Sans',sans-serif] text-[15px] font-bold leading-5 text-[#202020]">
+                    Message
                   </label>
                   <textarea
-                    rows={2}
+                    id="home-catering-message"
+                    rows={3}
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className="w-full px-3.5 py-2 rounded-lg border border-gray-200 text-xs focus:outline-hidden focus:border-[#6d1007]"
-                    placeholder="Date, location, number of guests..."
+                    className="w-full resize-y rounded-[10px] border border-[#CAC9C9] bg-[#F9F4EF] px-4 py-2.5 font-['Josefin_Sans',sans-serif] text-[15px] font-semibold leading-5 text-[#202020] placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#366732]"
+                    placeholder="Message"
                   />
                 </div>
 
@@ -238,10 +243,9 @@ export default function CateringSectionLive() {
                 <button
                   type="submit"
                   disabled={status === 'submitting'}
-                  className="btn-hero-menu w-full py-2.5 text-xs font-bold tracking-wider mt-2 cursor-pointer hover:!bg-[#366732] hover:!border-[#366732]"
+                  className="mt-1.5 flex w-full cursor-pointer items-center justify-center rounded-[10px] bg-[#F68422] py-3 font-['Josefin_Sans',sans-serif] text-[18px] font-extrabold text-white transition-colors hover:bg-[#366732] shadow-sm uppercase tracking-wide"
                 >
-                  <Send className="w-3.5 h-3.5 mr-2" />
-                  {status === 'submitting' ? 'Submitting...' : 'Submit Enquiry'}
+                  {status === 'submitting' ? 'Submitting...' : 'Submit'}
                 </button>
               </form>
             )}

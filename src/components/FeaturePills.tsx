@@ -26,13 +26,13 @@ const features = [
 
 export default function FeaturePills() {
   return (
-    <section className="py-8 sm:py-12 bg-white">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-10 sm:py-[50px] bg-white">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
           {features.map((feat, idx) => (
             <div
               key={idx}
-              className="p-3.5 sm:p-4 rounded-[10px] flex items-center gap-3.5 transition-all duration-300 bg-[#F9F5F1] hover:shadow-[1px_1px_8px_1px_#F68422] cursor-pointer"
+              className="p-3 sm:p-3.5 rounded-[10px] flex items-center gap-3.5 transition-all duration-300 bg-[#F9F5F1] hover:shadow-[1px_1px_8px_1px_#F68422] cursor-pointer"
             >
               <div className="relative w-12 h-12 shrink-0">
                 <Image
@@ -47,7 +47,7 @@ export default function FeaturePills() {
                 <h3 className="font-josefin font-bold text-[17px] sm:text-[18px] text-black leading-snug">
                   {feat.title}
                 </h3>
-                <p className="font-josefin text-[13px] sm:text-[14px] text-[#737373] mt-0.5 leading-snug font-normal">
+                <p className="font-josefin text-[14px] sm:text-[14px] text-[#737373] mt-0.5 leading-snug font-normal">
                   {feat.desc}
                 </p>
               </div>

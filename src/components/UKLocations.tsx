@@ -29,11 +29,11 @@ const locations = [
 export default function UKLocations() {
   return (
     <section className="py-14 sm:py-20 bg-[#ECE6DF]">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6">
         
         {/* Section Heading */}
         <div className="text-center mb-10 sm:mb-14">
-          <h2 className="font-ivymode text-2xl sm:text-3xl lg:text-[32px] font-semibold tracking-[1px] uppercase text-[#344E41]">
+          <h2 className="font-ivymode text-2xl font-semibold leading-[1.25] tracking-[1px] text-[#344E41] uppercase sm:text-[26px] lg:text-[32px] lg:leading-[56px]">
             OUR LOCATIONS IN THE UK
           </h2>
         </div>
@@ -43,34 +43,35 @@ export default function UKLocations() {
           {locations.map((loc, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-[10px] p-2.5 sm:p-3 shadow-xs hover:scale-[1.01] hover:shadow-[2px_0px_9px_1px_rgba(245,133,34,0.59)] transition-all duration-300 flex flex-col sm:flex-row items-stretch overflow-hidden"
+              className="bg-white rounded-[10px] p-2.5 sm:p-3 shadow-[0_2px_10px_rgba(0,0,0,0.04)] hover:shadow-[2px_0px_9px_1px_rgba(245,133,34,0.59)] hover:scale-[1.01] transition-all duration-300 flex flex-col sm:flex-row items-start overflow-hidden"
             >
-              {/* Left Side: Restaurant Image */}
-              <div className="relative w-full sm:w-[48%] min-h-[220px] sm:min-h-[245px] rounded-[6px] overflow-hidden shrink-0 bg-gray-100">
+              {/* Left Side: Restaurant Image (Fixed height matching Image 4, not stretched to full card height) */}
+              <div className="relative w-full sm:w-[46%] h-[220px] sm:h-[245px] self-start rounded-[6px] overflow-hidden shrink-0 bg-gray-100">
                 <Image
                   src={loc.image}
                   alt={`Arya Bhavan ${loc.name}`}
                   fill
+                  quality={90}
                   className="object-cover hover:scale-105 transition-transform duration-500"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 220px"
                 />
               </div>
 
               {/* Right Side: Details & View More Button */}
-              <div className="w-full sm:w-[52%] p-3 sm:p-3.5 flex flex-col justify-between items-start">
+              <div className="w-full sm:w-[54%] p-3 sm:p-3.5 flex flex-col justify-between items-start min-h-[220px] sm:min-h-[245px]">
                 <div>
                   {/* Pin Icon Badge */}
-                  <div className="w-[42px] h-[42px] rounded-full bg-[#EAEDEC] text-[#344B42] flex items-center justify-center mb-3">
+                  <div className="w-11 h-11 rounded-full bg-[#EAEDEC] text-[#344B42] flex items-center justify-center mb-3">
                     <MapPin className="w-5 h-5 text-[#344B42] stroke-[2]" />
                   </div>
 
-                  {/* Location Title */}
-                  <h3 className="font-josefin font-bold text-[22px] sm:text-[24px] text-black leading-tight mb-2">
+                  {/* Location Title (Exact matching Image 1: bold black/charcoal #202020) */}
+                  <h3 className="font-['Josefin_Sans',sans-serif] font-bold text-[24px] sm:text-[28px] text-[#202020] leading-tight mb-2">
                     {loc.name}
                   </h3>
 
                   {/* Description */}
-                  <p className="font-josefin text-[14px] sm:text-[15px] leading-relaxed text-[#737373] mb-4">
+                  <p className="font-['Josefin_Sans',sans-serif] text-[15px] sm:text-[16px] leading-[1.5] text-[#202020] mb-5 font-normal">
                     {loc.desc}
                   </p>
                 </div>
@@ -78,7 +79,7 @@ export default function UKLocations() {
                 {/* View More Button (hover goes green #366732 as on live site) */}
                 <Link
                   href={loc.link}
-                  className="inline-block bg-[#F68422] hover:bg-[#366732] text-white px-5 py-2 rounded font-josefin font-semibold text-[15px] sm:text-[16px] transition-colors duration-200"
+                  className="inline-block bg-[#F68422] hover:bg-[#366732] text-white px-6 py-2.5 rounded-[6px] font-['Josefin_Sans',sans-serif] font-bold text-[18px] transition-colors duration-200 shadow-sm"
                 >
                   View More
                 </Link>

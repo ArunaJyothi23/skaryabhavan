@@ -5,8 +5,8 @@ import Image from 'next/image';
 
 const galleryImages = [
   {
-    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-12.03.12.jpeg',
-    alt: 'Outdoor Catering Buffet Feast'
+    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-6.jpeg',
+    alt: 'Special Vegetarian Starters & Noodles Platter'
   },
   {
     src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52.jpeg',
@@ -14,15 +14,15 @@ const galleryImages = [
   },
   {
     src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-1.jpeg',
-    alt: 'Traditional Idli Sambar on Banana Leaf'
+    alt: 'Traditional Dosa on Banana Leaf with Chutneys'
   },
   {
-    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-11.jpeg',
-    alt: 'Crispy South Indian Starters & Specialties'
+    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-4.jpeg',
+    alt: 'Crispy Dumplings on Banana Leaf'
   },
   {
-    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-6.jpeg',
-    alt: 'Special Vegetarian Starters & Momos Platter'
+    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-13.jpeg',
+    alt: 'Crispy Golden Cutlets with Chutney Dip'
   },
   {
     src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-10.jpeg',
@@ -30,38 +30,38 @@ const galleryImages = [
   },
   {
     src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-8.jpeg',
-    alt: 'Authentic Indian Vegetarian Dishes'
-  },
-  {
-    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-4.jpeg',
-    alt: 'Crispy Appetizers on Banana Leaf'
+    alt: 'Steamed Idlis with Chutneys'
   },
   {
     src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-2.jpeg',
-    alt: 'Arya Bhavan Authentic Masala Dosa Platter'
+    alt: 'Authentic Indian Curries in Kadai Bowls'
   },
   {
-    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-13.jpeg',
-    alt: 'Crispy Golden Masala Dosa Roll with Chutneys'
+    src: '/images/migrated/WhatsApp-Image-2025-12-08-at-14.51.18-e1765205112699.jpeg',
+    alt: 'Fresh Golden Vada & Bonda on Banana Leaf'
+  },
+  {
+    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-12.03.12.jpeg',
+    alt: 'Grand South Indian Feast Spread'
+  },
+  {
+    src: '/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-11.jpeg',
+    alt: 'Royal Indian Vegetarian Thali'
   },
   {
     src: '/images/migrated/WhatsApp-Image-2025-12-04-at-13.21.23.jpeg',
     alt: 'Traditional South Indian Filter Coffee'
-  },
-  {
-    src: '/images/migrated/WhatsApp-Image-2025-12-08-at-14.51.18-e1765205112699.jpeg',
-    alt: 'Fresh Fried Snacks on Banana Leaf'
   }
 ];
 
 export default function FoodGallery() {
   return (
     <section className="py-14 sm:py-20 bg-white">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6">
         
         {/* Section Heading */}
         <div className="text-center mb-10 sm:mb-12">
-          <h2 className="font-ivymode text-2xl sm:text-3xl lg:text-[32px] font-semibold tracking-[1px] uppercase text-[#344E41] leading-snug">
+          <h2 className="font-ivymode text-2xl font-semibold leading-[1.25] tracking-[1px] text-[#344E41] uppercase sm:text-[26px] lg:text-[32px] lg:leading-[56px]">
             SOUTH INDIAN DOSAS, IDLIS &amp; MORE
           </h2>
         </div>
@@ -77,6 +77,7 @@ export default function FoodGallery() {
                 src={item.src}
                 alt={item.alt}
                 fill
+                quality={90}
                 className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                 sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 300px"
               />
