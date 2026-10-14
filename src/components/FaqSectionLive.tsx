@@ -54,7 +54,12 @@ const faqs = [
   }
 ];
 
-export default function FaqSectionLive() {
+interface FaqSectionLiveProps {
+  faqs?: { q: string; a: string }[];
+}
+
+export default function FaqSectionLive({ faqs: propFaqs }: FaqSectionLiveProps) {
+  const activeFaqs = propFaqs && propFaqs.length > 0 ? propFaqs : faqs;
   const [openIdx, setOpenIdx] = useState<number | null>(0);
   const [activeSlide, setActiveSlide] = useState<number>(0);
   const [isPaused, setIsPaused] = useState<boolean>(false);
@@ -164,7 +169,7 @@ export default function FaqSectionLive() {
           {/* Right Column: Accordion */}
           <div className="flex flex-col justify-center">
             <div className="space-y-[10px]">
-              {faqs.map((faq, idx) => {
+              {activeFaqs.map((faq, idx) => {
                 const isOpen = openIdx === idx;
                 return (
                   <div

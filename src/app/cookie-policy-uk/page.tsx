@@ -1,9 +1,19 @@
 import type { Metadata } from 'next';
 import { buildPageMetadata } from '@/lib/seoService';
+import { getSiteContent } from '@/lib/firebaseService';
 
-export const metadata: Metadata = buildPageMetadata('/cookie-policy-uk');
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
-export default function CookiePolicyPage() {
+export async function generateMetadata(): Promise<Metadata> {
+  const siteContent = await getSiteContent();
+  return buildPageMetadata('/cookie-policy-uk', undefined, siteContent);
+}
+
+export default async function CookiePolicyPage() {
+  const siteContent = await getSiteContent();
+  const customPolicy = siteContent.policies?.cookiePolicy;
+
   return (
     <main className="py-16 bg-[#fdfaf6]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 bg-white p-8 sm:p-12 rounded-3xl border border-gray-200 shadow-sm space-y-6">
@@ -14,7 +24,13 @@ export default function CookiePolicyPage() {
           Information regarding cookies and web storage on skaryabhavan.com
         </p>
 
-        <div className="prose prose-orange max-w-none text-sm text-gray-700 space-y-4 leading-relaxed">
+        {customPolicy ? (
+          <div className="p-4 bg-orange-50 border border-orange-200 rounded-xl text-sm text-gray-800 leading-relaxed font-sans">
+            {customPolicy}
+          </div>
+        ) : null}
+
+        <div className="prose prose-orange max-w-none text-sm text-gray-700 space-y-4 leading-relaxed font-sans">
           <p>
             This Cookie Policy explains what cookies are, how we use them, and your choices regarding cookies when using Arya Bhavan’s web platform.
           </p>

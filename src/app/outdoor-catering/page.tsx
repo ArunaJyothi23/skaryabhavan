@@ -8,17 +8,16 @@ import CateringOrangeFaq from '@/components/CateringOrangeFaq';
 import CateringGallery from '@/components/CateringGallery';
 import CateringDishIcon from '@/components/CateringDishIcon';
 
-export const metadata: Metadata = {
-  title: 'Authentic Indian Vegetarian Outdoor Catering | Arya Bhavan',
-  description:
-    'Authentic Indian Vegetarian Outdoor Catering Services London | Wembley | Tooting. 100% Pure Indian Vegetarian Catering Across London.',
-  openGraph: {
-    title: 'Authentic Indian Vegetarian Outdoor Catering | Arya Bhavan',
-    description:
-      'Authentic Indian Vegetarian Outdoor Catering Services London | Wembley | Tooting. 100% Pure Indian Vegetarian Catering Across London.',
-    images: ['/images/catering/WhatsApp-Image-2025-12-09-at-17.38.24.jpeg'],
-  },
-};
+import { buildPageMetadata } from '@/lib/seoService';
+import { getSiteContent } from '@/lib/firebaseService';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
+export async function generateMetadata(): Promise<Metadata> {
+  const siteContent = await getSiteContent();
+  return buildPageMetadata('/outdoor-catering', undefined, siteContent);
+}
 
 const serviceCards = [
   {
@@ -292,7 +291,17 @@ const galleryImages = [
   '/images/catering/WhatsApp-Image-2025-12-09-at-17.38.24.jpeg',
 ];
 
-export default function OutdoorCateringPage() {
+export default async function OutdoorCateringPage() {
+  const siteContent = await getSiteContent();
+  const activeServiceCards = siteContent.outdoorCatering?.serviceCards?.length
+    ? siteContent.outdoorCatering.serviceCards
+    : serviceCards;
+  const activePackages = siteContent.outdoorCatering?.packages?.length
+    ? siteContent.outdoorCatering.packages
+    : packages;
+  const activeDishCategories = siteContent.outdoorCatering?.dishCategories?.length
+    ? siteContent.outdoorCatering.dishCategories
+    : dishCategories;
   return (
     <main className="bg-white min-h-screen font-josefin">
       {/* 1. Hero Banner */}
@@ -345,7 +354,7 @@ export default function OutdoorCateringPage() {
       <section className="py-12 sm:py-16 bg-[#F6FFF8]">
         <div className="max-w-[1440px] mx-auto px-3 sm:px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-            {serviceCards.map((card, i) => (
+            {activeServiceCards.map((card, i) => (
               <div
                 key={i}
                 className="bg-white rounded-[10px] border border-[#BDBCBC] p-2.5 shadow-sm hover:shadow-md transition-shadow flex flex-col"
@@ -388,7 +397,7 @@ export default function OutdoorCateringPage() {
       <section className="py-12 sm:py-16 bg-white">
         <div className="max-w-[1440px] mx-auto px-3 sm:px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 items-stretch">
-            {packages.map((pkg, i) => (
+            {activePackages.map((pkg, i) => (
               <div
                 key={i}
                 className="border border-[#366732] rounded-[10px] bg-[#F9F4EF] p-3 sm:p-3.5 shadow-sm flex flex-col justify-between h-full"
@@ -429,9 +438,9 @@ export default function OutdoorCateringPage() {
       <section className="py-12 sm:py-16 bg-white">
         <div className="max-w-[1440px] mx-auto px-3 sm:px-4 space-y-6">
           
-          {/* Row 1: 3 Columns (Starter, Rice & Noodles, Veg Curries - Screenshots 3 & 4) */}
+          {/* Row 1: 3 Columns */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 items-stretch">
-            {dishCategories.slice(0, 3).map((cat, idx) => (
+            {activeDishCategories.slice(0, 3).map((cat, idx) => (
               <div
                 key={idx}
                 className="border border-[#CAC9C9] rounded-[10px] bg-[#f9f4ef] p-3 sm:p-4 shadow-sm flex flex-col h-full"
@@ -456,9 +465,9 @@ export default function OutdoorCateringPage() {
             ))}
           </div>
 
-          {/* Row 2: 4 Columns (PaneerCurries, Breads, Dhal, Dessert - Screenshot 5) */}
+          {/* Row 2: Remaining Columns */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 items-stretch">
-            {dishCategories.slice(3, 7).map((cat, idx) => (
+            {activeDishCategories.slice(3).map((cat, idx) => (
               <div
                 key={idx}
                 className="border border-[#CAC9C9] rounded-[10px] bg-[#f9f4ef] p-3 sm:p-4 shadow-sm flex flex-col h-full"

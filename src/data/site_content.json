@@ -6,16 +6,21 @@
     "email": "eventsnkab@gmail.com",
     "cateringEmail": "catering@skaryabhavan.com",
     "primaryPhone": "+44 20 7839 8797",
+    "displayPhone": "020 7839 8797",
     "primaryAddress": "17 Charing Cross Road, Charing Cross, London WC2H 0EP",
+    "openingHours": "10:00 AM – 10:00 PM (Monday – Sunday)",
+    "mapsQuery": "17+Charing+Cross+Rd,+London+WC2H+0EP",
     "social": {
       "facebook": "https://facebook.com/skaryabhavan",
       "instagram": "https://instagram.com/skaryabhavan",
-      "whatsapp": "https://wa.me/442078398797"
+      "whatsapp": "https://wa.me/442078398797",
+      "tiktok": "https://tiktok.com/@skaryabhavan",
+      "youtube": "https://youtube.com/@skaryabhavan"
     }
   },
   "hero": {
     "badge": "100% Pure Vegetarian & Vegan Heritage",
-    "title": "Authentic South Indian Vegetarian Feasts in London",
+    "title": "Authentic South Indian Vegetarian Feasts in London ",
     "subtitle": "Experience stone-ground crispy dosas, traditional sambar, steaming idlis, and royal thalis crafted with authentic heritage recipes from Kanyakumari and Chennai.",
     "primaryCtaText": "Explore Our Menu",
     "primaryCtaLink": "/menu",
@@ -40,19 +45,118 @@
       }
     ]
   },
+  "slides": [
+    {
+      "id": 1,
+      "image": "/images/migrated/sl1.jpg",
+      "heading": "AUTHENTIC INDIAN VEGETARIAN RESTAURANT  ",
+      "subheading": "Central London | Wembley | Tooting",
+      "buttonText": "View Menu",
+      "buttonLink": "/menu"
+    },
+    {
+      "id": 2,
+      "image": "/images/migrated/sl2.jpg",
+      "heading": "100% PURE VEGETARIAN & VEGAN INDIAN CUISINE",
+      "subheading": "Central London | Wembley",
+      "buttonText": "View Menu",
+      "buttonLink": "/menu"
+    },
+    {
+      "id": 3,
+      "image": "/images/migrated/sl3.jpg",
+      "heading": "TOP-RATED INDIAN VEG DINING & CATERING SERVICES ACROSS LONDON",
+      "subheading": "Live Dosa | Outdoor Caterings",
+      "buttonText": "View Menu",
+      "buttonLink": "/menu"
+    }
+  ],
+  "topFood": [
+    {
+      "id": "dish-spec-1",
+      "name": "Special Masala Dosa",
+      "category": "Dosa Corner",
+      "price": "£7.95",
+      "image": "/images/migrated/MASALA-DOSA-V.png",
+      "description": "Crispy golden fermented rice crepe rolled with tempered spiced potato masala, served with 3 fresh chutneys and piping hot sambar.",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false,
+      "bestseller": true
+    },
+    {
+      "id": "dish-spec-2",
+      "name": "Steamed Idli Sambar Combo",
+      "category": "Tiffins & Starters",
+      "price": "£5.95",
+      "image": "/images/migrated/SAMBAR-IDLY-V-G.png",
+      "description": "Pillowy steamed rice cakes immersed in flavorful lentil soup topped with ghee, fresh coriander, and coconut chutney.",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": true,
+      "bestseller": true
+    },
+    {
+      "id": "dish-spec-3",
+      "name": "Medhu Vadai (2 Pcs)",
+      "category": "Tiffins & Starters",
+      "price": "£5.95",
+      "image": "/images/migrated/MEDU-VADAI-V-G.png",
+      "description": "Crispy golden black-lentil doughnuts with cracked pepper, ginger, and curry leaves, served hot with fresh chutneys.",
+      "vegan": true,
+      "glutenFree": true,
+      "jain": false,
+      "bestseller": true
+    },
+    {
+      "id": "dish-spec-4",
+      "name": "Royal South Indian Thali",
+      "category": "South Indian Thali",
+      "price": "£13.95",
+      "image": "/images/migrated/menu-north-thali-e1772186014264.jpg",
+      "description": "Grand multi-course feast featuring rice, sambar, rasam, kootu, poriyal, curd, papad, pickle, and traditional warm payasam dessert.",
+      "vegan": false,
+      "glutenFree": false,
+      "jain": true,
+      "bestseller": true
+    }
+  ],
   "about": {
-    "badge": "Our Culinary Heritage",
-    "title": "From Nagerkovil & Kanyakumari to the Streets of London",
+    "badge": "Our Culinary Heritage ",
+    "title": "ABOUT SAMKO ARYA BHAVAN   ",
+    "image": "/images/migrated/menu-north-thali-e1772186014264.jpg",
     "narrative": [
-      "Our journey began with the hope and determination to carry a piece of South India with us wherever we go, and share our culinary love and joy with you.",
-      "Nestled among the vibrant streets of Central London (Charing Cross), Wembley, and Tooting, the intoxicating aroma of roasted curry leaves, stone-ground fermented batter, and freshly ground spices welcomes you home.",
-      "Every dish pays homage to authentic South Indian culinary wisdom. We specialize in 100% pure vegetarian, vegan, and Jain-friendly cuisine, seamlessly blending rich tradition with impeccable modern hospitality."
+      "Welcome to Arya Bhavan, London’s favourite Indian vegetarian restaurant, proudly serving authentic Indian vegetarian cuisine across Central London, Wembley, Tooting. As a South Indian restaurant vegetarian lovers adore, we offer everything from traditional South Indian vegetarian dishes, South and North Indian thali’s, crispy dosa near me, and South Indian breakfast near me options.",
+      "Our menu is 100% vegetarian, with dedicated vegan restaurant choices and Jain and vegan food restaurant selections for those who prefer specialised diets. Families choose us as their go-to family-friendly Indian vegetarian restaurant, while food lovers rate us among the top-rated Indian veg restaurants near me and the best dosa restaurant in London.",
+      "Inspired by authentic Indian flavours and expanding our legacy with branches in France, Belgium, Singapore, and the United Kingdom, Arya Bhavan continues to be a trusted South Indian vegetarian restaurant for diners everywhere."
     ],
     "features": [
-      "Authentic Stone-Ground Fermented Rice & Lentil Batter",
-      "Original Kanyakumari & Chettinad Spice Blends",
-      "Pure Vegetarian, Vegan & Jain Certified Offerings",
-      "Fresh Daily Preparations with Pure Ghee & Coconut Oils"
+      "100% Pure Vegetarian, Vegan & Jain Friendly Menus",
+      "Traditional Stone-Ground Fermented Rice & Lentil Batter",
+      "Piping Hot Homemade Sambar & Fresh Coconut Chutneys",
+      "Award-Winning On-Site Live Dosa Station & Outdoor Catering"
+    ],
+    "featureCards": [
+      {
+        "title": "Pure Vegetarian",
+        "desc": "100% pure — completely vegetarian kitchen",
+        "icon": "/images/migrated/Screenshot-2026-02-25-104933.png"
+      },
+      {
+        "title": "Diet Friendly",
+        "desc": "Vegan & Jain friendly menu available",
+        "icon": "/images/migrated/Screenshot-2026-02-25-104922.png"
+      },
+      {
+        "title": "Authentic Taste",
+        "desc": "Prepared by Indian cooking techniques",
+        "icon": "/images/migrated/Screenshot-2026-02-25-104846-e1774635366152.png"
+      },
+      {
+        "title": "Family Friendly",
+        "desc": "Comfortable atmosphere for all age groups",
+        "icon": "/images/migrated/Screenshot-2026-02-25-104939.png"
+      }
     ]
   },
   "catering": {
@@ -70,22 +174,353 @@
       "link": "/outdoor-catering"
     }
   },
+  "outdoorCatering": {
+    "serviceCards": [
+      {
+        "title": "BUFFET CATERING",
+        "desc": "Offering a wide selection of dishes for casual and formal events.",
+        "img": "/images/catering/closed-metal-pots-1.jpg"
+      },
+      {
+        "title": "FINE DINING",
+        "desc": "Elegant and sophisticated meal service for corporate and private events.",
+        "img": "/images/catering/WhatsApp-Image-2025-12-09-at-18.12.25.jpeg"
+      },
+      {
+        "title": "ON-SITE CATERING",
+        "desc": "Convenient and fresh food prepared at your event location.",
+        "img": "/images/catering/selective-focus-point-catering-buffet-food-1.jpg"
+      },
+      {
+        "title": "BUSINESS EVENTS",
+        "desc": "Providing seamless catering for conferences, seminars and corporate functions.",
+        "img": "/images/catering/two-serious-adult-business-men-discussing-issue-1.jpg"
+      }
+    ],
+    "packages": [
+      {
+        "name": "£15.99 Packages",
+        "pax": "(Minimum 25Pax)",
+        "items": [
+          "2 Starters",
+          "1 Veg Mains",
+          "1 Dhal",
+          "1 Paneer Mains",
+          "1 Rice Or Noodles",
+          "1 Dessert",
+          "1 Bread"
+        ],
+        "note": "(Accompaniments like Papad, Pickle, Salad & Raitha will be Complimentary.)"
+      },
+      {
+        "name": "Option 1 (£17.99)",
+        "pax": "(Minimum 30Pax)",
+        "items": [
+          "3 Starters (2 Dry, 1 Gravy)",
+          "2 Veg Mains",
+          "1 Dal Tadka",
+          "1 Paneer Special Gravy",
+          "1 Dum Biryani",
+          "2 Desserts (Gulab Jamun & Ice Cream)",
+          "Assorted Breads"
+        ],
+        "note": "Includes disposable plates, napkins, and cutlery."
+      },
+      {
+        "name": "Option 2 (£19.99)",
+        "pax": "(Minimum 35Pax)",
+        "items": [
+          "4 Starters (Including Gobi 65 & Paneer Tikka)",
+          "3 Curry Mains",
+          "1 Dal Makhani",
+          "1 South Indian Sambar & Rasam",
+          "Jeera Rice & Pulao",
+          "2 Traditional Desserts",
+          "Naan & Roti"
+        ],
+        "note": "Complete setup and hot bain-marie service included."
+      }
+    ],
+    "accompanimentsNote": "All outdoor catering packages include complimentary Papad, Pickle, Mint Chutney, Salad & Raitha.",
+    "dishCategories": [
+      {
+        "title": "Starter",
+        "items": [
+          "Arya Bhavan Special Idly",
+          "Medu Vada",
+          "Rasa Vada",
+          "Curd Vada",
+          "Bhindi Fry",
+          "Honey Chilly Potato / Pineapple",
+          "Mushroom Manchurian",
+          "Chilli Babycorn / Mushroom",
+          "Aloo Pepper Fry",
+          "Crispy Lollypop",
+          "Gobi 65",
+          "Veg Samosa",
+          "Baby Corn 65",
+          "Paneer 65",
+          "Chilli Paneer",
+          "Mushroom Pepper Fry",
+          "Veg Manchurian Dry",
+          "Gobi Manchurian",
+          "Chilli Gobi",
+          "Paneer Tikka"
+        ]
+      },
+      {
+        "title": "Rice & Noodles",
+        "items": [
+          "Golden Garlic Fried Rice",
+          "Paneer Bell Pepper Fried Rice",
+          "Veg Fried Rice",
+          "Steamed Rice",
+          "Jeera Rice",
+          "Samabar Rice",
+          "Schezwan Fried Rice",
+          "Kashmiri Pulao",
+          "Navratan Pulao",
+          "Veg Pulao",
+          "Peas Pulao",
+          "Veg Biryani",
+          "Veg Noodles",
+          "Veg Hakka Noodles",
+          "Beijing Noodles",
+          "Curried Mushroom Noodles"
+        ]
+      },
+      {
+        "title": "Veg Curries",
+        "items": [
+          "Vegetable Kolhapuri",
+          "Malai Kofta",
+          "Vegetable Kofta Curry",
+          "Veg Jalfrezi",
+          "Bhindi Do Pyaza",
+          "Baby Corn Masala",
+          "Baingan Masala",
+          "Aloo Gobi",
+          "Mixed Veg Curry",
+          "Aloo Palak",
+          "Vegetable Butter Masala",
+          "Veg Chettinad Masala",
+          "Gobi Masala"
+        ]
+      },
+      {
+        "title": "PaneerCurries",
+        "items": [
+          "Palak Paneer",
+          "Paneer Jalfrezi",
+          "Mutter Paneer",
+          "Paneer Butter Masala",
+          "Kadai Paneer",
+          "Paneer Chettinadu Masala",
+          "Shahi Paneer",
+          "Paneer Tikka Masala",
+          "Paneer Kurma",
+          "Chilli Paneer Gravy",
+          "Methi Malai Paneer"
+        ]
+      },
+      {
+        "title": "Breads",
+        "items": [
+          "Aloo Paratha",
+          "Peswari Naan",
+          "Paratha",
+          "Naan – Plain / Butter",
+          "Roti – Plain / Butter",
+          "Chapathi",
+          "Poori",
+          "Garlic Naan",
+          "Chilli Garlic Naan"
+        ]
+      },
+      {
+        "title": "Dhal",
+        "items": [
+          "Aam Ka Dhal",
+          "Dhal Tamatar",
+          "Sambar",
+          "Chole Masala",
+          "Dhal Double Tadka",
+          "Rasam",
+          "Dhal Tadka",
+          "Tomato Dhal",
+          "Dhal Butter Fry",
+          "Dhal Makhani"
+        ]
+      },
+      {
+        "title": "Dessert",
+        "items": [
+          "Ada Pradhaman",
+          "Gulab Jamun",
+          "Parupu Payasam",
+          "Bombay Halwa",
+          "Beetroot Halwa",
+          "Semiya Javarisi Payasam",
+          "Rasmalai",
+          "Ravva Kesari",
+          "Carrot Halwa"
+        ]
+      }
+    ]
+  },
+  "liveDosaCatering": {
+    "pricingCards": [
+      {
+        "title": "Monday to Friday",
+        "price": "£14.00",
+        "pax": "(Minimum 35 Persons)"
+      },
+      {
+        "title": "Sat, Sun & Bank Holiday",
+        "price": "£15.00",
+        "pax": "(Minimum 40 Persons)"
+      }
+    ],
+    "badges": [
+      "★ All Add-ons Are Charged Separately Per Person ★",
+      "★ 2 Hours Pure Vibes ★"
+    ],
+    "menuColumn1": [
+      "Sweet (Pongal / Payasam / Kesari)",
+      "Plain Dosa (LIVE)",
+      "Masala Dosa (LIVE)",
+      "Onion Dosa (LIVE)",
+      "Ghee Dosa (LIVE)",
+      "Podi Dosa (LIVE)",
+      "Millet Dosa",
+      "Onion Chilli Uthappam (LIVE)",
+      "Medhu Vada (LIVE)"
+    ],
+    "menuColumn2": [
+      "Paya Idly",
+      "Veg Biryani",
+      "Vada Curry",
+      "Coconut Chutney",
+      "Tomato Chutney",
+      "Coriander Chutney",
+      "Sambar",
+      "Tea / Coffee"
+    ],
+    "addons": [
+      {
+        "item": "Poori Bhaji Live",
+        "price": "£3.00"
+      },
+      {
+        "item": "Chole Batura Live",
+        "price": "£3.00"
+      },
+      {
+        "item": "Chilli Paneer",
+        "price": "£2.00"
+      },
+      {
+        "item": "Pani Puri Station",
+        "price": "£2.00"
+      },
+      {
+        "item": "Dahi Puri",
+        "price": "£2.00"
+      },
+      {
+        "item": "Gulab Jamun (1 pc)",
+        "price": "£1.00"
+      },
+      {
+        "item": "Rasmalai per pc",
+        "price": "£2.00"
+      },
+      {
+        "item": "Fresh Paan per pc",
+        "price": "£1.00"
+      },
+      {
+        "item": "Pineapple Kesari per person",
+        "price": "£1.00"
+      }
+    ],
+    "inclusions": [
+      "Master Dosa Chef on-site for 3–4 hours",
+      "Commercial heavy-duty griddles, LPG cookers & equipment",
+      "Unlimited piping hot Sambar & 3 varieties of fresh Chutneys",
+      "High quality eco-friendly biodegradable disposables provided"
+    ]
+  },
+  "gallery": [
+    {
+      "src": "/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-6.jpeg",
+      "alt": "Special Vegetarian Starters & Noodles Platter"
+    },
+    {
+      "src": "/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52.jpeg",
+      "alt": "Steamed Idlis & Sambar Vada Spread"
+    },
+    {
+      "src": "/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-1.jpeg",
+      "alt": "Traditional Dosa on Banana Leaf with Chutneys"
+    },
+    {
+      "src": "/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-4.jpeg",
+      "alt": "Crispy Dumplings on Banana Leaf"
+    },
+    {
+      "src": "/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-13.jpeg",
+      "alt": "Crispy Golden Cutlets with Chutney Dip"
+    },
+    {
+      "src": "/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-10.jpeg",
+      "alt": "Refreshing Lassi & Smoothies Spread"
+    },
+    {
+      "src": "/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-8.jpeg",
+      "alt": "Steamed Idlis with Chutneys"
+    },
+    {
+      "src": "/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-2.jpeg",
+      "alt": "Authentic Indian Curries in Kadai Bowls"
+    },
+    {
+      "src": "/images/migrated/WhatsApp-Image-2025-12-08-at-14.51.18-e1765205112699.jpeg",
+      "alt": "Fresh Golden Vada & Bonda on Banana Leaf"
+    },
+    {
+      "src": "/images/migrated/WhatsApp-Image-2025-12-09-at-12.03.12.jpeg",
+      "alt": "Grand South Indian Feast Spread"
+    },
+    {
+      "src": "/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-11.jpeg",
+      "alt": "Royal Indian Vegetarian Thali"
+    },
+    {
+      "src": "/images/migrated/WhatsApp-Image-2025-12-04-at-13.21.23.jpeg",
+      "alt": "Traditional South Indian Filter Coffee"
+    }
+  ],
   "whyChooseUs": [
     {
-      "title": "100% Pure Vegetarian",
-      "desc": "Completely vegetarian kitchens with strict adherence to pure vegetarian, vegan, and Jain dietary principles."
+      "title": "100% Pure Vegetarian ",
+      "desc": "Completely vegetarian kitchens with strict adherence to pure vegetarian, vegan, and Jain dietary principles.",
+      "icon": "why_icon_0.svg"
     },
     {
       "title": "Heritage Stone Ground",
-      "desc": "Our batters and signature masalas are stone ground to preserve centuries-old texture and authentic aroma."
+      "desc": "Our batters and signature masalas are stone ground to preserve centuries-old texture and authentic aroma.",
+      "icon": "why_icon_1.svg"
     },
     {
       "title": "3 Iconic UK Locations",
-      "desc": "Conveniently located in Central London (Leicester Square), Wembley Central (Ealing Rd), and Tooting."
+      "desc": "Conveniently located in Central London (Leicester Square), Wembley Central (Ealing Rd), and Tooting.",
+      "icon": "why_icon_2.svg"
     },
     {
       "title": "Live Chef Dosa Stations",
-      "desc": "Specialized mobile stations serving theatrical, freshly spun dosas directly at your private gatherings."
+      "desc": "Specialized mobile stations serving theatrical, freshly spun dosas directly at your private gatherings.",
+      "icon": "catering_icon_0.svg"
     }
   ],
   "faqs": [
@@ -104,10 +539,284 @@
     {
       "q": "Do you take table reservations?",
       "a": "We accommodate both reservations and walk-ins. For busy weekend dinners and large groups of 6 or more, we recommend contacting your preferred branch in advance."
+    },
+    {
+      "q": "What geographical areas do you cover for catering?",
+      "a": "We provide live dosa catering and outdoor catering across Greater London, Buckinghamshire, Berkshire, Hertfordshire, Surrey, and nationwide across the UK upon request."
     }
   ],
+  "reviews": [
+    {
+      "name": "Priya Sharma",
+      "source": "Google Review • Central London",
+      "stars": 5,
+      "comment": "The Masala Dosa and Filter Coffee at Leicester Square is unmatched in London! The sambar has that authentic home-style flavor that reminds me of Chennai. Outstanding service!",
+      "date": "2026-08-15"
+    },
+    {
+      "name": "Rohan Patel",
+      "source": "Google Review • Wembley",
+      "stars": 5,
+      "comment": "Best pure vegetarian restaurant in Wembley. We booked their Live Dosa Catering for our daughter’s birthday party last month and guests are still talking about how delicious and crispy the dosas were.",
+      "date": "2026-07-28"
+    },
+    {
+      "name": "Sarah Jenkins",
+      "source": "TripAdvisor • Tooting",
+      "stars": 5,
+      "comment": "Such a warm, welcoming restaurant. As a vegan, finding food that is 100% pure and clearly marked is fantastic. The Gobi 65 and Paneer Tikka Masala were heavenly!",
+      "date": "2026-09-02"
+    }
+  ],
+  "headerFooter": {
+    "announcementText": "Authentic South Indian Pure Veg • Central London | Wembley | Tooting",
+    "announcementPhone": "020 7839 8797    ",
+    "announcementHours": "10:00 AM – 10:00 PM Daily",
+    "copyrightText": "© 2026 Arya Bhavan (Asgard Ventures LTD). All Rights Reserved.   ",
+    "disclaimerNotice": "Please notify our team of any severe food allergies before dining or ordering catering."
+  },
+  "delivery": {
+    "uberEats": "https://www.ubereats.com",
+    "deliveroo": "https://deliveroo.co.uk",
+    "justEat": "https://www.just-eat.co.uk",
+    "directOrderPhone": "020 7839 8797",
+    "directOrderUrl": "/menu"
+  },
+  "policies": {
+    "privacyPolicy": "Arya Bhavan (Asgard Ventures LTD) operates https://skaryabhavan.com. We are committed to safeguarding the privacy and personal data of our customers, website visitors, and catering clients under UK GDPR and the Data Protection Act 2018. We do not sell your personal data to third parties.",
+    "termsAndDisclaimer": "All food prepared in Arya Bhavan kitchens is 100% vegetarian. While we take every precaution to prevent cross-contamination for allergy sufferers (including gluten-free, nut-free, and Jain food requirements), all food is prepared in kitchens where milk, nuts, mustard, sesame, and gluten may be present.",
+    "cookiePolicy": "This website uses essential and performance cookies to ensure you experience seamless navigation, remember your preferences, and process catering reservation requests."
+  },
   "web3forms": {
     "email": "eventsnkab@gmail.com",
-    "accessKey": ""
-  }
+    "accessKey": "",
+    "subjectPrefix": "Arya Bhavan Website Inquiry"
+  },
+  "seo": {
+    "siteName": "Arya Bhavan London",
+    "defaultTitle": "Arya Bhavan London | Authentic South Indian Pure Veg & Vegan Restaurant",
+    "defaultDescription": "Welcome to Arya Bhavan London. Authentic South Indian 100% pure vegetarian restaurant in Central London (Leicester Square), Wembley & Tooting. Dosa, idli, thali, vegan & Jain cuisine.",
+    "defaultOgImage": "/images/migrated/NKAryaBhavan-Central-London-1.jpeg",
+    "siteUrl": "https://skaryabhavan.com",
+    "keywords": "South Indian vegetarian restaurant London, pure veg restaurant London, dosa near me, vegan Indian food London, live dosa catering London, outdoor catering London, Wembley Indian restaurant, Tooting Indian restaurant, Leicester square vegetarian",
+    "cuisineTypes": [
+      "South Indian",
+      "Pure Vegetarian",
+      "Vegan",
+      "Jain"
+    ],
+    "priceRange": "££",
+    "currenciesAccepted": "GBP",
+    "paymentAccepted": "Cash, Credit Card, Contactless, Apple Pay, Google Pay",
+    "robotsIndexDefault": true,
+    "robotsFollowDefault": true
+  },
+  "pagesSeo": {
+    "/": {
+      "title": "Arya Bhavan London | Authentic South Indian Pure Veg & Vegan Restaurant",
+      "description": "Welcome to Arya Bhavan London. Authentic South Indian 100% pure vegetarian restaurant in Central London (Leicester Square), Wembley & Tooting. Dosa, idli, thali, vegan & Jain cuisine.",
+      "canonical": "https://skaryabhavan.com/",
+      "ogImage": "/images/migrated/NKAryaBhavan-Central-London-1.jpeg",
+      "ogTitle": "Arya Bhavan London | Authentic South Indian Pure Veg & Vegan Restaurant",
+      "ogDescription": "Authentic South Indian vegetarian food in Central London (Leicester Square), Wembley, and Tooting.",
+      "keywords": "South Indian vegetarian London, pure veg dosa, Leicester square vegetarian, Wembley indian restaurant",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 1,
+      "changeFrequency": "daily"
+    },
+    "/menu": {
+      "title": "South Indian Pure Veg Menu | Dosas, Thalis & Biryanis | Arya Bhavan",
+      "description": "Explore Arya Bhavan’s authentic menu: 200+ dishes including crispy dosas, steamed idlis, hot sambar vadai, royal thalis, vegetarian curries, and Indian sweets in London.",
+      "canonical": "https://skaryabhavan.com/menu",
+      "ogImage": "/images/migrated/MASALA-DOSA-V.png",
+      "ogTitle": "South Indian Pure Veg Menu | Dosas, Thalis & Biryanis | Arya Bhavan",
+      "ogDescription": "Explore 200+ authentic pure vegetarian and vegan dishes across London.",
+      "keywords": "dosa menu london, indian vegetarian menu, thali london, pure veg starters",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.95,
+      "changeFrequency": "weekly"
+    },
+    "/central-london": {
+      "title": "Authentic South Indian Veg Restaurant Central London | Leicester Square",
+      "description": "Top-rated authentic South Indian vegetarian restaurant in Central London, Charing Cross / Leicester Square. Dine-in, takeaway, vegan & Jain specials at Arya Bhavan.",
+      "canonical": "https://skaryabhavan.com/central-london",
+      "ogImage": "/images/migrated/NKAryaBhavan-Central-London-1.jpeg",
+      "keywords": "central london vegetarian, leicester square indian food, charing cross dosa",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.9,
+      "changeFrequency": "weekly"
+    },
+    "/wembley": {
+      "title": "South Indian Vegetarian Restaurant Wembley Central | Arya Bhavan",
+      "description": "Family-friendly pure vegetarian restaurant on Ealing Road, Wembley. Crispy dosas, breakfast combos, South & North Indian thalis, pure veg and Jain food.",
+      "canonical": "https://skaryabhavan.com/wembley",
+      "ogImage": "/images/migrated/NKAryaBhavan-Wembley-1.jpeg",
+      "keywords": "wembley indian food, ealing road vegetarian, pure veg wembley",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.9,
+      "changeFrequency": "weekly"
+    },
+    "/tooting": {
+      "title": "South Indian Pure Veg Restaurant Tooting | Arya Bhavan London",
+      "description": "Authentic South Indian cuisine in Tooting on Upper Tooting Road. Traditional stone-ground dosas, fragrant sambar, fresh chutneys, and vegetarian curries.",
+      "canonical": "https://skaryabhavan.com/tooting",
+      "ogImage": "/images/migrated/NKAryaBhavan-Tooting-1.jpeg",
+      "keywords": "tooting vegetarian restaurant, upper tooting road dosa, south indian tooting",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.9,
+      "changeFrequency": "weekly"
+    },
+    "/outdoor-catering": {
+      "title": "Outdoor Indian Vegetarian Catering London | Arya Bhavan Events",
+      "description": "Authentic Indian vegetarian outdoor catering across London & the UK. Comprehensive buffet packages for weddings, birthdays, and corporate celebrations.",
+      "canonical": "https://skaryabhavan.com/outdoor-catering",
+      "ogImage": "/images/catering/closed-metal-pots-1.jpg",
+      "keywords": "outdoor catering london, indian wedding catering, pure veg catering uk",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.9,
+      "changeFrequency": "weekly"
+    },
+    "/live-dosa-catering": {
+      "title": "Live Dosa Catering at Home & Events London | Live Dosa Station",
+      "description": "Book authentic live dosa station catering for home parties, weddings & corporate events in London. Freshly spun crispy dosas with chefs on-site.",
+      "canonical": "https://skaryabhavan.com/live-dosa-catering",
+      "ogImage": "/images/catering/WhatsApp-Image-2025-12-08-at-14.51.18-e1765205112699.jpeg",
+      "keywords": "live dosa catering london, dosa party at home, live dosa chef hire london",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.9,
+      "changeFrequency": "weekly"
+    },
+    "/branches": {
+      "title": "Our Restaurant Locations | Central London, Wembley, Tooting | Arya Bhavan",
+      "description": "Find your nearest Arya Bhavan branch in Central London (Leicester Square), Wembley Central, and Tooting. View opening hours, addresses, and contact info.",
+      "canonical": "https://skaryabhavan.com/branches",
+      "ogImage": "/images/migrated/NKAryaBhavan-Central-London-1.jpeg",
+      "keywords": "arya bhavan branches, indian restaurants london locations",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.8,
+      "changeFrequency": "monthly"
+    },
+    "/franchise": {
+      "title": "Franchise Opportunities | Partner with Arya Bhavan UK",
+      "description": "Join the fastest growing South Indian vegetarian restaurant brand in the UK & Europe. Learn about Arya Bhavan restaurant franchising opportunities.",
+      "canonical": "https://skaryabhavan.com/franchise",
+      "ogImage": "/images/migrated/NKAryaBhavan-Central-London-1.jpeg",
+      "keywords": "restaurant franchise uk, indian food franchise europe",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.7,
+      "changeFrequency": "monthly"
+    },
+    "/about-us": {
+      "title": "About Arya Bhavan London | Authentic South Indian Culinary Heritage",
+      "description": "Discover the story of Arya Bhavan, from our traditional stone-ground roots in South India to expanding across Central London, Wembley, Tooting, and Europe.",
+      "canonical": "https://skaryabhavan.com/about-us",
+      "ogImage": "/images/migrated/menu-north-thali-e1772186014264.jpg",
+      "keywords": "about arya bhavan, authentic south indian history, london indian food",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.75,
+      "changeFrequency": "monthly"
+    },
+    "/contact-us": {
+      "title": "Contact Arya Bhavan London | Bookings, Catering & Inquiries",
+      "description": "Get in touch with Arya Bhavan London for table reservations, live dosa catering quotes, feedback, and private party bookings across London.",
+      "canonical": "https://skaryabhavan.com/contact-us",
+      "ogImage": "/images/migrated/NKAryaBhavan-Central-London-1.jpeg",
+      "keywords": "contact arya bhavan, book dosa catering london, restaurant phone number",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.8,
+      "changeFrequency": "monthly"
+    },
+    "/privacy-policy": {
+      "title": "Privacy Policy | Arya Bhavan London UK GDPR",
+      "description": "Privacy Policy and transparent data protection commitments for Arya Bhavan London customers and catering clients under UK GDPR regulations.",
+      "canonical": "https://skaryabhavan.com/privacy-policy",
+      "ogImage": "/images/migrated/NKAryaBhavan-Central-London-1.jpeg",
+      "ogTitle": "Privacy Policy | Arya Bhavan London",
+      "ogDescription": "UK GDPR privacy notice and customer data protection standards at Arya Bhavan.",
+      "keywords": "privacy policy, arya bhavan gdpr, customer data protection uk",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.5,
+      "changeFrequency": "yearly"
+    },
+    "/terms-and-disclaimer": {
+      "title": "Terms & Conditions & Allergen Notice | Arya Bhavan",
+      "description": "Terms of service, dining booking policies, and pure vegetarian allergen cross-contamination guidance for Arya Bhavan restaurants across London.",
+      "canonical": "https://skaryabhavan.com/terms-and-disclaimer",
+      "ogImage": "/images/migrated/NKAryaBhavan-Central-London-1.jpeg",
+      "ogTitle": "Terms & Conditions | Arya Bhavan London",
+      "ogDescription": "Official terms, booking conditions, and allergen notices for Arya Bhavan London.",
+      "keywords": "terms and conditions, allergen notice, pure veg dining policies london",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.5,
+      "changeFrequency": "yearly"
+    },
+    "/cookie-policy-uk": {
+      "title": "Cookie Policy (UK) | Arya Bhavan London",
+      "description": "Details on how essential, analytical, and preference cookies are safely utilized to optimize your dining and catering browsing experience at Arya Bhavan.",
+      "canonical": "https://skaryabhavan.com/cookie-policy-uk",
+      "ogImage": "/images/migrated/NKAryaBhavan-Central-London-1.jpeg",
+      "ogTitle": "Cookie Policy | Arya Bhavan London",
+      "ogDescription": "Transparent cookie usage guidelines for Arya Bhavan London website visitors.",
+      "keywords": "cookie policy, website tracking disclosure, arya bhavan uk",
+      "robotsIndex": true,
+      "robotsFollow": true,
+      "priority": 0.5,
+      "changeFrequency": "yearly"
+    }
+  },
+  "redirects": [
+    {
+      "source": "/nagerkovil-arya-bhavan",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/hom",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home2",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/menu-scan",
+      "destination": "/menu",
+      "permanent": true
+    },
+    {
+      "source": "/live-dosa",
+      "destination": "/live-dosa-catering",
+      "permanent": true
+    },
+    {
+      "source": "/outdoor",
+      "destination": "/outdoor-catering",
+      "permanent": true
+    },
+    {
+      "source": "/catering",
+      "destination": "/outdoor-catering",
+      "permanent": true
+    }
+  ]
 }

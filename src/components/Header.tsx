@@ -6,8 +6,18 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { ChevronDown, ChevronRight, Menu as MenuIcon, X } from 'lucide-react';
 
-export default function Header() {
+interface HeaderProps {
+  logo?: string;
+}
+
+export default function Header({ logo }: HeaderProps) {
   const pathname = usePathname() || '';
+
+  if (pathname.startsWith('/admin')) {
+    return null;
+  }
+
+  const logoSrc = logo || "/images/migrated/WhatsApp_Image_2026-09-10_at_22.32.49-removebg-preview-e1789186834297.png";
 
   const isHome = pathname === '/';
   const isAbout = pathname === '/about-us';
@@ -39,7 +49,7 @@ export default function Header() {
           <Link href="/" className="inline-block transition-transform hover:opacity-95">
             <div className="relative h-12 w-60 sm:h-14 sm:w-72 lg:h-[87px] lg:w-[420px]">
               <Image
-                src="/images/migrated/WhatsApp_Image_2026-09-10_at_22.32.49-removebg-preview-e1789186834297.png"
+                src={logoSrc}
                 alt="Samko Arya Bhavan Pure Indian Vegetarian Restaurant"
                 fill
                 className="object-contain"

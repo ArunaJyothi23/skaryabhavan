@@ -64,7 +64,15 @@ const cateringServices = [
   }
 ];
 
-export default function CateringSectionLive() {
+interface CateringSectionLiveProps {
+  cateringData?: {
+    title?: string;
+    subtitle?: string;
+    services?: { title: string; desc: string }[];
+  };
+}
+
+export default function CateringSectionLive({ cateringData }: CateringSectionLiveProps = {}) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -103,7 +111,7 @@ export default function CateringSectionLive() {
         {/* Section Heading */}
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="font-ivymode text-2xl font-bold leading-[1.25] tracking-[1px] text-[#344E41] uppercase sm:text-[26px] lg:text-[32px] lg:leading-[56px]">
-            CATERING SERVICES
+            {cateringData?.title || 'CATERING SERVICES'}
           </h2>
         </div>
 

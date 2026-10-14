@@ -1,8 +1,25 @@
 import React from 'react';
-import { generateRestaurantSchemas } from '@/lib/seoService';
+import {
+  generateRestaurantSchemas,
+  generateLocalBusinessSchema,
+  generateFaqPageSchema,
+  generateAggregateRatingSchema,
+} from '@/lib/seoService';
 
-export default function PageJsonLd() {
-  const schemas = generateRestaurantSchemas();
+interface PageJsonLdProps {
+  siteContent?: any;
+}
+
+export default function PageJsonLd({ siteContent }: PageJsonLdProps) {
+  const restaurantSchemas = generateRestaurantSchemas(siteContent);
+  const localBusinessSchema = generateLocalBusinessSchema(siteContent);
+  const faqSchema = generateFaqPageSchema(siteContent?.faqs);
+  const ratingSchema = generateAggregateRatingSchema(siteContent?.reviews, siteContent);
+
+  const schemas: any[] = [...restaurantSchemas];
+  if (localBusinessSchema) schemas.push(localBusinessSchema);
+  if (faqSchema) schemas.push(faqSchema);
+  if (ratingSchema) schemas.push(ratingSchema);
 
   return (
     <>

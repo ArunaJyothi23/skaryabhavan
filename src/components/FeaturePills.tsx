@@ -24,12 +24,17 @@ const features = [
   }
 ];
 
-export default function FeaturePills() {
+interface FeaturePillsProps {
+  features?: { title: string; desc: string; icon?: string }[];
+}
+
+export default function FeaturePills({ features: propFeatures }: FeaturePillsProps = {}) {
+  const activeFeatures = propFeatures && propFeatures.length > 0 ? propFeatures : features;
   return (
     <section className="py-10 sm:py-[50px] bg-white">
       <div className="max-w-[1240px] mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-          {features.map((feat, idx) => (
+          {activeFeatures.map((feat, idx) => (
             <div
               key={idx}
               className="p-3 sm:p-3.5 rounded-[10px] flex items-center gap-3.5 transition-all duration-300 bg-[#F9F5F1] hover:shadow-[1px_1px_8px_1px_#F68422] cursor-pointer"

@@ -35,8 +35,17 @@ const branchLinks = [
   },
 ];
 
-export default function Footer() {
+interface FooterProps {
+  copyrightText?: string;
+  disclaimerNotice?: string;
+}
+
+export default function Footer({ copyrightText, disclaimerNotice }: FooterProps) {
   const pathname = usePathname() || '';
+
+  if (pathname.startsWith('/admin')) {
+    return null;
+  }
 
   return (
     <footer className="bg-[#faf8f5] text-[#555555] pt-14 pb-8 border-t border-[#ede8df] font-sans">
@@ -157,9 +166,12 @@ export default function Footer() {
 
         </div>
 
-        {/* Bottom Bar: Exact Copyright */}
-        <div className="border-t border-[#e8e2d8] mt-12 pt-6 text-center text-xs sm:text-[13px] text-[#7a7267]">
-          <p>Copyright {new Date().getFullYear()} &copy; Samko Arya Bhavan. All Rights Reserved.</p>
+        {/* Bottom Bar: Exact Copyright & Disclaimer */}
+        <div className="border-t border-[#e8e2d8] mt-12 pt-6 text-center text-xs sm:text-[13px] text-[#7a7267] space-y-1">
+          {disclaimerNotice && (
+            <p className="text-[12px] text-amber-900/80 max-w-3xl mx-auto italic">{disclaimerNotice}</p>
+          )}
+          <p>{copyrightText || `Copyright ${new Date().getFullYear()} © Samko Arya Bhavan. All Rights Reserved.`}</p>
         </div>
 
       </div>

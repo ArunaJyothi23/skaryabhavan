@@ -1,14 +1,17 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import { buildPageMetadata } from '@/lib/seoService';
+import { getSiteContent } from '@/lib/firebaseService';
 import UKLocations from '@/components/UKLocations';
 import FoodGallery from '@/components/FoodGallery';
 
-export const metadata: Metadata = buildPageMetadata('/about-us', {
-  title: 'About Us – Samko Arya Bhavan',
-  description:
-    'Learn about Samko Arya Bhavan, our heritage from Kanyakumari to London, and our 100% pure Indian vegetarian and vegan culinary excellence.',
-});
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
+export async function generateMetadata(): Promise<Metadata> {
+  const siteContent = await getSiteContent();
+  return buildPageMetadata('/about-us', undefined, siteContent);
+}
 
 const features = [
   {
@@ -29,7 +32,15 @@ const features = [
   },
 ];
 
-export default function AboutUsPage() {
+export default async function AboutUsPage() {
+  const siteContent = await getSiteContent();
+  const narrative = siteContent.about?.narrative?.length
+    ? siteContent.about.narrative
+    : [
+        'Our journey began with the hope and determination to carry a piece of India with us wherever we go, and share our love and joy with you. Like pockets of delectable delicacies nestled among the busy streets of Tooting, Wembley, and London, the flavour and aroma of Kanyakumari is never far away.',
+        'Our dishes pay homage to the traditional cuisine of South India, concentrating on vegetarian and vegan options, seamlessly blending our flavours and authentic spices to create dishes suitable for a diverse audience, and ensure an exceptional dining experience. Every dish tells a story, and this is our opportunity to share the story with you, and embark on a culinary journey that transcends through time.'
+      ];
+
   return (
     <main className="min-h-screen bg-white">
       {/* 1. Hero Banner (Bright light mode matching live site, no dimming overlay) */}
@@ -73,19 +84,9 @@ export default function AboutUsPage() {
             </h2>
 
             <div className="mb-8 space-y-4 font-['Josefin_Sans',sans-serif] text-[16px] font-normal leading-[1.4] text-[#202020] lg:text-[18px] lg:leading-[1.55]">
-              <p>
-                Our journey began with the hope and determination to carry a piece of India with us
-                wherever we go, and share our love and joy with you. Like pockets of delectable
-                delicacies nestled among the busy streets of Tooting, Wembley, and London, the flavour
-                and aroma of Kanyakumari is never far away.
-              </p>
-              <p>
-                Our dishes pay homage to the traditional cuisine of South India, concentrating on
-                vegetarian and vegan options, seamlessly blending our flavours and authentic spices to
-                create dishes suitable for a diverse audience, and ensure an exceptional dining
-                experience. Every dish tells a story, and this is our opportunity to share the story
-                with you, and embark on a culinary journey that transcends through time.
-              </p>
+              {narrative.map((p: string, idx: number) => (
+                <p key={idx}>{p}</p>
+              ))}
             </div>
 
             {/* 4 Feature Badges (2x2 Grid) */}

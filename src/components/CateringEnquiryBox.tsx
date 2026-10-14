@@ -47,9 +47,9 @@ export default function CateringEnquiryBox({ sourceTitle }: Props) {
   };
 
   return (
-    <div id="form" className="w-full max-w-lg mx-auto border-2 border-[#f68422] rounded-[10px] p-2 shadow-[0_2px_12px_rgba(0,0,0,0.06)] bg-white scroll-mt-24">
-      {/* Green Header */}
-      <div className="bg-[#2D4739] text-white text-center py-2.5 px-4 font-['Josefin_Sans',sans-serif] text-2xl sm:text-[28px] font-bold rounded-[6px] mb-3 tracking-wide">
+    <div id="form" className="w-full max-w-lg mx-auto border-2 border-[#F68422] rounded-[10px] p-2 shadow-[0_4px_16px_rgba(0,0,0,0.08)] bg-white scroll-mt-24">
+      {/* Green Header - Exactly matches Elementor #366732 */}
+      <div className="bg-[#366732] text-white text-center py-2.5 px-4 font-['Josefin_Sans',sans-serif] text-2xl sm:text-[30px] font-bold rounded-[5px] mb-3 tracking-wide">
         Enquire Now
       </div>
 
@@ -57,8 +57,8 @@ export default function CateringEnquiryBox({ sourceTitle }: Props) {
       <div className="px-2 pb-2">
         {status === 'success' ? (
           <div className="py-8 text-center space-y-3 font-['Josefin_Sans',sans-serif]">
-            <CheckCircle2 className="w-12 h-12 text-[#2D4739] mx-auto animate-bounce" />
-            <h4 className="font-['Josefin_Sans',sans-serif] font-bold text-2xl text-[#2D4739]">Thank You!</h4>
+            <CheckCircle2 className="w-12 h-12 text-[#366732] mx-auto animate-bounce" />
+            <h4 className="font-['Josefin_Sans',sans-serif] font-bold text-2xl text-[#366732]">Thank You!</h4>
             <p className="text-base text-gray-700">
               Your enquiry for <strong>{sourceTitle}</strong> has been received. Our team will contact you shortly with the best quote.
             </p>
@@ -148,7 +148,7 @@ export default function CateringEnquiryBox({ sourceTitle }: Props) {
             <button
               type="submit"
               disabled={status === 'submitting'}
-              className="w-full py-3 bg-[#f68422] hover:bg-[#2D4739] text-white font-['Josefin_Sans',sans-serif] font-extrabold text-[18px] rounded-[10px] transition-colors shadow-sm flex items-center justify-center gap-2 cursor-pointer disabled:opacity-75 mt-2 uppercase tracking-wide"
+              className="w-full py-3 bg-[#F68422] hover:bg-[#366732] text-white font-['Josefin_Sans',sans-serif] font-bold text-[18px] rounded-[10px] transition-colors shadow-sm flex items-center justify-center gap-2 cursor-pointer disabled:opacity-75 mt-2 uppercase tracking-wide"
             >
               {status === 'submitting' ? (
                 <>

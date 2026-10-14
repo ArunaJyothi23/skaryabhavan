@@ -54,7 +54,13 @@ const galleryImages = [
   }
 ];
 
-export default function FoodGallery() {
+interface FoodGalleryProps {
+  images?: { src: string; alt?: string }[];
+}
+
+export default function FoodGallery({ images: propImages }: FoodGalleryProps = {}) {
+  const activeImages = propImages && propImages.length > 0 ? propImages : galleryImages;
+
   return (
     <section className="py-14 sm:py-20 bg-white">
       <div className="max-w-[1240px] mx-auto px-4 sm:px-6">
@@ -68,7 +74,7 @@ export default function FoodGallery() {
 
         {/* 4-Column Exact Gallery Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-[18px]">
-          {galleryImages.map((item, idx) => (
+          {activeImages.map((item, idx) => (
             <div
               key={idx}
               className="group relative aspect-[4/3] w-full rounded-[6px] overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 bg-gray-100 cursor-pointer"

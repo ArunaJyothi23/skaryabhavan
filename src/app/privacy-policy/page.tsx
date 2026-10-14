@@ -1,9 +1,19 @@
 import type { Metadata } from 'next';
 import { buildPageMetadata } from '@/lib/seoService';
+import { getSiteContent } from '@/lib/firebaseService';
 
-export const metadata: Metadata = buildPageMetadata('/privacy-policy');
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
-export default function PrivacyPolicyPage() {
+export async function generateMetadata(): Promise<Metadata> {
+  const siteContent = await getSiteContent();
+  return buildPageMetadata('/privacy-policy', undefined, siteContent);
+}
+
+export default async function PrivacyPolicyPage() {
+  const siteContent = await getSiteContent();
+  const customPolicy = siteContent.policies?.privacyPolicy;
+
   return (
     <main className="py-16 bg-[#fdfaf6]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 bg-white p-8 sm:p-12 rounded-3xl border border-gray-200 shadow-sm space-y-6">
@@ -14,7 +24,13 @@ export default function PrivacyPolicyPage() {
           Last updated: {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
         </p>
 
-        <div className="prose prose-orange max-w-none text-sm text-gray-700 space-y-4 leading-relaxed">
+        {customPolicy ? (
+          <div className="p-4 bg-orange-50 border border-orange-200 rounded-xl text-sm text-gray-800 leading-relaxed font-sans">
+            {customPolicy}
+          </div>
+        ) : null}
+
+        <div className="prose prose-orange max-w-none text-sm text-gray-700 space-y-4 leading-relaxed font-sans">
           <p>
             This Privacy Policy describes how <strong>Arya Bhavan</strong> (Asgard Ventures LTD, Company No. 09828018) collects, uses, and discloses your personal data when you visit our website (skaryabhavan.com), place online orders, make table reservations, or contact us.
           </p>
@@ -42,7 +58,7 @@ export default function PrivacyPolicyPage() {
 
           <h2 className="text-xl font-serif font-bold text-gray-900 pt-4">4. Your Rights under UK GDPR</h2>
           <p>
-            Under the UK General Data Protection Regulation (UK GDPR), you have the right to request access to, rectification of, or erasure of your personal data. To make a request, contact us at <code>eventsnkab@gmail.com</code>.
+            Under the UK General Data Protection Regulation (UK GDPR), you have the right to request access to, rectification of, or erasure of your personal data. To make a request, contact us at <code>{siteContent.general?.email || 'eventsnkab@gmail.com'}</code>.
           </p>
         </div>
       </div>

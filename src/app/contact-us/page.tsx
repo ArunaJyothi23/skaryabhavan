@@ -1,11 +1,15 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import { buildPageMetadata } from '@/lib/seoService';
+import { getSiteContent } from '@/lib/firebaseService';
 
-export const metadata: Metadata = buildPageMetadata('/contact-us', {
-  title: 'Contact Us – Samko Arya Bhavan',
-  description: 'Samko Arya Bhavan pure Indian vegetarian restaurant branches in Central London, Wembley, and Tooting. View branch addresses, phone numbers, opening hours, and location maps.'
-});
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
+export async function generateMetadata(): Promise<Metadata> {
+  const siteContent = await getSiteContent();
+  return buildPageMetadata('/contact-us', undefined, siteContent);
+}
 
 const branchLocations = [
   {
@@ -43,7 +47,8 @@ const branchLocations = [
   },
 ];
 
-export default function ContactUsPage() {
+export default async function ContactUsPage() {
+  const siteContent = await getSiteContent();
   return (
     <main className="min-h-screen bg-[#ECE6DF]">
       {/* Hero Banner (Exact from live site) */}

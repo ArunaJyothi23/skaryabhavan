@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const slides = [
+const defaultSlides = [
   {
     id: 1,
     image: '/images/migrated/sl1.jpg',
@@ -35,7 +35,22 @@ const slides = [
   }
 ];
 
-export default function Hero() {
+interface HeroProps {
+  slides?: {
+    id?: number | string;
+    image: string;
+    heading: string;
+    headingText?: string;
+    subheading: string;
+    buttonText?: string;
+    buttonLink?: string;
+  }[];
+  heroData?: any;
+}
+
+export default function Hero({ slides: propSlides }: HeroProps) {
+  const slides = propSlides && propSlides.length > 0 ? propSlides : defaultSlides;
+
   const [currentSlide, setCurrentSlide] = useState(0);
   const [contentSlide, setContentSlide] = useState(0);
   const [contentPhase, setContentPhase] = useState<'idle' | 'exit' | 'enter'>('idle');
@@ -43,14 +58,16 @@ export default function Hero() {
 
   // Auto advance slides every 6 seconds
   useEffect(() => {
+    if (!slides || slides.length === 0) return;
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
     }, 6000);
     return () => clearInterval(timer);
-  }, []);
+  }, [slides.length]);
 
   // Match the live carousel's fadeOutUp / fadeInUp text transition.
   useEffect(() => {
+    if (!slides || slides.length === 0) return;
     if (previousSlide.current === currentSlide) return;
     previousSlide.current = currentSlide;
 
@@ -66,7 +83,7 @@ export default function Hero() {
       clearTimeout(exitTimer);
       if (enterTimer) clearTimeout(enterTimer);
     };
-  }, [currentSlide]);
+  }, [currentSlide, slides]);
 
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
@@ -76,22 +93,24 @@ export default function Hero() {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
   };
 
-  const active = slides[currentSlide];
-  const visibleContent = slides[contentSlide];
+  const active = slides[currentSlide] || slides[0];
+  const visibleContent = slides[contentSlide] || slides[0];
+
+  if (!visibleContent) return null;
 
   return (
     <section className="group relative h-[550px] w-full select-none overflow-hidden bg-[#F9F5F1] md:h-[640px] lg:h-[800px]">
       {/* Background Images with smooth fade */}
       {slides.map((slide, idx) => (
         <div
-          key={slide.id}
+          key={slide.id || idx}
           className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
             idx === currentSlide ? 'opacity-100' : 'opacity-0 pointer-events-none'
           }`}
         >
           <Image
-            src={slide.image}
-            alt={slide.headingText}
+            src={slide.image || '/images/migrated/sl1.jpg'}
+            alt={slide.heading || slide.headingText || 'Arya Bhavan London'}
             fill
             className="object-cover"
             priority={idx === 0}
@@ -105,7 +124,7 @@ export default function Hero() {
         <div className={`hero-copy--${contentPhase}`}>
           {/* Exact live site lakit-slide-heading: font-family Josefin Sans, 30px, 600 weight, uppercase, line-height 1.4 */}
           <h1 className="m-0 font-['Josefin_Sans'] text-[22px] font-semibold uppercase leading-[1.4] tracking-normal text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)] sm:text-[26px] lg:text-[30px]">
-            {visibleContent.heading}
+            {visibleContent.heading || visibleContent.headingText}
           </h1>
 
           {/* Exact live site lakit-slide-description: font-family Josefin Sans, 24px, 600 weight, letter-spacing 2px */}
@@ -116,10 +135,10 @@ export default function Hero() {
           {/* Button matching live site square style */}
           <div className="pt-6 sm:pt-8">
             <Link
-              href={visibleContent.buttonLink}
+              href={visibleContent.buttonLink || '/menu'}
               className="btn-hero-menu"
             >
-              {visibleContent.buttonText}
+              {visibleContent.buttonText || 'View Menu'}
             </Link>
           </div>
         </div>

@@ -55,7 +55,12 @@ function ReasonIcon({ index }: { index: number }) {
   );
 }
 
-export default function WhyChooseLive() {
+interface WhyChooseLiveProps {
+  whyData?: { title: string; desc: string }[];
+}
+
+export default function WhyChooseLive({ whyData }: WhyChooseLiveProps) {
+  const activeReasons = whyData && whyData.length > 0 ? whyData : reasons;
   return (
     <section className="bg-[#344B42] py-[50px] text-white">
       <div className="mx-auto max-w-[1240px] px-4 sm:px-6">
@@ -69,11 +74,11 @@ export default function WhyChooseLive() {
 
         {/* Live-site dividers use a rounded right edge around each separator. */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-          {reasons.map((r, idx) => (
+          {activeReasons.map((r, idx) => (
             <div
               key={idx}
               className={`flex flex-col items-start rounded-[10px] px-[10px] pb-4 pt-[10px] text-left transition-transform duration-300 hover:scale-[1.01] lg:pb-[40px] ${
-                idx !== reasons.length - 1 ? 'lg:border-r lg:border-[#CACACA]' : ''
+                idx !== activeReasons.length - 1 ? 'lg:border-r lg:border-[#CACACA]' : ''
               }`}
             >
               <div className="mb-4">
