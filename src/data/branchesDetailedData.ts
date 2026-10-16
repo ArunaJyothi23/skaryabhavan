@@ -9,6 +9,7 @@ export interface BranchData {
     subtitle: string;
     bgImage: string;
     orderUrl?: string;
+    buttonText?: string;
   };
   intro: {
     heading: string;
@@ -222,13 +223,14 @@ export const branchesData: Record<string, BranchData> = {
     slug: 'belgium',
     name: 'Belgium (Brussels)',
     city: 'Brussels, Belgium',
-    hasHero: false,
+    hasHero: true,
     hero: {
       titleLine1: 'AUTHENTIC INDIAN VEGETARIAN',
       titleLine2: 'RESTAURANT BRUSSELS',
       subtitle: 'Top Rated Family Friendly Indian Vegetarian Restaurant',
       bgImage: '/images/migrated/sl1.jpg',
-      orderUrl: 'https://onlineordering.skaryabhavan.com/popmenu-order'
+      buttonText: 'View Menu',
+      orderUrl: '/menu'
     },
     intro: {
       heading: 'AUTHENTIC SOUTH INDIAN VEGETARIAN RESTAURANT IN BRUSSELS',

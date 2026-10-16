@@ -221,29 +221,29 @@ export default function BranchDetailClient({ branch }: { branch: BranchData }) {
               priority
               quality={95}
             />
-            {/* Subtle vignette gradient matching live Elementor dark overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/20" />
+            {/* Subtle overlay keeping images bright, vivid, and clearly visible */}
+            <div className="absolute inset-0 bg-black/15" />
           </div>
 
           {/* Live slide copy begins 40% down matching live site */}
           <div className="absolute left-[8%] sm:left-[40px] lg:left-[84px] top-[38%] sm:top-[40%] z-20 max-w-[90%] sm:max-w-[700px] lg:max-w-[800px] text-left">
-            <h1 className="m-0 font-['Josefin_Sans',sans-serif] text-[22px] sm:text-[26px] lg:text-[30px] font-semibold uppercase leading-[1.4] tracking-normal text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
+            <h1 className="m-0 font-['Josefin_Sans',sans-serif] text-[22px] sm:text-[26px] lg:text-[30px] font-semibold uppercase leading-[1.4] tracking-normal text-white drop-shadow-[0_2px_6px_rgba(0,0,0,0.85)]">
               {branch.hero.titleLine1}<br />
               {branch.hero.titleLine2}
             </h1>
 
-            <p className="font-['Josefin_Sans',sans-serif] text-[15px] sm:text-[20px] lg:text-[24px] font-semibold text-white tracking-[2px] leading-[1.25] mt-4 sm:mt-6 drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
+            <p className="font-['Josefin_Sans',sans-serif] text-[15px] sm:text-[20px] lg:text-[24px] font-semibold text-white tracking-[2px] leading-[1.25] mt-4 sm:mt-6 drop-shadow-[0_2px_6px_rgba(0,0,0,0.85)]">
               {branch.hero.subtitle}
             </p>
 
             <div className="pt-6 sm:pt-8">
               <a
                 href={branch.hero.orderUrl || 'https://onlineordering.skaryabhavan.com/popmenu-order'}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-hero-menu cursor-pointer"
+                target={branch.hero.orderUrl?.startsWith('http') ? '_blank' : undefined}
+                rel={branch.hero.orderUrl?.startsWith('http') ? 'noopener noreferrer' : undefined}
+                className="btn-hero-menu cursor-pointer inline-block"
               >
-                Online Order
+                {branch.hero.buttonText || 'Online Order'}
               </a>
             </div>
           </div>
