@@ -1,30 +1,70 @@
 import type { Metadata } from 'next';
-import { buildPageMetadata } from '@/lib/seoService';
-import { getSiteContent } from '@/lib/firebaseService';
-import BranchDetailTemplate from '@/components/BranchDetailTemplate';
+import BranchDetailClient from '@/components/BranchDetailClient';
+import { branchesData } from '@/data/branchesDetailedData';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
-export async function generateMetadata(): Promise<Metadata> {
-  const siteContent = await getSiteContent();
-  return buildPageMetadata('/tooting', undefined, siteContent);
-}
+const branch = branchesData.tooting;
+
+export const metadata: Metadata = {
+  title: branch.seo.title,
+  description: branch.seo.description,
+  alternates: {
+    canonical: branch.seo.canonical,
+  },
+  openGraph: {
+    title: branch.seo.title,
+    description: branch.seo.description,
+    url: branch.seo.canonical,
+    siteName: 'Arya Bhavan',
+    images: [
+      {
+        url: 'https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Tooting-2.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'Arya Bhavan Tooting',
+      },
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+};
 
 export default function TootingPage() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Restaurant',
+    name: 'Arya Bhavan Tooting',
+    image: 'https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Tooting-2.jpeg',
+    telephone: branch.schema.telephone,
+    servesCuisine: 'South Indian, Vegetarian, Vegan, Jain',
+    priceRange: '££',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: branch.schema.streetAddress,
+      addressLocality: branch.schema.addressLocality,
+      postalCode: branch.schema.postalCode,
+      addressCountry: branch.schema.addressCountry,
+    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: branch.schema.opens,
+        closes: branch.schema.closes,
+      },
+    ],
+    url: branch.seo.canonical,
+  };
+
   return (
-    <BranchDetailTemplate
-      name="Tooting"
-      area="Upper Tooting Road"
-      address="254 Upper Tooting Rd, London"
-      postcode="SW17 0DN"
-      phone="+442083553555"
-      displayPhone="020 8355 3555"
-      hours="10:00 AM – 10:00 PM (Monday – Sunday)"
-      image="/images/migrated/NKAryaBhavan-Tooting-1.jpeg"
-      features={['Traditional Thalis', 'Dine-In', 'Takeaway', 'Pure Vegetarian & Vegan', 'Family Seating', 'Live Counters']}
-      description="In the culinary hub of Tooting, Arya Bhavan is celebrated for its commitment to authentic South Indian cooking, crispy dosas, filter coffee, and family-friendly hospitality."
-      mapEmbedUrl="https://maps.google.com/maps?q=254%20Upper%20Tooting%20Rd,%20London%20SW17%200DN&t=&z=15&ie=UTF8&iwloc=&output=embed"
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <BranchDetailClient branch={branch} />
+    </>
   );
 }

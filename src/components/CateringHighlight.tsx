@@ -36,6 +36,7 @@ export default function CateringHighlight() {
                   src="/images/migrated/MASALA-DOSA-V-G.png"
                   alt="Live Dosa Station Catering London"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-3 left-3 bg-[#c45c26] text-white text-xs font-bold px-3 py-1 rounded-full">
@@ -82,6 +83,7 @@ export default function CateringHighlight() {
                   src="/images/migrated/NKAryaBhavan-Central-London-1.jpeg"
                   alt="Outdoor Vegetarian Catering London"
                   fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-3 left-3 bg-amber-600 text-white text-xs font-bold px-3 py-1 rounded-full">

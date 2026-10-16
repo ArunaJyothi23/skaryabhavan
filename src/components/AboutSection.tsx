@@ -23,10 +23,10 @@ export default function AboutSection({ aboutData }: AboutSectionProps) {
 
   return (
     <section id="about" className="bg-white overflow-hidden w-full">
-      <div className="grid w-full grid-cols-1 items-stretch lg:grid-cols-[48%_52%]">
+      <div className="grid w-full grid-cols-1 items-stretch lg:grid-cols-2">
         
         {/* Left image column: full-bleed cover flush to the left screen edge, matching live site */}
-        <div className="relative h-[420px] w-full min-h-[420px] overflow-hidden bg-[#201c1a] sm:h-[500px] lg:h-[600px] lg:min-h-0">
+        <div className="relative h-[380px] w-full min-h-[313px] overflow-hidden bg-[#201c1a] sm:h-[480px] lg:h-[620px] lg:min-h-0">
           <Image
             src={image}
             alt={title}
@@ -34,17 +34,17 @@ export default function AboutSection({ aboutData }: AboutSectionProps) {
             className="object-cover object-center"
             priority
             quality={90}
-            sizes="(max-width: 1024px) 100vw, 48vw"
+            sizes="(max-width: 1024px) 100vw, 50vw"
           />
         </div>
 
-        {/* Right text column uses the live site's narrower inset and display typography. */}
-        <div className="flex w-full flex-col justify-center px-5 py-10 sm:py-14 lg:py-[50px] lg:pl-5 lg:pr-[30px]">
-          <h2 className="font-ivymode mb-5 text-[26px] font-semibold uppercase leading-[1.25] tracking-[1px] text-[#344E41] sm:text-[28px] lg:text-[32px] lg:leading-[56px]">
+        {/* Right text column matching live site padding and typography */}
+        <div className="flex w-full flex-col justify-center px-5 py-8 sm:py-12 lg:py-[50px] lg:pl-10 lg:pr-[30px]">
+          <h2 className="font-ivymode mb-5 text-[26px] font-semibold uppercase leading-[1.25] tracking-[1px] text-[#344E41] sm:text-[28px] lg:text-[32px] lg:leading-[56px] pt-2 lg:pt-[1em]">
             {title}
           </h2>
 
-          <div className="space-y-4 font-['Josefin_Sans',sans-serif] text-[16px] font-normal leading-[1.4] text-[#202020] lg:text-[18px] lg:leading-[1.55]">
+          <div className="space-y-4 font-['Josefin_Sans',sans-serif] text-[16px] font-normal leading-[1.55] text-[#202020] lg:text-[18px]">
             {narrative.map((para, idx) => (
               <p key={idx}>{para}</p>
             ))}

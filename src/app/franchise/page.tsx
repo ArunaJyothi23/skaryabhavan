@@ -64,17 +64,17 @@ export default function FranchisePage() {
           sizes="100vw"
           className="object-cover object-center"
         />
-        {/* Live site Elementor overlay: #000000 with 0.5 opacity */}
-        <div className="absolute inset-0 bg-black/50" />
+        {/* Subtle touch if needed or completely transparent for bright live site clarity */}
+        <div className="absolute inset-0 bg-black/10" />
 
-        {/* Large Overlapping "FRANCHISE" Title (Exact 6em / 96px font size from 1st live site image) */}
+        {/* Large Overlapping "FRANCHISE" Title (Exact wide tracking from live site Image 5) */}
         <div id="banner-title" className="relative z-10 w-full text-center translate-y-1/2 pointer-events-none select-none">
           <h1
-            className="font-ivymode text-[#F6851C] uppercase font-normal leading-none"
+            className="font-ivymode text-[#F6851C] uppercase font-normal leading-none inline-block"
             style={{
-              fontSize: 'clamp(3.2rem, 7vw, 6rem)',
-              letterSpacing: '0.5em',
-              textIndent: '0.5em',
+              fontSize: 'clamp(2.8rem, 6.8vw, 6.2rem)',
+              letterSpacing: '0.52em',
+              marginRight: '-0.52em',
             }}
           >
             FRANCHISE
@@ -83,11 +83,11 @@ export default function FranchisePage() {
       </section>
 
       {/* Main Content & Opportunities Section (Exact from live site: mt-80px) */}
-      <section className="pt-[70px] lg:pt-[80px] pb-[80px] px-4 sm:px-6 lg:px-8">
+      <section className="pt-[65px] lg:pt-[75px] pb-[80px] px-4 sm:px-6 lg:px-8">
         <div className="max-w-[1240px] mx-auto">
-          {/* Main Section Heading: EXACT Josefin Sans, font-normal, 36px on laptop / 44px on large desktop, #344E41 */}
-          <div className="text-center mb-[15px]">
-            <h2 className="text-[#344E41] font-['Josefin_Sans',sans-serif] text-[24px] sm:text-[30px] md:text-[34px] lg:text-[36px] 2xl:text-[44px] font-normal uppercase tracking-wider leading-[1.2]">
+          {/* Main Section Heading: EXACT Josefin Sans, font-normal (400, un-bold), 36px on laptop/desktop, #344E41 */}
+          <div className="text-center mb-[18px]">
+            <h2 className="font-['Josefin_Sans',sans-serif] text-[#344E41] text-[20px] sm:text-[26px] md:text-[30px] lg:text-[36px] font-normal uppercase tracking-[2px] leading-[1.3]">
               FRANCHISE OPPORTUNITIES WITH ARYA BHAVAN
             </h2>
           </div>

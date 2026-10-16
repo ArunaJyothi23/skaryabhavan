@@ -62,11 +62,11 @@ export default function FoodGallery({ images: propImages }: FoodGalleryProps = {
   const activeImages = propImages && propImages.length > 0 ? propImages : galleryImages;
 
   return (
-    <section className="py-14 sm:py-20 bg-white">
+    <section className="py-10 sm:py-[50px] bg-white">
       <div className="max-w-[1240px] mx-auto px-4 sm:px-6">
         
         {/* Section Heading */}
-        <div className="text-center mb-10 sm:mb-12">
+        <div className="text-center mb-8 sm:mb-12">
           <h2 className="font-ivymode text-2xl font-semibold leading-[1.25] tracking-[1px] text-[#344E41] uppercase sm:text-[26px] lg:text-[32px] lg:leading-[56px]">
             SOUTH INDIAN DOSAS, IDLIS &amp; MORE
           </h2>
@@ -84,6 +84,7 @@ export default function FoodGallery({ images: propImages }: FoodGalleryProps = {
                 alt={item.alt}
                 fill
                 quality={90}
+                priority={idx < 4}
                 className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
                 sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 300px"
               />

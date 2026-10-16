@@ -88,7 +88,7 @@ export default function FaqSectionLive({ faqs: propFaqs }: FaqSectionLiveProps) 
   };
 
   return (
-    <section className="py-12 sm:py-16 lg:py-20 bg-white">
+    <section className="py-10 sm:py-[50px] bg-white">
       <div className="max-w-[1240px] mx-auto px-4 sm:px-6">
         
         {/* Section Heading */}

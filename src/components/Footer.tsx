@@ -48,7 +48,7 @@ export default function Footer({ copyrightText, disclaimerNotice }: FooterProps)
   }
 
   return (
-    <footer className="bg-[#faf8f5] text-[#555555] pt-14 pb-8 border-t border-[#ede8df] font-sans">
+    <footer className="bg-[#f5f5f5] text-[#555555] pt-14 pb-8 border-t border-gray-200/60 font-sans">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
         
         {/* 3-Column Grid matching exactly the live site footer in screenshot 4 */}
@@ -85,13 +85,14 @@ export default function Footer({ copyrightText, disclaimerNotice }: FooterProps)
 
           {/* Column 2: Logo, Tagline, Divider & Socials */}
           <div className="flex flex-col items-center text-center space-y-3">
-            <Link href="/" className="inline-block transition-transform hover:scale-105 duration-200">
-              <div className="relative w-64 sm:w-72 h-20">
+            <Link href="/" className="inline-block transition-transform hover:opacity-95 duration-200">
+              <div className="relative w-[320px] sm:w-[380px] md:w-[420px] h-[75px] sm:h-[88px]">
                 <Image
-                  src="/images/migrated/WhatsApp_Image_2026-09-10_at_22.32.49-removebg-preview-e1789186834297.png"
+                  src="/images/migrated/WhatsApp-Image-2026-09-10-at-22.32.49-e1789104400967.jpeg"
                   alt="Samko Arya Bhavan Pure Indian Vegetarian Restaurant"
                   fill
-                  className="object-contain"
+                  sizes="(max-width: 640px) 320px, 420px"
+                  className="object-contain mix-blend-multiply"
                   priority
                 />
               </div>
@@ -167,11 +168,11 @@ export default function Footer({ copyrightText, disclaimerNotice }: FooterProps)
         </div>
 
         {/* Bottom Bar: Exact Copyright & Disclaimer */}
-        <div className="border-t border-[#e8e2d8] mt-12 pt-6 text-center text-xs sm:text-[13px] text-[#7a7267] space-y-1">
+        <div className="border-t border-gray-200/60 mt-12 pt-6 text-center text-xs sm:text-[13px] text-[#7a7267] tracking-wider uppercase space-y-1">
           {disclaimerNotice && (
             <p className="text-[12px] text-amber-900/80 max-w-3xl mx-auto italic">{disclaimerNotice}</p>
           )}
-          <p>{copyrightText || `Copyright ${new Date().getFullYear()} © Samko Arya Bhavan. All Rights Reserved.`}</p>
+          <p>{copyrightText || `COPYRIGHT ${new Date().getFullYear()} © SAMKO ARYA BHAVAN. ALL RIGHTS RESERVED.`}</p>
         </div>
 
       </div>

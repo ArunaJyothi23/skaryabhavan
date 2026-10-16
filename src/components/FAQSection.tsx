@@ -37,6 +37,7 @@ export default function FAQSection() {
                 src="/images/migrated/NKAryaBhavan-Tooting-1.jpeg"
                 alt="Arya Bhavan Dining Atmosphere"
                 fill
+                sizes="(max-width: 1024px) 100vw, 500px"
                 className="object-cover"
               />
             </div>

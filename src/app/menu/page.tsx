@@ -91,18 +91,19 @@ export default function MenuPage() {
           src="/images/migrated/WhatsApp-Image-2025-12-08-at-14.51.18-e1765205112699.jpeg"
           alt="Samko Arya Bhavan Menu"
           fill
+          sizes="100vw"
           className="object-cover object-center"
           priority
         />
-        {/* Subtle Overlay to match Screenshot 1 while keeping dosa colors vivid */}
-        <div className="absolute inset-0 bg-black/30" />
+        {/* Subtle touch keeping dosa colors vivid and bright as in live site */}
+        <div className="absolute inset-0 bg-black/10" />
 
         {/* Hero Title & Subtitle */}
         <div className="relative z-10 text-center px-4">
-          <h1 className="font-josefin text-4xl sm:text-5xl lg:text-[42px] font-semibold text-white tracking-wide drop-shadow-md">
+          <h1 className="font-josefin text-4xl sm:text-5xl lg:text-[46px] font-semibold text-white tracking-wide drop-shadow-[0_2px_10px_rgba(0,0,0,0.85)]">
             Menu
           </h1>
-          <p className="font-josefin text-lg sm:text-xl lg:text-[24px] font-normal text-white tracking-wider mt-2.5 drop-shadow-md">
+          <p className="font-josefin text-lg sm:text-xl lg:text-[24px] font-normal text-white tracking-wider mt-2.5 drop-shadow-[0_2px_10px_rgba(0,0,0,0.85)]">
             London | Wembley | Tooting | Barking
           </p>
         </div>

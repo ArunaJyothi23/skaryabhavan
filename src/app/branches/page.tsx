@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { buildPageMetadata } from '@/lib/seoService';
 import { getSiteContent } from '@/lib/firebaseService';
-import { Phone, Clock, MapPin, ArrowRight } from 'lucide-react';
+import NewsletterSubscribeForm from '@/components/NewsletterSubscribeForm';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -20,228 +20,272 @@ export default async function BranchesPage() {
       name: 'CENTRAL LONDON',
       slug: 'central-london',
       phone: '020 7839 8797',
-      hours: '12.00 - 22.00 (MON-SUN)',
-      address: '17 Charing Cross Road, Charing Cross, London WC2H 0EP',
+      phoneClean: '02078398797',
+      hours: '10.30 – 22.30 (MON-SUN)',
+      address: '17 Charing Cross Road, Charing Cross,\nLondon WC2H 0EP',
       image: '/images/migrated/NKAryaBhavan-Central-London-1.jpeg',
     },
     {
       name: 'WEMBLEY',
       slug: 'wembley',
       phone: '020 8900 8526',
-      hours: '09.30 - 22.00 (MON-SUN)',
-      address: '22, 22A Ealing Rd, Wembley HA0 4TL',
+      phoneClean: '02089008526',
+      hours: '09.30 – 22.00 (MON-SUN)',
+      address: '22, 22A Ealing Rd,\nWembley HA0 4TL',
       image: '/images/migrated/NKAryaBhavan-Wembley-2.jpeg',
     },
     {
       name: 'TOOTING',
       slug: 'tooting',
       phone: '020 8355 3555',
-      hours: '10.00 - 22.00 (MON-SUN)',
-      address: '254 Upper Tooting Rd, London SW17 0DN',
+      phoneClean: '02083553555',
+      hours: '10.00 – 22.00 (MON-SUN)',
+      address: '254 Upper Tooting Rd,\nLondon SW17 0DN',
       image: '/images/migrated/NKAryaBhavan-Tooting-2.jpeg',
+    },
+    {
+      name: 'BARKINGSIDE',
+      slug: 'barkingside',
+      phone: '020 8355 3555',
+      phoneClean: '02083553555',
+      hours: '09.30 – 22.00 (MON-SUN)',
+      address: '43 High St,\nIlford IG6 2AD',
+      image: '/images/migrated/sl2.jpg',
+    },
+    {
+      name: 'EAST HAM',
+      slug: 'eastham',
+      phone: '020 8355 3555',
+      phoneClean: '02083553555',
+      hours: '09.30 – 22.00 (MON-SUN)',
+      address: '278A High St N,\nLondon E12 6SA',
+      image: '/images/migrated/sl3.jpg',
+    },
+    {
+      name: 'ILFORD',
+      slug: 'ilford',
+      phone: '020 8355 3555',
+      phoneClean: '02083553555',
+      hours: '09.30 – 22.00 (MON-SUN)',
+      address: '43 High St, Barkingside,\nIlford IG6 2AD',
+      image: '/images/migrated/sl1.jpg',
     },
   ];
 
-  const europeanBranches = [
+  const internationalBranches = [
     {
-      city: 'Paris - Gare du Nord',
-      country: 'France',
-      address: '185 Rue du Faubourg Saint-Denis, 75010 Paris',
-      link: 'https://nkaryabhavan.fr/en/branches/gare-du-nord/',
-    },
-    {
-      city: 'Paris - Louvre',
-      country: 'France',
-      address: 'Near Louvre Museum, Paris, France',
-      link: 'https://nkaryabhavan.fr/en/branches/louvre/',
-    },
-    {
-      city: 'Paris - Notre Dame',
-      country: 'France',
-      address: 'Near Notre Dame Cathedral, Paris, France',
-      link: 'https://nkaryabhavan.fr/en/branches/notre-dame/',
-    },
-    {
-      city: 'Brussels City Centre',
-      country: 'Belgium',
-      address: 'Brussels City Centre, Belgium',
-      link: 'https://skaryabhavan.com/belgium/',
+      name: 'BRUSSELS (BELGIUM)',
+      slug: 'belgium',
+      phone: '+32 2 675 95 41',
+      phoneClean: '+3226759541',
+      hours: '10.30 – 15.00 & 18.00 – 22.30 (MON-THU)\n10.30 – 22.30 (FRI-SUN)',
+      address: 'Rue Jourdan 10, 1060 Saint-Gilles,\nBrussels, Belgium',
+      image: '/images/migrated/WhatsApp-Image-2026-03-02-at-22.35.41.jpeg',
     },
   ];
 
   return (
-    <main className="bg-white min-h-screen font-['Josefin_Sans',sans-serif]">
-      {/* 1. Elementor Hero Banner - Exact Replica */}
-      <section className="relative w-full min-h-[300px] sm:min-h-[350px] bg-black overflow-hidden flex flex-col justify-center items-center">
-        <Image
-          src="/images/migrated/erica-ab-bg1-a.jpg"
-          alt="Arya Bhavan Restaurant Branches"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-center"
-        />
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="relative z-10 text-center px-4">
+    <div className="bg-white text-[#202020] overflow-x-hidden font-['Josefin_Sans',sans-serif]">
+      {/* 1. Hero Banner: Elementor element-e0a5662 & element-3bf9cb3 */}
+      <section
+        className="relative w-full min-h-[200px] sm:min-h-[260px] md:min-h-[300px] lg:min-h-[350px] bg-cover bg-center flex flex-col justify-end items-center overflow-visible"
+        style={{
+          backgroundImage: "url('/images/migrated/erica-ab-bg1-a.jpg')",
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center',
+          backgroundSize: 'cover',
+        }}
+      >
+        <div
+          id="banner-title"
+          className="translate-y-1/2 text-center w-full select-none z-10 px-2"
+        >
           <h1
-            id="banner-title"
-            className="text-4xl sm:text-5xl lg:text-[60px] font-ivymode font-normal text-[#F6851C] uppercase tracking-[0.4em] sm:tracking-[0.5em] leading-none"
+            style={{
+              textIndent: '0.5em',
+              fontFamily: '"ivymode", serif, sans-serif',
+            }}
+            className="uppercase text-[#F6851C] font-normal leading-none tracking-[0.5em] text-[26px] sm:text-[44px] md:text-[68px] lg:text-[6em] m-0"
           >
             Branches
           </h1>
         </div>
       </section>
 
-      {/* 2. UK Branches Section - Exact Elementor background #F0F0F0 and card styles */}
-      <section className="py-14 sm:py-20 bg-[#F0F0F0]">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-center font-ivymode font-normal text-3xl sm:text-4xl lg:text-[40px] text-[#344E41] uppercase tracking-[2px] mb-12 sm:mb-16">
-            UK Branches
-          </h2>
+      {/* 2. UK Branches Section */}
+      <section className="pt-[5em] sm:pt-[6em] pb-[3em] sm:pb-[4em] bg-white overflow-hidden">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-8 lg:px-12">
+          {/* Section Heading */}
+          <div className="text-center my-5 sm:my-8 lg:my-10">
+            <h2
+              style={{ fontFamily: '"ivymode", serif, sans-serif' }}
+              className="font-normal text-[26px] sm:text-[34px] md:text-[40px] text-[#344E41] uppercase tracking-[2px] leading-none m-0"
+            >
+              UK Branches
+            </h2>
+          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10 items-stretch">
+          {/* Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 max-w-[1440px] mx-auto">
             {ukBranches.map((branch) => (
               <div
                 key={branch.slug}
-                className="bg-[#EFEFEF] rounded-[10px] overflow-hidden shadow-[0_0_12px_rgba(0,0,0,0.12)] border border-[#E0E0E0] flex flex-col justify-between transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl group"
+                className="w-full flex flex-col group rounded-xl overflow-hidden shadow-xs hover:shadow-md transition"
               >
-                <div>
-                  {/* Branch Thumbnail */}
-                  <Link href={`/${branch.slug}`} className="block relative h-60 w-full overflow-hidden bg-gray-200">
-                    <Image
-                      src={branch.image}
-                      alt={branch.name}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </Link>
+                {/* Branch Card Image */}
+                <Link
+                  href={`/${branch.slug}`}
+                  className="block relative h-[240px] w-full overflow-hidden shrink-0"
+                >
+                  <Image
+                    src={branch.image}
+                    alt={branch.name}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover object-center transition-transform duration-500 ease-out group-hover:scale-110"
+                  />
+                </Link>
 
-                  {/* Branch Details */}
-                  <div className="p-6 sm:p-7 space-y-4">
-                    <h3 className="font-ivymode font-normal text-2xl lg:text-[26px] text-[#344E41] uppercase tracking-[1px]">
-                      <Link href={`/${branch.slug}`} className="hover:text-[#F6851C] transition-colors">
-                        {branch.name}
-                      </Link>
-                    </h3>
-
-                    <div className="font-['Josefin_Sans',sans-serif] text-[15px] sm:text-[16px] text-[#202020] leading-[2em] tracking-[0.4px]">
-                      <p className="font-semibold text-[#344E41] flex items-center gap-2">
-                        <Phone className="w-4 h-4 text-[#F6851C] shrink-0" />
-                        <a href={`tel:${branch.phone.replace(/\s+/g, '')}`} className="hover:text-[#F6851C] transition-colors">
-                          {branch.phone}
-                        </a>
-                      </p>
-                      <p className="flex items-center gap-2 text-gray-700">
-                        <Clock className="w-4 h-4 text-[#F6851C] shrink-0" />
-                        <span>HOURS: {branch.hours}</span>
-                      </p>
-                      <p className="flex items-start gap-2 text-gray-700 pt-1">
-                        <MapPin className="w-4 h-4 text-[#F6851C] shrink-0 mt-1" />
-                        <span>{branch.address}</span>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="p-6 sm:p-7 pt-0">
-                  <Link
-                    href={`/${branch.slug}`}
-                    className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#F6851C] group-hover:text-[#344E41] transition-colors"
+                {/* Branch Card Body */}
+                <div className="bg-[#EFEFEF] p-[25px] sm:p-[30px] flex-1 flex flex-col justify-start">
+                  <h3
+                    style={{ fontFamily: '"ivymode", serif, sans-serif' }}
+                    className="font-normal text-[24px] sm:text-[26px] text-[#344E41] uppercase tracking-[1px] leading-none mb-5"
                   >
-                    <span>View Branch Menu & Details</span>
-                    <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-                  </Link>
+                    <Link
+                      href={`/${branch.slug}`}
+                      className="hover:text-[#F6851C] transition-colors"
+                    >
+                      {branch.name}
+                    </Link>
+                  </h3>
+
+                  <div
+                    style={{ fontFamily: '"dunbar-low", "Josefin Sans", sans-serif' }}
+                    className="text-[16px] text-[#202020] font-normal leading-[2em] tracking-[0.4px]"
+                  >
+                    <p className="m-0">
+                      <a
+                        href={`tel:${branch.phoneClean}`}
+                        className="hover:text-[#F6851C] transition-colors"
+                      >
+                        {branch.phone}
+                      </a>
+                    </p>
+                    <p className="m-0">HOURS: {branch.hours}</p>
+                    <p className="m-0 whitespace-pre-line">{branch.address}</p>
+                  </div>
+
+                  <div className="mt-6 pt-4 border-t border-gray-300">
+                    <Link
+                      href={`/${branch.slug}`}
+                      className="inline-flex items-center gap-1.5 text-sm uppercase font-bold tracking-wider text-[#F6851C] hover:text-[#d97706] transition"
+                    >
+                      <span>Explore Branch</span>
+                      <span>→</span>
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
+
+          {/* International Section Heading */}
+          <div className="text-center mt-16 mb-8 lg:mt-20 lg:mb-10">
+            <h2
+              style={{ fontFamily: '"ivymode", serif, sans-serif' }}
+              className="font-normal text-[26px] sm:text-[34px] md:text-[40px] text-[#344E41] uppercase tracking-[2px] leading-none m-0"
+            >
+              International Branches
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 max-w-[1440px] mx-auto">
+            {internationalBranches.map((branch) => (
+              <div
+                key={branch.slug}
+                className="w-full flex flex-col group rounded-xl overflow-hidden shadow-xs hover:shadow-md transition"
+              >
+                <Link
+                  href={`/${branch.slug}`}
+                  className="block relative h-[240px] w-full overflow-hidden shrink-0"
+                >
+                  <Image
+                    src={branch.image}
+                    alt={branch.name}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover object-center transition-transform duration-500 ease-out group-hover:scale-110"
+                  />
+                </Link>
+
+                <div className="bg-[#EFEFEF] p-[25px] sm:p-[30px] flex-1 flex flex-col justify-start">
+                  <h3
+                    style={{ fontFamily: '"ivymode", serif, sans-serif' }}
+                    className="font-normal text-[24px] sm:text-[26px] text-[#344E41] uppercase tracking-[1px] leading-none mb-5"
+                  >
+                    <Link
+                      href={`/${branch.slug}`}
+                      className="hover:text-[#F6851C] transition-colors"
+                    >
+                      {branch.name}
+                    </Link>
+                  </h3>
+
+                  <div
+                    style={{ fontFamily: '"dunbar-low", "Josefin Sans", sans-serif' }}
+                    className="text-[16px] text-[#202020] font-normal leading-[2em] tracking-[0.4px]"
+                  >
+                    <p className="m-0">
+                      <a
+                        href={`tel:${branch.phoneClean}`}
+                        className="hover:text-[#F6851C] transition-colors"
+                      >
+                        {branch.phone}
+                      </a>
+                    </p>
+                    <p className="m-0 whitespace-pre-line">HOURS: {branch.hours}</p>
+                    <p className="m-0 whitespace-pre-line">{branch.address}</p>
+                  </div>
+
+                  <div className="mt-6 pt-4 border-t border-gray-300">
+                    <Link
+                      href={`/${branch.slug}`}
+                      className="inline-flex items-center gap-1.5 text-sm uppercase font-bold tracking-wider text-[#F6851C] hover:text-[#d97706] transition"
+                    >
+                      <span>Explore Branch</span>
+                      <span>→</span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
         </div>
       </section>
 
-      {/* 3. Newsletter Section - Exact Elementor background sl2.jpg */}
-      <section className="relative w-full min-h-[370px] bg-black overflow-hidden flex flex-col justify-center items-center py-16 px-4">
-        <Image
-          src="/images/migrated/sl2.jpg"
-          alt="Arya Bhavan Special Offers"
-          fill
-          priority={false}
-          sizes="100vw"
-          className="object-cover object-center opacity-40"
-        />
-        <div className="relative z-10 max-w-xl mx-auto text-center space-y-6 w-full">
-          <h2 className="text-3xl sm:text-4xl font-ivymode font-normal text-white uppercase tracking-wide">
+      {/* 3. Newsletter Section */}
+      <section
+        className="relative w-full min-h-[250px] sm:min-h-[370px] bg-cover bg-center flex flex-col justify-center items-center px-4 py-12"
+        style={{
+          backgroundImage: "url('/images/migrated/sl2.jpg')",
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center center',
+          backgroundSize: 'cover',
+        }}
+      >
+        <div className="w-full max-w-[600px] lg:max-w-[800px] mx-auto text-center z-10 px-4">
+          <h2
+            style={{ fontFamily: '"le-monde-livre-classic-byol", "ivymode", serif' }}
+            className="text-white text-[20px] sm:text-[24px] md:text-[36px] font-normal uppercase leading-[1.2em] mb-[30px]"
+          >
             Get special offers from us
           </h2>
 
-          <form
-            action="#"
-            method="POST"
-            onSubmit={(e) => {
-              e.preventDefault();
-              alert('Thank you for subscribing to Arya Bhavan special offers!');
-            }}
-            className="flex flex-col sm:flex-row gap-3 items-center justify-center max-w-md mx-auto"
-          >
-            <input
-              type="email"
-              required
-              placeholder="Enter Your Email"
-              className="w-full sm:flex-1 px-5 py-3 rounded-[6px] bg-white text-gray-900 placeholder-gray-500 font-['Josefin_Sans',sans-serif] text-base focus:outline-none focus:ring-2 focus:ring-[#F6851C]"
-            />
-            <button
-              type="submit"
-              className="w-full sm:w-auto px-8 py-3 bg-[#F6851C] hover:bg-[#344E41] text-white font-['Josefin_Sans',sans-serif] font-bold text-base rounded-[6px] uppercase tracking-wider transition-colors shadow-sm cursor-pointer shrink-0"
-            >
-              Subscribe
-            </button>
-          </form>
+          <NewsletterSubscribeForm />
         </div>
       </section>
-
-      {/* 4. European Locations (France & Belgium) */}
-      <section className="py-16 sm:py-20 bg-white">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="font-ivymode font-normal text-3xl sm:text-4xl text-[#344E41] uppercase tracking-[2px] mb-3">
-              European Branches
-            </h2>
-            <p className="text-gray-600 font-['Josefin_Sans',sans-serif] text-base sm:text-lg">
-              Expanding authentic South Indian pure vegetarian taste across Europe
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {europeanBranches.map((b, idx) => (
-              <div
-                key={idx}
-                className="bg-[#F9F9F9] p-6 rounded-[10px] border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between"
-              >
-                <div className="space-y-2">
-                  <span className="text-xs font-bold text-[#F6851C] uppercase tracking-wider block">
-                    {b.country}
-                  </span>
-                  <h4 className="font-ivymode font-bold text-lg text-gray-900">{b.city}</h4>
-                  <p className="text-sm text-gray-600 font-['Josefin_Sans',sans-serif] leading-relaxed">
-                    {b.address}
-                  </p>
-                </div>
-                <div className="mt-4 pt-3 border-t border-gray-200">
-                  <a
-                    href={b.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs font-bold text-[#344E41] hover:text-[#F6851C] inline-flex items-center gap-1 transition-colors uppercase tracking-wider"
-                  >
-                    <span>Visit European Branch</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </a>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-    </main>
+    </div>
   );
 }

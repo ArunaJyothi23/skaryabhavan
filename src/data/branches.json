@@ -7,7 +7,7 @@
     "postcode": "WC2H 0EP",
     "phone": "+44 20 7839 8797",
     "displayPhone": "020 7839 8797",
-    "hours": "10:00 AM – 10:00 PM (Mon – Sun)",
+    "hours": "10:30 AM – 10:30 PM (Mon – Sun)",
     "features": [
       "Dine-In",
       "Takeaway",
@@ -15,13 +15,13 @@
       "Online Ordering"
     ],
     "image": "/images/migrated/NKAryaBhavan-Central-London-1.jpeg",
-    "orderUrl": "/online-ls-menu",
+    "orderUrl": "https://onlineordering.skaryabhavan.com/popmenu-order",
     "slug": "central-london",
     "mapQuery": "17+Charing+Cross+Rd,+London+WC2H+0EP"
   },
   {
     "id": "wembley",
-    "name": "Wembley Central",
+    "name": "Wembley",
     "area": "Ealing Road",
     "address": "22, 22A Ealing Rd, Wembley",
     "postcode": "HA0 4TL",
@@ -34,8 +34,8 @@
       "Pure Veg & Vegan",
       "Family Seating"
     ],
-    "image": "/images/migrated/NKAryaBhavan-Wembley-1.jpeg",
-    "orderUrl": "/menu",
+    "image": "/images/migrated/NKAryaBhavan-Wembley-2.jpeg",
+    "orderUrl": "https://onlineordering.skaryabhavan.com/popmenu-order",
     "slug": "wembley",
     "mapQuery": "22+Ealing+Rd,+Wembley+HA0+4TL"
   },
@@ -54,9 +54,89 @@
       "Traditional South Indian Thalis",
       "Private Bookings"
     ],
-    "image": "/images/migrated/NKAryaBhavan-Tooting-1.jpeg",
-    "orderUrl": "/menu",
+    "image": "/images/migrated/NKAryaBhavan-Tooting-2.jpeg",
+    "orderUrl": "https://onlineordering.skaryabhavan.com/popmenu-order",
     "slug": "tooting",
     "mapQuery": "254+Upper+Tooting+Rd,+London+SW17+0DN"
+  },
+  {
+    "id": "belgium",
+    "name": "Belgium",
+    "area": "Saint-Gilles, Brussels",
+    "address": "Rue Jourdan 10, 1060 Saint-Gilles, Brussels",
+    "postcode": "1060",
+    "phone": "+32 2 675 95 41",
+    "displayPhone": "+32 2 675 95 41",
+    "hours": "10:30 AM – 10:30 PM (Mon – Sun)",
+    "features": [
+      "Dine-In",
+      "Takeaway",
+      "Pure Veg & Vegan",
+      "Catering Services"
+    ],
+    "image": "/images/migrated/WhatsApp-Image-2026-03-02-at-22.35.41.jpeg",
+    "orderUrl": "https://onlineordering.skaryabhavan.com/popmenu-order",
+    "slug": "belgium",
+    "mapQuery": "Rue+Jourdan+10,+1060+Saint-Gilles,+Belgium"
+  },
+  {
+    "id": "barkingside",
+    "name": "Barkingside",
+    "area": "High Street",
+    "address": "43 High St, Ilford",
+    "postcode": "IG6 2AD",
+    "phone": "+44 20 8355 3555",
+    "displayPhone": "020 8355 3555",
+    "hours": "09:30 AM – 10:00 PM (Mon – Sun)",
+    "features": [
+      "Dine-In",
+      "Takeaway",
+      "Pure Veg & Vegan",
+      "Family Friendly"
+    ],
+    "image": "/images/migrated/sl2.jpg",
+    "orderUrl": "https://onlineordering.skaryabhavan.com/popmenu-order",
+    "slug": "barkingside",
+    "mapQuery": "43+High+St,+Ilford+IG6+2AD"
+  },
+  {
+    "id": "eastham",
+    "name": "East Ham",
+    "area": "High Street North",
+    "address": "278A High St N, London",
+    "postcode": "E12 6SA",
+    "phone": "+44 20 8355 3555",
+    "displayPhone": "020 8355 3555",
+    "hours": "09:30 AM – 10:00 PM (Mon – Sun)",
+    "features": [
+      "Dine-In",
+      "Takeaway",
+      "Pure Veg & Vegan",
+      "Live Dosa Catering"
+    ],
+    "image": "/images/migrated/sl3.jpg",
+    "orderUrl": "https://onlineordering.skaryabhavan.com/popmenu-order",
+    "slug": "eastham",
+    "mapQuery": "278A+High+St+N,+London+E12+6SA"
+  },
+  {
+    "id": "ilford",
+    "name": "Ilford",
+    "area": "High Street, Barkingside",
+    "address": "43 High St, Barkingside, Ilford",
+    "postcode": "IG6 2AD",
+    "phone": "+44 20 8355 3555",
+    "displayPhone": "020 8355 3555",
+    "hours": "09:30 AM – 10:00 PM (Mon – Sun)",
+    "features": [
+      "Dine-In",
+      "Takeaway",
+      "Pure Veg & Vegan",
+      "Event Catering"
+    ],
+    "image": "/images/migrated/sl1.jpg",
+    "orderUrl": "https://onlineordering.skaryabhavan.com/popmenu-order",
+    "slug": "ilford",
+    "mapQuery": "43+High+St,+Barkingside,+Ilford+IG6+2AD"
   }
 ]

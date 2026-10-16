@@ -122,8 +122,8 @@
     }
   ],
   "about": {
-    "badge": "Our Culinary Heritage ",
-    "title": "ABOUT SAMKO ARYA BHAVAN   ",
+    "badge": "Our Culinary Heritage",
+    "title": "ABOUT SAMKO ARYA BHAVAN",
     "image": "/images/migrated/menu-north-thali-e1772186014264.jpg",
     "narrative": [
       "Welcome to Arya Bhavan, London’s favourite Indian vegetarian restaurant, proudly serving authentic Indian vegetarian cuisine across Central London, Wembley, Tooting. As a South Indian restaurant vegetarian lovers adore, we offer everything from traditional South Indian vegetarian dishes, South and North Indian thali’s, crispy dosa near me, and South Indian breakfast near me options.",
@@ -139,7 +139,7 @@
     "featureCards": [
       {
         "title": "Pure Vegetarian",
-        "desc": "100% pure — completely vegetarian kitchen",
+        "desc": "100% pure - completely vegetarian kitchen",
         "icon": "/images/migrated/Screenshot-2026-02-25-104933.png"
       },
       {
@@ -161,7 +161,7 @@
   },
   "catering": {
     "badge": "Event & Wedding Services",
-    "title": "Award-Winning Live Dosa & Outdoor Catering",
+    "title": "Catering Services",
     "subtitle": "Bring our authentic live dosa station and lavish buffet spreads directly to your home, wedding, corporate event, or milestone celebration anywhere across London and the UK.",
     "liveDosa": {
       "title": "Live Dosa Station at Your Venue",
@@ -202,43 +202,63 @@
         "name": "£15.99 Packages",
         "pax": "(Minimum 25Pax)",
         "items": [
-          "2 Starters",
-          "1 Veg Mains",
+          "2 Staters",
+          "1 VegMains",
           "1 Dhal",
-          "1 Paneer Mains",
-          "1 Rice Or Noodles",
+          "1 PaneerMains",
+          "1 RiceOrNoodles",
           "1 Dessert",
           "1 Bread"
         ],
         "note": "(Accompaniments like Papad, Pickle, Salad & Raitha will be Complimentary.)"
       },
       {
-        "name": "Option 1 (£17.99)",
-        "pax": "(Minimum 30Pax)",
+        "name": "£19.99 Package",
+        "pax": "(Minimum 25Pax)",
         "items": [
-          "3 Starters (2 Dry, 1 Gravy)",
-          "2 Veg Mains",
-          "1 Dal Tadka",
-          "1 Paneer Special Gravy",
-          "1 Dum Biryani",
-          "2 Desserts (Gulab Jamun & Ice Cream)",
-          "Assorted Breads"
+          "3 Staters",
+          "2 VegMains",
+          "1 Dhal",
+          "1 PaneerMains",
+          "1 RiceOrNoodles",
+          "1 Dessert",
+          "1 Bread"
         ],
-        "note": "Includes disposable plates, napkins, and cutlery."
+        "note": "(Accompaniments like Papad, Pickle, Salad & Raitha will be Complimentary.)"
       },
       {
-        "name": "Option 2 (£19.99)",
-        "pax": "(Minimum 35Pax)",
+        "name": "£23.99 Package",
+        "pax": "(Minimum 25Pax)",
         "items": [
-          "4 Starters (Including Gobi 65 & Paneer Tikka)",
-          "3 Curry Mains",
-          "1 Dal Makhani",
-          "1 South Indian Sambar & Rasam",
-          "Jeera Rice & Pulao",
-          "2 Traditional Desserts",
-          "Naan & Roti"
+          "3 Staters (live stater Opt)",
+          "2 VegMains",
+          "2 Paneer Mains",
+          "2 Rice Or Noodles",
+          "2 Dessert",
+          "Live Poori"
         ],
-        "note": "Complete setup and hot bain-marie service included."
+        "note": "(Accompaniments like Papad, Pickle, Salad & Raitha will be Complimentary.)"
+      },
+      {
+        "name": "£11.00 Package",
+        "pax": "(South Indian thalli)",
+        "items": [
+          "Chappathi / Poori / Vada",
+          "Ghee Dhal",
+          "Ponni Rice",
+          "Sambar",
+          "Chef Special Kara Kozhambu",
+          "Kootu",
+          "Poriyal",
+          "Curd",
+          "Raitha",
+          "Payasam",
+          "Banana",
+          "Butter Chilli",
+          "Applam",
+          "Pickle"
+        ],
+        "note": ""
       }
     ],
     "accompanimentsNote": "All outdoor catering packages include complimentary Papad, Pickle, Mint Chutney, Salad & Raitha.",
@@ -407,48 +427,63 @@
       "Tea / Coffee"
     ],
     "addons": [
-      {
-        "item": "Poori Bhaji Live",
-        "price": "£3.00"
-      },
-      {
-        "item": "Chole Batura Live",
-        "price": "£3.00"
-      },
-      {
-        "item": "Chilli Paneer",
-        "price": "£2.00"
-      },
-      {
-        "item": "Pani Puri Station",
-        "price": "£2.00"
-      },
-      {
-        "item": "Dahi Puri",
-        "price": "£2.00"
-      },
-      {
-        "item": "Gulab Jamun (1 pc)",
-        "price": "£1.00"
-      },
-      {
-        "item": "Rasmalai per pc",
-        "price": "£2.00"
-      },
-      {
-        "item": "Fresh Paan per pc",
-        "price": "£1.00"
-      },
-      {
-        "item": "Pineapple Kesari per person",
-        "price": "£1.00"
-      }
+      "Poori Bhaji Live £3.00",
+      "Chole Batura Live £3.00",
+      "Chilli Panneer £2.00",
+      "Pani Puri £2.00",
+      "Dahi Puri £2.00",
+      "Gulab Jamun £1.00 (1 pc)",
+      "Rasmalai £2.00 per pcs",
+      "Paan £1.00 per pcs",
+      "Pineapple Kesari £1.00 per person"
     ],
     "inclusions": [
       "Master Dosa Chef on-site for 3–4 hours",
       "Commercial heavy-duty griddles, LPG cookers & equipment",
       "Unlimited piping hot Sambar & 3 varieties of fresh Chutneys",
       "High quality eco-friendly biodegradable disposables provided"
+    ],
+    "faqs": [
+      {
+        "q": "Do you bring all the cooking equipment for live dosa catering?",
+        "a": "We bring all the required equipment including cooker, gas, and other essentials."
+      },
+      {
+        "q": "Do you provide plates, spoons, and napkins?",
+        "a": "Yes, we provide biodegradable disposable plates, spoons, forks, and napkins unless you specify otherwise."
+      },
+      {
+        "q": "How are the charges calculated for dosa catering?",
+        "a": "We will go ahead with the plate count, not the head count. Please note only plate for one person."
+      },
+      {
+        "q": "Is there a transportation fee for catering services?",
+        "a": "Yes, transportation is charged at £2 per mile to and from the destination."
+      },
+      {
+        "q": "How long do you serve food at an event?",
+        "a": "We serve food for 2 hours at your premises, with an additional 30 minutes required for setup. Extra time beyond this will be charged at £60 per hour."
+      },
+      {
+        "q": "What do customers need to provide for the setup?",
+        "a": "Not required we will bring our own tables."
+      },
+      {
+        "q": "What is the payment policy for booking live dosa catering?",
+        "a": "30% token of advance to confirm the event, balance can be paid end of the day."
+      },
+      {
+        "q": "Can I customize the menu with additional items?",
+        "a": "Yes, you can add with extra cost."
+      },
+      {
+        "q": "Do you provide tents or gazebos for outdoor catering?",
+        "a": "No, we do not provide tents or gazebos."
+      },
+      {
+        "q": "Do your dishes contain allergens such as nuts or sesame?",
+        "a": "At Arya Bhavan Restaurant, our food is prepared in a kitchen where nuts, sesame, and other allergenic ingredients are used, and despite our care, we cannot guarantee that any dish is completely free from allergen traces. Therefore, our menu may not be suitable for individuals with severe food allergies."
+      }
     ]
   },
   "gallery": [
@@ -503,23 +538,23 @@
   ],
   "whyChooseUs": [
     {
-      "title": "100% Pure Vegetarian ",
-      "desc": "Completely vegetarian kitchens with strict adherence to pure vegetarian, vegan, and Jain dietary principles.",
+      "title": "Best Quality",
+      "desc": "Arya Bhavan, London’s favourite Indian vegetarian restaurant, proudly serving authentic Indian vegetarian cuisine across London, Wembley, Tooting",
       "icon": "why_icon_0.svg"
     },
     {
-      "title": "Heritage Stone Ground",
-      "desc": "Our batters and signature masalas are stone ground to preserve centuries-old texture and authentic aroma.",
+      "title": "Fast Service",
+      "desc": "Arya Bhavan offers fast service without compromising on the quality of its authentic South Indian cuisine.",
       "icon": "why_icon_1.svg"
     },
     {
-      "title": "3 Iconic UK Locations",
-      "desc": "Conveniently located in Central London (Leicester Square), Wembley Central (Ealing Rd), and Tooting.",
+      "title": "Vegan Options",
+      "desc": "Arya Bhavan offers a variety of vegan options, including dishes like onion masala dosa and cauliflower wings, clearly indicated on their menu.",
       "icon": "why_icon_2.svg"
     },
     {
-      "title": "Live Chef Dosa Stations",
-      "desc": "Specialized mobile stations serving theatrical, freshly spun dosas directly at your private gatherings.",
+      "title": "Arya Bhavan Special",
+      "desc": "Arya Bhavan specials include Chef’s special dosa, South Indian thali, and paneer butter cheese masala dosa, offering authentic South Indian flavours.",
       "icon": "catering_icon_0.svg"
     }
   ],

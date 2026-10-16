@@ -1,0 +1,1000 @@
+{
+  "seo": {
+    "title": "Top-rated Authentic South Indian Veg Restaurant Central London",
+    "description": "Authentic South Indian vegetarian restaurant in Central London – Leicester Square. Enjoy crispy dosa, South Indian breakfast, veg thali, vegan & Jain options at Arya Bhavan."
+  },
+  "hero": {
+    "bgImage": "/images/migrated/sl1.jpg",
+    "title": "AUTHENTIC INDIAN VEGETARIAN RESTAURANT CENTRAL LANDON",
+    "subtitle": "Top Rated Family Friendly Indian Vegetarian Restaurant",
+    "orderBtnText": "Online Order",
+    "orderBtnLink": "#delivery"
+  },
+  "intro": {
+    "image": "/images/migrated/NKAryaBhavan-Central-London-2.jpeg",
+    "heading": "AUTHENTIC SOUTH INDIAN VEGETARIAN SPECIALITIES IN CENTRAL LONDON",
+    "paragraph": "In Central London Leicester Square, Arya Bhavan has earned its place as a leading Indian vegetarian restaurant in Central London, attracting diners who appreciate the depth and authenticity of real Indian vegetarian cuisine. Guests exploring the city often search for crispy dosa near me, hearty South Indian breakfast near me, or comforting South and North Indian thali’s—all of which feature prominently on our menu. Known widely as a South Indian restaurant vegetarian food lovers rely on, we remain committed to serving only 100% vegetarian dishes. Our kitchen also offers thoughtful vegan restaurant options and carefully prepared Jain and vegan food restaurant selections for those with specific dietary needs. Families and travellers alike praise Arya Bhavan as a welcoming family-friendly Indian vegetarian restaurant Central London, frequently placing us among the top-rated Indian veg restaurants near me and calling us their best dosa restaurant in Central London. For events, our team also provides exceptional 100% pure vegetarian catering services, from live dosa catering to full-service outdoor catering, corporate catering ensuring authentic flavours at every gathering.",
+    "features": [
+      {
+        "id": "recipes",
+        "title": "Traditional recipes",
+        "icon": "utensils"
+      },
+      {
+        "id": "fresh",
+        "title": "Freshly prepared daily",
+        "icon": "leaf"
+      },
+      {
+        "id": "family",
+        "title": "Family friendly dining",
+        "icon": "check"
+      },
+      {
+        "id": "vegan",
+        "title": "Vegan & Jain friendly",
+        "icon": "heart"
+      }
+    ]
+  },
+  "menu": {
+    "title": "OUR MENU",
+    "dietaryTags": [
+      {
+        "code": "G",
+        "label": "GLUTEN FREE",
+        "color": "blue",
+        "borderColor": "#2563eb",
+        "textColor": "#2563eb"
+      },
+      {
+        "code": "J",
+        "label": "JAIN",
+        "color": "amber",
+        "borderColor": "#f59e0b",
+        "textColor": "#f59e0b"
+      },
+      {
+        "code": "V",
+        "label": "VEGAN",
+        "color": "emerald",
+        "borderColor": "#10b981",
+        "textColor": "#10b981"
+      },
+      {
+        "code": "N",
+        "label": "CONTAIN NUTS",
+        "color": "rose",
+        "borderColor": "#ef4444",
+        "textColor": "#ef4444"
+      },
+      {
+        "code": "?",
+        "label": "Ask for VEGAN",
+        "color": "gray",
+        "borderColor": "#64748b",
+        "textColor": "#64748b"
+      }
+    ],
+    "categories": [
+      {
+        "category": "South Indian Staters",
+        "itemsCount": 14,
+        "items": [
+          {
+            "title": "Medhu Vadai (V G)",
+            "desc": "Lentil donuts served with sambar & chutney",
+            "img": "/images/migrated/MEDU-VADAI-V-G.png"
+          },
+          {
+            "title": "Sambar Vadai (V G)",
+            "desc": "Lentil donuts immersed in sambar",
+            "img": "/images/migrated/SAMBAR-VADAI-V-G.png"
+          },
+          {
+            "title": "Curd Vadai (G J N)",
+            "desc": "Lentil donuts immersed in curd",
+            "img": "/images/migrated/CURD-VADAI-G.png"
+          },
+          {
+            "title": "Rasa Vadai (V G J)",
+            "desc": "Lentil donuts immersed in rasam",
+            "img": "/images/migrated/RASA-VADAI-V-G.png"
+          },
+          {
+            "title": "Idly (V G J)",
+            "desc": "Rice cakes served with sambar & chutney",
+            "img": "/images/migrated/IDLY-V-G.png"
+          },
+          {
+            "title": "ARYA BHAVAN SPECIAL PODI IDLY(V G)",
+            "desc": "Special gunpowder rice cakes sautéed in masala",
+            "img": "/images/migrated/PAYA-IDLY-V-G.png"
+          },
+          {
+            "title": "Idly Vadai Sambar (V G)",
+            "desc": "Rice cakes & lentil donuts served with sambar & chutney",
+            "img": "/images/migrated/IDLY-VADAI-SAMBAR-V-G.png"
+          },
+          {
+            "title": "Idly Vadai Sambar Dipped (V G)",
+            "desc": "Rice cakes & lentil donuts immersed in sambar & chutney",
+            "img": "/images/migrated/IDLY-VADAI-SAMBAR-DIPPED-V-G.png"
+          },
+          {
+            "title": "Ghee Mini Idly Sambar Dipped (14 pcs) ( G J)",
+            "desc": "Mini rice cakes served with Sambar & chutney with ghee",
+            "img": "/images/migrated/Ghee-Mini-Idly-Sambar-Dippe.jpeg"
+          },
+          {
+            "title": "Paya Idly (From 4PM) (V G)",
+            "desc": "Rice cakes immersed in coconut stew",
+            "img": "/images/migrated/PAYA-IDLY-V-G.png"
+          },
+          {
+            "title": "Ghee Pongal (Sat & Sun) (N G)",
+            "desc": "Buttery rice served with sambar & chutney",
+            "img": "/images/migrated/GHEE-PONGAL-G-N.png"
+          },
+          {
+            "title": "Rava Kichadi/Rava Upma (N G)",
+            "desc": "One pot meal made with semolina and lots of veggies",
+            "img": "/images/migrated/RAVA-KICHADI-G-N.png"
+          },
+          {
+            "title": "Aloo Bonda (From 4PM) (V)",
+            "desc": "Bondas that are stuffed with potatoes",
+            "img": "/images/migrated/Aloo-Bonda-From-4PM.png"
+          },
+          {
+            "title": "Veg Samosa (V)",
+            "desc": "South Asian pastry filled with savory vegetables.",
+            "img": "/images/migrated/VEG-SAMOSA-V.png"
+          }
+        ]
+      },
+      {
+        "category": "North Indian Staters",
+        "itemsCount": 7,
+        "items": [
+          {
+            "title": "Masala Pappad (V)",
+            "desc": "Crispy fried papad topped with spiced fresh condiments.",
+            "img": "/images/migrated/Masala-Pappad.png"
+          },
+          {
+            "title": "Paneer Tikka",
+            "desc": "Grilled spicy Indian cottage cheese marinated with masala.",
+            "img": "/images/migrated/Paneer-Tikka.png"
+          },
+          {
+            "title": "Pani Puri (V)",
+            "desc": "Hollow puris served with tamarind water, potato and chickpeas.",
+            "img": "/images/migrated/Pani-Puri.png"
+          },
+          {
+            "title": "Sev Puri",
+            "desc": "Hollow puris served with sev, Potato & chickpeas",
+            "img": "/images/migrated/Sev-Puri.png"
+          },
+          {
+            "title": "Dahi Puri",
+            "desc": "Hollow puris served with curd, Potato & chickpeas",
+            "img": "/images/migrated/Dahi-Puri.png"
+          },
+          {
+            "title": "Samosa Chaat",
+            "desc": "Served with tangy tamarind chutney, Yogurt, chickpeas & sev",
+            "img": "/images/migrated/Samosa-Chaat.png"
+          },
+          {
+            "title": "Papdi Chaat",
+            "desc": "Deep fried crackers served with tangi Tamarind Chutney, yogurt, chickpeas & sev",
+            "img": "/images/migrated/Papdi-Chaat.png"
+          }
+        ]
+      },
+      {
+        "category": "Indo–Chines Staters",
+        "itemsCount": 16,
+        "items": [
+          {
+            "title": "Gobi 65 (V J)",
+            "desc": "Cauliflower florets deep-fried in 65 different spices",
+            "img": "/images/migrated/GOBI-65-V.png"
+          },
+          {
+            "title": "Mushroom 65 (V )",
+            "desc": "Chestnut mushrooms deep-fried in 65 different spices",
+            "img": "/images/migrated/MUSHROOM-65-V.png"
+          },
+          {
+            "title": "Paneer 65 (J)",
+            "desc": "Indian cheese deep-fried in 65 different spices",
+            "img": "/images/migrated/PANEER-65.png"
+          },
+          {
+            "title": "Bhindi Fry (V )",
+            "desc": "Deep fried okra In Indian spices",
+            "img": "/images/migrated/PANEER-65.png"
+          },
+          {
+            "title": "Crispy Lollipop (V)",
+            "desc": "Crunchy vegetaMasala lollipops made out of sweetcorn and vegetables ble lollipops with sauce.",
+            "img": "/images/migrated/Crispy-Lollipop.png"
+          },
+          {
+            "title": "MUSHROOM PEPPER FRY 8.5 dry/gravy(V)",
+            "desc": "Chestnut mushrooms cooked in spicy black pepper",
+            "img": "/images/migrated/Crispy-Lollipop.png"
+          },
+          {
+            "title": "Chilli Paneer (J)",
+            "desc": "Crispy paneer in soya & chilli sauce",
+            "img": "/images/migrated/CHILLI-PANEER.png"
+          },
+          {
+            "title": "Chilli Gobi (V J)",
+            "desc": "Crispy cauliflower in soya & chilli sauce",
+            "img": "/images/migrated/CHILLI-GOBI-V.png"
+          },
+          {
+            "title": "Chilli Mushroom (V )",
+            "desc": "Crispy mushroom in soya & chilli sauce",
+            "img": "/images/migrated/CHILLI-MUSHROOM-V.png"
+          },
+          {
+            "title": "Schezwan Paneer",
+            "desc": "Crispy paneer in spicy schezwan sauce",
+            "img": "/images/migrated/SCHEZWAN-PANEER.png"
+          },
+          {
+            "title": "Veg Spring Roll (V)",
+            "desc": "Vegetables deep-fried in a rolled pastry",
+            "img": "/images/migrated/VEG-SPRING-ROLL-V.png"
+          },
+          {
+            "title": "Gobi Manchurian Dry / Gravy (V)",
+            "desc": "Crispy cauliflower in tangy and spicy sauce",
+            "img": "/images/migrated/VEG-SPRING-ROLL-V.png"
+          },
+          {
+            "title": "Mushroom Manchurian Dry / Gravy(V )",
+            "desc": "Chestnut mushroom in tangy and spicy sauce",
+            "img": "/images/migrated/CHILLI-MUSHROOM-V.png"
+          },
+          {
+            "title": "Paneer Manchurian Dry / Gravy(V )",
+            "desc": "Fried Indian Cheese in tangy and spicy sauce",
+            "img": "/images/migrated/CHILLI-MUSHROOM-V.png"
+          },
+          {
+            "title": "Vegetables Manchurian Dry / Gravy(V )",
+            "desc": "Vegetables in tangy and spicy sauce",
+            "img": "/images/migrated/CHILLI-MUSHROOM-V.png"
+          },
+          {
+            "title": "Special Momo(V )",
+            "desc": "Momos are dumplings made with flour and a savory stuffing",
+            "img": "/images/migrated/CHILLI-MUSHROOM-V.png"
+          }
+        ]
+      },
+      {
+        "category": "Meals",
+        "itemsCount": 7,
+        "items": [
+          {
+            "title": "South Indian Thali (Unlimited Rice and Curry) (N)",
+            "desc": "Rice, sambar, rasam, kootu, poriyal, vathakuzhambu, dhal, pickle, sweet, raita, yogurt, banana, papad, butter chilli and chapathi/poori (1 pc).",
+            "img": "/images/migrated/SOUTH-INDIAN-THALI-N.png"
+          },
+          {
+            "title": "Mini Thali (Limited) (N)",
+            "desc": "Sambar rice, curd rice, poriyal, rice of the day, sweet, papad and pickle.",
+            "img": "/images/migrated/MINI-THALI-N.png"
+          },
+          {
+            "title": "North Indian Thali (Limited) (N)",
+            "desc": "Paneer makhani, aloo palak, gobi mutter, biryani, dhal, pickle, salad, sweet, papad and chapathi/poori.",
+            "img": "/images/migrated/NORTH-INDIAN-THALI-N.png"
+          },
+          {
+            "title": "Sambar Rice",
+            "desc": "Lentil rice mixed with vegetables and served with papad.",
+            "img": "/images/migrated/SAMBAR-RICE.png"
+          },
+          {
+            "title": "Curd Rice (N)",
+            "desc": "Yogurt rice mixed with cashews and served with pickle.",
+            "img": "/images/migrated/CURD-RICE-N.png"
+          },
+          {
+            "title": "Rice of the Day (N)",
+            "desc": "Chef’s special flavored rice prepared fresh daily.",
+            "img": "/images/migrated/RICE-OF-THE-DAY-N.png"
+          },
+          {
+            "title": "Steamed Rice",
+            "desc": "Plain steamed basmati rice.",
+            "img": "/images/migrated/STEAMED-RICE-V-G.png"
+          }
+        ]
+      },
+      {
+        "category": "Roti / Parotta",
+        "itemsCount": 8,
+        "items": [
+          {
+            "title": "Chappathi (2 Nos) (N)",
+            "desc": "Served with 2 different kormas",
+            "img": "/images/migrated/CHAPPATHI-2-NOS-N.png"
+          },
+          {
+            "title": "Parotta (2 Nos) ( N)",
+            "desc": "Served with 2 different kormas",
+            "img": "/images/migrated/PAROTTA-2-NOS-N.png"
+          },
+          {
+            "title": "Veechu Parotta ( N)",
+            "desc": "Single layered flatbread served with 2 different kormas",
+            "img": "/images/migrated/VEECHU-PAROTTA-N.png"
+          },
+          {
+            "title": "Poori Masala (V N)",
+            "desc": "Served with potato masala & Coconut chutney",
+            "img": "/images/migrated/POORI-MASALA-V-N.png"
+          },
+          {
+            "title": "Channa Bhatura (V N)",
+            "desc": "https://brainyogaacademy.com/",
+            "img": "/images/migrated/Channa-Bhatura.png"
+          },
+          {
+            "title": "Virudhunagar Parotta with Paaya (From 4PM) (V)",
+            "desc": "Layered parotta served with coconut stew style gravy.",
+            "img": "/images/migrated/Virudhunagar-Parotta-with-Paaya-From-4PM.png"
+          },
+          {
+            "title": "Kothu Parotta (V N)",
+            "desc": "Served with potato masala & Coconut chutney",
+            "img": "/images/migrated/KOTHU-PAROTTA-N.png"
+          },
+          {
+            "title": "Paneer Kothu Parotta ( N)",
+            "desc": "Flaky shredded flatbreads are Cooked in a spicy curry masala",
+            "img": "/images/migrated/PANEER-KOTHU-PAROTTA-V.png"
+          }
+        ]
+      },
+      {
+        "category": "Chef Special Dosa",
+        "itemsCount": 4,
+        "items": [
+          {
+            "title": "Paneer Butter Cheese Dosa ( N)",
+            "desc": "Dosa stuffed with paneer butter masala and melted cheese.",
+            "img": "/images/migrated/PANEER-BUTTER-CHEESE-N.png"
+          },
+          {
+            "title": "Schezwan Spicy Mushroom Cheese Dosa ( N)",
+            "desc": "Spicy Schezwan mushrooms with cheesy filling.",
+            "img": "/images/migrated/SCHEZWAN-SPICY-MUSHROOM-CHEESE-N.png"
+          },
+          {
+            "title": "Schezwan Spicy Cheese Dosa ( N)",
+            "desc": "Cheese dosa with bold Schezwan spice flavor.",
+            "img": "/images/migrated/Schezwan-Spicy-Cheese-Dosa-1.png"
+          },
+          {
+            "title": "Palak Paneer Cheese Dosa ( N)",
+            "desc": "Paneer and spinach cooked with creamy cheese.",
+            "img": "/images/migrated/PALAK-PANEER-CHEESE-N.png"
+          }
+        ]
+      },
+      {
+        "category": "Dosa",
+        "itemsCount": 18,
+        "items": [
+          {
+            "title": "Plain Dosa (V J)",
+            "desc": "South Indian Savoury crepe",
+            "img": "/images/migrated/PLAIN-DOSA-V.png"
+          },
+          {
+            "title": "Masala Dosa (V)",
+            "desc": "savoury potato stuffing",
+            "img": "/images/migrated/MASALA-DOSA-V.png"
+          },
+          {
+            "title": "Kara Dosa (V)",
+            "desc": "Spicy Potato Masala Spread",
+            "img": "/images/migrated/KARA-DOSA-V.png"
+          },
+          {
+            "title": "Ghee Dosa",
+            "desc": "Clarified Butter Spread",
+            "img": "/images/migrated/GHEE-MASALA-DOSA.png"
+          },
+          {
+            "title": "Onion Dosa (V)",
+            "desc": "Onion Topping",
+            "img": "/images/migrated/Onion-Dosa.png"
+          },
+          {
+            "title": "AB / Spl Masala Dosa (N)",
+            "desc": "clarified butter spread with chilli potato stuffing",
+            "img": "/images/migrated/AB-SPECIAL-MASALA-DOSA-N.png"
+          },
+          {
+            "title": "Podi Dosa (V J)",
+            "desc": "dry chilli spreads",
+            "img": "/images/migrated/PODI-DOSA-V.png"
+          },
+          {
+            "title": "Podi Masala Dosa (V)",
+            "desc": "dry chilli spreads with potato stuffing",
+            "img": "/images/migrated/Podi-Masala-Dosa.png"
+          },
+          {
+            "title": "Podi Onion Dosa (V)",
+            "desc": "Podi and onion dry chilli spreads with onion stuffing .",
+            "img": "/images/migrated/PODI-ONION-DOSA-V.png"
+          },
+          {
+            "title": "Paper Roast (J)",
+            "desc": "large & crispy",
+            "img": "/images/migrated/PAPER-ROAST-V.png"
+          },
+          {
+            "title": "Paper Masala Dosa (V)",
+            "desc": "large & crispy with savoury potato stuffing",
+            "img": "/images/migrated/PAPER-MASALA-V.png"
+          },
+          {
+            "title": "Set Dosa with Vada Curry (V J N)",
+            "desc": "pair of soft thick dosa served with vada curry",
+            "img": "/images/migrated/SET-DOSA-WITH-VADA-CURRY-V-N.png"
+          },
+          {
+            "title": "Chettinad Masala Dosa (Veg–Mushroom–Paneer–Cheese) (N)",
+            "desc": "Traditional stuffed dosa with rich Chettinad flavors.",
+            "img": "/images/migrated/Chettinad-Masala-Dosa.png"
+          },
+          {
+            "title": "Ghee Masala Dosa",
+            "desc": "clarified butter spread with savoury potato stuffing",
+            "img": "/images/migrated/GHEE-MASALA-DOSA-1.png"
+          },
+          {
+            "title": "Mysore Dosa (V)",
+            "desc": "spicy red chutney spread",
+            "img": "/images/migrated/MYSORE-DOSA-V.png"
+          },
+          {
+            "title": "Mysore Masala Dosa (V)",
+            "desc": "spicy red chutney spread with savoury potato stuffing",
+            "img": "/images/migrated/MASALA-DOSA-V-1.png"
+          },
+          {
+            "title": "Chocolate Dosa (N)",
+            "desc": "Melted nutella Stuffing",
+            "img": "/images/migrated/CHOCOLATE-DOSA-N.png"
+          },
+          {
+            "title": "Chettinad Masala Dosa (Veg–Mushroom–Paneer–Cheese) (N)",
+            "desc": "Savoury crepe traditional stuffing",
+            "img": "/images/migrated/Chettinad-Masala-Dosa.png"
+          }
+        ]
+      },
+      {
+        "category": "Millet Dosas",
+        "itemsCount": 2,
+        "items": [
+          {
+            "title": "Ragi Dosa / Finger Millet (? J G)",
+            "desc": "south indian crepe made wth finger millet",
+            "img": "/images/migrated/ONION-CHILLI-UTHAPPAM-V-1.png"
+          },
+          {
+            "title": "Kambu Dosa / Pearl Millet (? J G)",
+            "desc": "south indian crepe made wth pearl millet",
+            "img": "/images/migrated/KAMBU-DOSA-V-G.png"
+          }
+        ]
+      },
+      {
+        "category": "Rava Dosa",
+        "itemsCount": 5,
+        "items": [
+          {
+            "title": "Rava Dosa (V J N)",
+            "desc": "Crispy semolina crepe.",
+            "img": "/images/migrated/Rava-Dosa.png"
+          },
+          {
+            "title": "Rava Masala (V N)",
+            "desc": "Savoury potato stuffing",
+            "img": "/images/migrated/RAVA-MASALA-DOSA-V-N-1.png"
+          },
+          {
+            "title": "Onion Rava Dosa (V N)",
+            "desc": "Savoury potato stuffing",
+            "img": "/images/migrated/ONION-RAVA-MASALA-V-N-1.png"
+          },
+          {
+            "title": "Onion Rava Masala Dosa (V N)",
+            "desc": "Onion topping with savoury potato stuffing",
+            "img": "/images/migrated/Onion-Rava-Masala-Dosa.png"
+          },
+          {
+            "title": "Ghee Rava Masala Dosa (N)",
+            "desc": "Clarified butter crispy semolina crepe",
+            "img": "/images/migrated/Ghee-Rava-Masala-Dosa.png"
+          }
+        ]
+      },
+      {
+        "category": "Uthappam",
+        "itemsCount": 8,
+        "items": [
+          {
+            "title": "Onion Uthappam (V)",
+            "desc": "Onion crispy thick pancake dosa",
+            "img": "/images/migrated/ONION-UTHAPPAM-V.png"
+          },
+          {
+            "title": "6 Suvai Uthappam (V)",
+            "desc": "Special uthappam served with six different flavors (tomato, onion, coconut, veg, peas, chocolate).",
+            "img": "/images/migrated/6-Suvai-Uthappam.png"
+          },
+          {
+            "title": "Ghee Podi Onion Uthappam",
+            "desc": "Clarified butter with onion & dry chilli Spread crispy thick pancake dosa",
+            "img": "/images/migrated/Ghee-Podi-Onion-Uthappam.png"
+          },
+          {
+            "title": "Onion Chilli Uthappam (V)",
+            "desc": "Crispy & thick pancake dosa with onion & chilli topping",
+            "img": "/images/migrated/ONION-CHILLI-UTHAPPAM-V-1.png"
+          },
+          {
+            "title": "Tomato Onion Uthappam (V)",
+            "desc": "Crispy thick pancake dosa with tomato and onion topping.",
+            "img": "/images/migrated/TOMATO-ONION-UTHAPPAM-V-1.png"
+          },
+          {
+            "title": "Onion Chilli Tomato Uthappam (V)",
+            "desc": "Pancake dosa topped with onion, chilli and tomato.",
+            "img": "/images/migrated/ONION-CHILLI-TOMATO-UTHAPPAM-V.png"
+          },
+          {
+            "title": "Veg Uthappam (V J)",
+            "desc": "Crispy thick pancake dosa with peas toppings.",
+            "img": "/images/migrated/Peas-Onion-Uthappam.png"
+          },
+          {
+            "title": "6 Suvai Uthappam (V)",
+            "desc": "Special uthappam served with six different flavors (tomato, onion, coconut, veg, peas, chocolate).",
+            "img": "/images/migrated/6-Suvai-Uthappam.png"
+          }
+        ]
+      },
+      {
+        "category": "Curries",
+        "itemsCount": 16,
+        "items": [
+          {
+            "title": "Dhal Butter Fry (G)",
+            "desc": "Lentils (toor dal) curry.",
+            "img": "/images/migrated/DHAL-BUTTER-FRY-G.png"
+          },
+          {
+            "title": "Dhal Makhani (G)",
+            "desc": "Black lentils curry",
+            "img": "/images/migrated/DHAL-MAKHANI-G.png"
+          },
+          {
+            "title": "Aloo Palak (G N)",
+            "desc": "Potatoes and spinach curry",
+            "img": "/images/migrated/ALOO-GOBI-G-N.png"
+          },
+          {
+            "title": "Vegetable Jalfrezi (G N)",
+            "desc": "Vegetables cooked in a tangy tomato curry",
+            "img": "/images/migrated/VEGETABLE-JALFREZI-G-N.png"
+          },
+          {
+            "title": "Vegetable Kolhapuri (G N)",
+            "desc": "Vegetables & paneer ina tomato curry",
+            "img": "/images/migrated/Vegetable-Kolhapuri.png"
+          },
+          {
+            "title": "Bhindi Do Pyaza (G N)",
+            "desc": "Okra curry",
+            "img": "/images/migrated/BHINDI-DO-PYAZA-G-N.png"
+          },
+          {
+            "title": "Palak Jalfrezi (G N J)",
+            "desc": "Paneer cubes cooked in spinach gravy.",
+            "img": "/images/migrated/PALAK-PANEER-G-N.png"
+          },
+          {
+            "title": "Gobi Mutter (G J N)",
+            "desc": "Cauliflower and peas curry.",
+            "img": "/images/migrated/Gobi-Mutter.png"
+          },
+          {
+            "title": "Chana Masala (G N J)",
+            "desc": "Chickpeas curry",
+            "img": "/images/migrated/Chana-Masala.png"
+          },
+          {
+            "title": "Aloo Gobi (G N)",
+            "desc": "Potato and cauliflower curry",
+            "img": "/images/migrated/ALOO-GOBI-G-N.png"
+          },
+          {
+            "title": "Vegetable Butter Masala (G N J)",
+            "desc": "Vegetables cooked in buttery tomato gravy.",
+            "img": "/images/migrated/VEGETABLE-BUTTER-MASALA-G-N.png"
+          },
+          {
+            "title": "Mutter Paneer (G N J)",
+            "desc": "G 8.9 Paneer cooked in a tango tomato gravy",
+            "img": "/images/migrated/MUTTER-PANEER-G-N.png"
+          },
+          {
+            "title": "Kadai Vegetable (N J)",
+            "desc": "GNI 8.5 Wok fried Paneer and vegetables gravy",
+            "img": "/images/migrated/Kadai-Vegetable.png"
+          },
+          {
+            "title": "Paneer Butter Masala (G N J)",
+            "desc": "Paneer in rich buttery tomato gravy.",
+            "img": "/images/migrated/PANEER-BUTTER-MASALA-G-N.png"
+          },
+          {
+            "title": "Palak Paneer (G N J)",
+            "desc": "Paneer cubes cooked in spinach gravy.",
+            "img": "/images/migrated/PALAK-PANEER-G-N.png"
+          },
+          {
+            "title": "Paneer Chettinadu Masala",
+            "desc": "South Indian special Paneer curry",
+            "img": "/images/migrated/Paneer-Chettinadu-Masala.png"
+          }
+        ]
+      },
+      {
+        "category": "Basmati",
+        "itemsCount": 7,
+        "items": [
+          {
+            "title": "Vegetable Pulao ( G)",
+            "desc": "Sauteed basmati rice with mixed vegetables",
+            "img": "/images/migrated/VEGETABLE-PULAO-G.png"
+          },
+          {
+            "title": "Fried Pani, Cashew Jeera Pulao (G N)",
+            "desc": "Jeera flavored rice tossed with roasted cashews and spices.",
+            "img": "/images/migrated/FRIED-ONION-CASHEW-JEERA-PULAO-G-N.png"
+          },
+          {
+            "title": "Mushroom Pulao ( G)",
+            "desc": "Rice tossed with sautéed mushrooms and herbs.",
+            "img": "/images/migrated/Mushroom-Biryani.png"
+          },
+          {
+            "title": "Veg Biryani (G)",
+            "desc": "Traditional vegetable dum biryani layered with spices.",
+            "img": "/images/migrated/Veg-Biryani.png"
+          },
+          {
+            "title": "Mushroom Biryani (G)",
+            "desc": "Spiced basmati layered with juicy mushrooms.",
+            "img": "/images/migrated/Mushroom-Biryani-1.png"
+          },
+          {
+            "title": "Paneer Biryani (G)",
+            "desc": "Aromatic biryani with soft paneer and masala.",
+            "img": "/images/migrated/Paneer-Biryani.png"
+          },
+          {
+            "title": "AB Special Dum Biryani (G)",
+            "desc": "Chef’s special mix of paneer, vegetables and mushrooms slow cooked.",
+            "img": "/images/migrated/AB-SPECIAL-DUM-BIRYANI-G-N.png"
+          }
+        ]
+      },
+      {
+        "category": "Bread",
+        "itemsCount": 10,
+        "items": [
+          {
+            "title": "Naan",
+            "desc": "Plain tandoor bread made with maida flour",
+            "img": "/images/migrated/NAAN.png"
+          },
+          {
+            "title": "Butter Naan",
+            "desc": "Butter tandoor bread made with maida flour",
+            "img": "/images/migrated/Butter-Naan.png"
+          },
+          {
+            "title": "Garlic Naan",
+            "desc": "Tandoor bread with garlic toppings",
+            "img": "/images/migrated/Garlic-Naan.png"
+          },
+          {
+            "title": "Chilli Naan",
+            "desc": "Tandoor bread with chilli toppings",
+            "img": "/images/migrated/Chilli-Naan.png"
+          },
+          {
+            "title": "Plain roti(V)",
+            "desc": "Plain tandoor bread made with wheat flour",
+            "img": "/images/migrated/Cheese-Chilli-Garlic-Naan.png"
+          },
+          {
+            "title": "Chilli Garlic Naan",
+            "desc": "Tandoor bread with chilligarlic toppings",
+            "img": "/images/migrated/Chilli-Garlic-Naan.png"
+          },
+          {
+            "title": "Butter Roti",
+            "desc": "Butter tandoor bread made with wheat flour",
+            "img": "/images/migrated/Butter-Roti.png"
+          },
+          {
+            "title": "Peshwari Naan ( N)",
+            "desc": "Sweet tandoor bread made with maida.",
+            "img": "/images/migrated/Peshwari-Naan.png"
+          },
+          {
+            "title": "Paneer Naan",
+            "desc": "Bread stuffed with paneer filling.",
+            "img": "/images/migrated/Paneer-Naan.png"
+          },
+          {
+            "title": "Tandoori Stuffed Paratha",
+            "desc": "Whole wheat paratha stuffed with spiced potatoes.",
+            "img": "/images/migrated/Tandoori-Stuffed-Paratha.png"
+          }
+        ]
+      },
+      {
+        "category": "Noodles & Rice",
+        "itemsCount": 11,
+        "items": [
+          {
+            "title": "Veg Noodles (V J)",
+            "desc": "Stir-fried noodles with fresh vegetables.",
+            "img": "/images/migrated/VEG-NOODLES-V.png"
+          },
+          {
+            "title": "Mushroom Noodles (V)",
+            "desc": "Noodles tossed with mushrooms.",
+            "img": "/images/migrated/MUSHROOM-NOODLES-V.png"
+          },
+          {
+            "title": "Paneer Noodles (J)",
+            "desc": "Noodles with paneer cubes and spices.",
+            "img": "/images/migrated/Paneer-Noodles.png"
+          },
+          {
+            "title": "Schezwan Noodles (V)",
+            "desc": "stir fried noodles with dried chilli and vegetables",
+            "img": "/images/migrated/Schezwan-Noodles.png"
+          },
+          {
+            "title": "Stir Fried Paneer Noodles",
+            "desc": "stir fried noodles with paneer",
+            "img": "/images/migrated/Stir-Fried-Paneer-Noodles.png"
+          },
+          {
+            "title": "Veg Hakka Noodles (V J)",
+            "desc": "red pepper stir fried noodles with vegetables",
+            "img": "/images/migrated/VEG-HAKKA-NOODLES-V.png"
+          },
+          {
+            "title": "Vegetable Fried Rice ( JV G)",
+            "desc": "stir fried rice with mixed vegetables",
+            "img": "/images/migrated/Vegetable-Fried-Rice-1.png"
+          },
+          {
+            "title": "Mushroom Fried Rice ( JV G)",
+            "desc": "stir fried rice with chestnut mushrooms",
+            "img": "/images/migrated/MUSHROOM-FRIED-RICE-V-G.png"
+          },
+          {
+            "title": "Paneer Fried Rice ( JG)",
+            "desc": "stir fried rice with indian cheese",
+            "img": "/images/migrated/PANEER-FRIED-RICE-V-G.png"
+          },
+          {
+            "title": "Schezwan Fried Rice ( V G)",
+            "desc": "stir fried rice with sour and spicy sauce",
+            "img": "/images/migrated/Schezwan-Fried-Rice.png"
+          },
+          {
+            "title": "Szechwan Paneer Fried Rice( G)",
+            "desc": "",
+            "img": "/images/migrated/Butter-Tossed-Mushroom-Noodles.png"
+          }
+        ]
+      },
+      {
+        "category": "Deserts",
+        "itemsCount": 7,
+        "items": [
+          {
+            "title": "Payasam ( N)",
+            "desc": "Traditional South Indian kheer.",
+            "img": "/images/migrated/Payasam.png"
+          },
+          {
+            "title": "Ice Cream ( N)",
+            "desc": "Classic creamy dessert.",
+            "img": "/images/migrated/Ice-Cream.png"
+          },
+          {
+            "title": "Falooda ( N)",
+            "desc": "Layered milk dessert with ice cream and nuts.",
+            "img": "/images/migrated/Falooda.png"
+          },
+          {
+            "title": "Gulab Jamun ( N)",
+            "desc": "Soft milk dumplings in sugar syrup.",
+            "img": "/images/migrated/Gulab-Jamun.png"
+          },
+          {
+            "title": "Gulab Jamun with Ice Cream",
+            "desc": "Warm jamun served with cold ice cream.",
+            "img": "/images/migrated/Gulab-Jamun-with-Ice-Cream.png"
+          },
+          {
+            "title": "Rasmalai ( N)",
+            "desc": "Soft cottage cheese patties soaked in sweet milk.",
+            "img": "/images/migrated/Rasmalai.png"
+          },
+          {
+            "title": "Rava Kesari ( N)",
+            "desc": "Semolina sweet flavored with ghee.",
+            "img": "/images/migrated/Rava-Kesari.png"
+          }
+        ]
+      }
+    ]
+  },
+  "visit": {
+    "heading": "Visit Us Today",
+    "text": "Whether you’re exploring the city or searching for comforting vegetarian food, Arya Bhavan welcomes you with authentic flavours and heartfelt hospitality.",
+    "address": "17 Charing Cross Rd, London WC2H 0EP, United Kingdom",
+    "phone": "+44 20 7839 8797",
+    "googleUrl": "https://www.google.com/search?q=arya+bhavan+in+central+london&oq=arya&gs_lcrp=EgZjaHJvbWUqBggDECMYJzIGCAAQRRg5MgoIARAuGLEDGIAEMgoIAhAuGLEDGIAEMgYIAxAjGCcyDAgEECMYJxiABBiKBTIKCAUQLhixAxiABDIKCAYQLhixAxiABDIKCAcQABixAxiABDIKCAgQLhixAxiABDIHCAkQABiPAtIBCTI4OTBqMGoxNagCCLACAfEFS78QtnCaODM&sourceid=chrome&ie=UTF-8#",
+    "mapEmbedUrl": "https://maps.google.com/maps?q=17%20Charing%20Cross%20Rd,%20London%20WC2H%200EP&t=&z=15&ie=UTF8&iwloc=&output=embed"
+  },
+  "why": {
+    "heading": "Why Guests Love Dining With Us",
+    "description": "Located in Central London near Leicester Square, Arya Bhavan brings the soul of South India to the city. Our kitchen follows traditional cooking methods passed down through generations — stone-ground batters, slow-simmered sambar and freshly prepared chutneys made every morning.",
+    "cards": [
+      {
+        "title": "Authentic Taste",
+        "desc": "Prepared by Indian cooking techniques",
+        "image": "/images/migrated/Screenshot-2026-02-25-104846-e1774635366152.png"
+      },
+      {
+        "title": "Pure Vegetarian",
+        "desc": "100% pure — completely vegetarian kitchen",
+        "image": "/images/migrated/Screenshot-2026-02-25-104933.png"
+      },
+      {
+        "title": "Fresh Batter Daily",
+        "desc": "Idli & dosa batter fermented fresh every day",
+        "image": "/images/migrated/Screenshot-2026-02-25-104922.png"
+      },
+      {
+        "title": "Diet Friendly",
+        "desc": "Vegan & Jain friendly menu available",
+        "image": "/images/migrated/Screenshot-2026-02-25-104933.png"
+      },
+      {
+        "title": "Family Friendly",
+        "desc": "Comfortable atmosphere for all age groups",
+        "image": "/images/migrated/Screenshot-2026-02-25-104939.png"
+      },
+      {
+        "title": "Central Location",
+        "desc": "Steps away from Leicester Square & theatres",
+        "image": "/images/migrated/Screenshot-2026-02-25-104947.png"
+      }
+    ]
+  },
+  "hours": {
+    "badge": "Opening Times",
+    "title": "We're Open Every Day",
+    "slots": [
+      {
+        "days": "Monday – Friday",
+        "time": "10:30 AM – 10:30 PM."
+      },
+      {
+        "days": "Saturday – Sunday",
+        "time": "10:30 AM – 10:30 PM."
+      }
+    ]
+  },
+  "whatWeOffer": {
+    "title": "WHAT WE OFFER",
+    "items": [
+      "100% Vegetarian Kitchen",
+      "Vegan Options Available",
+      "Jain Friendly Dishes",
+      "Fresh Filter Coffee",
+      "Live Dosa Catering",
+      "Outdoor Catering Service"
+    ]
+  },
+  "delivery": {
+    "badge": "Delivery",
+    "title": "Enjoy Arya Bhavan at Home",
+    "description": "Order your favourites through popular delivery partners and enjoy authentic South Indian flavours anywhere in London.",
+    "partners": [
+      {
+        "name": "Uber Eats",
+        "btnText": "Order on Uber Eats",
+        "url": "https://www.ubereats.com/gb/store/arya-bhavan-wembley/goBBkP73QSSH9kqWKoU19Q",
+        "color": "#06C167"
+      },
+      {
+        "name": "Deliveroo",
+        "btnText": "Order on Deliveroo",
+        "url": "https://deliveroo.co.uk/menu/london/wembley/southbridge-ltd",
+        "color": "#00CDBC"
+      },
+      {
+        "name": "Just Eat",
+        "btnText": "Order on Just Eat",
+        "url": "https://www.just-eat.co.uk/restaurants-arya-bhavan---wembley-brent/menu",
+        "color": "#FF8000"
+      }
+    ]
+  },
+  "faqs": {
+    "badge": "FAQ",
+    "title": "Faq 'S",
+    "slideshow": [
+      "/images/migrated/thali2.jpg",
+      "/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-10.jpeg",
+      "/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-6.jpeg",
+      "/images/migrated/WhatsApp-Image-2025-12-09-at-17.33.13.jpeg",
+      "/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-14.jpeg",
+      "/images/migrated/South-indian.jpg"
+    ],
+    "items": [
+      {
+        "q": "Do you serve vegan food?",
+        "a": "Yes, many dishes are fully vegan and clearly marked."
+      },
+      {
+        "q": "Is your kitchen completely vegetarian?",
+        "a": "Yes — 100% pure vegetarian kitchen."
+      },
+      {
+        "q": "Do you accept reservations?",
+        "a": "Yes, reservations and walk-ins both welcome."
+      },
+      {
+        "q": "Do you provide catering?",
+        "a": "Yes, indoor, outdoor and live dosa catering available."
+      },
+      {
+        "q": "Is Jain food available?",
+        "a": "Yes, Jain-friendly options available on request."
+      }
+    ]
+  }
+}

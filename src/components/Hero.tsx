@@ -112,6 +112,7 @@ export default function Hero({ slides: propSlides }: HeroProps) {
             src={slide.image || '/images/migrated/sl1.jpg'}
             alt={slide.heading || slide.headingText || 'Arya Bhavan London'}
             fill
+            sizes="100vw"
             className="object-cover"
             priority={idx === 0}
             quality={95}

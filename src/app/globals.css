@@ -2,13 +2,15 @@
 
 @theme {
   --font-sans: "Josefin Sans", sans-serif;
-  --font-serif: "ivymode", "le-monde-livre-classic-byol", serif;
+  --font-serif: "ivymode", sans-serif;
+  --font-display: "ivymode", sans-serif;
+  --font-byol: "le-monde-livre-classic-byol", serif;
 }
 
 @layer base {
   :root {
     --font-body: "Josefin Sans", sans-serif;
-    --font-display: "ivymode", "le-monde-livre-classic-byol", serif;
+    --font-display: "ivymode", sans-serif;
     --color-maroon: #6d1007;
     --color-gold: #c4a05a;
     --color-gold-hover: #b38d45;
@@ -40,7 +42,11 @@
   }
 
   .font-ivymode {
-    font-family: var(--font-display) !important;
+    font-family: "ivymode", sans-serif !important;
+  }
+
+  .font-byol {
+    font-family: "le-monde-livre-classic-byol", serif !important;
   }
 
   .font-josefin {
@@ -200,15 +206,22 @@
 }
 
 /* Page load entrance smooth transition */
-@keyframes pageFadeIn {
-  from {
-    opacity: 0.85;
+@keyframes smoothPageEnter {
+  0% {
+    opacity: 0.88;
+    transform: translateY(3px);
   }
-  to {
+  100% {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
 main {
-  animation: pageFadeIn 0.4s ease-out both;
+  animation: smoothPageEnter 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Smooth pleasant image transitions */
+img {
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease-out;
 }

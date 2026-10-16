@@ -1,30 +1,67 @@
 import type { Metadata } from 'next';
-import { buildPageMetadata } from '@/lib/seoService';
-import { getSiteContent } from '@/lib/firebaseService';
-import BranchDetailTemplate from '@/components/BranchDetailTemplate';
+import CentralLondonClient from '@/components/CentralLondonClient';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
-export async function generateMetadata(): Promise<Metadata> {
-  const siteContent = await getSiteContent();
-  return buildPageMetadata('/central-london', undefined, siteContent);
-}
+export const metadata: Metadata = {
+  title: 'Top-rated Authentic South Indian Veg Restaurant Central London',
+  description: 'Authentic South Indian vegetarian restaurant in Central London – Leicester Square. Enjoy crispy dosa, South Indian breakfast, veg thali, vegan & Jain options at Arya Bhavan.',
+  alternates: {
+    canonical: 'https://skaryabhavan.com/central-london/',
+  },
+  openGraph: {
+    title: 'Top-rated Authentic South Indian Veg Restaurant Central London',
+    description: 'Authentic South Indian vegetarian restaurant in Central London – Leicester Square. Enjoy crispy dosa, South Indian breakfast, veg thali, vegan & Jain options at Arya Bhavan.',
+    url: 'https://skaryabhavan.com/central-london/',
+    siteName: 'Arya Bhavan',
+    images: [
+      {
+        url: 'https://skaryabhavan.com/wp-content/uploads/2024/11/sl1.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Arya Bhavan Central London',
+      },
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+};
 
 export default function CentralLondonPage() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Restaurant',
+    name: 'Samko Arya Bhavan Central London',
+    image: 'https://skaryabhavan.com/wp-content/uploads/2024/11/sl1.jpg',
+    telephone: '+44 20 7839 8797',
+    servesCuisine: 'South Indian, Vegetarian, Vegan, Jain',
+    priceRange: '££',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '17 Charing Cross Rd',
+      addressLocality: 'London',
+      postalCode: 'WC2H 0EP',
+      addressCountry: 'GB',
+    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: '10:30',
+        closes: '22:30',
+      },
+    ],
+    url: 'https://skaryabhavan.com/central-london/',
+  };
+
   return (
-    <BranchDetailTemplate
-      name="Central London"
-      area="Leicester Square / Charing Cross"
-      address="17 Charing Cross Road, Charing Cross, London"
-      postcode="WC2H 0EP"
-      phone="+442078398797"
-      displayPhone="020 7839 8797"
-      hours="10:00 AM – 10:00 PM (Monday – Sunday)"
-      image="/images/migrated/NKAryaBhavan-Central-London-1.jpeg"
-      features={['Dine-In', 'Takeaway', 'Delivery', 'Air Conditioned', 'Vegan Friendly', 'Jain Options']}
-      description="Located moments away from Leicester Square and Trafalgar Square, Arya Bhavan Central London is the capital's flagship destination for authentic South Indian vegetarian dosas, idlis, and thalis."
-      mapEmbedUrl="https://maps.google.com/maps?q=17%20Charing%20Cross%20Rd,%20London%20WC2H%200EP&t=&z=15&ie=UTF8&iwloc=&output=embed"
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <CentralLondonClient />
+    </>
   );
 }

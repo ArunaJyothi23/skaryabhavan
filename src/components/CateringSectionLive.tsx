@@ -105,12 +105,12 @@ export default function CateringSectionLive({ cateringData }: CateringSectionLiv
   };
 
   return (
-    <section id="catering-live" className="py-12 sm:py-16 bg-[#ECE6DF]">
+    <section id="catering-live" className="py-10 sm:py-[50px] bg-[#ECE6DF]">
       <div className="max-w-[1240px] mx-auto px-4 sm:px-6">
         
         {/* Section Heading */}
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="font-ivymode text-2xl font-bold leading-[1.25] tracking-[1px] text-[#344E41] uppercase sm:text-[26px] lg:text-[32px] lg:leading-[56px]">
+          <h2 className="font-ivymode text-2xl font-semibold leading-[1.25] tracking-[1px] text-[#344E41] uppercase sm:text-[26px] lg:text-[32px] lg:leading-[56px]">
             {cateringData?.title || 'CATERING SERVICES'}
           </h2>
         </div>

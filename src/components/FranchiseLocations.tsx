@@ -37,7 +37,7 @@ const franchiseLocs = [
 
 export default function FranchiseLocations() {
   return (
-    <section className="py-14 sm:py-20 bg-[#ECE6DF]">
+    <section className="py-10 sm:py-[50px] bg-[#ECE6DF]">
       <div className="mx-auto max-w-[1240px] px-4 sm:px-6">
         
         {/* Section Heading */}

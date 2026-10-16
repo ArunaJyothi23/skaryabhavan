@@ -34,8 +34,8 @@ const features = [
 
 export default async function AboutUsPage() {
   const siteContent = await getSiteContent();
-  const narrative = siteContent.about?.narrative?.length
-    ? siteContent.about.narrative
+  const narrative = siteContent.aboutUs?.narrative?.length
+    ? siteContent.aboutUs.narrative
     : [
         'Our journey began with the hope and determination to carry a piece of India with us wherever we go, and share our love and joy with you. Like pockets of delectable delicacies nestled among the busy streets of Tooting, Wembley, and London, the flavour and aroma of Kanyakumari is never far away.',
         'Our dishes pay homage to the traditional cuisine of South India, concentrating on vegetarian and vegan options, seamlessly blending our flavours and authentic spices to create dishes suitable for a diverse audience, and ensure an exceptional dining experience. Every dish tells a story, and this is our opportunity to share the story with you, and embark on a culinary journey that transcends through time.'
@@ -64,26 +64,26 @@ export default async function AboutUsPage() {
 
       {/* 2. Let's Create Memories That Will Last a Lifetime Section */}
       <section className="w-full bg-white overflow-hidden">
-        <div className="grid w-full grid-cols-1 items-stretch lg:grid-cols-[48%_52%]">
+        <div className="grid w-full grid-cols-1 items-stretch lg:grid-cols-2">
           {/* Left Column: South Indian Thali Feast Image flush to left edge */}
-          <div className="relative min-h-[313px] w-full sm:min-h-[460px] lg:min-h-[506px]">
+          <div className="relative min-h-[313px] h-[380px] sm:h-[480px] lg:h-[620px] w-full">
             <Image
               src="/images/migrated/WhatsApp-Image-2025-12-09-at-17.36.52-11.jpeg"
               alt="South Indian Traditional Vegetarian Thali Feast"
               fill
               quality={90}
-              sizes="(max-width: 1024px) 100vw, 48vw"
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover object-center"
             />
           </div>
 
           {/* Right column: heading narrative and 4 feature badges */}
-          <div className="flex flex-col justify-center px-6 sm:px-10 lg:px-12 xl:px-16 py-10 sm:py-12 lg:py-[50px]">
-            <h2 className="font-ivymode mb-5 text-[26px] font-semibold uppercase leading-[1.25] tracking-[1px] text-[#344E41] sm:text-[28px] lg:text-[32px] lg:leading-[56px]">
+          <div className="flex flex-col justify-center px-5 sm:px-8 lg:px-10 py-8 sm:py-12 lg:py-[50px] lg:pl-10 lg:pr-[30px]">
+            <h2 className="font-ivymode mb-5 text-[26px] font-semibold uppercase leading-[1.25] tracking-[1px] text-[#344E41] sm:text-[28px] lg:text-[32px] lg:leading-[56px] pt-2 lg:pt-[1em]">
               LET’S CREATE MEMORIES THAT WILL LAST A LIFETIME.
             </h2>
 
-            <div className="mb-8 space-y-4 font-['Josefin_Sans',sans-serif] text-[16px] font-normal leading-[1.4] text-[#202020] lg:text-[18px] lg:leading-[1.55]">
+            <div className="mb-8 space-y-4 font-['Josefin_Sans',sans-serif] text-[16px] font-normal leading-[1.55] text-[#202020] lg:text-[18px]">
               {narrative.map((p: string, idx: number) => (
                 <p key={idx}>{p}</p>
               ))}
@@ -94,7 +94,7 @@ export default async function AboutUsPage() {
               {features.map((feat, idx) => (
                 <div
                   key={idx}
-                  className="bg-[#EBE6E0] rounded-[10px] p-2.5 px-3.5 flex items-center gap-3.5 transition-all duration-300 hover:shadow-[1px_1px_8px_1px_#F68422]"
+                  className="bg-[#EBE6E0] rounded-[10px] p-2 sm:p-2.5 px-3 flex items-center gap-3 transition-all duration-300 hover:shadow-[1px_1px_8px_1px_#F68422]"
                 >
                   <div className="relative w-10 h-10 shrink-0">
                     <Image
@@ -102,11 +102,11 @@ export default async function AboutUsPage() {
                       alt={feat.title}
                       fill
                       quality={90}
-                      sizes="(max-width: 640px) 100vw, 50vw"
+                      sizes="40px"
                       className="object-contain"
                     />
                   </div>
-                  <h3 className="text-[#000000] font-['Josefin_Sans',sans-serif] font-bold text-[15px] sm:text-[16px] leading-snug">
+                  <h3 className="text-[#000000] font-['Josefin_Sans',sans-serif] font-bold text-[16px] sm:text-[18px] leading-snug">
                     {feat.title}
                   </h3>
                 </div>

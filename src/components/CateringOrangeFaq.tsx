@@ -30,8 +30,8 @@ export default function CateringOrangeFaq({
 
   return (
     <section className="py-12 sm:py-16 bg-[#F6FFF8]">
-      <div className="max-w-[1440px] mx-auto px-3 sm:px-4">
-        <h2 className="text-3xl sm:text-4xl font-josefin font-semibold text-center text-[#344e41] mb-8 sm:mb-10 tracking-normal">
+      <div className="max-w-[1260px] mx-auto px-4 sm:px-6">
+        <h2 className="text-3xl sm:text-4xl font-['Josefin_Sans',sans-serif] font-bold text-center text-[#344e41] mb-8 sm:mb-10 tracking-normal">
           {title}
         </h2>
 
@@ -43,6 +43,8 @@ export default function CateringOrangeFaq({
                 src={sideImageSrc}
                 alt={sideImageAlt}
                 fill
+                priority
+                unoptimized
                 sizes="(max-width: 1024px) 100vw, 42vw"
                 className="object-cover object-center"
               />

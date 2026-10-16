@@ -296,30 +296,32 @@ export default async function OutdoorCateringPage() {
   const activeServiceCards = siteContent.outdoorCatering?.serviceCards?.length
     ? siteContent.outdoorCatering.serviceCards
     : serviceCards;
-  const activePackages = siteContent.outdoorCatering?.packages?.length
-    ? siteContent.outdoorCatering.packages
-    : packages;
+  const activePackages =
+    siteContent.outdoorCatering?.packages?.length === 4
+      ? siteContent.outdoorCatering.packages
+      : packages;
   const activeDishCategories = siteContent.outdoorCatering?.dishCategories?.length
     ? siteContent.outdoorCatering.dishCategories
     : dishCategories;
   return (
     <main className="bg-white min-h-screen font-josefin">
       {/* 1. Hero Banner */}
-      <section className="relative w-full min-h-[500px] md:min-h-[722px] bg-black overflow-hidden flex flex-col justify-center items-center px-4">
+      <section className="relative w-full min-h-[460px] md:min-h-[520px] lg:min-h-[580px] xl:min-h-[640px] bg-black overflow-hidden flex flex-col justify-center items-center px-4">
         <Image
           src="/images/catering/WhatsApp-Image-2025-12-09-at-17.38.24.jpeg"
           alt="Authentic Indian Vegetarian Outdoor Catering Services London"
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center"
+          className="object-cover object-left md:object-[0%_50%]"
         />
-        <div className="absolute inset-0 bg-black/50" />
+        {/* Bright vivid image matching live site */}
+        <div className="absolute inset-0 bg-black/10" />
         <div className="relative z-10 text-center max-w-5xl mx-auto space-y-2">
-          <h1 className="text-3xl sm:text-4xl md:text-[42px] font-josefin font-semibold text-white tracking-wide leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-[42px] font-['Josefin_Sans',sans-serif] font-normal sm:font-medium text-white tracking-wide leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
             Authentic Indian Vegetarian Outdoor Catering Services
           </h1>
-          <p className="text-lg sm:text-xl md:text-[24px] font-normal text-white tracking-wide">
+          <p className="text-lg sm:text-xl md:text-[24px] font-['Josefin_Sans',sans-serif] font-normal text-white tracking-wide drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
             London | Wembley | Tooting
           </p>
         </div>
@@ -327,23 +329,25 @@ export default async function OutdoorCateringPage() {
 
       {/* 2. Intro Section + Enquire Now (2 Columns) */}
       <section className="py-10 sm:py-12 lg:py-[50px] bg-white">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-5">
-          <div className="flex flex-col lg:flex-row gap-5 lg:gap-6 items-start justify-between">
-            {/* Left Column Content */}
-            <div className="w-full lg:w-[60%] space-y-4">
-              <h2 className="text-2xl sm:text-[28px] lg:text-[32px] font-josefin font-normal text-[#344e41] leading-[1.3] mb-5">
+        <div className="max-w-[1260px] mx-auto px-4 sm:px-6">
+          <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 items-start justify-between">
+            {/* Left Column Content (starts with a comfortable gap below the top of the form box) */}
+            <div className="w-full lg:w-[65%] xl:w-[66%] space-y-4 lg:pt-[44px] xl:pt-[48px]">
+              <h2 className="text-[22px] sm:text-[26px] lg:text-[28px] xl:text-[31px] font-['Josefin_Sans',sans-serif] font-normal sm:font-medium text-[#344E41] leading-[1.3] mb-5">
                 100% Pure Indian Vegetarian Catering Across London
               </h2>
-              <p className="text-base sm:text-[18px] text-[#202020] leading-relaxed font-josefin">
-                At Arya Bhavan, we specialise in delivering premium outdoor catering that brings the richness of South Indian and North Indian vegetarian cuisine directly to your venue anywhere in London, including Central London, Wembley, Tooting, Ilford. Our dedicated catering team prepares an extensive selection of pure vegetarian dishes—from aromatic curries to traditional festive favourites—to ensure every event is memorable. Clients often choose us for our expertise in creating authentic flavours that cater to diverse tastes, whether it’s a family celebration, cultural gathering, wedding reception, or corporate function.
-              </p>
-              <p className="text-base sm:text-[18px] text-[#202020] leading-relaxed font-josefin">
-                Arya Bhavan offers South Indian pure vegetarian outdoor catering and live dosa catering services across London, Wembley, Tooting. North Indian classics, ensuring a menu that satisfies every guest. With a strong focus on quality and authenticity, our outdoor catering service promises a seamless experience, delivering exceptional vegetarian food wherever your celebration takes place.
-              </p>
+              <div className="space-y-[18px] text-[16px] sm:text-[17px] text-[#202020] leading-[1.6] font-['Josefin_Sans',sans-serif]">
+                <p>
+                  At Arya Bhavan, we specialise in delivering premium outdoor catering that brings the richness of South Indian and North Indian vegetarian cuisine directly to your venue anywhere in London, including Central London, Wembley, Tooting, Ilford. Our dedicated catering team prepares an extensive selection of pure vegetarian dishes—from aromatic curries to traditional festive favourites—to ensure every event is memorable. Clients often choose us for our expertise in creating authentic flavours that cater to diverse tastes, whether it’s a family celebration, cultural gathering, wedding reception, or corporate function.
+                </p>
+                <p>
+                  Arya Bhavan offers South Indian pure vegetarian outdoor catering and live dosa catering services across London, Wembley, Tooting. North Indian classics, ensuring a menu that satisfies every guest. With a strong focus on quality and authenticity, our outdoor catering service promises a seamless experience, delivering exceptional vegetarian food wherever your celebration takes place.
+                </p>
+              </div>
             </div>
 
             {/* Right Column Enquire Form */}
-            <div className="w-full lg:w-[40%] flex justify-center lg:justify-end">
+            <div className="w-full lg:w-[35%] xl:w-[34%] flex justify-end">
               <CateringEnquiryBox sourceTitle="Outdoor Catering" />
             </div>
           </div>
@@ -352,7 +356,7 @@ export default async function OutdoorCateringPage() {
 
       {/* 3. Four Feature Service Cards */}
       <section className="py-12 sm:py-16 bg-[#F6FFF8]">
-        <div className="max-w-[1440px] mx-auto px-3 sm:px-4">
+        <div className="max-w-[1260px] mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {activeServiceCards.map((card, i) => (
               <div
@@ -370,10 +374,10 @@ export default async function OutdoorCateringPage() {
                 </div>
                 <div className="p-4 flex-1 flex flex-col justify-between text-center">
                   <div>
-                    <h3 className="text-xl font-josefin font-medium text-[#202020] tracking-wide mb-2 uppercase">
+                    <h3 className="text-[20px] sm:text-[22px] lg:text-[23px] font-['Josefin_Sans',sans-serif] font-bold text-[#344E41] tracking-wide mb-2 uppercase leading-[1.2] min-h-[54px] flex items-center justify-center max-w-[180px] mx-auto">
                       {card.title}
                     </h3>
-                    <p className="text-sm text-gray-600 leading-relaxed font-josefin">
+                    <p className="text-[14px] sm:text-[15px] text-[#202020] leading-[1.4] font-['Josefin_Sans',sans-serif]">
                       {card.desc}
                     </p>
                   </div>
@@ -385,7 +389,7 @@ export default async function OutdoorCateringPage() {
           <div className="mt-10 text-center">
             <Link
               href="#form"
-              className="inline-block px-7 py-3 bg-[#f68422] hover:bg-[#366732] text-white font-josefin font-normal text-xl sm:text-[24px] rounded-[10px] transition-colors shadow-sm cursor-pointer"
+              className="inline-block px-7 py-3 bg-[#f68422] hover:bg-[#366732] text-white font-['Josefin_Sans',sans-serif] font-normal text-xl sm:text-[24px] rounded-[10px] transition-colors shadow-sm cursor-pointer"
             >
               Book Now
             </Link>
@@ -395,101 +399,125 @@ export default async function OutdoorCateringPage() {
 
       {/* 4. Packages Section */}
       <section className="py-12 sm:py-16 bg-white">
-        <div className="max-w-[1440px] mx-auto px-3 sm:px-4">
+        <div className="max-w-[1260px] mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 items-stretch">
-            {activePackages.map((pkg, i) => (
-              <div
-                key={i}
-                className="border border-[#366732] rounded-[10px] bg-[#F9F4EF] p-3 sm:p-3.5 shadow-sm flex flex-col justify-between h-full"
-              >
-                <div>
+            {activePackages.map((pkg, i) => {
+              // Exact live site: 1st card (£15.99) & 3rd card (£23.99) are cream (#F9F4EF), 2nd (£19.99) & 4th (£11.00) are white (#FFFFFF)
+              const isCream = i % 2 === 0;
+              const hasAccompaniments = Boolean(pkg.note);
+              return (
+                <div
+                  key={i}
+                  className={`border border-[#366732] rounded-[10px] ${
+                    isCream ? 'bg-[#F9F4EF]' : 'bg-white'
+                  } p-3 sm:p-3.5 pb-6 shadow-sm flex flex-col justify-start`}
+                >
                   {/* Orange Header Banner (full width inside card) */}
-                  <div className="bg-[#f68422] text-white py-2 px-4 rounded-[6px] text-center font-josefin text-2xl sm:text-[25px] font-normal w-full mb-3 shadow-sm">
+                  <div className="bg-[#f68422] text-white py-2 px-3 rounded-[6px] text-center font-['Josefin_Sans',sans-serif] text-[22px] sm:text-[24px] font-normal w-full mb-3 shadow-sm">
                     {pkg.name}
                   </div>
 
-                  <div className="text-center font-josefin text-[17px] sm:text-[18px] text-black font-normal my-3">
+                  <div className="text-center font-['Josefin_Sans',sans-serif] text-[17px] sm:text-[18px] text-[#000000] font-normal my-2.5">
                     {pkg.pax}
                   </div>
 
-                  <div className="space-y-1.5 text-center font-josefin text-[17px] sm:text-[19px] text-black font-normal">
+                  <div className={`text-center font-['Josefin_Sans',sans-serif] text-[#000000] font-normal ${
+                    hasAccompaniments ? 'space-y-2 sm:space-y-2.5 text-[17px] sm:text-[18px] mt-4' : 'space-y-1 sm:space-y-1.5 text-[16px] sm:text-[17px]'
+                  }`}>
                     {pkg.items.map((item, idx) => (
                       <div key={idx} className="py-0.5">
-                        {item}
+                        {item === 'Chef Special Kara Kozhambu' ? (
+                          <span>Chef Special Kara<br/>Kozhambu</span>
+                        ) : (
+                          item
+                        )}
                       </div>
                     ))}
                   </div>
-                </div>
 
-                {pkg.note ? (
-                  <div className="mt-auto pt-6 pb-2 text-center">
-                    <p className="text-[14px] sm:text-[15px] font-josefin text-black font-normal leading-snug px-1">
-                      {pkg.note}
-                    </p>
-                  </div>
-                ) : null}
-              </div>
-            ))}
+                  {hasAccompaniments && (
+                    <div className="mt-6 sm:mt-7 pt-2 pb-1 text-center">
+                      <p className="text-[14px] sm:text-[15px] font-['Josefin_Sans',sans-serif] text-[#000000] font-normal leading-[1.35] max-w-[210px] mx-auto text-center">
+                        (Accompaniments like<br />
+                        Papad, Pickle, Salad &<br />
+                        Raitha will be<br />
+                        Complimentary.)
+                      </p>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
 
       {/* 5. Dishes Section */}
       <section className="py-12 sm:py-16 bg-white">
-        <div className="max-w-[1440px] mx-auto px-3 sm:px-4 space-y-6">
+        <div className="max-w-[1260px] mx-auto px-4 sm:px-6 space-y-6">
           
-          {/* Row 1: 3 Columns */}
+          {/* Row 1: 3 Columns - Middle card has cream background (#F9F4EF), outer cards are white (#FFFFFF) */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 items-stretch">
-            {activeDishCategories.slice(0, 3).map((cat, idx) => (
-              <div
-                key={idx}
-                className="border border-[#CAC9C9] rounded-[10px] bg-[#f9f4ef] p-3 sm:p-4 shadow-sm flex flex-col h-full"
-              >
-                {/* Category Header */}
-                <div className="bg-[#f68422] text-white py-2 px-4 rounded-[6px] text-center font-josefin text-2xl sm:text-[25px] font-normal w-full mb-3 shadow-sm">
-                  {cat.title}
-                </div>
+            {activeDishCategories.slice(0, 3).map((cat, idx) => {
+              const isCream = idx === 1; // Middle card: Rice & Noodles
+              return (
+                <div
+                  key={idx}
+                  className={`border border-[#CAC9C9] rounded-[10px] ${
+                    isCream ? 'bg-[#F9F4EF]' : 'bg-white'
+                  } p-3 sm:p-4 shadow-sm flex flex-col h-full`}
+                >
+                  {/* Category Header */}
+                  <div className="bg-[#f68422] text-white py-2 px-4 rounded-[6px] text-center font-['Josefin_Sans',sans-serif] text-2xl sm:text-[25px] font-normal w-full mb-3 shadow-sm">
+                    {cat.title}
+                  </div>
 
-                {/* Items List */}
-                <div className="space-y-1.5 flex-1 px-1">
-                  {cat.items.map((item, itemIdx) => (
-                    <div key={itemIdx} className="flex items-center gap-3 py-1">
-                      <CateringDishIcon className="w-[18px] h-[18px] text-[#344e41] shrink-0" />
-                      <span className="font-josefin text-[17px] sm:text-[18px] text-black font-normal leading-normal">
-                        {item}
-                      </span>
-                    </div>
-                  ))}
+                  {/* Items List */}
+                  <div className="space-y-1.5 flex-1 px-1">
+                    {cat.items.map((item, itemIdx) => (
+                      <div key={itemIdx} className="flex items-center gap-3 py-1">
+                        <CateringDishIcon className="w-[18px] h-[18px] text-[#344e41] shrink-0" />
+                        <span className="font-['Josefin_Sans',sans-serif] text-[17px] sm:text-[18px] text-black font-normal leading-normal">
+                          {item}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
-          {/* Row 2: Remaining Columns */}
+          {/* Row 2: Remaining Columns (4 Columns) - Alternating: PaneerCurries (white), Breads (cream #F9F4EF), Dhal (white), Dessert (cream #F9F4EF) */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 items-stretch">
-            {activeDishCategories.slice(3).map((cat, idx) => (
-              <div
-                key={idx}
-                className="border border-[#CAC9C9] rounded-[10px] bg-[#f9f4ef] p-3 sm:p-4 shadow-sm flex flex-col h-full"
-              >
-                {/* Category Header */}
-                <div className="bg-[#f68422] text-white py-2 px-4 rounded-[6px] text-center font-josefin text-2xl sm:text-[25px] font-normal w-full mb-3 shadow-sm">
-                  {cat.title}
-                </div>
+            {activeDishCategories.slice(3).map((cat, idx) => {
+              const isCream = idx % 2 === 1; // Breads (idx 1) and Dessert (idx 3) are cream!
+              return (
+                <div
+                  key={idx}
+                  className={`border border-[#CAC9C9] rounded-[10px] ${
+                    isCream ? 'bg-[#F9F4EF]' : 'bg-white'
+                  } p-3 sm:p-4 shadow-sm flex flex-col h-full`}
+                >
+                  {/* Category Header */}
+                  <div className="bg-[#f68422] text-white py-2 px-4 rounded-[6px] text-center font-['Josefin_Sans',sans-serif] text-2xl sm:text-[25px] font-normal w-full mb-3 shadow-sm">
+                    {cat.title}
+                  </div>
 
-                {/* Items List */}
-                <div className="space-y-1.5 flex-1 px-1">
-                  {cat.items.map((item, itemIdx) => (
-                    <div key={itemIdx} className="flex items-center gap-3 py-1">
-                      <CateringDishIcon className="w-[18px] h-[18px] text-[#344e41] shrink-0" />
-                      <span className="font-josefin text-[17px] sm:text-[18px] text-black font-normal leading-normal">
-                        {item}
-                      </span>
-                    </div>
-                  ))}
+                  {/* Items List */}
+                  <div className="space-y-1.5 flex-1 px-1">
+                    {cat.items.map((item, itemIdx) => (
+                      <div key={itemIdx} className="flex items-center gap-3 py-1">
+                        <CateringDishIcon className="w-[18px] h-[18px] text-[#344e41] shrink-0" />
+                        <span className="font-['Josefin_Sans',sans-serif] text-[17px] sm:text-[18px] text-black font-normal leading-normal">
+                          {item}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
         </div>

@@ -43,15 +43,16 @@ export default function BranchDetailTemplate({
           src="/images/migrated/sl1.jpg"
           alt={`Arya Bhavan ${name}`}
           fill
+          sizes="100vw"
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/55" />
+        <div className="absolute inset-0 bg-black/15" />
         <div className="relative z-10 text-center px-4 space-y-2">
-          <h1 className="text-3xl sm:text-4xl lg:text-[42px] font-serif font-normal text-white tracking-wide">
+          <h1 className="text-3xl sm:text-4xl lg:text-[42px] font-serif font-normal text-white tracking-wide drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
             {name}
           </h1>
-          <p className="text-base sm:text-xl font-light text-white tracking-wider">
+          <p className="text-base sm:text-xl font-light text-white tracking-wider drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
             {area} • London
           </p>
         </div>

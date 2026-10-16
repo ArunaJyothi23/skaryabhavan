@@ -50,8 +50,8 @@ const branchLocations = [
 export default async function ContactUsPage() {
   const siteContent = await getSiteContent();
   return (
-    <main className="min-h-screen bg-[#ECE6DF]">
-      {/* Hero Banner (Exact from live site) */}
+    <main className="min-h-screen bg-white">
+      {/* Hero Banner (Exact bright vivid feast from live site User Image 1) */}
       <section className="relative w-full h-[380px] sm:h-[450px] lg:h-[506px] flex items-center justify-center overflow-hidden">
         <Image
           src="/images/migrated/Hero-banner-scaled.jpg"
@@ -61,11 +61,11 @@ export default async function ContactUsPage() {
           sizes="100vw"
           className="object-cover object-center"
         />
-        {/* Soft dark overlay matching live site */}
-        <div className="absolute inset-0 bg-black/40" />
+        {/* Subtle touch to keep white text readable while preserving full image brightness */}
+        <div className="absolute inset-0 bg-black/15" />
 
         <div className="relative z-10 text-center px-4">
-          <h1 className="text-white font-['Josefin_Sans',sans-serif] text-[34px] sm:text-[42px] font-normal tracking-wide">
+          <h1 className="text-white font-['Josefin_Sans',sans-serif] text-[36px] sm:text-[46px] font-normal tracking-wide drop-shadow-[0_2px_8px_rgba(0,0,0,0.7)]">
             Contact Us
           </h1>
         </div>

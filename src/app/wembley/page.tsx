@@ -1,30 +1,70 @@
 import type { Metadata } from 'next';
-import { buildPageMetadata } from '@/lib/seoService';
-import { getSiteContent } from '@/lib/firebaseService';
-import BranchDetailTemplate from '@/components/BranchDetailTemplate';
+import BranchDetailClient from '@/components/BranchDetailClient';
+import { branchesData } from '@/data/branchesDetailedData';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
 
-export async function generateMetadata(): Promise<Metadata> {
-  const siteContent = await getSiteContent();
-  return buildPageMetadata('/wembley', undefined, siteContent);
-}
+const branch = branchesData.wembley;
+
+export const metadata: Metadata = {
+  title: branch.seo.title,
+  description: branch.seo.description,
+  alternates: {
+    canonical: branch.seo.canonical,
+  },
+  openGraph: {
+    title: branch.seo.title,
+    description: branch.seo.description,
+    url: branch.seo.canonical,
+    siteName: 'Arya Bhavan',
+    images: [
+      {
+        url: 'https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Wembley-2.jpeg',
+        width: 1200,
+        height: 630,
+        alt: 'Arya Bhavan Wembley',
+      },
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+};
 
 export default function WembleyPage() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Restaurant',
+    name: 'Arya Bhavan Wembley',
+    image: 'https://skaryabhavan.com/wp-content/uploads/2024/11/NKAryaBhavan-Wembley-2.jpeg',
+    telephone: branch.schema.telephone,
+    servesCuisine: 'South Indian, Vegetarian, Vegan, Jain',
+    priceRange: '££',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: branch.schema.streetAddress,
+      addressLocality: branch.schema.addressLocality,
+      postalCode: branch.schema.postalCode,
+      addressCountry: branch.schema.addressCountry,
+    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: branch.schema.opens,
+        closes: branch.schema.closes,
+      },
+    ],
+    url: branch.seo.canonical,
+  };
+
   return (
-    <BranchDetailTemplate
-      name="Wembley Central"
-      area="Ealing Road"
-      address="22, 22A Ealing Rd, Wembley"
-      postcode="HA0 4TL"
-      phone="+442089008526"
-      displayPhone="020 8900 8526"
-      hours="09:30 AM – 10:00 PM (Monday – Sunday)"
-      image="/images/migrated/NKAryaBhavan-Wembley-1.jpeg"
-      features={['Family Seating', 'Dine-In', 'Takeaway', 'Pure Vegetarian', 'Weekend Breakfast', 'Party Hall Bookings']}
-      description="In the vibrant heart of Ealing Road, Arya Bhavan Wembley offers authentic South Indian 100% pure vegetarian cuisine, traditional South Indian breakfasts, and royal thalis."
-      mapEmbedUrl="https://maps.google.com/maps?q=22%20Ealing%20Rd,%20Wembley%20HA0%204TL&t=&z=15&ie=UTF8&iwloc=&output=embed"
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <BranchDetailClient branch={branch} />
+    </>
   );
 }

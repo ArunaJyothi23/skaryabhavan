@@ -133,131 +133,139 @@ export default async function LiveDosaCateringPage() {
         '★ All Add-ons Are Charged Separately Per Person ★',
         '★ 2 Hours Pure Vibes ★'
       ];
-  const activeFaqs = siteContent.faqs?.length ? siteContent.faqs : faqs;
+  const activeFaqs = siteContent.liveDosaCatering?.faqs?.length
+    ? siteContent.liveDosaCatering.faqs
+    : faqs;
+  const activeGallery = siteContent.liveDosaCatering?.gallery?.length
+    ? siteContent.liveDosaCatering.gallery
+    : galleryImages;
 
   return (
     <main className="bg-white min-h-screen font-josefin">
       {/* 1. Hero Banner */}
-      <section className="relative w-full min-h-[500px] md:min-h-[744px] bg-black overflow-hidden flex flex-col justify-center items-center px-4">
+      <section className="relative w-full min-h-[460px] md:min-h-[520px] lg:min-h-[580px] xl:min-h-[640px] bg-black overflow-hidden flex flex-col justify-center items-center px-4">
         <Image
           src="/images/catering/WhatsApp-Image-2025-12-08-at-14.51.18-e1765205112699.jpeg"
           alt="Live Dosa Catering Arya Bhavan London"
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center"
+          className="object-cover object-left md:object-[0%_50%]"
         />
-        <div className="absolute inset-0 bg-black/50" />
+        {/* Bright vivid image matching live site */}
+        <div className="absolute inset-0 bg-black/10" />
         <div className="relative z-10 text-center max-w-5xl mx-auto space-y-2">
-          <h1 className="text-3xl sm:text-4xl md:text-[42px] font-josefin font-semibold text-white tracking-wide leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-[42px] font-['Josefin_Sans',sans-serif] font-normal sm:font-medium text-white tracking-wide leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
             Live Dosa Catering
           </h1>
-          <p className="text-lg sm:text-xl md:text-[24px] font-normal text-white tracking-wide">
+          <p className="text-lg sm:text-xl md:text-[24px] font-['Josefin_Sans',sans-serif] font-normal text-white tracking-wide drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
             London | Wembley | Tooting
           </p>
         </div>
       </section>
 
       {/* 2. Intro Section + Enquire Now */}
-      <section className="py-10 sm:py-12 lg:py-[50px] bg-white">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-5">
-          <div className="flex flex-col lg:flex-row gap-5 lg:gap-6 items-start justify-between">
-            {/* Left Content Column (60% width on desktop) */}
-            <div className="w-full lg:w-[60%] space-y-5">
-              <h2 className="text-3xl sm:text-[36px] lg:text-[40px] font-['Josefin_Sans',sans-serif] font-normal text-[#344E41] leading-[1.25] mb-5">
+      <section className="py-[50px] bg-white">
+        <div className="max-w-[1260px] mx-auto px-4 sm:px-6">
+          <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 items-start justify-between">
+            {/* Left Content Column (starts with a comfortable gap below the top of the form box) */}
+            <div className="w-full lg:w-[65%] xl:w-[66%] lg:pt-[44px] xl:pt-[48px]">
+              <h2 className="font-['Josefin_Sans',sans-serif] text-[22px] sm:text-[26px] lg:text-[28px] xl:text-[31px] font-normal sm:font-medium text-[#344E41] leading-[1.3] mb-[20px]">
                 Why Choose Our Live Dosa Station Catering?
               </h2>
-              <p className="text-[16px] sm:text-[18px] text-[#202020] leading-[28px] font-['Josefin_Sans',sans-serif]">
-                Bring the joy of authentic South Indian flavors to your special occasions with <strong className="font-bold text-gray-900">Skaryabhavan’s Live Dosa Catering</strong> for homes and events. Our expert dosa chefs set up a <strong className="font-bold text-gray-900">dosa live station</strong> right at your venue, serving hot, crispy dosas along with freshly prepared chutneys and sambar. Whether it’s a cozy family gathering, birthday celebration, or a house party, your guests can enjoy restaurant-style dosas without leaving the comfort of your home.
-              </p>
-              <p className="text-[16px] sm:text-[18px] text-[#202020] leading-[28px] font-['Josefin_Sans',sans-serif]">
-                Make your celebration truly unforgettable with <strong className="font-bold text-gray-900">Skaryabhavan’s Live Masala Dosa Party</strong> experience — every dosa is made fresh, customized to your guests’ taste, and served with love. We take pride in offering <strong className="font-bold text-gray-900">100% pure vegetarian catering</strong>, ensuring top-quality hygiene, authentic flavors, and complete satisfaction in every bite.
-              </p>
-              <p className="text-[16px] sm:text-[18px] text-[#202020] leading-[28px] font-['Josefin_Sans',sans-serif]">
-                From weddings and housewarming events to corporate gatherings, <strong className="font-bold text-gray-900">Skaryabhavan’s Live Dosa Station Catering</strong> adds a fun, interactive, and delicious highlight that your guests will always remember.
-              </p>
+              <div className="space-y-[18px] text-[16px] sm:text-[17px] text-[#202020] leading-[1.6] font-['Josefin_Sans',sans-serif]">
+                <p>
+                  Bring the joy of authentic South Indian flavors to your special occasions with <strong className="font-semibold text-[#202020]">Skaryabhavan’s Live Dosa Catering</strong> for homes and events. Our expert dosa chefs set up a <strong className="font-semibold text-[#202020]">dosa live station</strong> right at your venue, serving hot, crispy dosas along with freshly prepared chutneys and sambar. Whether it’s a cozy family gathering, birthday celebration, or a house party, your guests can enjoy restaurant-style dosas without leaving the comfort of your home.
+                </p>
+                <p>
+                  Make your celebration truly unforgettable with <strong className="font-semibold text-[#202020]">Skaryabhavan’s Live Masala Dosa Party</strong> experience — every dosa is made fresh, customized to your guests’ taste, and served with love. We take pride in offering <strong className="font-semibold text-[#202020]">100% pure vegetarian catering</strong>, ensuring top-quality hygiene, authentic flavors, and complete satisfaction in every bite.
+                </p>
+                <p>
+                  From weddings and housewarming events to corporate gatherings, <strong className="font-semibold text-[#202020]">Skaryabhavan’s Live Dosa Station Catering</strong> adds a fun, interactive, and delicious highlight that your guests will always remember.
+                </p>
+              </div>
             </div>
 
-            {/* Right Enquire Form (40% width on desktop) */}
-            <div className="w-full lg:w-[40%] flex justify-center lg:justify-end">
+            {/* Right Enquire Form */}
+            <div className="w-full lg:w-[35%] xl:w-[34%] flex justify-end">
               <CateringEnquiryBox sourceTitle="Live Dosa Catering" />
             </div>
           </div>
         </div>
       </section>
 
-      {/* 3. Live Dosa Menu & Pricing - EXACT REPLICA OF USER SCREENSHOT 4 & 5 */}
-      <section className="py-12 sm:py-16 bg-[#F6FFF8]">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+      {/* 3. Live Dosa Menu & Pricing - EXACT REPLICA OF LIVE SITE */}
+      <section className="py-[50px] bg-[#F6FFF8]">
+        <div className="max-w-[1260px] mx-auto px-4 sm:px-6">
           
           {/* Section Header (Orange Title, Charcoal Subtitle) */}
-          <div className="text-center max-w-3xl mx-auto mb-10">
-            <h2 className="text-3xl sm:text-4xl lg:text-[40px] font-['Josefin_Sans',sans-serif] font-normal text-[#F68422] tracking-wide mb-3">
+          <div className="text-center max-w-3xl mx-auto mb-[30px]">
+            <h2 className="text-[34px] sm:text-[38px] lg:text-[40px] font-['Josefin_Sans',sans-serif] font-normal text-[#F68422] leading-tight mb-2">
               Live Dosa Catering Menu
             </h2>
-            <p className="text-base sm:text-lg text-[#202020] font-['Josefin_Sans',sans-serif] font-normal">
+            <p className="text-[16px] sm:text-[18px] text-[#202020] font-['Josefin_Sans',sans-serif] font-normal">
               Authentic South Indian cuisine, prepared fresh at your celebration
             </p>
           </div>
 
-          {/* Pricing Cards (Screenshot 4) */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
+          {/* Pricing Cards - full width 2 columns matching container */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full mb-8">
             {activePricingCards.map((card: any, idx: number) => (
               <div
                 key={idx}
-                className="bg-white rounded-[10px] p-7 sm:p-9 text-center shadow-[0_2px_12px_rgba(0,0,0,0.06)] border border-gray-100 flex flex-col justify-center items-center"
+                className="bg-white rounded-[10px] p-[25px] text-center shadow-[0_0_10px_rgba(0,0,0,0.15)] flex flex-col justify-center items-center"
               >
-                <h3 className="text-xl sm:text-[26px] font-['Josefin_Sans',sans-serif] font-semibold text-[#202020]">
+                <h3 className="text-[22px] sm:text-[24px] font-['Josefin_Sans',sans-serif] font-normal text-[#202020]">
                   {card.title}
                 </h3>
-                <div className="text-2xl sm:text-[32px] font-['Josefin_Sans',sans-serif] font-bold text-[#F68422] my-2 sm:my-3">
+                <div className="text-[26px] sm:text-[28px] font-['Josefin_Sans',sans-serif] font-semibold text-[#F68422] my-2">
                   {card.price}
                 </div>
-                <p className="text-[15px] sm:text-[16px] font-['Josefin_Sans',sans-serif] text-gray-600 font-normal">
+                <p className="text-[15px] sm:text-[16px] font-['Josefin_Sans',sans-serif] text-[#737373] font-normal">
                   {card.pax}
                 </p>
               </div>
             ))}
           </div>
 
-          {/* Book Now Button (Screenshot 4) */}
-          <div className="text-center mb-10">
+          {/* Book Now Button (Screenshot 3) */}
+          <div className="text-center mb-[45px]">
             <Link
               href="#form"
-              className="inline-block px-10 py-3 bg-[#F68422] hover:bg-[#366732] text-white font-['Josefin_Sans',sans-serif] font-bold text-[18px] sm:text-[20px] rounded-[5px] transition-colors shadow-sm cursor-pointer"
+              className="inline-block px-8 py-[12px] bg-[#F68422] hover:bg-[#366732] text-white font-['Josefin_Sans',sans-serif] font-semibold text-[20px] sm:text-[22px] rounded-[5px] transition-colors shadow-sm cursor-pointer"
             >
               Book Now
             </Link>
           </div>
 
-          {/* Dark Green Pill Badges (Screenshot 5) */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+          {/* Dark Green Badges - full width 2 columns matching pricing cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full mb-6">
             {activeBadges.map((badge: string, idx: number) => (
               <div
                 key={idx}
-                className="bg-[#366732] text-white py-2.5 px-6 rounded-[6px] font-['Josefin_Sans',sans-serif] text-xs sm:text-sm font-semibold text-center tracking-wider shadow-sm flex items-center justify-center uppercase"
+                className="bg-[#366732] text-white py-3 px-4 rounded-[10px] font-['Josefin_Sans',sans-serif] text-[15px] sm:text-[16px] font-semibold text-center tracking-normal shadow-sm flex items-center justify-center min-h-[48px]"
               >
                 {badge}
               </div>
             ))}
           </div>
 
-          {/* Three Columns in Orange Borders (Screenshot 5) */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-5 mb-10 items-stretch">
+          {/* Three Columns in Orange Borders - full width 3 columns matching container */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 w-full mb-10 items-stretch">
             
             {/* Box 1: Menu Items (Column 1) */}
-            <div className="border-2 border-[#F68422] rounded-[9px] bg-white p-2 shadow-sm flex flex-col">
-              <div className="bg-[#F68422] text-[#202020] text-center py-2 px-4 rounded-[5px] font-['Josefin_Sans',sans-serif] text-xl sm:text-[24px] font-semibold tracking-wide mb-3">
+            <div className="border-2 border-[#F68422] rounded-[9px] bg-white p-[6px] shadow-sm flex flex-col">
+              <div className="bg-[#F68422] text-[#000000] text-center py-[10px] px-2 rounded-[5px] font-['Josefin_Sans',sans-serif] text-[26px] sm:text-[30px] font-semibold tracking-wide mb-[10px]">
                 Menu Items
               </div>
-              <div className="flex-1 space-y-1.5">
+              <div className="flex-1 space-y-[10px]">
                 {activeCol1.map((item, idx) => (
                   <div
                     key={idx}
-                    className="border border-[#E0E0E0] rounded-[6px] p-2.5 bg-white flex items-center gap-3 hover:border-[#F68422] transition-colors"
+                    className="border border-[#CAC9C9] border-b-4 border-b-[#CAC9C9] rounded-[10px] p-[10px] bg-white flex items-center gap-3 transition-colors"
                   >
-                    <CateringDishIcon className="w-5 h-5 text-[#344E41] shrink-0" />
-                    <span className="font-['Josefin_Sans',sans-serif] text-[15px] sm:text-[16px] text-[#202020] font-normal leading-snug">
+                    <CateringDishIcon className="w-[27px] h-[27px] text-[#344E41] shrink-0" />
+                    <span className="font-['Josefin_Sans',sans-serif] text-[18px] sm:text-[22px] text-[#000000] font-normal leading-snug">
                       {item}
                     </span>
                   </div>
@@ -266,18 +274,18 @@ export default async function LiveDosaCateringPage() {
             </div>
 
             {/* Box 2: Menu Items (Column 2) */}
-            <div className="border-2 border-[#F68422] rounded-[9px] bg-white p-2 shadow-sm flex flex-col">
-              <div className="bg-[#F68422] text-[#202020] text-center py-2 px-4 rounded-[5px] font-['Josefin_Sans',sans-serif] text-xl sm:text-[24px] font-semibold tracking-wide mb-3">
+            <div className="border-2 border-[#F68422] rounded-[9px] bg-white p-[6px] shadow-sm flex flex-col">
+              <div className="bg-[#F68422] text-[#000000] text-center py-[10px] px-2 rounded-[5px] font-['Josefin_Sans',sans-serif] text-[26px] sm:text-[30px] font-semibold tracking-wide mb-[10px]">
                 Menu Items
               </div>
-              <div className="flex-1 space-y-1.5">
+              <div className="flex-1 space-y-[10px]">
                 {activeCol2.map((item, idx) => (
                   <div
                     key={idx}
-                    className="border border-[#E0E0E0] rounded-[6px] p-2.5 bg-white flex items-center gap-3 hover:border-[#F68422] transition-colors"
+                    className="border border-[#CAC9C9] border-b-4 border-b-[#CAC9C9] rounded-[10px] p-[10px] bg-white flex items-center gap-3 transition-colors"
                   >
-                    <CateringDishIcon className="w-5 h-5 text-[#344E41] shrink-0" />
-                    <span className="font-['Josefin_Sans',sans-serif] text-[15px] sm:text-[16px] text-[#202020] font-normal leading-snug">
+                    <CateringDishIcon className="w-[27px] h-[27px] text-[#344E41] shrink-0" />
+                    <span className="font-['Josefin_Sans',sans-serif] text-[18px] sm:text-[22px] text-[#000000] font-normal leading-snug">
                       {item}
                     </span>
                   </div>
@@ -286,18 +294,18 @@ export default async function LiveDosaCateringPage() {
             </div>
 
             {/* Box 3: Add-ons Items */}
-            <div className="border-2 border-[#F68422] rounded-[9px] bg-white p-2 shadow-sm flex flex-col">
-              <div className="bg-[#F68422] text-[#202020] text-center py-2 px-4 rounded-[5px] font-['Josefin_Sans',sans-serif] text-xl sm:text-[24px] font-semibold tracking-wide mb-3">
+            <div className="border-2 border-[#F68422] rounded-[9px] bg-white p-[6px] shadow-sm flex flex-col">
+              <div className="bg-[#F68422] text-[#000000] text-center py-[10px] px-2 rounded-[5px] font-['Josefin_Sans',sans-serif] text-[26px] sm:text-[30px] font-semibold tracking-wide mb-[10px]">
                 Add-ons Items
               </div>
-              <div className="flex-1 space-y-1.5">
+              <div className="flex-1 space-y-[10px]">
                 {activeAddons.map((item, idx) => (
                   <div
                     key={idx}
-                    className="border border-[#E0E0E0] rounded-[6px] p-2.5 bg-white flex items-center gap-3 hover:border-[#F68422] transition-colors"
+                    className="border border-[#CAC9C9] border-b-4 border-b-[#CAC9C9] rounded-[10px] p-[10px] bg-white flex items-center gap-3 transition-colors"
                   >
-                    <CateringDishIcon className="w-5 h-5 text-[#344E41] shrink-0" />
-                    <span className="font-['Josefin_Sans',sans-serif] text-[15px] sm:text-[16px] text-[#202020] font-normal leading-snug">
+                    <CateringDishIcon className="w-[27px] h-[27px] text-[#344E41] shrink-0" />
+                    <span className="font-['Josefin_Sans',sans-serif] text-[18px] sm:text-[22px] text-[#000000] font-normal leading-snug">
                       {item}
                     </span>
                   </div>
@@ -311,7 +319,7 @@ export default async function LiveDosaCateringPage() {
           <div className="text-center">
             <Link
               href="#form"
-              className="inline-block px-10 py-3 bg-[#F68422] hover:bg-[#366732] text-white font-['Josefin_Sans',sans-serif] font-bold text-[18px] sm:text-[20px] rounded-[5px] transition-colors shadow-sm cursor-pointer"
+              className="inline-block px-8 py-[13px] bg-[#F68422] hover:bg-[#366732] text-white font-['Josefin_Sans',sans-serif] font-semibold text-[22px] sm:text-[24px] rounded-[5px] transition-colors shadow-sm cursor-pointer"
             >
               Book Now
             </Link>
@@ -328,7 +336,7 @@ export default async function LiveDosaCateringPage() {
       />
 
       {/* 5. Our Gallery - EXACT REPLICA OF USER SCREENSHOT 5 */}
-      <CateringGallery images={galleryImages} />
+      <CateringGallery images={activeGallery} />
     </main>
   );
 }
